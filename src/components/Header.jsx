@@ -25,7 +25,7 @@ export default function Example() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-JC-nero-100"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-JonesCo-Blue-950"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -34,7 +34,7 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-lg tracking-wide tracking-tighter font-black uppercase leading-6  text-JC-nero-950 ">
+            <Link key={item.name} href={item.href} className="text-lg tracking-wide tracking-tighter font-black uppercase leading-6  text-JonesCo-Blue-950 ">
               {item.name}
             </Link>
           ))}
@@ -47,13 +47,13 @@ export default function Example() {
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-JonesCo-Blue-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-JC-nero-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-JonesCo-Blue-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-JonesCo-Blue-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-10 w-auto"
-                src='/../JC/JC_Brown_Gold.png'
+                src='/../JC/JonesCo.png'
                 alt=""
               />
             </a>
@@ -73,7 +73,7 @@ export default function Example() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-JC-nero-900 hover:bg-JC-nero-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
                   >
                     {item.name}
                   </a>
@@ -82,7 +82,7 @@ export default function Example() {
               <div className="py-6">
                 <Link
                   href="/contact"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-JC-nero-900 hover:bg-JC-nero-50"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
                 >
                   Contact Us
                 </Link>

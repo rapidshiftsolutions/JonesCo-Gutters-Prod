@@ -9,23 +9,23 @@ import {
 
 const features = [
   {
-    name: 'LS Engine Swaps  🫀',
+    name: 'Experienced Professionals',
     description:
-      'We specialize in LS engine swaps, which involve replacing the factory engine in a vehicle with a high-performance LS engine. We use high-quality parts and equipment to ensure that your LS engine swap is done right the first time.',
+      'Our team brings years of expertise to every project, ensuring flawless installation and maintenance.',
     href: '/services',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'Power Adders 🦾',
+    name: 'High Quality Products',
     description:
-      'We also specialize in power adders, which are aftermarket components that increase the power output of an engine. Some examples of power adders include superchargers, turbochargers, and nitrous oxide systems.',
+      'We use only the highest quality materials for durable, long-lasting results.',
     href: '/services',
     icon: LockClosedIcon,
   },
   {
-    name: 'Supporting Mods 🌱',
+    name: 'Customer Satisfaction',
     description:
-      'Some examples of supporting mods include suspension upgrades, brake upgrades, and exhaust upgrades. Our team of skilled technicians can help you choose the right supporting mods for your vehicle and goals.',
+      'Your satisfaction is our priority. From the initial consultation to aftercare, were committed to exceeding your expectations.',
     href: '/services',
     icon: ArrowPathIcon,
   },
@@ -37,28 +37,25 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-lg font-semibold leading-7 text-JonesCo-Green-600">
-            What is Our Specialty?
+            Why Choose JonesCo?
           </h2>
           <p className="mt-2 tracking-tighter font-black text-5xl text-black sm:text-5xl">
-            Building Race Cars.
+            Our Quality.
           </p>
           <p className="text-gray-600 mt-6 text-lg leading-8">
-            Our team of skilled technicians have years of experience in building
-            and modifying race cars. We have a proven track record of
-            delivering high-quality workmanship that exceeds our customers
-            expectations.
+          At JonesCo Seamless Gutter Systems, we stand out from the competition for several key reasons. Here's why homeowners trust us with their gutter needs:
           </p>
         </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-8 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-8 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
-                <dt className="text-gray-900 flex items-center gap-x-3 text-3xl leading-7 tracking-tighter font-black tracking-wide">
+                <dt className="text-gray-900 flex items-center gap-x-3 text-2xl leading-7 tracking-tighter font-black tracking-wide">
                   {feature.name}
                 </dt>
-                <dd className="text-gray-600 mt-4 flex flex-auto flex-col text-base leading-7">
+                <dd className="text-gray-600 mt-2 flex flex-auto flex-col text-base leading-7">
                   <p className="flex-auto">{feature.description}</p>
-                  <p className="mt-6">
+                  <p className="mt-3">
                     <Link
                       href={feature.href}
                       className="text-sm font-semibold leading-6 text-JonesCo-Green-600"
