@@ -1,10 +1,10 @@
 export default function Example() {
   return (
-    <div className="relative isolate overflow-hidden bg-black px-6 py-32 sm:py-32 lg:px-8">
+    <div className="relative isolate overflow-hidden bg-JonesCo-Blue-950 px-6 py-32 sm:py-32 lg:px-8">
       <img
-        src="/../Stock/camaro_wheelie.jpg"
+        src="/../Stock/home-1.jpg"
         alt=""
-        className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20 sm:opacity-10"
+        className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20 sm:opacity-20"
       />
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="">
