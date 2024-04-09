@@ -36,10 +36,10 @@ export default function Example() {
     <div className="bg-white py-10 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-xl font-semibold leading-7 text-JonesCo-Green-600">
+          <h2 className="text-lg font-semibold leading-7 text-JonesCo-Green-600">
             What is Our Specialty?
           </h2>
-          <p className="mt-2 font-jc text-5xl text-black sm:text-7xl">
+          <p className="mt-2 tracking-tighter font-black text-5xl text-black sm:text-5xl">
             Building Race Cars.
           </p>
           <p className="text-gray-600 mt-6 text-lg leading-8">
@@ -53,7 +53,7 @@ export default function Example() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
-                <dt className="text-gray-900 flex items-center gap-x-3 text-3xl leading-7 font-jc tracking-wide">
+                <dt className="text-gray-900 flex items-center gap-x-3 text-3xl leading-7 tracking-tighter font-black tracking-wide">
                   {feature.name}
                 </dt>
                 <dd className="text-gray-600 mt-4 flex flex-auto flex-col text-base leading-7">

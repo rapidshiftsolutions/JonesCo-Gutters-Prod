@@ -7,7 +7,6 @@ const navigation = [
   { name: 'Services', href: '/services' },
   { name: 'Features', href: '/features' },
   { name: 'Financing', href: '/finance' },
-  { name: 'Blog', href: 'https://blog.jonesco.autos' },
   { name: 'About', href: '/about' },
 ]
 
@@ -15,12 +14,12 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-JonesCo-Green-500">
+    <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Jones Co. Performance</span>
-            <img className="h-10 w-auto" src='/../JC/JC_White_Tan.png' alt="" />
+            <span className="sr-only">JonesCo Seamless Gutter Systems</span>
+            <img className="h-10 w-auto" src='/../JC/JonesCo.png' alt="" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -35,13 +34,13 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-xl tracking-wide font-jc uppercase leading-6  text-JC-nero-950 ">
+            <Link key={item.name} href={item.href} className="text-lg tracking-wide tracking-tighter font-black uppercase leading-6  text-JC-nero-950 ">
               {item.name}
             </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="/contact" className="text-xl leading-6 text-nero-900  tracking-wide font-jc uppercase">
+          <Link href="/contact" className="text-lg leading-6 text-nero-900  tracking-wide tracking-tighter font-black uppercase">
             👋🏼 Contact Us <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
@@ -60,7 +59,7 @@ export default function Example() {
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-JC-nero-700"
+              className="-m-2.5 rounded-md p-2.5 text-black"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>

@@ -103,7 +103,7 @@ export default function Example() {
               alt="Company name"
             />
             <p className="text-md leading-6 text-JonesCo-Green-900">
-            Built to perform, designed to win.
+            Protect Your Home, With JonesCo.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -170,7 +170,7 @@ export default function Example() {
           </div>
         </div>
         <div className="mt-16 border-t border-white/60 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-JonesCo-Green-900">&copy; 2023 Jones Co. Performance, LLC. All rights reserved.</p>
+          <p className="text-xs leading-5 text-JonesCo-Green-900">&copy; 2023 JonesCo Seamless Gutter Systems, LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>

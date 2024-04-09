@@ -8,16 +8,14 @@ export default function Example() {
       />
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="">
-          <span className="text-3xl text-white sm:text-5xl font-semibold">Built to Perform,</span>
+          <span className="text-3xl text-white sm:text-5xl font-semibold">Protect Your Home,</span>
           <br></br>{' '}
-          <span className="font-jc text-6xl uppercase text-JonesCo-Green-400 sm:text-8xl">
-            Designed to Win.
+          <span className="tracking-tighter font-black text-5xl uppercase text-JonesCo-Green-400 sm:text-6xl">
+            With JonesCo.
           </span>
         </h2>
         <p className="mt-8 text-sm leading-8 text-white sm:mt-12 sm:text-lg">
-          With our high-quality workmanship and personalized service, we will help
-          you achieve your dream upgrades and make your ride the envy of the
-          track.
+        Welcome to JonesCo Seamless Gutter Systems, your trusted partner in safeguarding your home against water damage. With our seamless gutter installation, downspouts, leaf guards, and maintenance subscriptions, we ensure your gutters remain efficient and your home stays protected, year-round.
         </p>
       </div>
     </div>

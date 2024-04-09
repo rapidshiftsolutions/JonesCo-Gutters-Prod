@@ -8,7 +8,7 @@ export default function Example() {
           <div className="mx-auto w-full max-w-xl lg:mx-0">
             <h2 className="tracking-tight">
             <span className="text-lg sm:text-2xl font-bold"> Premium Cars Deserve...{' '}</span>
-              <span className="text-JonesCo-Green-600 text-6xl sm:text-8xl font-jc "> <br></br>Premium Parts.</span>{' '}
+              <span className="text-JonesCo-Green-600 text-5xl sm:text-6xl tracking-tighter font-black "> <br></br>Premium Parts.</span>{' '}
             </h2>
             <p className="text-gray-600 mt-6 text-lg leading-8">
               We only stock high quality parts from high quality vendors, period. Our customers come to us

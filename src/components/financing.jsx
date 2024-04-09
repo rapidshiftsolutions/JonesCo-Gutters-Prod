@@ -23,9 +23,9 @@ export default function Example() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
             <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-600">No worries, we get it!</h2>
-            <p className="mt-2 text-6xl text-gray-900 sm:text-7xl font-jc">Need Financing?</p>
+            <p className="mt-2 text-5xl text-gray-900 sm:text-5xl tracking-tighter font-black">Need Financing?</p>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Jones Co. Performance has integrated with Affirm and Klarna to offer all of our customers a premium shopping experience.
+              JonesCo Seamless Gutter Systems has integrated with Affirm and Klarna to offer all of our customers a premium shopping experience.
             </p>
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">

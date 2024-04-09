@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jones Co. Perfomance || Home</title>
+        <title>JonesCo Seamless Gutter Systems || Home</title>
         <meta
           name="description"
           content="Where your dream ride becomes reality."

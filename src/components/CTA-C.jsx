@@ -5,9 +5,9 @@ export default function Example() {
     <div className="bg-JonesCo-Green-100">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="">
-          <span className="text-xl tracking-tight text-JonesCo-Green-900 sm:text-3xl">Need to Prep for the Big Race?</span>
+          <span className="text-lg tracking-tight text-JonesCo-Green-900 sm:text-3xl">Need to Prep for the Big Race?</span>
           <br />
-          <span className="text-5xl font-jc tracking-tight text-JonesCo-Green-900 sm:text-8xl">Let Us Take Care of That.</span>
+          <span className="text-5xl tracking-tighter font-black tracking-tight text-JonesCo-Green-900 sm:text-6xl">Let Us Take Care of That.</span>
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <Link
