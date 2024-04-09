@@ -31,18 +31,18 @@ export default function Example() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-xl sm:text-2xl font-semibold leading-7 text-JC-gold-600">What Else?</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold leading-7 text-JonesCo-Green-600">What Else?</h2>
               <p className="font-jc mt-2 text-4xl text-black sm:text-6xl">We Prep for You.</p>
-              <p className="mt-6 text-lg leading-8 text-JC-gold-900">
+              <p className="mt-6 text-lg leading-8 text-JonesCo-Green-900">
                 Short on time, but need to have your car prepped for this weekends race? We offer race prep services, to make sure you show up prepared to every race.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7  lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative">
-                    <dt className="font-jc text-JC-gold-600 text-3xl pb-2">
+                    <dt className="font-jc text-JonesCo-Green-600 text-3xl pb-2">
                       {feature.name}
                     </dt>{' '}
-                    <dd className="inline text-JC-gold-900">{feature.description}</dd>
+                    <dd className="inline text-JonesCo-Green-900">{feature.description}</dd>
                   </div>
                 ))}
               </dl>

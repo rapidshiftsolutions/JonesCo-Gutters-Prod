@@ -90,7 +90,7 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="bg-JC-gold-500" aria-labelledby="footer-heading">
+    <footer className="bg-JonesCo-Green-500" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -102,12 +102,12 @@ export default function Example() {
               src='/../JC/JC_White.png'
               alt="Company name"
             />
-            <p className="text-md leading-6 text-JC-gold-900">
+            <p className="text-md leading-6 text-JonesCo-Green-900">
             Built to perform, designed to win.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
-                <a key={item.name} href={item.href} className="text-JC-gold-900 hover:text-JC-gold-400">
+                <a key={item.name} href={item.href} className="text-JonesCo-Green-900 hover:text-JonesCo-Green-400">
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />
                 </a>
@@ -117,11 +117,11 @@ export default function Example() {
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-JC-gold-200">Solutions</h3>
+                <h3 className="text-sm font-semibold leading-6 text-JonesCo-Green-200">Solutions</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-JC-gold-900 hover:text-JC-gold-200">
+                      <a href={item.href} className="text-sm leading-6 text-JonesCo-Green-900 hover:text-JonesCo-Green-200">
                         {item.name}
                       </a>
                     </li>
@@ -129,11 +129,11 @@ export default function Example() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-JC-gold-200">Support</h3>
+                <h3 className="text-sm font-semibold leading-6 text-JonesCo-Green-200">Support</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-JC-gold-900 hover:text-JC-gold-200">
+                      <a href={item.href} className="text-sm leading-6 text-JonesCo-Green-900 hover:text-JonesCo-Green-200">
                         {item.name}
                       </a>
                     </li>
@@ -143,11 +143,11 @@ export default function Example() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-JC-gold-200">Company</h3>
+                <h3 className="text-sm font-semibold leading-6 text-JonesCo-Green-200">Company</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-JC-gold-900 hover:text-JC-gold-200">
+                      <a href={item.href} className="text-sm leading-6 text-JonesCo-Green-900 hover:text-JonesCo-Green-200">
                         {item.name}
                       </a>
                     </li>
@@ -155,11 +155,11 @@ export default function Example() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-JC-gold-200">Legal</h3>
+                <h3 className="text-sm font-semibold leading-6 text-JonesCo-Green-200">Legal</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-JC-gold-900 hover:text-JC-gold-200">
+                      <a href={item.href} className="text-sm leading-6 text-JonesCo-Green-900 hover:text-JonesCo-Green-200">
                         {item.name}
                       </a>
                     </li>
@@ -170,7 +170,7 @@ export default function Example() {
           </div>
         </div>
         <div className="mt-16 border-t border-white/60 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-JC-gold-900">&copy; 2023 Jones Co. Performance, LLC. All rights reserved.</p>
+          <p className="text-xs leading-5 text-JonesCo-Green-900">&copy; 2023 Jones Co. Performance, LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>

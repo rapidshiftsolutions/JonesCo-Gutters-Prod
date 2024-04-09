@@ -44,7 +44,7 @@ export default function Example() {
                 {step.short}
               </dt>
               <dd className="mt-4 lg:col-span-8 lg:mt-0">
-                <p className="text-JC-gold-900 text-base leading-7">{step.long}</p>
+                <p className="text-JonesCo-Green-900 text-base leading-7">{step.long}</p>
               </dd>
             </div>
           ))}

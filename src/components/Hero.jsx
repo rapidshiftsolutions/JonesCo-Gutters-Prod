@@ -10,7 +10,7 @@ export default function Example() {
         <h2 className="">
           <span className="text-3xl text-white sm:text-5xl font-semibold">Built to Perform,</span>
           <br></br>{' '}
-          <span className="font-jc text-6xl uppercase text-JC-gold-400 sm:text-8xl">
+          <span className="font-jc text-6xl uppercase text-JonesCo-Green-400 sm:text-8xl">
             Designed to Win.
           </span>
         </h2>

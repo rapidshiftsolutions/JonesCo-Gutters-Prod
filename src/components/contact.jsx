@@ -1,7 +1,7 @@
 export default function Example() {
   return (
     <>
-      <div className="flex flex-col justify-center py-6 sm:py-12 bg-JC-gold-200 w-full">
+      <div className="flex flex-col justify-center py-6 sm:py-12 bg-JonesCo-Green-200 w-full">
       <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeBM_cWE7XlGNsVKaFj-Xdgy4fWzU1dFAl5KDLUX3Eztv9kow/viewform?embedded=true"
               frameborder="0"

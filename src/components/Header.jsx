@@ -15,7 +15,7 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-JC-gold-500">
+    <header className="bg-JonesCo-Green-500">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
@@ -48,7 +48,7 @@ export default function Example() {
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-JC-tan-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-JC-nero-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-JonesCo-Blue-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-JC-nero-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -68,7 +68,7 @@ export default function Example() {
             </button>
           </div>
           <div className="mt-6 flow-root">
-            <div className="-my-6 divide-y divide-JC-gold-900">
+            <div className="-my-6 divide-y divide-JonesCo-Green-900">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
                   <a

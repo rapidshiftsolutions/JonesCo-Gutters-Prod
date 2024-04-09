@@ -36,7 +36,7 @@ export default function Example() {
     <div className="bg-white py-10 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-xl font-semibold leading-7 text-JC-gold-600">
+          <h2 className="text-xl font-semibold leading-7 text-JonesCo-Green-600">
             What is Our Specialty?
           </h2>
           <p className="mt-2 font-jc text-5xl text-black sm:text-7xl">
@@ -61,7 +61,7 @@ export default function Example() {
                   <p className="mt-6">
                     <Link
                       href={feature.href}
-                      className="text-sm font-semibold leading-6 text-JC-gold-600"
+                      className="text-sm font-semibold leading-6 text-JonesCo-Green-600"
                     >
                       Learn more <span aria-hidden="true">→</span>
                     </Link>

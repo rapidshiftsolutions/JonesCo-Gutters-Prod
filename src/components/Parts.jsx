@@ -8,7 +8,7 @@ export default function Example() {
           <div className="mx-auto w-full max-w-xl lg:mx-0">
             <h2 className="tracking-tight">
             <span className="text-lg sm:text-2xl font-bold"> Premium Cars Deserve...{' '}</span>
-              <span className="text-JC-gold-600 text-6xl sm:text-8xl font-jc "> <br></br>Premium Parts.</span>{' '}
+              <span className="text-JonesCo-Green-600 text-6xl sm:text-8xl font-jc "> <br></br>Premium Parts.</span>{' '}
             </h2>
             <p className="text-gray-600 mt-6 text-lg leading-8">
               We only stock high quality parts from high quality vendors, period. Our customers come to us
@@ -18,7 +18,7 @@ export default function Example() {
             <div className="mt-8 flex items-center gap-x-6">
               <Link
                 href="/contact"
-                className="rounded-md bg-JC-gold-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-JC-gold-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-JC-gold-600"
+                className="rounded-md bg-JonesCo-Green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-JonesCo-Green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-JonesCo-Green-600"
               >
                 Contact Us
               </Link>
