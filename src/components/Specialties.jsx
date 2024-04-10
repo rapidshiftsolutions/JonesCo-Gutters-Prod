@@ -43,7 +43,7 @@ export default function Example() {
             Our Quality.
           </p>
           <p className="text-gray-600 mt-6 text-lg leading-8">
-          At JonesCo Seamless Gutter Systems, we stand out from the competition for several key reasons. Heres why homeowners trust us with their gutter needs:
+          At JonesCo Seamless Gutter Systems, we stand out from the competition for several key reasons. Heres why homeowners trust us with their needs:
           </p>
         </div>
         <div className="mx-auto mt-8 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

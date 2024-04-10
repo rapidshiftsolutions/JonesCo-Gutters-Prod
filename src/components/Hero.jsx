@@ -10,12 +10,12 @@ export default function Example() {
         <h2 className="">
           <span className="text-3xl text-white sm:text-5xl font-semibold">Protect Your Home,</span>
           <br></br>{' '}
-          <span className="tracking-tighter font-black text-5xl uppercase text-JonesCo-Green-400 sm:text-6xl">
+          <span className="tracking-tighter font-black text-3xl uppercase text-JonesCo-Green-400 sm:text-7xl">
             With JonesCo.
           </span>
         </h2>
         <p className="mt-8 text-sm leading-8 text-white sm:mt-12 sm:text-lg">
-        Welcome to JonesCo Seamless Gutter Systems, your trusted partner in safeguarding your home against water damage. With our seamless gutter installation, downspouts, leaf guards, and maintenance subscriptions, we ensure your gutters remain efficient and your home stays protected, year-round.
+        Welcome to the Next Generation of Home Protection: JonesCo Seamless Gutter Systems. Our cutting-edge solutions offer unrivaled durability and performance, ensuring your home stands strong against the elements. Experience seamless integration with your homes style while securing it from water damage. Ready for an upgrade? With JonesCo, elevate your homes defenses with expert installation and impeccable service.
         </p>
       </div>
     </div>

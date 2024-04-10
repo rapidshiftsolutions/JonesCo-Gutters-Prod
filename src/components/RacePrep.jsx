@@ -2,24 +2,24 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 
 const features = [
   {
-    name: 'Fluid Changes and Refills',
+    name: 'Gutter Inspection',
     description:
-      'We will perform fluid changes and refills to ensure that your vehicle is running smoothly and efficiently. This includes changing the oil, coolant, transmission fluid, and brake fluid as needed.',
+      'Our experts conduct thorough inspections and necessary tune-ups, ensuring your gutters are in optimal condition, ready to handle the heaviest downpours.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'Full Inspection Reports',
-    description: 'We will conduct a comprehensive inspection of your vehicle to identify any issues or areas of concern. Our team of experts will inspect everything from the engine and transmission to the suspension and brakes, and will provide you with a detailed report of our findings.',
+    name: 'Seamless Installation',
+    description: 'Upgrade to seamless gutters for a flawless look and superior performance. We handle the installation, so your home is prepped and protected.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Detailing and Polishing',
-    description: 'We will clean and polish your vehicle to ensure that it looks its best on race day. This includes washing and waxing the exterior, cleaning the interior, and polishing the wheels and tires.',
+    name: 'Regular Maintenance',
+    description: 'We keep your gutters clean and debris-free with our regular maintenance services, preventing blockages and extending their lifespan.',
     icon: ServerIcon,
   },
   {
-    name: 'Tire Cleaning',
-    description: 'We will thoroughly clean and inspect your tires to ensure that they are in optimal condition for racing. This includes removing any debris or buildup from the treads, checking for any signs of wear or damage, and inflating the tires to the appropriate pressure.',
+    name: 'Custom Solutions',
+    description: 'Whether it’s enhancing curb appeal or installing guards to keep out leaves, we customize solutions to fit your specific needs.',
     icon: ServerIcon,
   },
 ]
@@ -31,25 +31,25 @@ export default function Example() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-lg sm:text-2xl font-semibold leading-7 text-JonesCo-Green-600">What Else?</h2>
-              <p className="tracking-tighter font-black mt-2 text-4xl text-black sm:text-5xl">We Prep for You.</p>
-              <p className="mt-6 text-lg leading-8 text-JonesCo-Green-900">
-                Short on time, but need to have your car prepped for this weekends race? We offer race prep services, to make sure you show up prepared to every race.
+              <h2 className="text-lg sm:text-2xl font-semibold leading-7 text-JonesCo-Blue-600">Complete Gutter Care,</h2>
+              <p className="tracking-tighter font-black mt-2 text-4xl text-JonesCo-Blue-950 sm:text-5xl">Tailored for You.</p>
+              <p className="mt-6 text-lg leading-8 text-JonesCo-Blue-900">
+              Time is precious, especially when it comes to home maintenance. Thats why JonesCo Gutter Services offers comprehensive care for your gutters, ensuring theyre ready for any season. Were dedicated to delivering top-notch gutter maintenance, repair, and enhancement with efficiency and precision.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7  lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative">
-                    <dt className="tracking-tighter font-black text-JonesCo-Green-600 text-3xl pb-2">
+                    <dt className="tracking-tighter font-black text-JonesCo-Blue-900 text-3xl pb-2">
                       {feature.name}
                     </dt>{' '}
-                    <dd className="inline text-JonesCo-Green-900">{feature.description}</dd>
+                    <dd className="inline text-JonesCo-Blue-950">{feature.description}</dd>
                   </div>
                 ))}
               </dl>
             </div>
           </div>
           <img
-            src='/../Stock/NOS.jpg'
+            src='/../Stock/Home-2.jpg'
             alt="Product screenshot"
             className="h-0 sm:h-full invisible sm:visible w-[48rem] max-w-none rounded-xl shadow-xl sm:w-[57rem] md:-ml-4 lg:-ml-0"
           />

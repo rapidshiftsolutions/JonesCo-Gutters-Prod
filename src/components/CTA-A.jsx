@@ -5,9 +5,9 @@ export default function Example() {
     <div className="bg-JonesCo-Green-100">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="">
-          <span className="text-lg tracking-tight text-JonesCo-Green-900 sm:text-3xl">Time for an Upgrade?</span>
+          <span className="text-lg tracking-tight text-JonesCo-Green-900 sm:text-3xl">Upgrade to Seamless Protection</span>
           <br />
-          <span className="text-5xl tracking-tighter font-black tracking-tight text-JonesCo-Green-900 sm:text-7xl">Our Specialty.</span>
+          <span className="text-3xl tracking-tighter font-black tracking-tight text-JonesCo-Green-900 sm:text-5xl">Premium Gutters, Expert Service.</span>
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <Link
