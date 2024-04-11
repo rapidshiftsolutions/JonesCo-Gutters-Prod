@@ -40,7 +40,7 @@ export default function Example() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="/contact" className="text-lg leading-6 text-nero-900  tracking-wide tracking-tighter font-black uppercase">
+          <Link href="https://jones-co.atlassian.net/servicedesk/customer/portals" className="text-lg leading-6 text-nero-900  tracking-wide tracking-tighter font-black uppercase">
             👋🏼 Contact Us <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
@@ -81,7 +81,7 @@ export default function Example() {
               </div>
               <div className="py-6">
                 <Link
-                  href="/contact"
+                  href="https://jones-co.atlassian.net/servicedesk/customer/portals"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
                 >
                   Contact Us
