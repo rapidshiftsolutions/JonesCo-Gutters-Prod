@@ -1,5 +1,5 @@
+import Script from 'next/script'
 import Head from 'next/head'
-
 import  CTAA  from '@/components/CTA-A'
 import  CTAB  from '@/components/CTA-B'
 import  CTAC  from '@/components/CTA-C'
@@ -15,6 +15,7 @@ import Finance from '@/components/financing'
 import Contact from '@/components/contact'
 import Banner from '@/components/banner'
 
+
 export default function Home() {
   return (
     <>
@@ -27,6 +28,7 @@ export default function Home() {
       </Head>
       <Banner />
       <Header />
+
       <main className=''>
         <Hero />
         <ProcessPlan />
@@ -38,9 +40,7 @@ export default function Home() {
         <Finance />
         <Contact />
 
-
-        <script type="text/javascript" src="https://jones-co.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/xtxyma/b/6/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=4152b955"></script>
-
+        <Script type="text/javascript" src="https://jones-co.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/xtxyma/b/6/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=4152b955"></Script>
 
       </main>
       <Footer />
