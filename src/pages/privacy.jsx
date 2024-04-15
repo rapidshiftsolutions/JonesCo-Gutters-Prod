@@ -17,7 +17,6 @@ export default function Home() {
       <Banner />
       <Header />
       <main className="">
-        <Contact />
       </main>
       <Footer />
     </>
