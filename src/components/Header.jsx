@@ -6,8 +6,9 @@ import Link from 'next/link'
 const navigation = [
   { name: 'Services', href: '/services' },
   { name: 'Features', href: '/features' },
-  { name: 'Financing', href: '/finance' },
-  { name: 'About', href: '/about' },
+  { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61558126626290' },
+
+  { name: 'About Us', href: '/about' },
 ]
 
 export default function Example() {
@@ -41,7 +42,7 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link href="https://jones-co.atlassian.net/servicedesk/customer/portals" className="text-lg leading-6 text-nero-900  tracking-wide tracking-tighter font-black uppercase">
-            👋🏼 Contact Us <span aria-hidden="true">&rarr;</span>
+            Contact Us <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
       </nav>

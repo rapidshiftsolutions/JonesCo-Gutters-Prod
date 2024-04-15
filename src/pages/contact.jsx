@@ -7,9 +7,9 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Contact from '@/components/contact'
 import Hero from '@/components/Hero'
-import ProcessPlan from '@/components/ProcessPlan'
-import Specialties from '@/components/Specialties'
-import RacePrep from '@/components/RacePrep'
+import ProcessPlan from '@/components/OurServices'
+import Specialties from '@/components/WhyJonesCo'
+import RacePrep from '@/components/OurServicesExt'
 import Parts from '@/components/Parts'
 
 export default function Home() {
