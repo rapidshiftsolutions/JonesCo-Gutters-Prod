@@ -12,32 +12,18 @@ export default function Example() {
           <div className="text-gray-700 mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 lg:max-w-none lg:grid-cols-2">
             <div>
               <p>
-                Meet Johnathan Jones – the heart behind JonesCo Seamless Gutter
-                Systems. His blend of technical expertise from decades as a
-                mechanic and heartfelt care from his nursing years shapes our
-                trusted approach to protecting your home.
+              Meet Johnathan Jones, the dedicated founder of JonesCo Seamless Gutter Systems. With years of experience as both a mechanic and a nurse, Johnathan applies a meticulous and caring approach to every home’s gutter needs.
               </p>
               <p className="mt-8">
-                Grounded by his past, driven by innovation, and warmed by his
-                role as a family man, Johnathans story is one of genuine
-                commitment to excellence and to the families we serve. Hes not
-                just in the business of gutters; hes in the business of home
-                care.
+              Johnathan’s journey is rooted in a rich history of problem-solving and compassionate service. He's committed not just to excellence in gutter installation but to ensuring each family receives a service that reflects his dedication to home care.
               </p>
             </div>
             <div>
               <p>
-                Johnathan brings a unique craftsmanship to every project,
-                infusing his vast mechanical knowledge with the nurturing
-                attentiveness learned in healthcare. Its this unique mix that
-                allows JonesCo to deliver unparalleled gutter solutions. Each
-                project is more than just an installation; its a personalized
-                upgrade to your homes wellbeing.
+              With a careful hand and a keen eye, Johnathan and his team at JonesCo bring personalized attention to every project, ensuring your gutter solutions are tailored to your home's specific requirements.
               </p>
               <p className="mt-8">
-                Embrace the peace of mind that comes with our expertly installed
-                gutter systems, designed by a man who values the safety and
-                comfort of a home as deeply as you do.
+              Enjoy the assurance and tranquility of a home protected by JonesCo, where the safety and comfort of your family are our top priority, just as they are in our own.
               </p>
             </div>
           </div>
