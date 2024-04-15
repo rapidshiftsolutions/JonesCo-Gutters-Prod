@@ -12,18 +12,30 @@ export default function Example() {
           <div className="text-gray-700 mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 lg:max-w-none lg:grid-cols-2">
             <div>
               <p>
-              Meet Johnathan Jones, the dedicated founder of JonesCo Seamless Gutter Systems. With years of experience as both a mechanic and a nurse, Johnathan applies a meticulous and caring approach to every home’s gutter needs.
+                Meet Johnathan Jones, the dedicated founder of JonesCo Seamless
+                Gutter Systems. With years of experience as both a mechanic and
+                a nurse, Johnathan applies a meticulous and caring approach to
+                every homes gutter needs.
               </p>
               <p className="mt-8">
-              Johnathan’s journey is rooted in a rich history of problem-solving and compassionate service. He's committed not just to excellence in gutter installation but to ensuring each family receives a service that reflects his dedication to home care.
+                Johnathans journey is rooted in a rich history of
+                problem-solving and compassionate service. Hes committed not
+                just to excellence in gutter installation but to ensuring each
+                family receives a service that reflects his dedication to home
+                care.
               </p>
             </div>
             <div>
               <p>
-              With a careful hand and a keen eye, Johnathan and his team at JonesCo bring personalized attention to every project, ensuring your gutter solutions are tailored to your home's specific requirements.
+                With a careful hand and a keen eye, Johnathan and his team at
+                JonesCo bring personalized attention to every project, ensuring
+                your gutter solutions are tailored to your homes specific
+                requirements.
               </p>
               <p className="mt-8">
-              Enjoy the assurance and tranquility of a home protected by JonesCo, where the safety and comfort of your family are our top priority, just as they are in our own.
+                Enjoy the assurance and tranquility of a home protected by
+                JonesCo, where the safety and comfort of your family are our top
+                priority, just as they are in our own.
               </p>
             </div>
           </div>
