@@ -19,6 +19,7 @@ export default function Home() {
     <>
       <Head>
         <title>JonesCo Seamless Gutter Systems || Home</title>
+        <meta name="theme-color" content="#C5F5CA"/>
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
