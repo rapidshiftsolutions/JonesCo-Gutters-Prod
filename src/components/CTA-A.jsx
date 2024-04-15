@@ -17,7 +17,7 @@ export default function Example() {
             Get started
           </Link>
           <Link
-            href="/services"
+            href="https://jones-co.atlassian.net/servicedesk/customer/user/login?destination=portals"
             className="text-sm font-semibold leading-6 text-JonesCo-Green-900"
           >
             Services <span aria-hidden="true">→</span>

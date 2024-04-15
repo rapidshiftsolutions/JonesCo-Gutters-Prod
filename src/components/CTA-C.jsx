@@ -11,7 +11,7 @@ export default function Example() {
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <Link
-            href="/contact"
+            href="https://jones-co.atlassian.net/servicedesk/customer/user/login?destination=portals"
             className="rounded-md bg-JonesCo-Green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-JonesCo-Green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-JonesCo-Green-600"
           >
             Get started

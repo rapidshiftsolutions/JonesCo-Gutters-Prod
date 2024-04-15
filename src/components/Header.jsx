@@ -5,10 +5,10 @@ import Link from 'next/link'
 
 const navigation = [
   { name: 'Services', href: '/services' },
-  { name: 'Features', href: '/features' },
+  { name: 'About Us', href: '/about' },
+  { name: 'Yelp', href: 'https://www.yelp.com/biz/jonesco-seamless-gutter-systems-parrottsville-2' },
   { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61558126626290' },
 
-  { name: 'About Us', href: '/about' },
 ]
 
 export default function Example() {
