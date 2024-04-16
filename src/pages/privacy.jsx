@@ -11,7 +11,7 @@ export default function Home() {
         <title>JonesCo Seamless Gutter Systems || Privacy Policy</title>
         <meta
           name="description"
-          content="Where your dream ride becomes reality."
+          content="Expert Installations for Lasting Home Protection."
         />
       </Head>
       <Banner />
