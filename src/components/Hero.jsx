@@ -1,6 +1,7 @@
 export default function Example() {
   return (
     <div className="relative isolate overflow-hidden bg-JonesCo-Blue-950 px-6 py-32 sm:py-32 lg:px-8">
+      
       <img
         src="/../Stock/home-1.jpg"
         alt=""

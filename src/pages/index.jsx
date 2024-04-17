@@ -25,11 +25,12 @@ export default function Home() {
           name="description"
           content="Expert Installations for Lasting Home Protection."
         />
+
       </Head>
       <Banner />
       <Header />
 
-      <main className="">
+      <main className="z-0">
         <Hero />
         <OurServices />
         <CTAA />
@@ -38,12 +39,7 @@ export default function Home() {
         <ServicesExtended />
         <John />
 
-        <Script
-          data-jsd-embedded
-          data-key="4620f160-e644-41bc-8719-d55570fa3bc8"
-          data-base-url="https://jsd-widget.atlassian.com"
-          src="https://jsd-widget.atlassian.com/assets/embed.js"
-        ></Script>
+
       </main>
       <Footer />
     </>
