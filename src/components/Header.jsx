@@ -4,8 +4,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
 const navigation = [
-  { name: 'Services', href: '/services' },
   { name: 'About Us', href: '/about' },
+
+  { name: 'Services', href: '/services' },
+  { name: 'Service Locations', href: '/servicelocations' },
   { name: 'Yelp', href: 'https://www.yelp.com/biz/jonesco-seamless-gutter-systems-parrottsville-2' },
   { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61558126626290' },
 
