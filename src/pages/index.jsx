@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Head>
         <title>JonesCo Seamless Gutter Systems || Home</title>
-        <meta name="theme-color" content="#C5F5CA"/>
+        <meta name="theme-color" content="#C5F5CA" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -39,8 +39,10 @@ export default function Home() {
         <John />
 
         <Script
-          type="text/javascript"
-          src="https://jones-co.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/xtxyma/b/6/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=4152b955"
+          data-jsd-embedded
+          data-key="4620f160-e644-41bc-8719-d55570fa3bc8"
+          data-base-url="https://jsd-widget.atlassian.com"
+          src="https://jsd-widget.atlassian.com/assets/embed.js"
         ></Script>
       </main>
       <Footer />
