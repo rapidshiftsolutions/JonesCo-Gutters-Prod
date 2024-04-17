@@ -19,7 +19,7 @@ export default function Example() {
               </p>
               <p className="mt-8">
                 Johnathans journey is rooted in a rich history of
-                problem-solving and compassionate service. Hes committed not
+                problem-solving and compassionate service. He&apos;s committed not
                 just to excellence in gutter installation but to ensuring each
                 family receives a service that reflects his dedication to home
                 care.
@@ -29,7 +29,7 @@ export default function Example() {
               <p>
                 With a careful hand and a keen eye, Johnathan and his team at
                 JonesCo bring personalized attention to every project, ensuring
-                your gutter solutions are tailored to your homes specific
+                your gutter solutions are tailored to your home&apos;s specific
                 requirements.
               </p>
               <p className="mt-8">
@@ -41,7 +41,7 @@ export default function Example() {
           </div>
           <div className="mt-10 flex">
             <a
-              href="https://jones-co.atlassian.net/servicedesk/customer/user/login?destination=portals"
+              href="https://jones-co.atlassian.net/servicedesk/customer/portals"
               className="rounded-md bg-JonesCo-Green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-JonesCo-Green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-JonesCo-Green-600"
             >
               Request a Free Estimate

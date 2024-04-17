@@ -29,7 +29,7 @@ const features = [
   {
     name: 'Washington County, TN',
     description:
-      'Houses Tennessee’s oldest town, Jonesborough, and is rich in history and tradition.',
+      'Houses Tennessee&apos;s oldest town, Jonesborough, and is rich in history and tradition.',
   },
   {
     name: 'Knox County, TN',
@@ -56,7 +56,7 @@ export default function Example() {
               Service Driven
             </p>
             <p className="text-gray-600 mt-6 text-base leading-7">
-              At JonesCo Seamless Gutter Systems, we're proud to extend our
+              At JonesCo Seamless Gutter Systems, we&apos;re proud to extend our
               bespoke gutter services to a broadening range of counties in
               Eastern Tennessee. Each area we serve benefits from our commitment
               to excellence, attention to detail, and the personalized touch
