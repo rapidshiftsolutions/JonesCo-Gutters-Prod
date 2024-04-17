@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Example() {
   return (
-    <div className="bg-JonesCo-Green-100">
+    <div className="bg-JonesCo-Green-100 z-0">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
         <h2 className="">
           <span className="text-lg tracking-tight text-JonesCo-Green-900 sm:text-3xl">Upgrade to Seamless Protection</span>

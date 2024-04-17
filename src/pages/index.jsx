@@ -30,7 +30,7 @@ export default function Home() {
       <Banner />
       <Header />
 
-      <main className="z-0">
+      <main className="-z-50">
         <Hero />
         <OurServices />
         <CTAA />
