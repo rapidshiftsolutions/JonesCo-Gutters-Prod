@@ -29,7 +29,7 @@ const features = [
   {
     name: 'Washington County, TN',
     description:
-      'Houses Tennessee&apos;s oldest town, Jonesborough, and is rich in history and tradition.',
+      "Houses Tennessee's oldest town, Jonesborough, and is rich in history and tradition.",
   },
   {
     name: 'Knox County, TN',
@@ -45,14 +45,14 @@ const features = [
 
 export default function Example() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-6 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <h2 className="text-base font-semibold leading-7 text-JonesCo-Blue-600">
+            <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-600">
               Eastern Tennessee Focused,
             </h2>
-            <p className="text-gray-900 mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+            <p className="text-JonesCo-Green-900 mt-2 text-4xl font-black tracking-tight sm:text-5xl">
               Service Driven
             </p>
             <p className="text-gray-600 mt-6 text-base leading-7">
@@ -69,7 +69,7 @@ export default function Example() {
               <div key={feature.name} className="relative pl-9">
                 <dt className="text-gray-900 font-semibold">
                   <CheckIcon
-                    className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Blue-500"
+                    className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Green-500"
                     aria-hidden="true"
                   />
                   {feature.name}
