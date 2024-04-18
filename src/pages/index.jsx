@@ -39,8 +39,10 @@ export default function Home() {
         <CTAB />
         <ServiceLocations />
         <CTAC />
-        <ServicesExtended />
         <John />
+        <CTAD />
+        <ServicesExtended />
+
 
 
       </main>
