@@ -8,8 +8,8 @@ const navigation = [
 
   { name: 'Services', href: '/services' },
   { name: 'Service Locations', href: '/servicelocations' },
-  { name: 'Yelp', href: 'https://www.yelp.com/biz/jonesco-seamless-gutter-systems-parrottsville-2' },
-  { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61558126626290' },
+  { name: 'Call', href: 'tel:4239007901`' },
+  { name: 'Email', href: 'mailto:hey@jonescogutters.com' },
 
 ]
 
