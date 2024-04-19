@@ -2,7 +2,7 @@ import { ShieldCheckIcon } from '@heroicons/react/20/solid'
 
 export default function PrivacyPolicy() {
     return (
-        <div className="bg-white px-6 py-4 lg:py-32 lg:px-8">
+        <div className="bg-white px-6 py-4 pb-14 lg:py-32 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-JonesCo-Blue-950">
                 <p className="text-base font-semibold leading-7 text-indigo-600">Privacy Assurance</p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Privacy Policy</h1>
