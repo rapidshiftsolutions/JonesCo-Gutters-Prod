@@ -7,23 +7,21 @@ export default function Example() {
         <h2 className="">
           <span className="text-lg tracking-tight text-JonesCo-Green-900 sm:text-3xl">Upgrade to Seamless Protection</span>
           <br />
-          <span className="text-3xl tracking-tighter font-black tracking-tight text-JonesCo-Green-900 sm:text-5xl">Premium Gutters, <br></br>Expert Service.</span>
+          <span className="text-3xl tracking-tighter font-black tracking-tight text-JonesCo-Green-900 sm:text-5xl">Premium Gutters, <br/>Expert Service.</span>
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
-          <Link
-            href="https://jones-co.atlassian.net/servicedesk/customer/portals"
-            className="rounded-md bg-JonesCo-Green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-JonesCo-Green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-JonesCo-Green-600"
-          >
-            Get started
+          <Link href="https://jones-co.atlassian.net/servicedesk/customer/portals">
+            <span className="cursor-pointer rounded-md bg-JonesCo-Green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-JonesCo-Green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-JonesCo-Green-600">
+              Get started
+            </span>
           </Link>
-          <Link
-            href="/services"
-            className="text-sm font-semibold leading-6 text-JonesCo-Green-900"
-          >
-            Services <span aria-hidden="true">→</span>
+          <Link href="/services">
+            <span className="cursor-pointer text-sm font-semibold leading-6 text-JonesCo-Green-900">
+              Services <span aria-hidden="true">→</span>
+            </span>
           </Link>
         </div>
       </div>
     </div>
-  )
+  );
 }

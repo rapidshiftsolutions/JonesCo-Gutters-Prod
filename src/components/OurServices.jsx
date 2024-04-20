@@ -1,46 +1,46 @@
-const steps = [
+import { Fragment } from 'react';
+
+const services = [
   {
     id: 1,
-    short: 'Seamless Gutter Installation',
-    long: 'Trust our experienced team to install seamless gutters customized to fit your home perfectly. Say goodbye to leaks and clogs with our high-quality gutter systems.',
+    title: 'Seamless Gutter Installation',
+    description: 'Experience perfection with our custom-fit seamless gutters. Designed to eliminate leaks and clogs, our systems are tailored to enhance the aesthetics and functionality of your home.',
   },
   {
     id: 2,
-    short: 'Gutter Maintenance',
-    long: 'Keep your gutters in top condition with our hassle-free maintenance subscription. Regular cleanings and inspections ensure your gutters remain free from debris and functioning optimally.',
+    title: 'Gutter Maintenance',
+    description: 'Extend the life of your gutters with our comprehensive maintenance plans. Enjoy regular cleaning and inspections to keep your gutters clear, clean, and functioning at their best all year round.',
   },
   {
     id: 3,
-    short: 'Gutter Enhancers',
-    long: 'Enhance the performance of your gutters with our range of accessories, including durable downspouts and effective leaf guards.',
+    title: 'Gutter Enhancers',
+    description: 'Boost your gutter system with high-quality enhancements. From robust downspouts to innovative leaf guards, our accessories improve water flow and protect against debris accumulation.',
   },
-  
-  // More shorts...
-]
+];
 
-export default function Example() {
+export default function ServicesComponent() {
   return (
     <div className="bg-white">
-      <div className="divide-black/30 mx-auto max-w-7xl divide-y px-6 py-10 sm:py-32 lg:px-8 lg:py-24">
-        <h2 className="text-JonesCo-Blue-900 text-5xl sm:text-6xl leading-10 tracking-tight  tracking-tighter font-black">
-        Our Services
+      <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+        <h2 className="text-4xl font-black text-JonesCo-Green-950 sm:text-5xl lg:text-6xl">
+          Our Expert Services
         </h2>
-        <dl className="divide-black/20 mt-10 space-y-8 divide-y">
-          {steps.map((step) => (
-            <div
-              key={step.id}
-              className="pt-8 lg:grid lg:grid-cols-12 lg:gap-8"
-            >
-              <dt className="text-black text-lg sm:text-lg font-bold leading-7 lg:col-span-4">
-                {step.short}
-              </dt>
-              <dd className="mt-4 lg:col-span-8 lg:mt-0">
-                <p className="text-JonesCo-Green-900 text-base leading-7">{step.long}</p>
-              </dd>
-            </div>
+        <div className="mt-16 space-y-10">
+          {services.map(service => (
+            <Fragment key={service.id}>
+              <div className="lg:grid lg:grid-cols-3 lg:gap-8">
+                <dt className="text-xl font-bold text-black">
+                  {service.title}
+                </dt>
+                <dd className="mt-2 text-base text-gray-600 lg:col-span-2 lg:mt-0">
+                  {service.description}
+                </dd>
+              </div>
+              <hr className="border-t border-JonesCo-Green-200" /> {/* Only if visual separation is needed */}
+            </Fragment>
           ))}
-        </dl>
+        </div>
       </div>
     </div>
-  )
+  );
 }
