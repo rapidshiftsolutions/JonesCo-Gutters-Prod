@@ -43,7 +43,7 @@ export default function Example() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="https://jones-co.atlassian.net/servicedesk/customer/portals" className="text-lg leading-6 text-nero-900  tracking-wide tracking-tighter font-black uppercase">
+          <Link href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/public/work_request/new?source=social_media" className="text-lg leading-6 text-nero-900  tracking-wide tracking-tighter font-black uppercase">
             Contact Us <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
@@ -84,7 +84,7 @@ export default function Example() {
               </div>
               <div className="py-6">
                 <Link
-                  href="https://jones-co.atlassian.net/servicedesk/customer/portals"
+                  href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/public/work_request/new?source=social_media"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
                 >
                   Contact Us
