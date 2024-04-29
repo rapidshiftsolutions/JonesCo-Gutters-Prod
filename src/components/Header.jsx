@@ -44,7 +44,7 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/public/work_request/new?source=social_media" className="text-lg leading-6 text-nero-900  tracking-wide tracking-tighter font-black uppercase">
-            Contact Us <span aria-hidden="true">&rarr;</span>
+            Free Estimate <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
       </nav>
@@ -87,7 +87,7 @@ export default function Example() {
                   href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/public/work_request/new?source=social_media"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
                 >
-                  Contact Us
+                  Free Estimate
                 </Link>
               </div>
             </div>
