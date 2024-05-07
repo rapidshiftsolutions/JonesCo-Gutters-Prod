@@ -21,12 +21,6 @@ export default function Document(props) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@400;500&display=swap"
         />
-        <Script className='z-50'
-          data-jsd-embedded
-          data-key="4620f160-e644-41bc-8719-d55570fa3bc8"
-          data-base-url="https://jsd-widget.atlassian.com"
-          src="https://jsd-widget.atlassian.com/assets/embed.js"
-        />
       </Head>
       <body className="flex h-full flex-col z-0">
         <Main />

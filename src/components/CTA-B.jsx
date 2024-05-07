@@ -13,7 +13,7 @@ export default function CTA() {
           </p>
         </div>
         <div className="mt-8 flex flex-col sm:flex-row sm:mt-0 gap-4">
-          <Link href="https://jones-co.atlassian.net/servicedesk/customer/portal/1/group/1/create/4">
+          <Link href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b">
             <span className="cursor-pointer inline-flex items-center justify-center rounded-md bg-JonesCo-Green-600 px-6 py-3 text-base font-semibold text-white shadow hover:bg-JonesCo-Green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-JonesCo-Green-700">
               Get Your Free Estimate
             </span>

@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Services', href: '/services' },
   { name: 'Service Locations', href: '/servicelocations' },
   { name: 'Call', href: 'tel:4239007901`' },
-  { name: 'Email', href: 'mailto:support@jones-co.atlassian.net' },
+  { name: 'Email', href: 'mailto:hey@jonescogutters.com' },
 
 ]
 

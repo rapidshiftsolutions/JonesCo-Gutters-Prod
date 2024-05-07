@@ -41,7 +41,7 @@ export default function Example() {
           </div>
           <div className="mt-10 flex">
             <a
-              href="https://jones-co.atlassian.net/servicedesk/customer/portal/1/group/1/create/4"
+              href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b"
               className="rounded-md bg-JonesCo-Green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-JonesCo-Green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-JonesCo-Green-600"
             >
               Request a Free Estimate
