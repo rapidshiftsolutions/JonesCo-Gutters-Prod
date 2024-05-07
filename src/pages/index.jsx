@@ -1,4 +1,3 @@
-import Script from 'next/script'
 import Head from 'next/head'
 import CTAA from '@/components/CTA-A'
 import CTAB from '@/components/CTA-B'
