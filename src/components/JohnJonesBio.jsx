@@ -1,3 +1,5 @@
+import { CheckIcon } from '@heroicons/react/20/solid'
+
 export default function Example() {
   return (
     <div className="bg-JonesCo-Blue-50 py-24 sm:py-32">
@@ -7,7 +9,7 @@ export default function Example() {
             The Jones Family:
           </p>
           <h1 className="text-gray-900 mt-2 text-2xl font-bold tracking-tight sm:text-4xl">
-            Crafting Trust with Every Gutter
+            Gutter Replacement & Installation You Can Trust
           </h1>
           <div className="text-gray-700 mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 lg:max-w-none lg:grid-cols-2">
             <div>
@@ -15,12 +17,12 @@ export default function Example() {
                 Meet Johnathan Jones, the dedicated founder of JonesCo Seamless
                 Gutter Systems. With years of experience as both a mechanic and
                 a nurse, Johnathan applies a meticulous and caring approach to
-                every homes gutter needs.
+                every home’s gutter needs.
               </p>
               <p className="mt-8">
-                Johnathans journey is rooted in a rich history of
-                problem-solving and compassionate service. He&apos;s committed not
-                just to excellence in gutter installation but to ensuring each
+                His journey is rooted in a rich history of problem-solving and
+                compassionate service. He’s committed not just to excellence in
+                gutter installation and replacement but also to ensuring each
                 family receives a service that reflects his dedication to home
                 care.
               </p>
@@ -29,13 +31,14 @@ export default function Example() {
               <p>
                 With a careful hand and a keen eye, Johnathan and his team at
                 JonesCo bring personalized attention to every project, ensuring
-                your gutter solutions are tailored to your home&apos;s specific
+                your gutter solutions are tailored to your home’s specific
                 requirements.
               </p>
               <p className="mt-8">
                 Enjoy the assurance and tranquility of a home protected by
-                JonesCo, where the safety and comfort of your family are our top
-                priority, just as they are in our own.
+                JonesCo, where gutter replacements, installations, and cleaning
+                are done with care. The safety and comfort of your family are
+                our top priority, just as they are in our own.
               </p>
             </div>
           </div>
@@ -54,7 +57,7 @@ export default function Example() {
           <img
             className="ring-gray-900/10 mb-[-12%] rounded-xl shadow-2xl ring-1"
             src="/../Stock/NathanJohn.jpeg"
-            alt=""
+            alt="JonesCo Seamless Gutter Systems Team"
           />
           <div className="relative" aria-hidden="true">
             <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-JonesCo-Blue-50 pt-[7%]" />
