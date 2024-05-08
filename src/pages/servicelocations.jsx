@@ -6,7 +6,7 @@ import CTAA from '@/components/CTA-A'
 import CTAB from '@/components/CTA-B'
 import CTAC from '@/components/CTA-C'
 import CTAD from '@/components/CTA-D'
-import ServiceLocations from '@/components/ServiceLocations'
+import ServiceLocations from '@/components/ServiceLocationsCity'
 import OurServices from '@/components/OurServices'
 import ServicesExtended from '@/components/OurServicesExt'
 
