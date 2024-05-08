@@ -22,10 +22,10 @@ export default function ServicesComponent() {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <h2 className="text-4xl font-black text-JonesCo-Green-950 sm:text-5xl lg:text-6xl">
+        <h2 className="text-2xl font-black text-JonesCo-Green-950 sm:text-5xl lg:text-6xl">
           Our Expert Services
         </h2>
-        <div className="mt-16 space-y-10">
+        <div className="mt-8 space-y-10">
           {services.map(service => (
             <Fragment key={service.id}>
               <div className="lg:grid lg:grid-cols-3 lg:gap-8">
