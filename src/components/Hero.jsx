@@ -3,7 +3,7 @@ export default function Example() {
     <div className="relative isolate overflow-hidden bg-JonesCo-Blue-950 px-6 py-32 sm:py-32 lg:px-8">
       
       <img
-        src="/../Stock/home-1.jpg"
+        src="/../Stock/home-1.webp"
         alt=""
         className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20 sm:opacity-20"
       />

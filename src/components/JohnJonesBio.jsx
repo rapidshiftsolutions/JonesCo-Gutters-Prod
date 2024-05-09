@@ -56,7 +56,7 @@ export default function Example() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <img
             className="ring-gray-900/10 mb-[-12%] rounded-xl shadow-2xl ring-1"
-            src="/../Stock/NathanJohn.jpeg"
+            src="/../Stock/NathanJohn.webp"
             alt="JonesCo Seamless Gutter Systems Team"
           />
           <div className="relative" aria-hidden="true">

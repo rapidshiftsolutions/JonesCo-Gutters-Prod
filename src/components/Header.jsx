@@ -56,7 +56,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-10 w-auto"
-                src='/../JC/JonesCo.png'
+                src='/../JC/JonesCo.webp'
                 alt=""
               />
             </a>

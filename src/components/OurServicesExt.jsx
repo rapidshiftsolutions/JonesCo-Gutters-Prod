@@ -49,7 +49,7 @@ export default function Example() {
             </div>
           </div>
           <img
-            src='/../Stock/Home-2.jpg'
+            src='/../Stock/Home-2.webp'
             alt="Product screenshot"
             className="h-0 sm:h-full invisible sm:visible w-[48rem] max-w-none rounded-xl shadow-xl sm:w-[57rem] md:-ml-4 lg:-ml-0"
           />
