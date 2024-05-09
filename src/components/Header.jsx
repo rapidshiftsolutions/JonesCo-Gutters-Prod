@@ -29,7 +29,7 @@ export default function Example() {
               width={500}
               height={500}
               quality={10}
-              src="/../JC/JonesCo.png"
+              src="/JC/JonesCo.webp"
               alt=""
             />
           </Link>
@@ -65,7 +65,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-10 w-auto"
-                src='/../JC/JonesCo.webp'
+                src='/JC/JonesCo.webp'
                 alt=""
               />
             </a>

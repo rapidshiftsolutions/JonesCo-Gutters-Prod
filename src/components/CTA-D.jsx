@@ -10,7 +10,7 @@ export default function Example() {
           height={500}
           quality={50}
           loading="lazy"
-          src="/../Stock/home-3.webp"
+          src="/Stock/home-3.webp"
           alt=""
         />
         <svg
