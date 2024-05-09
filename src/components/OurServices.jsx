@@ -41,7 +41,7 @@ export default function ServicesComponent() {
           <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-600">
             Premium Gutter Solutions
           </h2>
-          <h1 className="text-gray-900 mt-2 text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl">
+          <h1 className="text-gray-900 mt-2 text-3xl font-black tracking-tight sm:text-4xl lg:text-6xl">
             Our Expert Services
           </h1>
           <dl className="mt-10 space-y-10 text-base leading-7 text-gray-600 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16 lg:space-y-0">

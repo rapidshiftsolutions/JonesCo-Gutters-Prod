@@ -2,16 +2,16 @@ import { CheckIcon } from '@heroicons/react/20/solid';
 
 export default function Example() {
   return (
-    <div className="bg-JonesCo-Blue-50 py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-          <p className="text-xl font-semibold leading-7 text-JonesCo-Green-600">
+          <p className="text-base font-semibold leading-7 text-JonesCo-Green-600">
             The Jones Family:
           </p>
-          <h1 className="text-gray-900 mt-2 text-2xl font-bold tracking-tight sm:text-4xl">
-            Gutter Replacement & Installation You Can Trust
+          <h1 className="text-gray-900 mt-2 text-4xl font-black tracking-tight sm:text-3xl lg:text-6xl">
+            Gutter Installation You Can Trust
           </h1>
-          <div className="text-gray-700 mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 lg:max-w-none lg:grid-cols-2">
+          <div className="text-base leading-7 text-gray-600 mt-10 grid max-w-xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2">
             <div>
               <p>
                 Meet Johnathan Jones, the dedicated founder of JonesCo Seamless
