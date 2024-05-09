@@ -1,3 +1,6 @@
+import Link from 'next/link'
+
+
 const navigation = [
   {
     name: 'Facebook',
@@ -57,13 +60,13 @@ export default function Footer() {
             &copy; 2024 JonesCo Seamless Gutter Systems, LLC. All rights reserved.
           </p>
           <div className="mt-2 flex justify-center space-x-4 text-xs leading-5 text-gray-500">
-            <a href="/privacy" className="hover:text-gray-600">
+            <Link href="/privacy" className="hover:text-gray-600">
               Privacy Policy
-            </a>
+            </Link>
             <span>|</span>
-            <a href="/termsandconditions" className="hover:text-gray-600">
+            <Link href="/termsandconditions" className="hover:text-gray-600">
               Terms & Conditions
-            </a>
+            </Link>
           </div>
         </div>
       </div>
