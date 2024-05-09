@@ -9,12 +9,9 @@ Disallow: /hidden/
 
 # Allow specific web crawlers (optional)
 User-agent: Googlebot
-Disallow: /terms-conditions/
-Disallow: /privacy-policy/
+Disallow: /termsandconditions/
+Disallow: /privacy/
 
 User-agent: Bingbot
-Disallow: /terms-conditions/
-Disallow: /privacy-policy/
-
-# Sitemap location
-Sitemap: https://yourwebsite.com/sitemap.xml
+Disallow: /termsandconditions/
+Disallow: /privacy/
