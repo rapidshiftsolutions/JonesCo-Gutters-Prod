@@ -1,4 +1,4 @@
-import { CheckIcon } from '@heroicons/react/20/solid'
+import { CheckIcon } from '@heroicons/react/20/solid';
 
 export default function Example() {
   return (
@@ -52,18 +52,6 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <div className="relative overflow-hidden pt-16 lg:pt-20">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <img
-            className="ring-gray-900/10 mb-[-12%] rounded-xl shadow-2xl ring-1"
-            src="/../Stock/NathanJohn.webp"
-            alt="JonesCo Seamless Gutter Systems Team"
-          />
-          <div className="relative" aria-hidden="true">
-            <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-JonesCo-Blue-50 pt-[7%]" />
-          </div>
-        </div>
-      </div>
     </div>
-  )
+  );
 }
