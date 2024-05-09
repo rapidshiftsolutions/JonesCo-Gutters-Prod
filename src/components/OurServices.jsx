@@ -36,7 +36,7 @@ export default function ServicesComponent() {
                   {service.description}
                 </dd>
               </div>
-              <hr className="border-t border-JonesCo-Green-200" /> {/* Only if visual separation is needed */}
+
             </Fragment>
           ))}
         </div>
