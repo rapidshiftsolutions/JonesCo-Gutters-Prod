@@ -27,6 +27,7 @@ export default function Home() {
       <Header />
       <main className="">
         <John />
+        <CTAC />
         <ServiceLocations />
 
       </main>
