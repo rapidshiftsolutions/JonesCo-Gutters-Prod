@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -22,7 +24,14 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">JonesCo Seamless Gutter Systems</span>
-            <img className="h-10 w-auto" src='/../JC/JonesCo.png' alt="" />
+            <Image
+              className="h-10 w-auto"
+              width={500}
+              height={500}
+              quality={10}
+              src="/../JC/JonesCo.webp"
+              alt=""
+            />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -37,7 +46,7 @@ export default function Example() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-lg tracking-wide tracking-tighter font-black uppercase leading-6  text-JonesCo-Blue-950 ">
+            <Link key={item.name} href={item.href} className="text-lg tracking-wide font-black uppercase leading-6  text-JonesCo-Blue-950 ">
               {item.name}
             </Link>
           ))}

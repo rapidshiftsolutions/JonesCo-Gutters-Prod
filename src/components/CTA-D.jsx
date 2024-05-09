@@ -1,10 +1,16 @@
+import Image from 'next/image'
+
 export default function Example() {
   return (
     <div className="relative bg-JonesCo-Blue-900">
       <div className="relative h-80 overflow-hidden bg-JonesCo-Blue-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
-        <img
+        <Image
           className="h-full w-full object-cover"
-          src="https://images.pexels.com/photos/534228/pexels-photo-534228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          width={500}
+          height={500}
+          quality={50}
+          loading="lazy"
+          src="/../Stock/home-3.webp"
           alt=""
         />
         <svg
