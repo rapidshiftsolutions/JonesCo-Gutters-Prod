@@ -8,7 +8,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import OurServices from '@/components/OurServices'
 import ServicesExtended from '@/components/OurServicesExt'
-import ServiceLocations from '@/components/ServiceLocations'
+import ServiceLocations from '@/components/ServiceLocationsCity'
 import WhyJonesCo from '@/components/WhyJonesCo'
 import John from '@/components/JohnJonesBio'
 
