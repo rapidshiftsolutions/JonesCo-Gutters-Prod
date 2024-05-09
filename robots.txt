@@ -1,0 +1,20 @@
+# Allow all web crawlers to index your site
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /terms-conditions/
+Disallow: /privacy-policy/
+Disallow: /hidden/
+
+# Allow specific web crawlers (optional)
+User-agent: Googlebot
+Disallow: /terms-conditions/
+Disallow: /privacy-policy/
+
+User-agent: Bingbot
+Disallow: /terms-conditions/
+Disallow: /privacy-policy/
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
