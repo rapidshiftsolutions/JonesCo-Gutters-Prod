@@ -29,7 +29,7 @@ export default function Example() {
               width={500}
               height={500}
               quality={10}
-              src="/../JC/JonesCo.webp"
+              src="/../JC/JonesCo.png"
               alt=""
             />
           </Link>
