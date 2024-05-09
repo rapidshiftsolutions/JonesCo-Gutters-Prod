@@ -1,5 +1,8 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
+import Image from 'next/image'
+
+
 const features = [
   {
     name: 'Gutter Inspection',
@@ -34,7 +37,7 @@ export default function Example() {
               <h2 className="text-lg sm:text-2xl font-semibold leading-7 text-JonesCo-Blue-600">Complete Gutter Care,</h2>
               <p className="tracking-tighter font-black mt-2 text-4xl text-JonesCo-Blue-950 sm:text-5xl">Tailored for You.</p>
               <p className="mt-6 text-lg leading-8 text-JonesCo-Blue-900">
-              Time is precious, especially when it comes to home maintenance. Thats why JonesCo Gutter Services offers comprehensive care for your gutters, ensuring theyre ready for any season. Were dedicated to delivering top-notch gutter maintenance, repair, and enhancement with efficiency and precision.
+                Time is precious, especially when it comes to home maintenance. Thats why JonesCo Gutter Services offers comprehensive care for your gutters, ensuring theyre ready for any season. Were dedicated to delivering top-notch gutter maintenance, repair, and enhancement with efficiency and precision.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7  lg:max-w-none">
                 {features.map((feature) => (
@@ -48,11 +51,18 @@ export default function Example() {
               </dl>
             </div>
           </div>
-          <img
-            src='/../Stock/Home-2.webp'
-            alt="Product screenshot"
+
+
+          <Image
             className="h-0 sm:h-full invisible sm:visible w-[48rem] max-w-none rounded-xl shadow-xl sm:w-[57rem] md:-ml-4 lg:-ml-0"
+            width={500}
+            height={500}
+            quality={50}
+            loading="lazy"
+            src="/Stock/Home-2.webp"
+            alt=""
           />
+
         </div>
       </div>
     </div>
