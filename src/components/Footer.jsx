@@ -38,9 +38,9 @@ const navigation = [
       </svg>
     ),
   },
-]
+];
 
-export default function Example() {
+export default function Footer() {
   return (
     <footer className="bg-JonesCo-Blue-50">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
@@ -56,8 +56,17 @@ export default function Example() {
           <p className="text-center text-xs leading-5 text-gray-500">
             &copy; 2024 JonesCo Seamless Gutter Systems, LLC. All rights reserved.
           </p>
+          <div className="mt-2 flex justify-center space-x-4 text-xs leading-5 text-gray-500">
+            <a href="/privacy" className="hover:text-gray-600">
+              Privacy Policy
+            </a>
+            <span>|</span>
+            <a href="/termsandconditions" className="hover:text-gray-600">
+              Terms & Conditions
+            </a>
+          </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
