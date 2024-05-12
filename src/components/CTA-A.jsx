@@ -7,7 +7,7 @@ export default function Example() {
         <h2 className="">
           <span className="text-lg tracking-tight text-JonesCo-Green-900 sm:text-3xl">Upgrade to Seamless Protection</span>
           <br />
-          <span className="text-3xl tracking-tighter font-black tracking-tight text-JonesCo-Green-900 sm:text-5xl">Premium Gutters, <br/>Expert Service.</span>
+          <span className="text-3xl tracking-tighter font-black text-JonesCo-Green-900 sm:text-5xl">Premium Gutters, <br/>Expert Service.</span>
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <Link href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b">

@@ -52,7 +52,7 @@ export default function Example() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b" className="text-lg leading-6 text-nero-900  tracking-wide tracking-tighter font-black uppercase">
+          <Link href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b" className="text-lg leading-6 text-nero-900  tracking-wide font-black uppercase">
             Free Estimate <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
