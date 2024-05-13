@@ -9,8 +9,8 @@ import Hero from '@/components/Hero'
 import OurServices from '@/components/OurServices'
 import ServicesExtended from '@/components/OurServicesExt'
 import ServiceLocations from '@/components/ServiceLocationsCity'
-import WhyJonesCo from '@/components/WhyJonesCo'
-import John from '@/components/JohnJonesBio'
+import WhyJonesCo from '@/components/Value'
+import John from '@/components/Why'
 
 import Banner from '@/components/banner'
 
@@ -32,15 +32,15 @@ export default function Home() {
 
       <main className="-z-50">
         <Hero />
-        <OurServices />
-        <CTAA />
         <WhyJonesCo />
+        <CTAA />
+        <OurServices />
+
         <CTAB />
         <ServiceLocations />
         <CTAC />
         <John />
         <CTAD />
-        <ServicesExtended />
 
 
 

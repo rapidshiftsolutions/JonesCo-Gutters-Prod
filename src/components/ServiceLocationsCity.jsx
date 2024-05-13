@@ -1,6 +1,7 @@
+import React, { useState, useEffect, useRef } from 'react';
 import { CheckIcon } from '@heroicons/react/20/solid';
 
-const cities = [
+const counties = [
   {
     name: 'Cocke County, TN',
     description: 'Home to Parrottsville where the local community thrives amidst the natural beauty of Eastern Tennessee.',
@@ -43,41 +44,46 @@ const cities = [
   }
 ];
 
-export default function Example() {
+export default function ServiceAreas() {
+  const [visibleCounties, setVisibleCounties] = useState([]);
+  const intervalRef = useRef(null);
+
+  useEffect(() => {
+    if (visibleCounties.length < counties.length) {
+      intervalRef.current = setInterval(() => {
+        setVisibleCounties(prevCounties => [...prevCounties, prevCounties.length]);
+      }, 500); // 2 seconds per county
+    }
+    return () => clearInterval(intervalRef.current);
+  }, [visibleCounties]);
+
   return (
-    <div className="bg-white py-6 sm:py-32">
+    <div className="bg-JonesCo-Green-700 py-12 sm:py-32 text-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-600">
-              Eastern Tennessee Focused,
-            </h2>
-            <p className="text-JonesCo-Green-900 mt-2 text-4xl font-black tracking-tight sm:text-5xl">
-              Service Driven
-            </p>
-            <p className="text-gray-600 mt-6 text-base leading-7">
-              At JonesCo Seamless Gutter Systems, we&apos;re proud to extend our
-              bespoke gutter services to a broadening range of counties in
-              Eastern Tennessee. Each area we serve benefits from our commitment
-              to excellence, attention to detail, and the personalized touch
-              that only JonesCo can provide. Discover our dedicated service in
-              your city.
+            <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-200">Eastern Tennessee Focused,</h2>
+            <p className="mt-2 text-4xl font-black tracking-tight sm:text-5xl">Service Driven</p>
+            <p className="mt-6 text-base leading-7 text-gray-300">
+              At JonesCo Seamless Gutter Systems, we&apos;re proud to extend our bespoke gutter services to a broadening range of counties in Eastern Tennessee. Each area we serve benefits from our commitment to excellence, attention to detail, and the personalized touch that only JonesCo can provide. Discover our dedicated service in your city.
             </p>
           </div>
-          <dl className="text-gray-600 col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 sm:grid-cols-2 lg:gap-y-16">
-            {cities.map((county) => (
-              <div key={county.name} className="relative pl-9">
-                <dt className="text-gray-900 font-semibold">
-                  <CheckIcon
-                    className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Green-500"
-                    aria-hidden="true"
-                  />
+          <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 sm:grid-cols-2 lg:gap-y-16">
+            {counties.map((county, index) => (
+              <div
+                key={county.name}
+                className={`relative pl-9 transition-opacity duration-1000 ${
+                  visibleCounties.includes(index) ? 'opacity-100' : 'opacity-30'  // Changed to opacity-30 for non-hovered state
+                }`}
+              >
+                <dt className="text-gray-100 font-semibold">
+                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Green-500" aria-hidden="true" />
                   {county.name}
                 </dt>
-                <dd className="mt-2">{county.description}</dd>
-                <ul className="list-disc pl-5 mt-2 text-gray-600">
+                <dd className="mt-2 text-gray-300">{county.description}</dd>
+                <ul className="list-disc pl-5 mt-2 text-gray-300 transition-opacity duration-300 group-hover:opacity-100"> {/* Removed initial opacity-0 */}
                   {county.cities.map((city) => (
-                    <li key={city}>{city}</li>
+                    <li key={city}>{city}</li> 
                   ))}
                 </ul>
               </div>

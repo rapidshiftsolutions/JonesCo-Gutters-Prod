@@ -6,10 +6,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 
 const navigation = [
-  { name: 'About Us', href: '/about' },
-
+  { name: 'Why', href: '/why' },
   { name: 'Services', href: '/services' },
   { name: 'Service Locations', href: '/servicelocations' },
+  { name: 'About Us', href: '/about' },
   { name: 'Call', href: 'tel:4239007901' },
   { name: 'Email', href: 'mailto:hey@jonescogutters.com' },
 
