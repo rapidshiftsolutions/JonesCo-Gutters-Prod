@@ -10,7 +10,7 @@ import  CTAB  from '@/components/CTA-B'
 import  CTAC  from '@/components/CTA-C'
 import  CTAD  from '@/components/CTA-D'
 
-import  John  from '@/components/About'
+import  About  from '@/components/about'
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
       <Banner />
       <Header />
       <main className="">
-        <John />
+        <About />
         <CTAC />
 
       </main>
