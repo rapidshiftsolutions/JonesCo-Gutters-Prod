@@ -10,8 +10,7 @@ const navigation = [
   { name: 'Services', href: '/services' },
   { name: 'Service Locations', href: '/servicelocations' },
   { name: 'About Us', href: '/about' },
-  { name: 'Call', href: 'tel:4239007901' },
-  { name: 'Email', href: 'mailto:hey@jonescogutters.com' },
+  { name: 'Contact Us', href: '/contact' },
 
 ]
 
@@ -52,7 +51,7 @@ export default function Example() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b" className="text-lg leading-6 text-nero-900  tracking-wide font-black uppercase">
+          <Link href="/estimate" className="text-lg leading-6 text-nero-900  tracking-wide font-black uppercase">
             Free Estimate <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
@@ -98,7 +97,7 @@ export default function Example() {
               </div>
               <div className="py-6">
                 <Link
-                  href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b"
+                  href="/estimate"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
                 >
                   Free Estimate

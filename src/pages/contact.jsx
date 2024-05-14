@@ -2,19 +2,14 @@ import Head from 'next/head'
 import Banner from '@/components/banner'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import Contact from '@/components/estimate'
-import ServiceLocations from '@/components/ServiceLocations'
-
-
-import  CTAD  from '@/components/CTA-D'
-
-import  John  from '@/components/Why'
+import  CTAA  from '@/components/CTA-B'
+import Contact from '@/components/contact'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Why Us?</title>
+        <title>JonesCo Seamless Gutter Systems || Sub-Contracting</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"
@@ -24,9 +19,8 @@ export default function Home() {
       <Banner />
       <Header />
       <main className="">
-        <John />
-        <CTAD />
-
+        <Contact />
+        <CTAA />
       </main>
       <Footer />
     </>
