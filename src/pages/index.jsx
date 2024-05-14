@@ -7,10 +7,11 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import OurServices from '@/components/OurServices'
-import ServicesExtended from '@/components/OurServicesExt'
 import ServiceLocations from '@/components/ServiceLocationsCity'
 import WhyJonesCo from '@/components/Value'
 import John from '@/components/Why'
+import Subcontracting from '@/components/subcontracting'
+
 
 import Banner from '@/components/banner'
 
@@ -39,6 +40,9 @@ export default function Home() {
         <CTAB />
         <ServiceLocations />
         <CTAC />
+        <Subcontracting />
+        <CTAA />
+
         <John />
         <CTAD />
 
