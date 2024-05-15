@@ -12,7 +12,7 @@ export default function ContactUs() {
             <div className="flex flex-col items-center">
               <span className="text-5xl mb-3 text-JonesCo-Blue-500">📞</span> 
               <p className="text-xl font-medium text-gray-900">Call Us</p>
-              <a href="tel:4239007901" className="text-gray-600 hover:text-gray-800">423-900-7901</a>
+              <a href="tel:4239007901" className="text-gray-600 hover:text-gray-800">423-207-3325</a>
             </div>
             {/* Email */}
             <div className="flex flex-col items-center">
