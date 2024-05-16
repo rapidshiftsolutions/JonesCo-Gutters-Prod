@@ -1,24 +1,25 @@
-// components/GoogleTagManager.jsx
+// components/GoogleAdsConversionTracking.jsx
 import Script from 'next/script';
+import { useEffect } from 'react';
 
-const GoogleTagManager = ({ gtagId }) => {
+const GoogleAdsConversionTracking = () => {
+
+  useEffect(() => {
+    // Execute the Google Ads conversion tracking script once the component mounts
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'AW-16543948897'); 
+  }, []); 
+
   return (
     <>
-      {/* Google Tag Manager */}
       <Script
-        async
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtagId}`}
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16543948897"
+        strategy="afterInteractive"
       />
-      <Script id="gtag-script" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${gtagId}');
-        `}
-      </Script>
     </>
   );
 };
 
-export default GoogleTagManager;
+export default GoogleAdsConversionTracking;
