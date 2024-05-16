@@ -62,7 +62,7 @@ export default function ServiceAreas() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-200">Eastern Tennessee Focused,</h2>
+            <h2 className="text-base font-semibold leading-7 text-JonesCo-Blue-200">Eastern Tennessee Focused,</h2>
             <p className="mt-2 text-4xl font-black tracking-tight sm:text-5xl">Service Driven</p>
             <p className="mt-6 text-base leading-7 text-gray-300">
               At JonesCo Seamless Gutter Systems, we&apos;re proud to extend our bespoke gutter services to a broadening range of counties in Eastern Tennessee. Each area we serve benefits from our commitment to excellence, attention to detail, and the personalized touch that only JonesCo can provide. Discover our dedicated service in your city.
@@ -76,8 +76,8 @@ export default function ServiceAreas() {
                   visibleCounties.includes(index) ? 'opacity-100' : 'opacity-30'  // Changed to opacity-30 for non-hovered state
                 }`}
               >
-                <dt className="text-gray-100 font-semibold">
-                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Green-500" aria-hidden="true" />
+                <dt className="text-gray-100 font-black">
+                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Blue-300" aria-hidden="true" />
                   {county.name}
                 </dt>
                 <dd className="mt-2 text-gray-300">{county.description}</dd>

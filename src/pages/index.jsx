@@ -28,7 +28,6 @@ export default function Home() {
         />
 
       </Head>
-      <Banner />
       <Header />
 
       <main className="-z-50">

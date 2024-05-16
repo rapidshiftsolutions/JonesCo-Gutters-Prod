@@ -20,11 +20,11 @@ export default function ContactUs() {
               <p className="text-xl font-medium text-gray-900">Email Us</p>
               <a href="mailto:hey@jonescogutters.com" className="text-gray-600 hover:text-gray-800">hey@jonescogutters.com</a>
             </div>
-            {/* Location */}
+            {/* Email */}
             <div className="flex flex-col items-center">
-              <span className="text-5xl mb-3 text-JonesCo-Blue-500">📍</span>
-              <p className="text-xl font-medium text-gray-900">Lunch On Us</p>
-              <p className="text-gray-600">Parrottsville, TN</p>
+              <span className="text-5xl mb-3 text-JonesCo-Blue-500">💻</span> 
+              <p className="text-xl font-medium text-gray-900">Book time</p>
+              <a href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b" className="text-gray-600 hover:text-gray-800">Jobber Booking</a>
             </div>
           </div>
         </div>

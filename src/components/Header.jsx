@@ -1,65 +1,63 @@
-import Image from 'next/image'
 
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Link from 'next/link'
+
+import { useState } from 'react';
+import { Dialog } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const navigation = [
-  { name: 'Why', href: '/why' },
+
+  { name: 'Get Started', href: 'https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b' },
   { name: 'Services', href: '/services' },
-  { name: 'Service Locations', href: '/servicelocations' },
+  { name: 'Locations', href: '/servicelocations' },
+  { name: 'Why', href: '/why' },
   { name: 'About Us', href: '/about' },
   { name: 'Contact Us', href: '/contact' },
+  { name: 'Log In', href: 'https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/login/new?source=share_login' },
+];
 
-]
-
-export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">JonesCo Seamless Gutter Systems</span>
-            <Image
-              className="h-10 w-auto"
-              width={500}
-              height={500}
-              quality={10}
-              src="/JC/JonesCo.webp"
-              alt=""
-            />
-          </Link>
-        </div>
-        <div className="flex lg:hidden">
-          <button
-            type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-JonesCo-Blue-950"
-            onClick={() => setMobileMenuOpen(true)}
-          >
-            <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-          </button>
-        </div>
+    
+    <header className="bg-JonesCo-Blue-100 fixed top-0 left-0 right-0 z-50"> 
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8">
+        <Link href="/">
+          <Image
+            className="h-8 w-auto sm:h-10"  // Adjusted image size for better mobile responsiveness
+            src="/JC/JonesCo.webp"
+            alt="JonesCo Seamless Gutter Systems"
+            width={180}
+            height={40} // Use specific dimensions for the logo
+            priority 
+          />
+        </Link>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-lg tracking-wide font-black uppercase leading-6  text-JonesCo-Blue-950 ">
+            <Link key={item.name} href={item.href} className="text-base font-bold tracking-wider uppercase text-JonesCo-Blue-900 hover:text-JonesCo-Blue-700">
               {item.name}
             </Link>
           ))}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="/estimate" className="text-lg leading-6 text-nero-900  tracking-wide font-black uppercase">
-            Free Estimate <span aria-hidden="true">&rarr;</span>
-          </Link>
+        <div className="flex lg:hidden">
+          <button
+            type="button"
+            className="inline-flex items-center justify-center rounded-md p-2 text-JonesCo-Blue-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-JonesCo-Blue-500"
+            onClick={() => setMobileMenuOpen(true)}
+          >
+            <span className="sr-only">Open main menu</span>
+            <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+          </button>
         </div>
       </nav>
+
+      {/* Mobile Menu */}
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-JonesCo-Blue-50 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-JonesCo-Blue-900/10">
-          <div className="flex items-center justify-between">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-20 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
 
@@ -95,18 +93,9 @@ export default function Example() {
                   </a>
                 ))}
               </div>
-              <div className="py-6">
-                <Link
-                  href="/estimate"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
-                >
-                  Free Estimate
-                </Link>
-              </div>
             </div>
-          </div>
-        </Dialog.Panel>
+          </div>        </Dialog.Panel>
       </Dialog>
     </header>
-  )
+  );
 }

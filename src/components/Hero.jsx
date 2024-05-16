@@ -12,7 +12,7 @@ export default function Hero() {
       ></div>
       <div className="absolute inset-0 bg-black/80"></div>
       <div className="container mx-auto py-32 px-4 text-center relative z-10">
-        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg mt-20">
           Got Gutter Problems?
         </h1>
         <p className="text-md md:text-xl mb-8 drop-shadow-md">
