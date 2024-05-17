@@ -45,7 +45,7 @@ export default function ContactUs() {
 
             <h2 className="text-3xl font-bold tracking-tight text-white relative z-10">Get in Touch</h2>
             <p className="mt-6 text-lg leading-8 text-white relative z-10">  {/* Lightened text for better contrast */}
-              Ready to experience the JonesCo difference? Contact us for a free estimate on your next gutter project. We're committed to providing the highest quality gutter solutions for your home in Eastern Tennessee.
+              Ready to experience the JonesCo difference? Contact us for a free estimate on your next gutter project. We&apos;re committed to providing the highest quality gutter solutions for your home in Eastern Tennessee.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-JonesCo-Blue-100 relative z-10"> 
               <div className="flex gap-x-4">
@@ -65,8 +65,8 @@ export default function ContactUs() {
                   <EnvelopeIcon className="h-7 w-6 text-white" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-JonesCo-Blue-300 text-white" href="mailto:info@jonescogutters.com">
-                    info@jonescogutters.com
+                  <a className="hover:text-JonesCo-Blue-300 text-white" href="mailto:hey@jonescogutters.com">
+                    hey@jonescogutters.com
                   </a>
                 </dd>
               </div>
