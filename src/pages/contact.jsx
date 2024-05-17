@@ -4,6 +4,8 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import  CTAA  from '@/components/CTA-B'
 import Contact from '@/components/contact'
+import FreeEstimateForm from '@/components/FreeEstimateForm'; // Adjust the path if necessary
+
 
 export default function Home() {
   return (
@@ -19,8 +21,7 @@ export default function Home() {
       <Banner />
       <Header />
       <main className="">
-        <Contact />
-        <CTAA />
+      <FreeEstimateForm />
       </main>
       <Footer />
     </>
