@@ -14,7 +14,7 @@ export default function CallToActionCrazy() {
 
         {/* Bold Red Button with Pulse Animation */}
         <a
-          href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b"
+          href="/contact"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white hover:bg-gray-200 text-JonesCo-Red-500 font-black py-4 px-10 rounded-full shadow-xl transition duration-300 ease-in-out transform hover:scale-110 animate-pulse"

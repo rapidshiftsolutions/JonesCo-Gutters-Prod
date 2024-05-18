@@ -29,7 +29,7 @@ export default function Hero() {
             Call Now
           </a>
           <a
-            href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b"
+            href="/contact"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-JonesCo-Blue-700 hover:bg-JonesCo-Blue-600 text-white font-bold py-3 px-3 rounded-full transform transition-transform duration-300 hover:scale-110 hover:shadow-lg active:scale-95 focus:outline-none focus:ring focus:ring-JonesCo-Blue-300 animate-pulse"

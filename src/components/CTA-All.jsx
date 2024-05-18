@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const bookingLink = "https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b"; // Your Jobber booking link
+const bookingLink = "/contact"; // Your Jobber booking link
 
 const CtaSection = ({ title, description, imageSrc, imageAlt }) => {
   return (

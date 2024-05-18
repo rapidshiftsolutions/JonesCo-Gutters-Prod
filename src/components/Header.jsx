@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const navigation = [
 
-  { name: 'Get Started', href: 'https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b' },
+  { name: 'Get Started', href: '/contact' },
   { name: 'Services', href: '/services' },
   { name: 'Locations', href: '/servicelocations' },
   { name: 'Why', href: '/why' },

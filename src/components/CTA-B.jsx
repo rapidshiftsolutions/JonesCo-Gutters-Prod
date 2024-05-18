@@ -13,7 +13,7 @@ export default function CallToActionGreen() { // New component name
 
         {/* Green Gradient Button with Pulse Animation */}
         <a
-          href="https://clienthub.getjobber.com/booking/cfb34696-fc96-46da-87a4-b54410c83f3b"
+          href="/contact"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gradient-to-r from-JonesCo-Green-500 to-JonesCo-Green-700 hover:from-JonesCo-Green-600 hover:to-JonesCo-Green-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105 animate-pulse"
