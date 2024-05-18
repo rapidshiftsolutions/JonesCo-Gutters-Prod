@@ -85,6 +85,7 @@ export default function ContactUs() {
         </div>
         <form
           name="contact" 
+          method="post"
           netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
           className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
