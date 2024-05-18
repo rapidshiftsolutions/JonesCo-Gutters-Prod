@@ -90,6 +90,7 @@ export default function ContactUs() {
           netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
           className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
+          netlify
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <p className="hidden">
