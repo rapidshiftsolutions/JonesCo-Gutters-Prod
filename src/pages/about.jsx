@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Banner from '@/components/banner'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import Contact from '@/components/estimate'
-import ServiceLocations from '@/components/ServiceLocations'
+
 
 import  CTAA  from '@/components/CTA-A'
 import  CTAB  from '@/components/CTA-B'
