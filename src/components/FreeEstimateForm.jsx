@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Example() {
     return (
-      <div className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+      <div className="relative isolate bg-white px-6 py-10 sm:py-32 lg:px-8">
         <svg
           className="absolute inset-0 -z-10 h-full w-full stroke-JonesCo-Blue-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
           aria-hidden="true"
