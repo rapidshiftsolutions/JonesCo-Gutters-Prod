@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Sub-Contracting</title>
+        <title>JonesCo Seamless Gutter Systems || Contact Us</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"
