@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+
 export default function Example() {
     return (
       <div className="relative isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -112,9 +115,9 @@ export default function Example() {
               </div>
               <p className="mt-4 text-xs sm:text-sm leading-6 text-JonesCo-Blue-800">
                 By submitting this form, I agree to the{' '}
-                <a href="/privacy" className="font-semibold text-JonesCo-Green-600">
+                <Link href="/privacy" className="font-semibold text-JonesCo-Green-600">
                   privacy&nbsp;policy
-                </a>
+                </Link>
                 .
               </p>
             </form>
@@ -124,7 +127,7 @@ export default function Example() {
                 <blockquote className="text-lg font-semibold leading-8 text-JonesCo-Blue-900">
                   <p>
                     “Our mission is to make sure the job is done right, the first time, every time. 
-                    If you aren't happy, we'll make it right.”
+                    If you aren&apos;t happy, we&apos;ll make it right.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-10 flex gap-x-6">
