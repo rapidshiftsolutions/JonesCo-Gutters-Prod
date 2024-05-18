@@ -83,7 +83,7 @@ export default function Example() {
                   </label>
                   <div className="mt-2.5">
                     <input
-                      type="url"
+                      type="text"
                       name="website"
                       id="website"
                       className="block w-full rounded-md border-0 px-3.5 py-2 text-JonesCo-Blue-900 shadow-sm ring-1 ring-inset ring-JonesCo-Blue-300 placeholder:text-JonesCo-Blue-400 focus:ring-2 focus:ring-inset focus:ring-JonesCo-Green-600 sm:text-sm sm:leading-6"
