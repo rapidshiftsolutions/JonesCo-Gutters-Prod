@@ -38,7 +38,7 @@ export default function GutterMaintenanceCTA() {
         <div className="mt-12 text-center">
           <motion.a
             href="/contact"
-            className="inline-flex items-center justify-center rounded-md bg-yellow-500 px-8 py-3 text-lg font-medium text-JonesCo-Blue-900 hover:bg-yellow-600"
+            className="inline-flex items-center justify-center rounded-md bg-white px-8 py-3 text-lg font-medium text-JonesCo-Blue-900 hover:bg-yellow-600"
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >

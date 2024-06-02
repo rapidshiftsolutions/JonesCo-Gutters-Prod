@@ -20,7 +20,7 @@ export default function Hero() {
         </p>
         <div className="flex justify-center space-x-4 mt-12">
           <a
-            href="tel:4239007901"
+            href="tel:4232073325"
             className="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-full inline-flex items-center"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
