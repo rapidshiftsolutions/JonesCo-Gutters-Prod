@@ -12,6 +12,9 @@ import WhyJonesCo from '@/components/Value'
 import John from '@/components/Why'
 import Subcontracting from '@/components/subcontracting'
 
+import  Bot  from '@/components/zapier'
+
+
 
 import Banner from '@/components/banner'
 
@@ -31,6 +34,9 @@ export default function Home() {
       <Header />
 
       <main className="-z-50">
+
+        <Bot />
+        
         <Hero />
         <WhyJonesCo />
         <CTAA />
