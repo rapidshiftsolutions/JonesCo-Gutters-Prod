@@ -13,8 +13,16 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative bg-JonesCo-Blue-900 text-white py-20 px-4">
-      <div className="container mx-auto flex flex-col md:flex-row items-center">
+    <div className="relative h-screen bg-black">
+      <iframe 
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        src="https://www.youtube.com/embed/your-video-id?autoplay=1&mute=1&loop=1&playlist=your-video-id"
+        title="Background Video"
+        frameBorder="0"
+        allow="autoplay; loop; fullscreen"
+      ></iframe>
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+      <div className="relative z-10 container mx-auto flex flex-col md:flex-row items-center h-full">
         <div className="md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
           <div className="max-w-md w-full p-4 bg-white rounded-lg shadow-lg">
             <zapier-interfaces-page-embed
@@ -26,7 +34,7 @@ const Hero = () => {
             ></zapier-interfaces-page-embed>
           </div>
         </div>
-        <div className="md:w-1/2 text-center md:text-left">
+        <div className="md:w-1/2 text-center md:text-left text-white">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">Protect Your Home with Seamless Gutters</h1>
           <p className="text-lg md:text-xl mb-8">Get a free, no-obligation quote today!</p>
         </div>
