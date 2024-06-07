@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="relative z-10 flex items-center justify-center h-full">
         <zapier-interfaces-page-embed
           page-id="clx4ut3lm000hqp5wgrxt7v2f"
-          no-background="false"
+          no-background="true"
           style={{ width: '100%', height: '100%' }}
         ></zapier-interfaces-page-embed>
       </div>
