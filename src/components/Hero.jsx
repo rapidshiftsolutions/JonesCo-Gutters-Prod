@@ -22,7 +22,7 @@ const Hero = () => {
         allow="autoplay; loop; fullscreen"
       ></iframe>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
-      <div className="relative z-10 container mx-auto flex flex-col md:flex-row items-center h-24">
+      <div className="relative z-10 container mx-auto flex flex-col md:flex-row items-center h-96">
         <div className="md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
           <div className="max-w-md w-full p-4 bg-white rounded-lg shadow-lg">
             <zapier-interfaces-page-embed
@@ -30,7 +30,7 @@ const Hero = () => {
               no-background="true"
               allow-query-params="true"
               query-params=""
-              style={{ width: '100%', height: '500px' }}
+              style={{ width: '100%', height: 'auto' }}
             ></zapier-interfaces-page-embed>
           </div>
         </div>
