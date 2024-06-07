@@ -23,13 +23,11 @@ const Hero = () => {
       ></iframe>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       <div className="relative z-10 flex items-center justify-center h-full">
-        <div className="max-w-md w-full p-8 bg-white rounded-lg shadow-lg">
-          <zapier-interfaces-page-embed
-            page-id="clx4ut3lm000hqp5wgrxt7v2f"
-            no-background="false"
-            style={{ maxWidth: '900px', height: '500px' }}
-          ></zapier-interfaces-page-embed>
-        </div>
+        <zapier-interfaces-page-embed
+          page-id="clx4ut3lm000hqp5wgrxt7v2f"
+          no-background="false"
+          style={{ width: '100%', height: '100%' }}
+        ></zapier-interfaces-page-embed>
       </div>
     </div>
   );
