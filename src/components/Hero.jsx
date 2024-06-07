@@ -16,7 +16,7 @@ const Hero = () => {
     <div className="relative h-screen bg-black">
       <iframe 
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="https://www.youtube.com/embed/F1IhrUHRQ40?si=4mLxi4fpqcO8MeBb"
+        src="https://www.youtube.com/embed/F1IhrUHRQ40?si=4mLxi4fpqcO8MeBb?autoplay=1&mute=1&loop=1"
         title="Background Video"
         frameBorder="0"
         allow="autoplay; loop; fullscreen"
