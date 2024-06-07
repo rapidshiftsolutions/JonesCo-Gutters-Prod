@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <div className="relative h-screen">
       <iframe
-        className="absolute top-0 left-0 w-full h-full object-cover pt-6"
+        className="absolute top-0 left-0 w-full h-full object-cover pt-12"
         src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&loop=1&playlist=dQw4w9WgXcQ"
         title="Background Video"
         frameBorder="0"
