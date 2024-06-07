@@ -16,13 +16,13 @@ const Hero = () => {
     <div className="relative bg-JonesCo-Blue-900 text-white py-20 px-4">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
-          <div style={{ maxWidth: '600px', width: '100%' }}>
+          <div className="max-w-md w-full p-4 bg-white rounded-lg shadow-lg">
             <zapier-interfaces-page-embed
               page-id="clx4ut3lm000hqp5wgrxt7v2f"
               no-background="true"
               allow-query-params="true"
               query-params=""
-              style={{ width: '100%', height: '900px' }}
+              style={{ width: '100%', height: 'auto' }}
             ></zapier-interfaces-page-embed>
           </div>
         </div>
