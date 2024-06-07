@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       <div className="relative z-10 container mx-auto flex flex-col md:flex-row items-center h-full">
         <div className="md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
-          <div className="max-w-md w-full p-4 bg-white rounded-lg shadow-lg">
+          <div className="max-w-md w-full p-4 bg-white rounded-lg shadow-lg h-full">
             <zapier-interfaces-page-embed
               page-id="clx4ut3lm000hqp5wgrxt7v2f"
               no-background="true"
