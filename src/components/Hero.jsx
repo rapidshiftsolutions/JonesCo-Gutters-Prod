@@ -15,14 +15,14 @@ const Hero = () => {
   return (
     <div className="relative h-screen">
       <iframe
-        className="absolute top-0 left-0 w-full h-full object-cover pt-16 md:pt-36"
+        className="absolute top-0 left-0 w-full h-full object-cover"
         src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&loop=1&playlist=dQw4w9WgXcQ"
         title="Background Video"
         frameBorder="0"
         allow="autoplay; loop; fullscreen"
       ></iframe>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
-      <div className="relative z-10 flex items-center justify-center h-full">
+      <div className="relative z-10 flex items-center justify-center h-full  pt-16 md:pt-36">
         <zapier-interfaces-page-embed
           page-id="clx4ut3lm000hqp5wgrxt7v2f"
           no-background="true"
