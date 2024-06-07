@@ -22,7 +22,7 @@ const Hero = () => {
         allow="autoplay; loop; fullscreen"
       ></iframe>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
-      <div className="relative z-10 flex items-center justify-center h-full  pt-16 md:pt-36">
+      <div className="relative z-10 flex items-center justify-center h-full  pt-16 md:pt-36 md:-mb-16">
         <zapier-interfaces-page-embed
           page-id="clx4ut3lm000hqp5wgrxt7v2f"
           no-background="true"
