@@ -22,7 +22,7 @@ const Hero = () => {
               no-background="true"
               allow-query-params="true"
               query-params=""
-              style={{ width: '100%', height: '500px' }}
+              style={{ width: '100%', height: '900px' }}
             ></zapier-interfaces-page-embed>
           </div>
         </div>
