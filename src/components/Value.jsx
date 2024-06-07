@@ -25,7 +25,7 @@ export default function ValueProps() {
   ];
 
   return (
-    <div className="sm:bg-gradient-to-b bg-gradient-to-r from-JonesCo-Blue-100 to-JonesCo-Blue-200 -mt-8 z-50">
+    <div className="sm:bg-gradient-to-b bg-gradient-to-r from-JonesCo-Blue-100 to-JonesCo-Blue-200">
     <div className=" container mx-auto py-12 px-4">
     <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-base font-semibold leading-7 text-JonesCo-Blue-600">Why Use JonesCo Gutters?</h2>
