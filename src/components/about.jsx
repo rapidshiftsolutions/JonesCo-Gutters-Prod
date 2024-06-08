@@ -14,7 +14,7 @@ export default function AboutUs() {
         </div>
 
         <div className="mt-10 max-w-2xl mx-auto lg:mt-12 lg:max-w-4xl">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-8">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div className="lg:pr-4">
               <p className="text-lg text-gray-200">
                 Jonathan Jones, the founder of JonesCo Gutters, isn&apos;t your typical businessman. Born and raised in the heart of Kentucky, Jonathan started his career as a mechanic, honing his skills in problem-solving and meticulous craftsmanship.
@@ -30,15 +30,15 @@ export default function AboutUs() {
               </p>
             </div>
             <div className="mt-10 lg:mt-0 lg:ml-10 relative">
-              <div className="absolute inset-0 bg-black/30 rounded-lg"></div>
-              <Image
-                className="rounded-lg shadow-lg relative z-10"
-                src="/Stock/john.webp"
-                alt="Gutter Scene"
-                layout="responsive"
-                width={400}
-                height={500}
-              />
+              <div className="relative w-full h-0 pb-75 lg:pb-0">
+                <Image
+                  className="rounded-lg shadow-lg"
+                  src="/Stock/john.webp"
+                  alt="Jonathan Jones"
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
             </div>
           </div>
         </div>
