@@ -28,7 +28,7 @@ const Hero = () => {
           transform: 'translateY(-5%)',
         }}
       ></iframe>
-      <div className="absolute top-0 left-0 w-full h-full bg-white md:opacity-80"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Blue-900 md:opacity-80"></div>
       <div className="relative z-10 flex items-center justify-center h-full pt-16">
         <zapier-interfaces-page-embed
           page-id="clx4ut3lm000hqp5wgrxt7v2f"
