@@ -13,16 +13,23 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative h-screen">
+    <div className="relative h-screen overflow-hidden">
       <iframe
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 w-full h-full"
         src="https://www.youtube.com/embed/CwsZA7ljSlk?autoplay=1&mute=1&loop=1&playlist=CwsZA7ljSlk"
         title="Background Video"
         frameBorder="0"
         allow="autoplay; loop; fullscreen"
+        style={{
+          top: '0',
+          left: '0',
+          width: '100vw',
+          height: '110vh',
+          transform: 'translateY(-5%)',
+        }}
       ></iframe>
-      <div className="absolute top-0 left-0 w-full h-full bg-white opacity-80"></div>
-      <div className="relative z-10 flex items-center justify-center h-full  pt-16">
+      <div className="absolute top-0 left-0 w-full h-full bg-white md:opacity-80"></div>
+      <div className="relative z-10 flex items-center justify-center h-full pt-16">
         <zapier-interfaces-page-embed
           page-id="clx4ut3lm000hqp5wgrxt7v2f"
           no-background="true"
