@@ -3,7 +3,8 @@ import Banner from '@/components/banner'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import  CTAA  from '@/components/CTA-B'
-import FreeEstimateForm from '@/components/FreeEstimateForm'; // Adjust the path if necessary
+import Hero from '@/components/Hero'
+
 
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
       <Banner />
       <Header />
       <main className="">
-      <FreeEstimateForm />
+      <Hero />
       </main>
       <Footer />
     </>
