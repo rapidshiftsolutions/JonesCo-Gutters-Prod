@@ -19,7 +19,7 @@ const KnoxCounty = () => {
               Welcome to JonesCo Seamless Gutter Systems, proudly serving Knox County, TN. Known for its vibrant city of Knoxville, Knox County offers a unique blend of urban amenities and natural beauty.
             </p>
             <p className="mt-6">
-              Whether you'&apos;re cheering on the Vols at the University of Tennessee, exploring Market Square, or enjoying the scenic views at Ijams Nature Center, we understand the specific needs of homes in Knox County. Our mission is to ensure your gutters are in top shape, protecting your property from water damage.
+              Whether you&apos;re cheering on the Vols at the University of Tennessee, exploring Market Square, or enjoying the scenic views at Ijams Nature Center, we understand the specific needs of homes in Knox County. Our mission is to ensure your gutters are in top shape, protecting your property from water damage.
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
