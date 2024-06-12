@@ -19,7 +19,7 @@ const SevierCounty = () => {
               Welcome to JonesCo Seamless Gutter Systems, your trusted partner in Sevier County, TN. Known for its bustling tourist towns like Gatlinburg and Pigeon Forge, Sevier County offers a vibrant mix of entertainment and natural beauty.
             </p>
             <p className="mt-6">
-              Whether you're visiting Dollywood, exploring the Great Smoky Mountains National Park, or enjoying a day at Ober Gatlinburg, we understand the specific needs of homes in Sevier County. Our mission is to ensure your gutters are in perfect condition to protect your home from the elements.
+              Whether you&apos;re visiting Dollywood, exploring the Great Smoky Mountains National Park, or enjoying a day at Ober Gatlinburg, we understand the specific needs of homes in Sevier County. Our mission is to ensure your gutters are in perfect condition to protect your home from the elements.
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
