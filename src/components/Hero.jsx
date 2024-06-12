@@ -32,7 +32,7 @@ const Hero = () => {
     <div ref={videoRef} className="relative h-screen overflow-hidden">
       <iframe
         className="absolute top-0 left-0 w-full h-full"
-        src="https://www.youtube.com/embed/CwsZA7ljSlk?autoplay=1&mute=1&loop=1&playlist=CwsZA7ljSlk"
+        src="https://www.youtube.com/embed/sr3fAhxiwzQ?autoplay=1&mute=1&loop=1&playlist=sr3fAhxiwzQ"
         title="Background Video"
         frameBorder="0"
         allow="autoplay; loop; fullscreen"
