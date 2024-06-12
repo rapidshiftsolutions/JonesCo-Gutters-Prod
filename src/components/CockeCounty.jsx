@@ -19,7 +19,7 @@ const CockeCounty = () => {
               Welcome to JonesCo Seamless Gutter Systems, your trusted partner for gutter solutions in Cocke County, TN. Nestled in the stunning Smoky Mountains, Cocke County is renowned for its natural beauty, from the tranquil trails of Cosby to the vibrant waters of the Pigeon River.
             </p>
             <p className="mt-6">
-              Whether you’re cheering for the Cocke County Fighting Cocks or exploring the charming town of Newport, we understand the unique challenges your home faces in this beautiful region. Our mission is to ensure your gutters are ready to protect your home, no matter the weather.
+              Whether you&apos;re cheering for the Cocke County Fighting Cocks or exploring the charming town of Newport, we understand the unique challenges your home faces in this beautiful region. Our mission is to ensure your gutters are ready to protect your home, no matter the weather.
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
