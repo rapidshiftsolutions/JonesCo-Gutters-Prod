@@ -19,7 +19,7 @@ const GreeneCounty = () => {
               Welcome to JonesCo Seamless Gutter Systems, proudly serving the historic and picturesque Greene County, TN. Known for its charming town of Greeneville and rich cultural heritage, Greene County offers a unique blend of history and natural beauty.
             </p>
             <p className="mt-6">
-              Whether you're exploring the historic sites of Greeneville or enjoying outdoor activities in the Nolichucky River, we understand the specific needs of homes in Greene County. Our mission is to ensure your gutters are in perfect condition to protect your home from the elements.
+              Whether you&apos;re exploring the historic sites of Greeneville or enjoying outdoor activities in the Nolichucky River, we understand the specific needs of homes in Greene County. Our mission is to ensure your gutters are in perfect condition to protect your home from the elements.
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
