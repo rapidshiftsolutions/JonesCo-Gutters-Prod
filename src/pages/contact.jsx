@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
       <Banner />
       <Header />
-      <main className="">
+      <main className="-z-50">
       <Hero />
       </main>
       <Footer />
