@@ -19,7 +19,7 @@ const JeffersonCounty = () => {
               Welcome to JonesCo Seamless Gutter Systems, proudly serving the beautiful and historic Jefferson County, TN. Known for its scenic landscapes and rich history, Jefferson County is home to charming towns like Dandridge, the second oldest town in Tennessee, and the stunning Douglas Lake.
             </p>
             <p className="mt-6">
-              Whether you’re supporting the Jefferson County Patriots or enjoying the serene views at Cherokee Dam, we understand the unique needs of your home in this vibrant community. Our goal is to ensure your gutters are equipped to handle the local weather and keep your home safe.
+              Whether you&apos;re supporting the Jefferson County Patriots or enjoying the serene views at Cherokee Dam, we understand the unique needs of your home in this vibrant community. Our goal is to ensure your gutters are equipped to handle the local weather and keep your home safe.
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
