@@ -36,7 +36,7 @@ export default function AboutUs() {
             <div className="lg:pr-16">
               <h2 className="text-3xl font-semibold text-JonesCo-Blue-700 mb-4">Who We Are</h2>
               <p className="text-lg leading-7 text-gray-700">
-                JonesCo Seamless Gutter Systems was founded by Jonathan Jones, a man with a diverse background and a passion for helping others. Jonathan's journey began in the heart of Kentucky, where he worked as a mechanic, developing his skills in problem-solving and meticulous craftsmanship. His desire to make a difference in people's lives led him to transition into nursing, where he learned the importance of compassion, empathy, and putting people's needs first.
+                JonesCo Seamless Gutter Systems was founded by Jonathan Jones, a man with a diverse background and a passion for helping others. Jonathan&apos;s journey began in the heart of Kentucky, where he worked as a mechanic, developing his skills in problem-solving and meticulous craftsmanship. His desire to make a difference in people&apos;s lives led him to transition into nursing, where he learned the importance of compassion, empathy, and putting people&apos;s needs first.
               </p>
               <p className="mt-4 text-lg leading-7 text-gray-700">
                 Combining his technical expertise and dedication to customer care, Jonathan founded JonesCo Seamless Gutter Systems. Our mission is to provide top-quality gutter services while building lasting relationships with our clients.
