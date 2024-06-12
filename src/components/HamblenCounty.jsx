@@ -19,7 +19,7 @@ const HamblenCounty = () => {
               Welcome to JonesCo Seamless Gutter Systems, your trusted gutter experts in Hamblen County, TN. Known for its vibrant city of Morristown, Hamblen County combines urban conveniences with the charm of rural life, making it a unique place to call home.
             </p>
             <p className="mt-6">
-              Whether you’re enjoying a game of the Morristown East Hurricanes or exploring the historic downtown area, we understand the specific needs of homes in Hamblen County. Our mission is to ensure your gutters are always in top shape, protecting your property from water damage.
+              Whether you&apos;re enjoying a game of the Morristown East Hurricanes or exploring the historic downtown area, we understand the specific needs of homes in Hamblen County. Our mission is to ensure your gutters are always in top shape, protecting your property from water damage.
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
