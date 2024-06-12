@@ -15,7 +15,7 @@ export default function AboutUs() {
         <div className="relative overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/Stock/about-us-bg.jpg"
+              src="/Stock/about-us-bg.webp"
               alt="About Us Background"
               layout="fill"
               objectFit="cover"
