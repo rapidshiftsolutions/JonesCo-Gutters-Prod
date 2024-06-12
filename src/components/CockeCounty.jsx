@@ -2,42 +2,44 @@ import React from 'react';
 
 const CockeCounty = () => {
   return (
-    <div className="bg-gradient-to-r from-JonesCo-Blue-500 to-JonesCo-Green-700 text-white py-24 sm:py-32 px-6 lg:px-8">
-      <div className="mx-auto max-w-7xl">
-        <div className="lg:text-center">
+    <div className="bg-gradient-to-r from-JonesCo-Blue-500 to-JonesCo-Green-700 text-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-200">
-            Welcome to Cocke County
+            Serving Cocke County, TN with Pride
           </h2>
           <p className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl">
-            Discover the Beauty and Community of Cocke County
+            Protecting Homes in the Heart of the Smokies
           </p>
         </div>
 
-        <div className="mt-10 lg:mt-16">
-          <p className="text-xl text-gray-200">
-            Cocke County, located in Eastern Tennessee, is known for its rich history and stunning natural landscapes. The county seat, Newport, offers a charming historic downtown area with antique shops and beautiful views of the Pigeon River. Cocke County is also home to part of the Great Smoky Mountains, making it a haven for outdoor enthusiasts who enjoy hiking, camping, and scenic drives.
-          </p>
-          <p className="mt-6 text-xl text-gray-200">
-            Local pride runs deep in Cocke County, especially when it comes to our high school sports teams like the Cocke County High School Fighting Cocks. Residents also enjoy thrilling events at the English Mountain Dragway and the exciting action at the local racetracks.
-          </p>
-          <p className="mt-6 text-xl text-gray-200">
-            The Great Smoky Mountains National Park is a major attraction, offering breathtaking views, diverse wildlife, and numerous recreational opportunities. Whether you are a nature lover or looking to explore historical sites, Cocke County has something for everyone.
-          </p>
-          <p className="mt-6 text-xl text-gray-200">
-            At JonesCo Seamless Gutter Systems, we are proud to serve the wonderful community of Cocke County. We offer expert gutter cleaning, gutter guard installation, and gutter replacement services to ensure your home is protected from the elements.
-          </p>
-        </div>
-
-        <div className="mt-10 lg:mt-16 text-center">
-          <a
-            href="https://jonescogutters.com/contact"
-            className="inline-block bg-JonesCo-Green-500 hover:bg-JonesCo-Green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out"
-          >
-            Contact Us for a Free Quote
-          </a>
-          <p className="mt-4 text-xl text-gray-200">
-            Or call us at <a href="tel:14232073325" className="text-JonesCo-Green-200">423-207-3325</a>
-          </p>
+        <div className="mt-10 max-w-2xl mx-auto lg:max-w-4xl">
+          <div className="text-xl text-gray-200">
+            <p>
+              Welcome to JonesCo Seamless Gutter Systems, your trusted partner for gutter solutions in Cocke County, TN. Nestled in the stunning Smoky Mountains, Cocke County is renowned for its natural beauty, from the tranquil trails of Cosby to the vibrant waters of the Pigeon River.
+            </p>
+            <p className="mt-6">
+              Whether you’re cheering for the Cocke County Fighting Cocks or exploring the charming town of Newport, we understand the unique challenges your home faces in this beautiful region. Our mission is to ensure your gutters are ready to protect your home, no matter the weather.
+            </p>
+            <p className="mt-6">Our comprehensive services include:</p>
+            <ul className="list-disc list-inside mt-4">
+              <li>Professional Gutter Cleaning</li>
+              <li>Top-Quality Gutter Guard Installation</li>
+              <li>Seamless Gutter Replacement</li>
+            </ul>
+            <p className="mt-6">
+              Join the many satisfied homeowners in Cocke County who trust JonesCo for their gutter needs. We combine local expertise with the highest standards of service to deliver results you can count on.
+            </p>
+            <p className="mt-6">
+              Discover the JonesCo difference today and see why we are the go-to gutter experts in Cocke County.
+            </p>
+            <p className="mt-6 font-bold">
+              Contact us today at <a href="https://jonescogutters.com/contact" className="underline">jonescogutters.com/contact</a> or call 423-207-3325 to schedule your free, no-obligation quote!
+            </p>
+          </div>
+          <div className="mt-10 lg:mt-16 flex justify-center">
+            <img src="/images/cocke-county-landmark.jpg" alt="Cocke County Landmark" className="rounded-lg shadow-lg" />
+          </div>
         </div>
       </div>
     </div>
