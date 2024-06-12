@@ -19,7 +19,7 @@ const BlountCounty = () => {
               Welcome to JonesCo Seamless Gutter Systems, proudly serving the beautiful and diverse Blount County, TN. Known for its proximity to the Great Smoky Mountains National Park and the peaceful town of Maryville, Blount County offers a perfect blend of natural beauty and suburban living.
             </p>
             <p className="mt-6">
-              Whether you're exploring the scenic trails of the Smokies, enjoying the tranquility of Townsend, or supporting the Maryville High School Rebels, we understand the specific needs of homes in Blount County. Our mission is to ensure your gutters are in top condition, protecting your property from water damage.
+              Whether you&apos;re exploring the scenic trails of the Smokies, enjoying the tranquility of Townsend, or supporting the Maryville High School Rebels, we understand the specific needs of homes in Blount County. Our mission is to ensure your gutters are in top condition, protecting your property from water damage.
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
