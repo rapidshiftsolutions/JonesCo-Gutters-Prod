@@ -41,8 +41,8 @@ const Hero = () => {
           top: '0',
           left: '0',
           width: '100vw',
-          height: '120vh',
-          transform: 'translateY(-5%)',
+          height: '100vh',
+          objectFit: 'cover',
         }}
       ></iframe>
       <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Blue-900 md:opacity-80"></div>
@@ -53,7 +53,10 @@ const Hero = () => {
           style={{ width: '100%', height: '100%' }}
         ></zapier-interfaces-page-embed>
       </div>
-      <Script src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js" strategy="lazyOnload" />
+      <Script
+        src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js"
+        strategy="lazyOnload"
+      />
     </div>
   );
 };
