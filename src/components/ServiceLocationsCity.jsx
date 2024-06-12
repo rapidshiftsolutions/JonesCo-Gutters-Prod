@@ -5,42 +5,50 @@ const counties = [
   {
     name: 'Cocke County, TN',
     description: 'Home to Parrottsville where the local community thrives amidst the natural beauty of Eastern Tennessee.',
-    cities: ['Newport', 'Parrottsville', 'Cosby', 'Del Rio']
+    cities: ['Newport', 'Parrottsville', 'Cosby', 'Del Rio'],
+    link: '/cocke',
   },
   {
     name: 'Jefferson County, TN',
     description: 'Adjacent to Cocke, Jefferson County offers scenic landscapes and historic towns like Dandridge.',
-    cities: ['Dandridge', 'Jefferson City', 'White Pine', 'New Market', 'Baneberry']
+    cities: ['Dandridge', 'Jefferson City', 'White Pine', 'New Market', 'Baneberry'],
+    link: '/jefferson',
   },
   {
     name: 'Hamblen County, TN',
     description: 'Known for its vibrant city of Morristown, Hamblen County combines urban conveniences with rural charm.',
-    cities: ['Morristown', 'Russellville', 'Whitesburg', 'Talbott']
+    cities: ['Morristown', 'Russellville', 'Whitesburg', 'Talbott'],
+    link: '/hamblen',
   },
   {
     name: 'Greene County, TN',
     description: 'Features the historic town of Greeneville and provides a rich tapestry of cultural and outdoor activities.',
-    cities: ['Greeneville', 'Mosheim', 'Tusculum', 'Baileyton']
+    cities: ['Greeneville', 'Mosheim', 'Tusculum', 'Baileyton'],
+    link: '/greene',
   },
   {
     name: 'Sevier County, TN',
     description: 'Tourist hotspot with attractions such as Dollywood and the gateway to the Great Smoky Mountains.',
-    cities: ['Sevierville', 'Pigeon Forge', 'Gatlinburg', 'Pittman Center']
+    cities: ['Sevierville', 'Pigeon Forge', 'Gatlinburg', 'Pittman Center'],
+    link: '/sevier',
   },
   {
     name: 'Washington County, TN',
     description: "Houses Tennessee's oldest town, Jonesborough, and is rich in history and tradition.",
-    cities: ['Johnson City', 'Jonesborough', 'Limestone', 'Telford']
+    cities: ['Johnson City', 'Jonesborough', 'Limestone', 'Telford'],
+    link: '/washington',
   },
   {
     name: 'Knox County, TN',
     description: 'Includes Knoxville and offers a mix of urban life, educational institutions, and extensive shopping areas.',
-    cities: ['Knoxville', 'Farragut', 'Powell', 'Corryton']
+    cities: ['Knoxville', 'Farragut', 'Powell', 'Corryton'],
+    link: '/knox',
   },
   {
     name: 'Blount County, TN',
     description: 'Known for the quiet beauty of the Foothills of the Great Smoky Mountains and the peaceful town of Maryville.',
-    cities: ['Maryville', 'Alcoa', 'Friendsville', 'Townsend', 'Louisville']
+    cities: ['Maryville', 'Alcoa', 'Friendsville', 'Townsend', 'Louisville'],
+    link: '/blount',
   }
 ];
 
@@ -52,7 +60,7 @@ export default function ServiceAreas() {
     if (visibleCounties.length < counties.length) {
       intervalRef.current = setInterval(() => {
         setVisibleCounties(prevCounties => [...prevCounties, prevCounties.length]);
-      }, 500); // 2 seconds per county
+      }, 500);
     }
     return () => clearInterval(intervalRef.current);
   }, [visibleCounties]);
@@ -73,17 +81,19 @@ export default function ServiceAreas() {
               <div
                 key={county.name}
                 className={`relative pl-9 transition-opacity duration-1000 ${
-                  visibleCounties.includes(index) ? 'opacity-100' : 'opacity-30'  // Changed to opacity-30 for non-hovered state
+                  visibleCounties.includes(index) ? 'opacity-100' : 'opacity-30'
                 }`}
               >
                 <dt className="text-gray-100 font-black">
-                  <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Blue-300" aria-hidden="true" />
-                  {county.name}
+                  <a href={county.link} className="flex items-center">
+                    <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Blue-300" aria-hidden="true" />
+                    {county.name}
+                  </a>
                 </dt>
                 <dd className="mt-2 text-gray-300">{county.description}</dd>
-                <ul className="list-disc pl-5 mt-2 text-gray-300 transition-opacity duration-300 group-hover:opacity-100"> {/* Removed initial opacity-0 */}
+                <ul className="list-disc pl-5 mt-2 text-gray-300 transition-opacity duration-300 group-hover:opacity-100">
                   {county.cities.map((city) => (
-                    <li key={city}>{city}</li> 
+                    <li key={city}>{city}</li>
                   ))}
                 </ul>
               </div>
