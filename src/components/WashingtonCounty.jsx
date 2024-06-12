@@ -19,7 +19,7 @@ const WashingtonCounty = () => {
               Welcome to JonesCo Seamless Gutter Systems, dedicated to serving the historic and vibrant Washington County, TN. Known for being home to Tennessee’s oldest town, Jonesborough, and the bustling city of Johnson City, Washington County is a blend of rich history and modern conveniences.
             </p>
             <p className="mt-6">
-              Whether you're exploring the charming streets of Jonesborough, attending a festival in Johnson City, or enjoying outdoor activities in the beautiful countryside, we understand the unique needs of homes in Washington County. Our mission is to ensure your gutters are always in top condition, protecting your property from water damage.
+              Whether you&apos;re exploring the charming streets of Jonesborough, attending a festival in Johnson City, or enjoying outdoor activities in the beautiful countryside, we understand the unique needs of homes in Washington County. Our mission is to ensure your gutters are always in top condition, protecting your property from water damage.
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
