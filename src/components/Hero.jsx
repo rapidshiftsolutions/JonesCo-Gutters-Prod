@@ -1,42 +1,35 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
+import Script from 'next/script';
 
 const Hero = () => {
-  const [isScriptLoaded, setIsScriptLoaded] = useState(false);
-  const heroRef = useRef();
+  const videoRef = useRef();
 
   useEffect(() => {
-    const loadScript = () => {
-      const script = document.createElement('script');
-      script.type = 'module';
-      script.src = 'https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js';
-      script.defer = true;
-      script.onload = () => setIsScriptLoaded(true);
-      document.body.appendChild(script);
+    const handleIntersection = (entries) => {
+      if (entries[0].isIntersecting) {
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = 'https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js';
+        script.defer = true;
+        document.body.appendChild(script);
+        observer.disconnect();
+      }
     };
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          loadScript();
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    if (heroRef.current) {
-      observer.observe(heroRef.current);
+    const observer = new IntersectionObserver(handleIntersection, { threshold: 0.1 });
+    if (videoRef.current) {
+      observer.observe(videoRef.current);
     }
 
     return () => {
-      if (heroRef.current) {
-        observer.unobserve(heroRef.current);
+      if (videoRef.current) {
+        observer.unobserve(videoRef.current);
       }
     };
   }, []);
 
   return (
-    <div ref={heroRef} className="relative h-screen overflow-hidden">
+    <div ref={videoRef} className="relative h-screen overflow-hidden">
       <iframe
         className="absolute top-0 left-0 w-full h-full"
         src="https://www.youtube.com/embed/CwsZA7ljSlk?autoplay=1&mute=1&loop=1&playlist=CwsZA7ljSlk"
@@ -54,14 +47,13 @@ const Hero = () => {
       ></iframe>
       <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Blue-900 md:opacity-80"></div>
       <div className="relative z-10 flex items-center justify-center h-full pt-8 md:pt-16">
-        {isScriptLoaded && (
-          <zapier-interfaces-page-embed
-            page-id="clx4ut3lm000hqp5wgrxt7v2f"
-            no-background="true"
-            style={{ width: '100%', height: '100%' }}
-          ></zapier-interfaces-page-embed>
-        )}
+        <zapier-interfaces-page-embed
+          page-id="clx4ut3lm000hqp5wgrxt7v2f"
+          no-background="true"
+          style={{ width: '100%', height: '100%' }}
+        ></zapier-interfaces-page-embed>
       </div>
+      <Script src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js" strategy="lazyOnload" />
     </div>
   );
 };
