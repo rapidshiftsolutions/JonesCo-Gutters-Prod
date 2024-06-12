@@ -2,42 +2,44 @@ import React from 'react';
 
 const JeffersonCounty = () => {
   return (
-    <div className="bg-gradient-to-r from-JonesCo-Blue-500 to-JonesCo-Green-700 text-white py-24 sm:py-32 px-6 lg:px-8">
-      <div className="mx-auto max-w-7xl">
-        <div className="lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-JonesCo-Green-200">
-            Welcome to Jefferson County
+    <div className="bg-gradient-to-r from-JonesCo-Blue-500 to-JonesCo-Orange-700 text-white py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto lg:text-center">
+          <h2 className="text-base font-semibold leading-7 text-JonesCo-Orange-200">
+            Serving Jefferson County, TN with Excellence
           </h2>
           <p className="mt-2 text-2xl font-bold tracking-tight text-white sm:text-3xl">
-            Experience the Charm and Community of Jefferson County
+            Protecting Homes in Historic Jefferson County
           </p>
         </div>
 
-        <div className="mt-10 lg:mt-16">
-          <p className="text-xl text-gray-200">
-            Jefferson County, located in Eastern Tennessee, offers scenic landscapes and historic towns like Dandridge, the second oldest town in Tennessee. Known for its picturesque views of Douglas Lake, Jefferson County is a favorite destination for fishing, boating, and other water activities.
-          </p>
-          <p className="mt-6 text-xl text-gray-200">
-            Local pride is evident in the strong support for Jefferson County High School’s sports teams, the Patriots. Residents also enjoy the cultural and historical events hosted at the Glenmore Mansion and the annual Jefferson County Fair.
-          </p>
-          <p className="mt-6 text-xl text-gray-200">
-            The county’s blend of history and natural beauty makes it a great place to live and visit. Whether exploring the historic downtowns or enjoying the recreational opportunities on Douglas Lake, Jefferson County offers something for everyone.
-          </p>
-          <p className="mt-6 text-xl text-gray-200">
-            At JonesCo Seamless Gutter Systems, we are proud to serve the vibrant community of Jefferson County. Our expert gutter services ensure your home is well-protected and looks its best.
-          </p>
-        </div>
-
-        <div className="mt-10 lg:mt-16 text-center">
-          <a
-            href="https://jonescogutters.com/contact"
-            className="inline-block bg-JonesCo-Green-500 hover:bg-JonesCo-Green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out"
-          >
-            Contact Us for a Free Quote
-          </a>
-          <p className="mt-4 text-xl text-gray-200">
-            Or call us at <a href="tel:14232073325" className="text-JonesCo-Green-200">423-207-3325</a>
-          </p>
+        <div className="mt-10 max-w-2xl mx-auto lg:max-w-4xl">
+          <div className="text-xl text-gray-200">
+            <p>
+              Welcome to JonesCo Seamless Gutter Systems, proudly serving the beautiful and historic Jefferson County, TN. Known for its scenic landscapes and rich history, Jefferson County is home to charming towns like Dandridge, the second oldest town in Tennessee, and the stunning Douglas Lake.
+            </p>
+            <p className="mt-6">
+              Whether you’re supporting the Jefferson County Patriots or enjoying the serene views at Cherokee Dam, we understand the unique needs of your home in this vibrant community. Our goal is to ensure your gutters are equipped to handle the local weather and keep your home safe.
+            </p>
+            <p className="mt-6">Our comprehensive services include:</p>
+            <ul className="list-disc list-inside mt-4">
+              <li>Expert Gutter Cleaning</li>
+              <li>Durable Gutter Guard Installation</li>
+              <li>Seamless Gutter Replacement</li>
+            </ul>
+            <p className="mt-6">
+              Join the many satisfied homeowners in Jefferson County who trust JonesCo for their gutter needs. We blend local knowledge with superior service to provide results that last.
+            </p>
+            <p className="mt-6">
+              Discover the JonesCo difference today and see why we are the preferred gutter specialists in Jefferson County.
+            </p>
+            <p className="mt-6 font-bold">
+              Contact us today at <a href="https://jonescogutters.com/contact" className="underline">jonescogutters.com/contact</a> or call 423-207-3325 to schedule your free, no-obligation quote!
+            </p>
+          </div>
+          <div className="mt-10 lg:mt-16 flex justify-center">
+            <img src="/images/jefferson-county-landmark.jpg" alt="Jefferson County Landmark" className="rounded-lg shadow-lg" />
+          </div>
         </div>
       </div>
     </div>
