@@ -11,7 +11,7 @@ export default function KnoxCountyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Knox County</title>
+        <title>JonesCo Lighting Installers || Knox County</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"

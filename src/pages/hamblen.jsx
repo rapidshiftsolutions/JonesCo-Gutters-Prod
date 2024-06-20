@@ -12,7 +12,7 @@ export default function HamblenCountyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Hamblen County</title>
+        <title>JonesCo Lighting Installers || Hamblen County</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"

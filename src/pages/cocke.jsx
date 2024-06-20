@@ -12,7 +12,7 @@ export default function CockeCountyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Cocke County</title>
+        <title>JonesCo Lighting Installers || Cocke County</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"

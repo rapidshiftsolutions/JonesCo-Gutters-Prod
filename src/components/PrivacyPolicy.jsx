@@ -3,18 +3,18 @@ import { ShieldCheckIcon } from '@heroicons/react/20/solid'
 export default function PrivacyPolicy() {
     return (
         <div className="bg-white px-6 py-4 pb-14 lg:py-32 lg:px-8">
-            <div className="mx-auto max-w-3xl text-base leading-7 text-JonesCo-Blue-950">
+            <div className="mx-auto max-w-3xl text-base leading-7 text-JonesCo-Lighting-Red-950">
                 <p className="text-base font-semibold leading-7 text-indigo-600">Privacy Assurance</p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Privacy Policy</h1>
                 <p className="mt-6 text-xl leading-8">
-                    At JonesCo Seamless Gutter Systems, safeguarding your personal information is a responsibility we take
+                    At JonesCo Lighting Installers, safeguarding your personal information is a responsibility we take
                     seriously. This Privacy Policy explains how we collect, use, and store your information when you use our
                     services, with the utmost respect for your privacy.
                 </p>
                 <div className="mt-10 max-w-2xl">
                     <h2 className="text-2xl font-bold tracking-tight text-gray-900">Information Collection and Use</h2>
                     <p>
-                        We collect details like your name, email address, house size, gutter specifics, and property address to
+                        We collect details like your name, email address, house size, Lighting specifics, and property address to
                         tailor our services to your needs. Here’s how we handle your data:
                     </p>
                     <ul role="list" className="mt-8 space-y-8 text-gray-600">

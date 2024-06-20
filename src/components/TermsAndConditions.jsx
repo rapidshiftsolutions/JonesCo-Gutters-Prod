@@ -10,7 +10,7 @@ const TermsAndConditions = () => {
         <section>
           <h2 className="text-xl font-semibold">1. Introduction</h2>
           <p className="text-gray-600">
-            Welcome to JonesCo Seamless Gutter Systems. By using our website,
+            Welcome to JonesCo Lighting Installers. By using our website,
             booking estimates, or scheduling jobs, you agree to abide by the
             terms and conditions outlined below.
           </p>
@@ -69,7 +69,7 @@ const TermsAndConditions = () => {
           <h2 className="text-xl font-semibold">4. Website Usage</h2>
           <ul className="list-disc pl-5 text-gray-600 space-y-2">
             <li>
-              Content Ownership: All content on the JonesCo Seamless Gutter
+              Content Ownership: All content on the JonesCo Seamless Lighting
               Systems website, including text, images, and logos, is our
               property.
             </li>
@@ -100,7 +100,7 @@ const TermsAndConditions = () => {
             </li>
             <li>
               Indemnification: You agree to indemnify and hold harmless
-              JonesCo Seamless Gutter Systems from any claims arising from your
+              JonesCo Lighting Installers from any claims arising from your
               use of our website or services.
             </li>
           </ul>
@@ -121,10 +121,10 @@ const TermsAndConditions = () => {
             conditions, please contact us at:
           </p>
           <p className="text-gray-600">
-            JonesCo Seamless Gutter Systems <br />
+            JonesCo Lighting Installers <br />
             Parrottsville, TN <br />
             423.900.7901 <br />
-            admin@jonescogutters.com
+            admin@jonescolighting.com
           </p>
         </section>
       </div>

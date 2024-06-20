@@ -41,24 +41,24 @@ export default function CTAs() {
   return (
     <>
       <CtaSection
-        title="Upgrade Your Home with Seamless Gutters"
-        description="Invest in the best for your home. Our custom-fit seamless gutters protect your property, enhance curb appeal, and give you peace of mind."
+        title="Upgrade Your Home with Seamless Lighting"
+        description="Invest in the best for your home. Our custom-fit seamless Lighting protect your property, enhance curb appeal, and give you peace of mind."
         imageSrc="/Stock/home-3.webp"
-        imageAlt="Home with upgraded seamless gutters"
+        imageAlt="Home with upgraded seamless Lighting"
       />
 
       <CtaSection
-        title="Protect Your Investment with Seamless Gutters"
-        description="Your home is your biggest investment. Seamless gutters prevent water damage, protecting your roof, foundation, and siding."
+        title="Protect Your Investment with Seamless Lighting"
+        description="Your home is your biggest investment. Seamless Lighting prevent water damage, protecting your roof, foundation, and siding."
         imageSrc="/Stock/home-2.webp"
-        imageAlt="Home protected by seamless gutters"
+        imageAlt="Home protected by seamless Lighting"
       />
 
       <CtaSection
-        title="Enjoy the Peace of Mind of Seamless Gutters"
-        description="Seamless gutters are low-maintenance, durable, and leak-proof, giving you peace of mind knowing your home is protected."
+        title="Enjoy the Peace of Mind of Seamless Lighting"
+        description="Seamless Lighting are low-maintenance, durable, and leak-proof, giving you peace of mind knowing your home is protected."
         imageSrc="/Stock/home-1.webp"
-        imageAlt="Peaceful home with seamless gutters"
+        imageAlt="Peaceful home with seamless Lighting"
       />
     </>
   );

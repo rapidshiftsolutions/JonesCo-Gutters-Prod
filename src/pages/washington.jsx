@@ -12,7 +12,7 @@ export default function WashingtonCountyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Washington County</title>
+        <title>JonesCo Lighting Installers || Washington County</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"

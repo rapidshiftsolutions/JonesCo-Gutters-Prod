@@ -32,7 +32,7 @@ const Hero = () => {
     <div ref={videoRef} className="relative h-screen overflow-hidden">
       <iframe
         className="absolute top-0 left-0 w-full h-full"
-        src="https://www.youtube.com/embed/sr3fAhxiwzQ?autoplay=1&mute=1&loop=1&playlist=sr3fAhxiwzQ"
+        src="https://www.youtube.com/embed/ADeWvX9umZ0?autoplay=1&mute=1&loop=1&playlist=ADeWvX9umZ0"
         title="Background Video"
         frameBorder="0"
         allow="autoplay; loop; fullscreen"
@@ -45,10 +45,10 @@ const Hero = () => {
           objectFit: 'cover',
         }}
       ></iframe>
-      <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Blue-900 md:opacity-80"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Lighting-Red-900 md:opacity-80"></div>
       <div className="relative z-10 flex items-center justify-center h-full pt-8 md:pt-16">
         <zapier-interfaces-page-embed
-          page-id="clx4ut3lm000hqp5wgrxt7v2f"
+          page-id="clxmga8nu0009nqjhio23tmr0"
           no-background="true"
           style={{ width: '100%', height: '100%' }}
         ></zapier-interfaces-page-embed>

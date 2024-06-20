@@ -11,7 +11,7 @@ export default function BlountCountyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Blount County</title>
+        <title>JonesCo Lighting Installers || Blount County</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"
