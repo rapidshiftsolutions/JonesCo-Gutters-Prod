@@ -22,13 +22,13 @@ export default function Header() {
 
   return (
     
-    <header className="bg-JonesCo-Lighting-Red-100 fixed top-0 left-0 right-0 z-50"> 
+    <header className="bg-JonesCo-Blue-100 fixed top-0 left-0 right-0 z-50"> 
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8">
         <Link href="/">
           <Image
             className="h-8 w-auto sm:h-10"  // Adjusted image size for better mobile responsiveness
             src="/JC/JonesCo.webp"
-            alt="JonesCo Lighting Installers"
+            alt="JonesCo Seamless Gutter Systems"
             width={180}
             height={40} // Use specific dimensions for the logo
             priority 
@@ -36,7 +36,7 @@ export default function Header() {
         </Link>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-base font-bold tracking-wider uppercase text-JonesCo-Lighting-Red-900 hover:text-JonesCo-Lighting-Red-700">
+            <Link key={item.name} href={item.href} className="text-base font-bold tracking-wider uppercase text-JonesCo-Blue-900 hover:text-JonesCo-Blue-700">
               {item.name}
             </Link>
           ))}
@@ -44,7 +44,7 @@ export default function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="inline-flex items-center justify-center rounded-md p-2 text-JonesCo-Lighting-Red-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-JonesCo-Lighting-Red-500"
+            className="inline-flex items-center justify-center rounded-md p-2 text-JonesCo-Blue-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-JonesCo-Blue-500"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -81,13 +81,13 @@ export default function Header() {
             </button>
           </div>
           <div className="mt-6 flow-root">
-            <div className="-my-6 divide-y divide-JonesCo-Lighting-Green-900">
+            <div className="-my-6 divide-y divide-JonesCo-Green-900">
               <div className="space-y-2 py-6">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-JonesCo-Lighting-Red-900 hover:bg-JonesCo-Lighting-Red-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-50"
                   >
                     {item.name}
                   </a>

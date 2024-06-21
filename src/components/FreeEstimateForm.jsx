@@ -5,7 +5,7 @@ export default function Example() {
     return (
         <div className="relative isolate bg-white px-6 py-10 sm:py-18 lg:px-8">
             <svg
-                className="absolute inset-0 -z-10 h-full w-full stroke-JonesCo-Lighting-Red-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+                className="absolute inset-0 -z-10 h-full w-full stroke-JonesCo-Blue-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
                 aria-hidden="true"
             >
                 <defs>
@@ -20,7 +20,7 @@ export default function Example() {
                         <path d="M100 200V.5M.5 .5H200" fill="none" />
                     </pattern>
                 </defs>
-                <svg x="50%" y={-64} className="overflow-visible fill-JonesCo-Lighting-Red-50">
+                <svg x="50%" y={-64} className="overflow-visible fill-JonesCo-Blue-50">
                     <path
                         d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M299.5 800h201v201h-201Z"
                         strokeWidth={0}

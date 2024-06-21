@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JonesCo Lighting Installers || Services</title>
+        <title>JonesCo Seamless Gutter Systems || Services</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"

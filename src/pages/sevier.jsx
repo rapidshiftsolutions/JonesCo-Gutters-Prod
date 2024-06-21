@@ -11,7 +11,7 @@ export default function SevierCountyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Lighting Installers || Sevier County</title>
+        <title>JonesCo Seamless Gutter Systems || Sevier County</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"

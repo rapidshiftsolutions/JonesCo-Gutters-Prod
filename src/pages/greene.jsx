@@ -12,7 +12,7 @@ export default function GreeneCountyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Lighting Installers || Greene County</title>
+        <title>JonesCo Seamless Gutter Systems || Greene County</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"

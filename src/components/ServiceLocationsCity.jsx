@@ -66,14 +66,14 @@ export default function ServiceAreas() {
   }, [visibleCounties]);
 
   return (
-    <div className="bg-JonesCo-Lighting-Green-700 py-12 sm:py-32 text-white">
+    <div className="bg-JonesCo-Green-700 py-12 sm:py-32 text-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           <div>
-            <h2 className="text-base font-semibold leading-7 text-JonesCo-Lighting-Red-200">Eastern Tennessee Focused,</h2>
+            <h2 className="text-base font-semibold leading-7 text-JonesCo-Blue-200">Eastern Tennessee Focused,</h2>
             <p className="mt-2 text-4xl font-black tracking-tight sm:text-5xl">Service Driven</p>
             <p className="mt-6 text-base leading-7 text-gray-300">
-              At JonesCo Lighting Installers, we&apos;re proud to extend our bespoke Lighting services to a broadening range of counties in Eastern Tennessee. Each area we serve benefits from our commitment to excellence, attention to detail, and the personalized touch that only JonesCo can provide. Discover our dedicated service in your city.
+              At JonesCo Seamless Gutter Systems, we&apos;re proud to extend our bespoke gutter services to a broadening range of counties in Eastern Tennessee. Each area we serve benefits from our commitment to excellence, attention to detail, and the personalized touch that only JonesCo can provide. Discover our dedicated service in your city.
             </p>
           </div>
           <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 sm:grid-cols-2 lg:gap-y-16">
@@ -86,7 +86,7 @@ export default function ServiceAreas() {
               >
                 <dt className="text-gray-100 font-black">
                   <a href={county.link} className="flex items-center">
-                    <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Lighting-Red-300" aria-hidden="true" />
+                    <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Blue-300" aria-hidden="true" />
                     {county.name}
                   </a>
                 </dt>

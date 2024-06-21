@@ -17,7 +17,7 @@ const navigation = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/jonesco.Lighting/',
+    href: 'https://www.instagram.com/jonesco.gutters/',
     icon: (props) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -45,7 +45,7 @@ const navigation = [
 
 export default function Footer() {
   return (
-    <footer className="bg-JonesCo-Lighting-Red-50">
+    <footer className="bg-JonesCo-Blue-50">
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           {navigation.map((item) => (
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-xs leading-5 text-gray-500">
-            &copy; 2024 JonesCo Lighting Installers, LLC. All rights reserved.
+            &copy; 2024 JonesCo Seamless Gutter Systems, LLC. All rights reserved.
           </p>
           <div className="mt-2 flex justify-center space-x-4 text-xs leading-5 text-gray-500">
             <Link href="/privacy" className="hover:text-gray-600">

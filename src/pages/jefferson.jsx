@@ -12,7 +12,7 @@ export default function JeffersonCountyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Lighting Installers || Jefferson County</title>
+        <title>JonesCo Seamless Gutter Systems || Jefferson County</title>
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"

@@ -11,7 +11,7 @@ export default function CallToActionCrazy() {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Lighting Leaking? 
+          Gutters Leaking? 
           <motion.span 
             className="text-JonesCo-Yellow-300 animate-bounce" 
             initial={{ scale: 1 }}
