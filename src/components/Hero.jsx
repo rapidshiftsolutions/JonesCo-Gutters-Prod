@@ -29,7 +29,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div ref={videoRef} className="relative h-screen overflow-hidden">
+    <div ref={videoRef} className="relative h-[110vh] overflow-hidden">
       <iframe
         className="absolute top-0 left-0 w-full h-full"
         src="https://www.youtube.com/embed/sr3fAhxiwzQ?autoplay=1&mute=1&loop=1&playlist=sr3fAhxiwzQ"
@@ -38,14 +38,13 @@ const Hero = () => {
         allow="autoplay; loop; fullscreen"
         loading="lazy"
         style={{
-          top: '0',
-          left: '0',
-          width: '100vw',
-          height: '100vh',
-          objectFit: 'cover',
+          width: '1920px',
+          height: '1080px',
+          transform: 'scale(2)', // Adjust this scale as needed
+          transformOrigin: 'center center',
         }}
       ></iframe>
-      <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Blue-900 md:opacity-80"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Blue-900 opacity-80"></div>
       <div className="relative z-10 flex items-center justify-center h-full pt-8 md:pt-16">
         <zapier-interfaces-page-embed
           page-id="clx4ut3lm000hqp5wgrxt7v2f"
