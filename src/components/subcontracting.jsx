@@ -17,7 +17,7 @@ export default function DeveloperPartnership() {
           <div className="p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-xl font-bold text-JonesCo-Blue-900 mb-2">Expertise & Experience</h3>
             <p className="text-JonesCo-Blue-600">
-            Our track record speaks for itself. We&apos;ve successfully completed numerous gutter projects throughout Eastern Tennessee, consistently exceeding expectations.
+              Our track record speaks for itself. We&apos;ve successfully completed numerous seamless gutter installation and gutter replacement projects throughout Eastern Tennessee, consistently exceeding expectations.
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md">
@@ -35,7 +35,7 @@ export default function DeveloperPartnership() {
           <div className="p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-xl font-bold text-JonesCo-Blue-900 mb-2">Comprehensive Services</h3>
             <p className="text-JonesCo-Blue-600">
-              We offer a complete range of gutter services, from design and installation to maintenance and repair, providing a one-stop solution for your projects.
+              We offer a complete range of gutter services, from design and installation to maintenance and repair, providing a one-stop solution for your projects. Our services include gutter cleaning, gutter guard installation, and rain gutter repair.
             </p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-md">
@@ -47,7 +47,7 @@ export default function DeveloperPartnership() {
           <div className="p-6 bg-white rounded-lg shadow-md">
             <h3 className="text-xl font-bold text-JonesCo-Blue-900 mb-2">Community Focus</h3>
             <p className="text-JonesCo-Blue-600">
-              As a local Eastern Tennessee business, we&apos;re invested in the community and committed to building lasting relationships with our partners.
+              As a local Eastern Tennessee business, we&apos;re invested in the community and committed to building lasting relationships with our partners. We provide reliable gutter services, including custom gutters and gutter protection systems.
             </p>
           </div>
         </div>

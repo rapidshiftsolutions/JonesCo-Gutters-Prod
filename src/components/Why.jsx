@@ -16,8 +16,8 @@ export default function GutterMaintenanceCTA() {
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
           <ExclamationTriangleIcon className="h-12 w-12 text-yellow-400 mx-auto mb-4 animate-bounce" />
-          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Why Clean Your Gutters?</h2>
-          <p className="mt-4 text-lg leading-8">Regular gutter maintenance prevents costly damage and keeps your home safe. Here’s why it matters:</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">Why Clean Your Gutters?</h2>
+          <p className="mt-4 text-base sm:text-lg md:text-xl leading-8">Regular gutter maintenance prevents costly damage and keeps your home safe. Here’s why it matters:</p>
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -29,8 +29,8 @@ export default function GutterMaintenanceCTA() {
               transition={{ duration: 0.3 }}
             >
               <fact.icon className="h-10 w-10 text-yellow-400 mb-4" />
-              <h3 className="text-xl font-bold mb-2">{fact.title}</h3>
-              <p className="text-center">{fact.description}</p>
+              <h3 className="text-lg sm:text-xl font-bold mb-2">{fact.title}</h3>
+              <p className="text-sm sm:text-base text-center">{fact.description}</p>
             </motion.div>
           ))}
         </div>
@@ -38,7 +38,7 @@ export default function GutterMaintenanceCTA() {
         <div className="mt-12 text-center">
           <motion.a
             href="/contact"
-            className="inline-flex items-center justify-center rounded-md bg-white px-8 py-3 text-lg font-medium text-JonesCo-Blue-900 hover:bg-yellow-600"
+            className="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 sm:px-8 sm:py-3 text-base sm:text-lg font-medium text-JonesCo-Blue-900 hover:bg-yellow-600"
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
