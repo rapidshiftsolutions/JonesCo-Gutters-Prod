@@ -11,12 +11,7 @@ import ServiceLocations from '@/components/ServiceLocationsCity'
 import WhyJonesCo from '@/components/Value'
 import John from '@/components/Why'
 import Subcontracting from '@/components/subcontracting'
-
-import  Bot  from '@/components/zapier'
-
-
-
-import Banner from '@/components/banner'
+import Bot from '@/components/zapier'
 
 export default function Home() {
   return (
@@ -27,33 +22,34 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Expert Installations for Lasting Home Protection."
+          content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Seamless Gutter Systems is the trusted choice in Eastern Tennessee."
         />
-
+        <meta name="keywords" content="Seamless Gutter Installation, Gutter Replacement, Gutter Cleaning, Gutter Guards Installation, Custom Gutter Solutions, Downspout Installation, Eastern Tennessee, Newport, Dandridge, Morristown, Greeneville, Sevierville, Johnson City, Knoxville, Maryville" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="JonesCo Seamless Gutter Systems || Home" />
+        <meta property="og:description" content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Seamless Gutter Systems is the trusted choice in Eastern Tennessee." />
+        <meta property="og:url" content="https://jonescogutters.com/" />
+        <meta property="og:type" content="website" />
       </Head>
       <Header />
 
       <main className="-z-50">
-
-        <Bot />
         
+        <Bot />
         <Hero />
         <WhyJonesCo />
         <CTAA />
         <OurServices />
-
         <CTAB />
         <ServiceLocations />
         <CTAC />
         <Subcontracting />
         <CTAA />
-
         <John />
         <CTAD />
 
-
-
       </main>
+
       <Footer />
     </>
   )
