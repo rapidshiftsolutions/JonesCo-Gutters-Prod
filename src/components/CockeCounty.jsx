@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const CockeCounty = () => {
   return (
@@ -7,16 +8,22 @@ const CockeCounty = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center lg:text-center">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-200">
-            Serving Cocke County, TN with Pride
+            Serving Cocke County, TN
           </h2>
           <p className="mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-white">
-            Protecting Homes in the Heart of the Smokies
+            Gutter Experts in the Smokies
           </p>
         </div>
 
         <div className="mt-10 max-w-2xl mx-auto lg:max-w-4xl">
           <div className="mt-10 lg:mt-16 flex justify-center">
-            <img src="/images/cocke-county-landmark.jpg" alt="Cocke County Landmark" className="rounded-lg shadow-lg object-cover" style={{ width: '100%', height: 'auto' }} />
+            <Image 
+              src="/images/cocke-county-landmark.jpg" 
+              alt="Cocke County Landmark" 
+              className="rounded-lg shadow-lg object-cover" 
+              width={700} 
+              height={400} 
+            />
           </div>
           <div className="text-base sm:text-lg md:text-xl leading-7 text-white mt-10">
             <p>
@@ -42,6 +49,18 @@ const CockeCounty = () => {
             <p className="mt-6 font-bold">
               Contact us today at <Link href="/contact"><a className="underline text-JonesCo-Green-200">jonescogutters.com/contact</a></Link> or call 423-207-3325 to schedule your free, no-obligation quote!
             </p>
+          </div>
+          <div className="text-base sm:text-lg md:text-xl leading-7 text-white mt-10">
+            <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-200">
+              5 Ways to Increase Gutter Lifespan
+            </h3>
+            <ul className="list-disc list-inside mt-4">
+              <li>Regular Cleaning: Keep your gutters free from debris and blockages to ensure proper water flow.</li>
+              <li>Gutter Guards: Install gutter guards to prevent leaves and debris from clogging your system.</li>
+              <li>Professional Inspections: Schedule regular inspections with our team to catch and fix issues early.</li>
+              <li>Proper Installation: Ensure your gutters are installed correctly to prevent leaks and water damage.</li>
+              <li>Maintenance: Perform routine maintenance checks to identify and address any potential problems.</li>
+            </ul>
           </div>
         </div>
       </div>
