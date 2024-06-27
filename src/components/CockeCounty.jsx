@@ -54,13 +54,28 @@ const CockeCounty = () => {
             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-200">
               5 Ways to Increase Gutter Lifespan
             </h3>
-            <ul className="list-disc list-inside mt-4">
-              <li>Regular Cleaning: Keep your gutters free from debris and blockages to ensure proper water flow.</li>
-              <li>Gutter Guards: Install gutter guards to prevent leaves and debris from clogging your system.</li>
-              <li>Professional Inspections: Schedule regular inspections with our team to catch and fix issues early.</li>
-              <li>Proper Installation: Ensure your gutters are installed correctly to prevent leaks and water damage.</li>
-              <li>Maintenance: Perform routine maintenance checks to identify and address any potential problems.</li>
-            </ul>
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
+              <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
+                <h4 className="text-lg font-bold text-JonesCo-Green-200">1. Regular Cleaning</h4>
+                <p className="mt-2 text-white">Keep your gutters free from debris and blockages to ensure proper water flow. Schedule regular cleanings to prevent buildup that can cause damage.</p>
+              </div>
+              <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
+                <h4 className="text-lg font-bold text-JonesCo-Green-200">2. Gutter Guards</h4>
+                <p className="mt-2 text-white">Install gutter guards to prevent leaves and debris from clogging your system. This helps reduce maintenance and prolongs the life of your gutters.</p>
+              </div>
+              <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
+                <h4 className="text-lg font-bold text-JonesCo-Green-200">3. Professional Inspections</h4>
+                <p className="mt-2 text-white">Schedule regular inspections with our team to catch and fix issues early. Professional assessments ensure your gutters are in optimal condition.</p>
+              </div>
+              <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
+                <h4 className="text-lg font-bold text-JonesCo-Green-200">4. Proper Installation</h4>
+                <p className="mt-2 text-white">Ensure your gutters are installed correctly to prevent leaks and water damage. Proper installation is key to a long-lasting gutter system.</p>
+              </div>
+              <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
+                <h4 className="text-lg font-bold text-JonesCo-Green-200">5. Routine Maintenance</h4>
+                <p className="mt-2 text-white">Perform routine maintenance checks to identify and address any potential problems. Regular upkeep helps extend the lifespan of your gutters.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
