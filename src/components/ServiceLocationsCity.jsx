@@ -64,7 +64,7 @@ export default function ServiceAreas() {
     <div className="bg-white py-16 sm:py-24 text-JonesCo-Blue-900">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-200">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-800">
             Our Service Areas in Eastern Tennessee
           </h2>
           <p className="mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black tracking-tight">
@@ -94,7 +94,7 @@ export default function ServiceAreas() {
                   <p className="text-base sm:text-lg md:text-xl leading-7">
                     {county.description}
                   </p>
-                  <ul className="list-disc pl-5 mt-4">
+                  <ul className="list-disc pl-5 mt-4 text-base sm:text-lg md:text-xl">
                     {county.cities.map((city) => (
                       <li key={city} className="text-gray-600">{city}</li>
                     ))}

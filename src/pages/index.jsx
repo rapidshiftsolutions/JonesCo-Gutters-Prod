@@ -38,11 +38,8 @@ export default function Home() {
         <Bot />
         <Hero />
         <WhyJonesCo />
-        <CTAA />
         <OurServices />
-        <CTAB />
         <ServiceLocations />
-        <CTAC />
         <Subcontracting />
         <CTAA />
         <John />
