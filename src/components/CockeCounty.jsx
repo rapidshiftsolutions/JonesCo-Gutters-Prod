@@ -52,28 +52,32 @@ const CockeCounty = () => {
           </div>
           <div className="text-base sm:text-lg md:text-xl leading-7 text-white mt-10">
             <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-200">
-              5 Ways to Increase Gutter Lifespan
+              6 Ways to Increase Gutter Lifespan
             </h3>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
-                <h4 className="text-lg font-bold text-JonesCo-Green-200">1. Regular Cleaning</h4>
-                <p className="mt-2 text-white">Keep your gutters free from debris and blockages to ensure proper water flow. Schedule regular cleanings to prevent buildup that can cause damage.</p>
+                <h4 className="text-lg font-bold text-white">1. Regular Cleaning</h4>
+                <p className="mt-2 text-white">Keep your gutters free from debris and blockages to ensure proper water flow. Schedule regular <Link href="/gutter-cleaning"><a className="underline text-JonesCo-Green-200">gutter cleanings</a></Link> to prevent buildup that can cause damage.</p>
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
-                <h4 className="text-lg font-bold text-JonesCo-Green-200">2. Gutter Guards</h4>
-                <p className="mt-2 text-white">Install gutter guards to prevent leaves and debris from clogging your system. This helps reduce maintenance and prolongs the life of your gutters.</p>
+                <h4 className="text-lg font-bold text-white">2. Gutter Guards</h4>
+                <p className="mt-2 text-white">Install <Link href="/gutter-guards"><a className="underline text-JonesCo-Green-200">gutter guards</a></Link> to prevent leaves and debris from clogging your system. This helps reduce maintenance and prolongs the life of your gutters.</p>
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
-                <h4 className="text-lg font-bold text-JonesCo-Green-200">3. Professional Inspections</h4>
+                <h4 className="text-lg font-bold text-white">3. Professional Inspections</h4>
                 <p className="mt-2 text-white">Schedule regular inspections with our team to catch and fix issues early. Professional assessments ensure your gutters are in optimal condition.</p>
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
-                <h4 className="text-lg font-bold text-JonesCo-Green-200">4. Proper Installation</h4>
-                <p className="mt-2 text-white">Ensure your gutters are installed correctly to prevent leaks and water damage. Proper installation is key to a long-lasting gutter system.</p>
+                <h4 className="text-lg font-bold text-white">4. Proper Installation</h4>
+                <p className="mt-2 text-white">Ensure your gutters are installed correctly to prevent leaks and water damage. Proper <Link href="/seamless-gutter-installation"><a className="underline text-JonesCo-Green-200">gutter installation</a></Link> is key to a long-lasting gutter system.</p>
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
-                <h4 className="text-lg font-bold text-JonesCo-Green-200">5. Routine Maintenance</h4>
-                <p className="mt-2 text-white">Perform routine maintenance checks to identify and address any potential problems. Regular upkeep helps extend the lifespan of your gutters.</p>
+                <h4 className="text-lg font-bold text-white">5. Routine Maintenance</h4>
+                <p className="mt-2 text-white">Perform routine <Link href="/services"><a className="underline text-JonesCo-Green-200">gutter maintenance</a></Link> checks to identify and address any potential problems. Regular upkeep helps extend the lifespan of your gutters.</p>
+              </div>
+              <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
+                <h4 className="text-lg font-bold text-white">6. Timely Repairs</h4>
+                <p className="mt-2 text-white">Address any damages or issues promptly with our <Link href="/gutter-replacement"><a className="underline text-JonesCo-Green-200">rain gutter repair</a></Link> services to prevent further deterioration and ensure your gutters function properly.</p>
               </div>
             </div>
           </div>
