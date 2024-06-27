@@ -2,12 +2,12 @@ import { CheckCircleIcon, ExclamationTriangleIcon } from '@heroicons/react/24/ou
 import { motion } from 'framer-motion';
 
 const facts = [
-  { id: 1, icon: CheckCircleIcon, title: 'Prevent Water Damage', description: 'Clean gutters redirect water away from your home.' },
-  { id: 2, icon: CheckCircleIcon, title: 'Reduce Pest Infestation', description: 'Avoid attracting insects and rodents with clear gutters.' },
-  { id: 3, icon: CheckCircleIcon, title: 'Stop Mold Growth', description: 'Reduce the risk of mold and mildew with proper drainage.' },
-  { id: 4, icon: CheckCircleIcon, title: 'Maintain Curb Appeal', description: 'Keep your home looking its best with well-maintained gutters.' },
-  { id: 5, icon: CheckCircleIcon, title: 'Eliminate Fire Hazards', description: 'Remove debris to reduce fire risk during dry seasons.' },
-  { id: 6, icon: CheckCircleIcon, title: 'Extend Gutter Life', description: 'Regular cleaning extends the lifespan of your gutter system.' },
+  { id: 1, icon: CheckCircleIcon, title: 'Prevent Water Damage', description: 'Clean gutters redirect water away from your home, protecting it from water damage. Learn more about our Gutter Cleaning Services.', link: '/gutter-cleaning' },
+  { id: 2, icon: CheckCircleIcon, title: 'Reduce Pest Infestation', description: 'Avoid attracting insects and rodents with clear gutters. Discover our Gutter Guard Installation.', link: '/gutter-guards' },
+  { id: 3, icon: CheckCircleIcon, title: 'Stop Mold Growth', description: 'Reduce the risk of mold and mildew with proper drainage. Check out our Seamless Gutter Installation.', link: '/seamless-gutter-installation' },
+  { id: 4, icon: CheckCircleIcon, title: 'Maintain Curb Appeal', description: 'Keep your home looking its best with well-maintained gutters. Explore our Gutter Replacement Services.', link: '/gutter-replacement' },
+  { id: 5, icon: CheckCircleIcon, title: 'Eliminate Fire Hazards', description: 'Remove debris to reduce fire risk during dry seasons. See our comprehensive Gutter Maintenance services.', link: '/services' },
+  { id: 6, icon: CheckCircleIcon, title: 'Extend Gutter Life', description: 'Regular cleaning extends the lifespan of your gutter system. Book a free estimate today.', link: '/contact' },
 ];
 
 export default function GutterMaintenanceCTA() {
@@ -31,6 +31,9 @@ export default function GutterMaintenanceCTA() {
               <fact.icon className="h-10 w-10 text-yellow-400 mb-4" />
               <h3 className="text-lg sm:text-xl font-bold mb-2">{fact.title}</h3>
               <p className="text-sm sm:text-base text-center">{fact.description}</p>
+              <Link href={fact.link}>
+                <a className="mt-2 text-JonesCo-Blue-500 hover:text-JonesCo-Blue-700 underline">Learn More</a>
+              </Link>
             </motion.div>
           ))}
         </div>

@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { CheckIcon } from '@heroicons/react/20/solid';
+import React, { useState } from 'react';
+import { CheckCircleIcon, ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid';
+import Link from 'next/link';
 
 const counties = [
   {
@@ -53,52 +54,71 @@ const counties = [
 ];
 
 export default function ServiceAreas() {
-  const [visibleCounties, setVisibleCounties] = useState([]);
-  const intervalRef = useRef(null);
+  const [openCounty, setOpenCounty] = useState(null);
 
-  useEffect(() => {
-    if (visibleCounties.length < counties.length) {
-      intervalRef.current = setInterval(() => {
-        setVisibleCounties(prevCounties => [...prevCounties, prevCounties.length]);
-      }, 500);
-    }
-    return () => clearInterval(intervalRef.current);
-  }, [visibleCounties]);
+  const toggleCounty = (index) => {
+    setOpenCounty(openCounty === index ? null : index);
+  };
 
   return (
-    <div className="bg-JonesCo-Green-700 py-12 sm:py-32 text-white">
+    <div className="bg-white py-16 sm:py-24 text-JonesCo-Blue-900">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          <div>
-            <h2 className="text-base font-semibold leading-7 text-JonesCo-Blue-200">Eastern Tennessee Focused,</h2>
-            <p className="mt-2 text-4xl font-black tracking-tight sm:text-5xl">Service Driven</p>
-            <p className="mt-6 text-base leading-7 text-gray-300">
-              At JonesCo Seamless Gutter Systems, we&apos;re proud to extend our bespoke gutter services to a broadening range of counties in Eastern Tennessee. Each area we serve benefits from our commitment to excellence, attention to detail, and the personalized touch that only JonesCo can provide. Discover our dedicated service in your city.
-            </p>
-          </div>
-          <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 sm:grid-cols-2 lg:gap-y-16">
-            {counties.map((county, index) => (
-              <div
-                key={county.name}
-                className={`relative pl-9 transition-opacity duration-1000 ${
-                  visibleCounties.includes(index) ? 'opacity-100' : 'opacity-30'
-                }`}
+        <div className="text-center">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-200">
+            Our Service Areas in Eastern Tennessee
+          </h2>
+          <p className="mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black tracking-tight">
+            Gutter Solutions for Your Home
+          </p>
+          <p className="mt-6 text-base leading-7 text-gray-700">
+            At JonesCo Seamless Gutter Systems, we proudly offer our services across multiple counties in Eastern Tennessee. Our comprehensive gutter solutions ensure your home is protected. Explore our service areas below and learn how we can help you.
+          </p>
+        </div>
+
+        <div className="mt-12 grid grid-cols-1 gap-8">
+          {counties.map((county, index) => (
+            <div key={county.name} className="border rounded-lg shadow-lg">
+              <button
+                onClick={() => toggleCounty(index)}
+                className="flex justify-between items-center w-full p-6 text-left text-lg font-bold bg-JonesCo-Blue-900 text-white hover:bg-JonesCo-Blue-700 transition-colors duration-300"
               >
-                <dt className="text-gray-100 font-black">
-                  <a href={county.link} className="flex items-center">
-                    <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-JonesCo-Blue-300" aria-hidden="true" />
-                    {county.name}
-                  </a>
-                </dt>
-                <dd className="mt-2 text-gray-300">{county.description}</dd>
-                <ul className="list-disc pl-5 mt-2 text-gray-300 transition-opacity duration-300 group-hover:opacity-100">
-                  {county.cities.map((city) => (
-                    <li key={city}>{city}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </dl>
+                <span>{county.name}</span>
+                {openCounty === index ? (
+                  <ChevronUpIcon className="h-6 w-6" />
+                ) : (
+                  <ChevronDownIcon className="h-6 w-6" />
+                )}
+              </button>
+              {openCounty === index && (
+                <div className="p-6 bg-white text-JonesCo-Blue-900">
+                  <p className="text-base sm:text-lg md:text-xl leading-7">
+                    {county.description}
+                  </p>
+                  <ul className="list-disc pl-5 mt-4">
+                    {county.cities.map((city) => (
+                      <li key={city} className="text-gray-600">{city}</li>
+                    ))}
+                  </ul>
+                  <div className="mt-6 text-base sm:text-lg md:text-xl leading-7 text-gray-700">
+                    <p>Our comprehensive services in {county.name.split(',')[0]} include:</p>
+                    <ul className="list-disc pl-5 mt-2">
+                      <li><Link href="/gutter-cleaning"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Expert Gutter Cleaning Services</a></Link></li>
+                      <li><Link href="/gutter-guards"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Durable Gutter Guard Installation</a></Link></li>
+                      <li><Link href="/gutter-replacement"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Seamless Gutter Replacement</a></Link></li>
+                      <li><Link href="/services"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Rain Gutter Repair</a></Link></li>
+                      <li><Link href="/services"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Gutter Maintenance</a></Link></li>
+                    </ul>
+                    <p className="mt-4">
+                      Join the many satisfied homeowners in {county.name.split(',')[0]} who trust JonesCo for their gutter needs. Discover the JonesCo difference today and see why we are the preferred gutter professionals in {county.name.split(',')[0]}.
+                    </p>
+                    <p className="mt-4 font-bold">
+                      Contact us today at <Link href="/contact"><a className="underline">jonescogutters.com/contact</a></Link> or call 423-207-3325 to schedule your free, no-obligation quote!
+                    </p>
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </div>
