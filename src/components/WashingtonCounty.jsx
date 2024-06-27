@@ -69,7 +69,7 @@ const WashingtonCounty = () => {
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
                 <h4 className="text-lg font-bold text-white">4. Enhances Curb Appeal</h4>
-                <p className="mt-2 text-white">A well-maintained gutter system improves your home's appearance. Learn more about our <Link href="/services"><a className="underline text-JonesCo-Green-200">gutter maintenance</a></Link> services.</p>
+                <p className="mt-2 text-white">A well-maintained gutter system improves your home&apos;s appearance. Learn more about our <Link href="/services"><a className="underline text-JonesCo-Green-200">gutter maintenance</a></Link> services.</p>
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
                 <h4 className="text-lg font-bold text-white">5. Increases Gutter Lifespan</h4>

@@ -69,7 +69,7 @@ const GreeneCounty = () => {
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
                 <h4 className="text-lg font-bold text-white">4. Enhanced Aesthetics</h4>
-                <p className="mt-2 text-white">Seamless gutters offer a cleaner, more attractive appearance that can enhance your home's curb appeal.</p>
+                <p className="mt-2 text-white">Seamless gutters offer a cleaner, more attractive appearance that can enhance your home&apos;s curb appeal.</p>
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
                 <h4 className="text-lg font-bold text-white">5. Durability</h4>

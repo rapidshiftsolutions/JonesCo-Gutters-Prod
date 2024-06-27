@@ -57,7 +57,7 @@ const BlountCounty = () => {
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
                 <h4 className="text-lg font-bold text-white">1. Prevent Water Damage</h4>
-                <p className="mt-2 text-white">Regular <Link href="/gutter-cleaning"><a className="underline text-JonesCo-Green-200">gutter cleaning</a></Link> helps to prevent water damage to your home's foundation and roof.</p>
+                <p className="mt-2 text-white">Regular <Link href="/gutter-cleaning"><a className="underline text-JonesCo-Green-200">gutter cleaning</a></Link> helps to prevent water damage to your home&apos;s foundation and roof.</p>
               </div>
               <div className="bg-JonesCo-Blue-700 p-6 rounded-lg shadow-lg">
                 <h4 className="text-lg font-bold text-white">2. Avoid Pest Infestations</h4>

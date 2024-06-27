@@ -1,5 +1,6 @@
 import { CheckCircleIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
+import Link from 'next/link'; // Add this import
 
 const facts = [
   { id: 1, icon: CheckCircleIcon, title: 'Prevent Water Damage', description: 'Clean gutters redirect water away from your home, protecting it from water damage. Learn more about our Gutter Cleaning Services.', link: '/gutter-cleaning' },
