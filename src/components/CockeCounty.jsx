@@ -23,20 +23,21 @@ const CockeCounty = () => {
             </p>
             <p className="mt-6">Our comprehensive services include:</p>
             <ul className="list-disc list-inside mt-4">
-              <li>Professional Gutter Cleaning Services</li>
-              <li>Top-Quality Gutter Guard Installation</li>
-              <li>Seamless Gutter Replacement</li>
-              <li>Rain Gutter Repair</li>
-              <li>Gutter Maintenance</li>
+              <li><a href="/gutter-cleaning" className="underline text-JonesCo-Green-200">Professional Gutter Cleaning Services</a></li>
+              <li><a href="/gutter-guards" className="underline text-JonesCo-Green-200">Top-Quality Gutter Guard Installation</a></li>
+              <li><a href="/gutter-replacement" className="underline text-JonesCo-Green-200">Seamless Gutter Replacement</a></li>
+              <li><a href="/rain-gutter-repair" className="underline text-JonesCo-Green-200">Rain Gutter Repair</a></li>
+              <li><a href="/gutter-maintenance" className="underline text-JonesCo-Green-200">Gutter Maintenance</a></li>
+              <li><a href="/custom-gutters" className="underline text-JonesCo-Green-200">Custom Gutters</a></li>
             </ul>
             <p className="mt-6">
-              Join the many satisfied homeowners in Cocke County who trust JonesCo for their gutter needs. We combine local expertise with the highest standards of service to deliver results you can count on. Whether you need residential gutter services or commercial gutter services, we have you covered.
+              Join the many satisfied homeowners in Cocke County who trust JonesCo for their gutter needs. We combine local expertise with the highest standards of service to deliver results you can count on. Whether you need <a href="/residential-gutter-services" className="underline text-JonesCo-Green-200">residential gutter services</a> or <a href="/commercial-gutter-services" className="underline text-JonesCo-Green-200">commercial gutter services</a>, we have you covered.
             </p>
             <p className="mt-6">
-              Discover the JonesCo difference today and see why we are the go-to gutter experts in Cocke County. We offer reliable gutter services, custom gutters, and affordable gutter services to ensure your property is protected.
+              Discover the JonesCo difference today and see why we are the go-to gutter experts in Cocke County. We offer <a href="/affordable-gutter-services" className="underline text-JonesCo-Green-200">affordable gutter services</a>, <a href="/high-quality-gutters" className="underline text-JonesCo-Green-200">high-quality gutters</a>, and <a href="/reliable-gutter-services" className="underline text-JonesCo-Green-200">reliable gutter services</a> to ensure your property is protected.
             </p>
             <p className="mt-6 font-bold">
-              Contact us today at <a href="https://jonescogutters.com/contact" className="underline">jonescogutters.com/contact</a> or call 423-207-3325 to schedule your free, no-obligation quote!
+              Contact us today at <a href="/contact" className="underline text-JonesCo-Green-200">jonescogutters.com/contact</a> or call 423-207-3325 to schedule your free, no-obligation quote!
             </p>
           </div>
           <div className="mt-10 lg:mt-16 flex justify-center">
