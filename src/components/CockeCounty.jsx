@@ -15,7 +15,10 @@ const CockeCounty = () => {
         </div>
 
         <div className="mt-10 max-w-2xl mx-auto lg:max-w-4xl">
-          <div className="text-base sm:text-lg md:text-xl leading-7 text-white">
+          <div className="mt-10 lg:mt-16 flex justify-center">
+            <img src="/images/cocke-county-landmark.jpg" alt="Cocke County Landmark" className="rounded-lg shadow-lg object-cover" style={{ width: '100%', height: 'auto' }} />
+          </div>
+          <div className="text-base sm:text-lg md:text-xl leading-7 text-white mt-10">
             <p>
               Welcome to JonesCo Seamless Gutter Systems, your trusted partner for gutter solutions in Cocke County, TN. Nestled in the stunning Smoky Mountains, Cocke County is renowned for its natural beauty, from the tranquil trails of Cosby to the vibrant waters of the Pigeon River.
             </p>
@@ -39,9 +42,6 @@ const CockeCounty = () => {
             <p className="mt-6 font-bold">
               Contact us today at <Link href="/contact"><a className="underline text-JonesCo-Green-200">jonescogutters.com/contact</a></Link> or call 423-207-3325 to schedule your free, no-obligation quote!
             </p>
-          </div>
-          <div className="mt-10 lg:mt-16 flex justify-center">
-            <img src="/images/cocke-county-landmark.jpg" alt="Cocke County Landmark" className="rounded-lg shadow-lg object-cover" style={{ width: '100%', height: 'auto' }} />
           </div>
         </div>
       </div>
