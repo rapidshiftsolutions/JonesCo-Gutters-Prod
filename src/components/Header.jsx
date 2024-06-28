@@ -47,8 +47,8 @@ const styles = [
 
 
 const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact Sales', href: '#', icon: PhoneIcon },
+  { name: 'Facebook', href: 'https://www.facebook.com/people/JonesCo-Seamless-Gutter-Systems/61558126626290/', icon: PlayCircleIcon },
+  { name: 'Email', href: 'mailto:hey@jonescogutters.com', icon: PhoneIcon },
 ];
 
 function classNames(...classes) {
