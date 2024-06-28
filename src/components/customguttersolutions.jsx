@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 import { CheckCircleIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 
 const benefits = [
-  { id: 1, icon: CheckCircleIcon, title: 'Prevent Blockages', description: 'Gutter guards keep leaves and debris out, preventing blockages. Learn more about our Gutter Guard Installation Services.', link: '/gutter-guards' },
-  { id: 2, icon: CheckCircleIcon, title: 'Reduce Maintenance', description: 'Spend less time cleaning gutters and more time enjoying your home. Discover our Gutter Cleaning Services.', link: '/gutter-cleaning' },
-  { id: 3, icon: CheckCircleIcon, title: 'Prevent Water Damage', description: 'Ensure proper water flow and prevent overflow damage. Check out our Seamless Gutter Installation.', link: '/seamless-gutter-installation' },
-  { id: 4, icon: CheckCircleIcon, title: 'Extend Gutter Life', description: 'Protect your gutters from premature wear and tear. Explore our Gutter Replacement Services.', link: '/gutter-replacement' },
-  { id: 5, icon: CheckCircleIcon, title: 'Improve Curb Appeal', description: 'Maintain a clean and attractive exterior with gutter guards. See our Custom Gutter Solutions.', link: '/custom-gutter-solutions' },
-  { id: 6, icon: CheckCircleIcon, title: 'Pest Prevention', description: 'Keep pests and insects out of your gutters. Book a free estimate today.', link: '/contact' },
+  { id: 1, icon: CheckCircleIcon, title: 'Tailored Designs', description: 'Custom gutters are designed to fit your home perfectly, ensuring optimal functionality and aesthetics. Learn more about our Custom Gutter Solutions.', link: '/custom-gutter-solutions' },
+  { id: 2, icon: CheckCircleIcon, title: 'Enhanced Curb Appeal', description: 'Our custom gutters enhance the look of your home, adding value and beauty. Discover our Seamless Gutter Installation.', link: '/seamless-gutter-installation' },
+  { id: 3, icon: CheckCircleIcon, title: 'Durability', description: 'We use high-quality materials to ensure your custom gutters last longer. Check out our Gutter Replacement Services.', link: '/gutter-replacement' },
+  { id: 4, icon: CheckCircleIcon, title: 'Optimal Performance', description: 'Custom gutters are tailored to handle your specific drainage needs, preventing water damage. Explore our Gutter Cleaning Services.', link: '/gutter-cleaning' },
+  { id: 5, icon: CheckCircleIcon, title: 'Increase Home Value', description: 'Investing in custom gutters can increase the value of your home. See our comprehensive Gutter Maintenance services.', link: '/services' },
+  { id: 6, icon: CheckCircleIcon, title: 'Expert Installation', description: 'Our experienced team ensures your custom gutters are installed correctly. Book a free estimate today.', link: '/contact' },
 ];
 
-function GutterGuards() {
+function CustomGutterSolutions() {
   return (
     <div>
       {/* Section 1 - Dark Blue Background */}
@@ -20,8 +20,8 @@ function GutterGuards() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <ExclamationTriangleIcon className="h-12 w-12 text-yellow-400 mx-auto mb-4 animate-bounce" />
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">Why Install Gutter Guards?</h2>
-            <p className="mt-4 text-base sm:text-lg md:text-xl leading-8">Gutter guards provide numerous benefits, from preventing blockages to extending the lifespan of your gutter system. Here’s why you need them:</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight">Why Custom Gutters?</h2>
+            <p className="mt-4 text-base sm:text-lg md:text-xl leading-8">Custom gutter solutions offer unique benefits that standard gutters cannot match. Here’s why it matters:</p>
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -49,7 +49,7 @@ function GutterGuards() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black leading-tight text-JonesCo-Green-100">
-              Gutter Guard Installation in 4 Steps
+              Custom Gutter Solutions in 4 Steps
             </h2>
           </div>
 
@@ -57,25 +57,25 @@ function GutterGuards() {
             <div className="bg-JonesCo-Green-950 p-6 rounded-lg shadow-lg">
               <h4 className="text-lg sm:text-xl font-bold mb-2 text-JonesCo-Orange-300">1. Consultation</h4>
               <p className="text-sm sm:text-base text-gray-300">
-                We start with a detailed consultation to understand your needs and recommend the best gutter guard solutions.<br></br> <Link href="/contact" legacyBehavior><a className="underline text-JonesCo-Green-300">Contact Us</a></Link>
+                Our team consults with you to understand your needs and preferences.<br></br> <Link href="/contact" legacyBehavior><a className="underline text-JonesCo-Green-300">Contact Us</a></Link>
               </p>
             </div>
             <div className="bg-JonesCo-Green-950 p-6 rounded-lg shadow-lg">
-              <h4 className="text-lg sm:text-xl font-bold mb-2 text-JonesCo-Orange-300">2. Customization</h4>
+              <h4 className="text-lg sm:text-xl font-bold mb-2 text-JonesCo-Orange-300">2. Design</h4>
               <p className="text-sm sm:text-base text-gray-300">
-                We design and customize gutter guards that fit your gutters perfectly, ensuring optimal performance.<br></br> <Link href="/custom-gutter-solutions" legacyBehavior><a className="underline text-JonesCo-Green-300">Learn More</a></Link>
+                We design custom gutters that fit your home’s specifications perfectly.<br></br> <Link href="/custom-gutter-solutions" legacyBehavior><a className="underline text-JonesCo-Green-300">Learn More</a></Link>
               </p>
             </div>
             <div className="bg-JonesCo-Green-950 p-6 rounded-lg shadow-lg">
               <h4 className="text-lg sm:text-xl font-bold mb-2 text-JonesCo-Orange-300">3. Installation</h4>
               <p className="text-sm sm:text-base text-gray-300">
-                Our professional team installs your gutter guards with precision and care. <br></br><Link href="/seamless-gutter-installation" legacyBehavior><a className="underline text-JonesCo-Green-300">Explore Seamless Gutter Installation</a></Link>
+                Our expert team installs your custom gutters with precision and care. <br></br><Link href="/seamless-gutter-installation" legacyBehavior><a className="underline text-JonesCo-Green-300">Explore Seamless Gutter Installation</a></Link>
               </p>
             </div>
             <div className="bg-JonesCo-Green-950 p-6 rounded-lg shadow-lg">
-              <h4 className="text-lg sm:text-xl font-bold mb-2 text-JonesCo-Orange-300">4. Final Inspection</h4>
+              <h4 className="text-lg sm:text-xl font-bold mb-2 text-JonesCo-Orange-300">4. Maintenance</h4>
               <p className="text-sm sm:text-base text-gray-300">
-                After installation, we perform a final inspection to ensure everything is perfect and provide a detailed report. <br></br><Link href="/services" legacyBehavior><a className="underline text-JonesCo-Green-300">See All Services</a></Link>
+                We provide ongoing maintenance to ensure your custom gutters remain in top condition. <br></br><Link href="/services" legacyBehavior><a className="underline text-JonesCo-Green-300">See All Services</a></Link>
               </p>
             </div>
           </div>
@@ -96,4 +96,4 @@ function GutterGuards() {
   );
 }
 
-export default GutterGuards;
+export default CustomGutterSolutions;

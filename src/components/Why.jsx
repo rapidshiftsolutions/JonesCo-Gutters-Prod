@@ -1,6 +1,5 @@
 import { CheckCircleIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
-import Link from 'next/link'; // Add this import
 
 const facts = [
   { id: 1, icon: CheckCircleIcon, title: 'Prevent Water Damage', description: 'Clean gutters redirect water away from your home, protecting it from water damage. Learn more about our Gutter Cleaning Services.', link: '/gutter-cleaning' },
@@ -32,9 +31,7 @@ export default function GutterMaintenanceCTA() {
               <fact.icon className="h-10 w-10 text-yellow-400 mb-4" />
               <h3 className="text-lg sm:text-xl font-bold mb-2">{fact.title}</h3>
               <p className="text-sm sm:text-base text-center">{fact.description}</p>
-              <Link href={fact.link}>
-                <a className="mt-2 text-JonesCo-Blue-500 hover:text-JonesCo-Blue-700 underline">Learn More</a>
-              </Link>
+              <a href={fact.link} className="mt-2 text-JonesCo-Blue-500 hover:text-JonesCo-Blue-700 underline">Learn More</a>
             </motion.div>
           ))}
         </div>

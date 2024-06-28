@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { CheckCircleIcon, ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid';
-import Link from 'next/link';
 
 const counties = [
   {
@@ -61,11 +60,11 @@ export default function ServiceAreas() {
   };
 
   return (
-    <div className="bg-white py-16 sm:py-24 text-JonesCo-Blue-900">
+    <div className="bg-JonesCo-Blue-50 py-16 sm:py-24 text-JonesCo-Blue-900">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-800">
-            Our Service Areas in Eastern Tennessee
+            Our Service Areas in Eastern TN
           </h2>
           <p className="mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black tracking-tight">
             Gutter Solutions for Your Home
@@ -102,17 +101,17 @@ export default function ServiceAreas() {
                   <div className="mt-6 text-base sm:text-lg md:text-xl leading-7 text-gray-700">
                     <p>Our comprehensive services in {county.name.split(',')[0]} include:</p>
                     <ul className="list-disc pl-5 mt-2">
-                      <li><Link href="/gutter-cleaning"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Expert Gutter Cleaning Services</a></Link></li>
-                      <li><Link href="/gutter-guards"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Durable Gutter Guard Installation</a></Link></li>
-                      <li><Link href="/gutter-replacement"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Seamless Gutter Replacement</a></Link></li>
-                      <li><Link href="/services"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Rain Gutter Repair</a></Link></li>
-                      <li><Link href="/services"><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Gutter Maintenance</a></Link></li>
+                      <li><a href="/gutter-cleaning" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Expert Gutter Cleaning Services</a></li>
+                      <li><a href="/gutter-guards" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Durable Gutter Guard Installation</a></li>
+                      <li><a href="/gutter-replacement" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Seamless Gutter Replacement</a></li>
+                      <li><a href="/services" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Rain Gutter Repair</a></li>
+                      <li><a href="/services" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Gutter Maintenance</a></li>
                     </ul>
                     <p className="mt-4">
                       Join the many satisfied homeowners in {county.name.split(',')[0]} who trust JonesCo for their gutter needs. Discover the JonesCo difference today and see why we are the preferred gutter professionals in {county.name.split(',')[0]}.
                     </p>
                     <p className="mt-4 font-bold">
-                      Contact us today at <Link href="/contact"><a className="underline">jonescogutters.com/contact</a></Link> or call 423-207-3325 to schedule your free, no-obligation quote!
+                      Contact us today at <a href="/contact" className="underline">jonescogutters.com/contact</a> or call 423-207-3325 to schedule your free, no-obligation quote!
                     </p>
                   </div>
                 </div>
