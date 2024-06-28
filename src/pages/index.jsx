@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import CTAA from '@/components/CTA-A'
-import CTAB from '@/components/CTA-B'
-import CTAC from '@/components/CTA-C'
 import CTAD from '@/components/CTA-D'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
@@ -11,7 +9,7 @@ import ServiceLocations from '@/components/ServiceLocationsCity'
 import WhyJonesCo from '@/components/Value'
 import John from '@/components/Why'
 import Subcontracting from '@/components/subcontracting'
-import Bot from '@/components/zapier'
+import Reviews from '@/components/reviews'
 
 export default function Home() {
   return (
@@ -35,8 +33,9 @@ export default function Home() {
 
       <main className="-z-50">
         
-        <Bot />
+
         <Hero />
+        <Reviews />
         <WhyJonesCo />
         <OurServices />
         <ServiceLocations />

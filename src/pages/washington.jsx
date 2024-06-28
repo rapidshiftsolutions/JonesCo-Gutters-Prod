@@ -22,7 +22,7 @@ export default function WashingtonCountyPage() {
         <meta property="og:url" content="https://jonescogutters.com/washington" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <WashingtonCounty />

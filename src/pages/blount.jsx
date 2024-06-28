@@ -22,7 +22,7 @@ export default function BlountCountyPage() {
         <meta property="og:url" content="https://jonescogutters.com/blount" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <BlountCounty />

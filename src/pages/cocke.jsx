@@ -24,7 +24,7 @@ export default function CockeCountyPage() {
         <meta property="og:url" content="https://jonescogutters.com/cocke" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <CockeCounty />

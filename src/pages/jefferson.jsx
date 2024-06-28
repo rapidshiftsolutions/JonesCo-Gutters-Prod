@@ -22,7 +22,7 @@ export default function JeffersonCountyPage() {
         <meta property="og:url" content="https://jonescogutters.com/jefferson" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <JeffersonCounty />

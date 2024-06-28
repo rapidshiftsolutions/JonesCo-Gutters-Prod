@@ -16,7 +16,7 @@ export default function Home() {
           content="Expert Installations for Lasting Home Protection."
         />
       </Head>
-      <Banner />
+      
       <Header />
       <main className="">
         <Submission />

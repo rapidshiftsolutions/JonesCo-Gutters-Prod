@@ -24,7 +24,7 @@ export default function GreeneCountyPage() {
         <meta property="og:url" content="https://jonescogutters.com/greene" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <GreeneCounty />

@@ -23,7 +23,7 @@ export default function Home() {
         <meta property="og:url" content="https://jonescogutters.com/why" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <John />

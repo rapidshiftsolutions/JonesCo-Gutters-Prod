@@ -24,7 +24,7 @@ export default function KnoxCountyPage() {
         <meta property="og:url" content="https://jonescogutters.com/knox" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <KnoxCounty />

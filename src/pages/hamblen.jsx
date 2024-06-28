@@ -22,7 +22,7 @@ export default function HamblenCountyPage() {
         <meta property="og:url" content="https://jonescogutters.com/hamblen" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <HamblenCounty />

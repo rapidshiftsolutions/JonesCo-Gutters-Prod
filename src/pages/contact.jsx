@@ -22,11 +22,10 @@ export default function Home() {
         <meta property="og:url" content="https://jonescogutters.com/contact" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main className="-z-50">
         <Hero />
-        <CTAA />
       </main>
       <Footer />
     </>

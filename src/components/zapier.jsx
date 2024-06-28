@@ -14,7 +14,8 @@ const ChatBotEmbed = () => {
 
   return (
     <zapier-interfaces-chatbot-embed
-      is-popup='true'
+    className="z-50"  
+    is-popup='true'
       chatbot-id='clx27frx5001xu14uf83z22bt'
       height='600px'
       width='400px'

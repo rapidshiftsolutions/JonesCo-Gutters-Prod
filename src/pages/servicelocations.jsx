@@ -21,7 +21,7 @@ export default function Home() {
         <meta property="og:url" content="https://jonescogutters.com/servicelocations" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <ServiceLocations />

@@ -22,7 +22,7 @@ export default function SevierCountyPage() {
         <meta property="og:url" content="https://jonescogutters.com/sevier" />
         <meta property="og:type" content="website" />
       </Head>
-      <Banner />
+      
       <Header />
       <main>
         <SevierCounty />
