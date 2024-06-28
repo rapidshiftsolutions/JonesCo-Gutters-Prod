@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Banner from '@/components/banner'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import CTAD from '@/components/CTA-D'
 import John from '@/components/Why'
+import Value from '@/components/Value'
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
       <Header />
       <main>
         <John />
-        <CTAD />
+        <Value />
       </main>
       <Footer />
     </>
