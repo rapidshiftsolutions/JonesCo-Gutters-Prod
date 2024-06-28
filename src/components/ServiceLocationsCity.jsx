@@ -81,7 +81,7 @@ export default function ServiceAreas() {
                 onClick={() => toggleCounty(index)}
                 className="flex justify-between items-center w-full p-6 text-left text-lg font-bold bg-JonesCo-Blue-900 text-white hover:bg-JonesCo-Blue-700 transition-colors duration-300"
               >
-                <span>{county.name}</span>
+                <span><a href={county.link}>{county.name}</a></span>
                 {openCounty === index ? (
                   <ChevronUpIcon className="h-6 w-6" />
                 ) : (
