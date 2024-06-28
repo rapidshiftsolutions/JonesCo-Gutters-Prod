@@ -26,7 +26,7 @@ export default function Home() {
       <Header />
       <main>
         <OurServices />
-        <CTAA />
+
       </main>
       <Footer />
     </>
