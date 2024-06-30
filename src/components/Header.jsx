@@ -46,6 +46,17 @@ const styles = [
 ];
 
 
+const locations = [
+  { name: 'Cocke County', href: '/cocke' },
+  { name: 'Jefferson County', href: '/jefferson' },
+  { name: 'Hamblen County', href: '/hamblen' },
+  { name: 'Greene County', href: '/greene' },
+  { name: 'Sevier County', href: '/sevier' },
+  { name: 'Washington County', href: '/washington' },
+  { name: 'Knox County', href: '/knox' },
+  { name: 'Blount County', href: '/blount' },
+];
+
 const callsToAction = [
   { name: 'Facebook', href: 'https://www.facebook.com/people/JonesCo-Seamless-Gutter-Systems/61558126626290/', icon: PlayCircleIcon },
   { name: 'Email', href: 'mailto:hey@jonescogutters.com', icon: PhoneIcon },
@@ -122,6 +133,54 @@ export default function NavBar() {
               </Popover.Panel>
             </Transition>
           </Popover>
+
+
+          <Popover className="relative">
+            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-JonesCo-Blue-900">
+              Locations
+              <ChevronDownIcon className="h-5 w-5 flex-none text-JonesCo-Blue-400" aria-hidden="true" />
+            </Popover.Button>
+
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-200"
+              enterFrom="opacity-0 translate-y-1"
+              enterTo="opacity-100 translate-y-0"
+              leave="transition ease-in duration-150"
+              leaveFrom="opacity-100 translate-y-0"
+              leaveTo="opacity-0 translate-y-1"
+            >
+              <Popover.Panel className="absolute z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+                <div className="p-4">
+                  {locations.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="-m-3 p-3 flex items-start rounded-lg hover:bg-JonesCo-Blue-50"
+                    >
+                      <div className="ml-4">
+                        <p className="text-base font-medium text-JonesCo-Blue-900">{item.name}</p>
+                        <p className="mt-1 text-sm text-JonesCo-Blue-900">{item.description}</p>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+                
+                <div className="grid grid-cols-2 divide-x divide-JonesCo-Blue-900/5 bg-JonesCo-Blue-50">
+                  {callsToAction.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+              </Popover.Panel>
+            </Transition>
+          </Popover>
+
 
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-JonesCo-Blue-900">
@@ -240,7 +299,7 @@ export default function NavBar() {
             </div>
             <div className="py-6">
               <a
-                href="/contact"
+                href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/login/new?source=share_login"
                 className="block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
               >
                 Log in

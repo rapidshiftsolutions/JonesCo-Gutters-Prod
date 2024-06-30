@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import Banner from '@/components/banner'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import CTAA from '@/components/CTA-B'
 import OurServices from '@/components/gutterinstall'
 
 export default function Home() {
@@ -25,8 +23,9 @@ export default function Home() {
       
       <Header />
       <main>
+
         <OurServices />
-       
+
       </main>
       <Footer />
     </>
