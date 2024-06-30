@@ -284,6 +284,67 @@ export default function NavBar() {
                   </>
                 )}
               </Disclosure>
+
+
+
+              <Disclosure as="div">
+                {({ open }) => (
+                  <>
+                    <Disclosure.Button className="flex w-full justify-between rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100">
+                      Locations
+                      <ChevronDownIcon
+                        className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                        aria-hidden="true"
+                      />
+                    </Disclosure.Button>
+                    <Disclosure.Panel className="mt-2 space-y-2">
+                      {locations.map((item) => (
+                        <Disclosure.Button
+                          key={item.name}
+                          as="a"
+                          href={item.href}
+                          className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
+                        >
+                          {item.name}
+                        </Disclosure.Button>
+                      ))}
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
+
+
+
+
+              <Disclosure as="div">
+                {({ open }) => (
+                  <>
+                    <Disclosure.Button className="flex w-full justify-between rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100">
+                      Styles
+                      <ChevronDownIcon
+                        className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                        aria-hidden="true"
+                      />
+                    </Disclosure.Button>
+                    <Disclosure.Panel className="mt-2 space-y-2">
+                      {styles.map((item) => (
+                        <Disclosure.Button
+                          key={item.name}
+                          as="a"
+                          href={item.href}
+                          className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
+                        >
+                          {item.name}
+                        </Disclosure.Button>
+                      ))}
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
+
+
+
+
               <a
                 href="/about"
                 className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
@@ -297,6 +358,11 @@ export default function NavBar() {
                 Contact
               </a>
             </div>
+
+
+
+
+            
             <div className="py-6">
               <a
                 href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/login/new?source=share_login"
