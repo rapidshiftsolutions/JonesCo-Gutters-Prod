@@ -4,6 +4,8 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import CTAA from '@/components/CTA-B'
 import OurServices from '@/components/OurServices'
+import GoogleAnalytics from '@/components/GoogleAnalytics';
+
 
 export default function Home() {
   return (
@@ -27,6 +29,7 @@ export default function Home() {
       <main>
         <OurServices />
         <CTAA />
+        <GoogleAnalytics />
       </main>
       <Footer />
     </>

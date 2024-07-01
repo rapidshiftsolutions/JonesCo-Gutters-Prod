@@ -10,6 +10,8 @@ import WhyJonesCo from '@/components/Value'
 import John from '@/components/Why'
 import Subcontracting from '@/components/subcontracting'
 import Reviews from '@/components/reviews'
+import GoogleAnalytics from '@/components/GoogleAnalytics';
+
 
 export default function Home() {
   return (
@@ -43,6 +45,8 @@ export default function Home() {
         <CTAA />
         <John />
         <CTAD />
+        <GoogleAnalytics />
+
 
       </main>
 
