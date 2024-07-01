@@ -52,9 +52,10 @@ const GoogleReviews = () => {
           showThumbs={false}
           showStatus={false}
           autoPlay
-          infiniteLoop
+          
           interval={5000}
           className="mt-12"
+          selectedItem={0}  // Ensure the carousel starts with the first item
         >
           {formattedReviews.map((review, index) => (
             <div key={index} className="p-6 bg-white rounded-lg shadow-md mb-12">

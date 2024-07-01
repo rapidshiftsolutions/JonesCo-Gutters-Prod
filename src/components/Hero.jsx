@@ -29,7 +29,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div ref={videoRef} className="relative h-[110vh] overflow-hidden z-10">
+    <div ref={videoRef} className="relative h-[150vh] md:h-[90vh] overflow-hidden z-10">
       <iframe
         className="absolute top-0 left-0 w-full h-full "
         src="https://www.youtube.com/embed/sr3fAhxiwzQ?autoplay=1&mute=1&loop=1&playlist=sr3fAhxiwzQ"
