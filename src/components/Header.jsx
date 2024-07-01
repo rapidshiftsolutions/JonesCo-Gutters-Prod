@@ -87,7 +87,7 @@ export default function NavBar() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-8">
+        <Popover.Group className="hidden lg:flex lg:gap-x-8 z-50">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-JonesCo-Blue-900">
               Solutions
