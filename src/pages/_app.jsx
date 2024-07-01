@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <GoogleTagManager />
+      <GoogleAnalytics trackingId="G-7842C2P52F" />
       <Component {...pageProps} />
     </>
   );
