@@ -6,7 +6,6 @@ import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 
 
-
 function MyApp({ Component, pageProps }) {
   return (
     <>
