@@ -27,7 +27,6 @@ export default function Home() {
       <main>
         <OurServices />
         <CTAA />
-        <GoogleAnalytics />
       </main>
       <Footer />
     </>
