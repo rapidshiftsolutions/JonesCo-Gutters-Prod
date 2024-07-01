@@ -3,6 +3,7 @@ import Script from 'next/script';
 
 const Example = () => {
   const [consentGiven, setConsentGiven] = useState(false);
+  const [showBanner, setShowBanner] = useState(false);
 
   useEffect(() => {
     const consent = localStorage.getItem('user-consent');
@@ -12,6 +13,12 @@ const Example = () => {
     } else {
       setConsentDefaults();
     }
+
+    const timer = setTimeout(() => {
+      setShowBanner(true);
+    }, 3000);
+
+    return () => clearTimeout(timer);
   }, []);
 
   const handleConsent = (consent) => {
@@ -22,6 +29,7 @@ const Example = () => {
       setConsentDefaults();
     }
     setConsentGiven(consent === 'granted');
+    setShowBanner(false);
   };
 
   const setConsentDefaults = () => {
@@ -70,7 +78,7 @@ const Example = () => {
           }
         `}
       </Script>
-      {!consentGiven && (
+      {showBanner && !consentGiven && (
         <div className="pointer-events-none fixed inset-x-0 bottom-0 px-6 pb-6 z-50">
           <div className="pointer-events-auto ml-auto max-w-xl rounded-xl bg-white p-6 shadow-lg ring-1 ring-JonesCo-Blue-900/10">
             <p className="text-sm leading-6 text-JonesCo-Blue-900">
