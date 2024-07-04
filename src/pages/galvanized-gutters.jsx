@@ -3,7 +3,7 @@ import Banner from '@/components/banner'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import CTAA from '@/components/CTA-B'
-import OurServices from '@/components/OurServices'
+import OurServices from '@/components/galvanized-gutters'
 
 export default function GalvanizedGutters() {
   return (
@@ -26,7 +26,6 @@ export default function GalvanizedGutters() {
       <Header />
       <main>
         <OurServices />
-        <CTAA />
       </main>
       <Footer />
     </>
