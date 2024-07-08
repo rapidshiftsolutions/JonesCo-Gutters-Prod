@@ -1,17 +1,80 @@
-# Allow all web crawlers to index your site
 User-agent: *
 Disallow: /admin/
 Disallow: /login/
-Disallow: /private/
-Disallow: /terms-conditions/
-Disallow: /privacy-policy/
-Disallow: /hidden/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /order-history/
 
-# Allow specific web crawlers (optional)
-User-agent: Googlebot
-Disallow: /termsandconditions/
-Disallow: /privacy/
+# Allow all other pages to be crawled
+Allow: /
 
-User-agent: Bingbot
-Disallow: /termsandconditions/
-Disallow: /privacy/
+# Sitemap location
+Sitemap: https://jonescogutters.com/sitemap.xml
+
+# Specific pages with high priority
+User-agent: *
+Allow: /about
+Allow: /colored-gutters
+Allow: /contact
+Allow: /copper-gutters
+Allow: /custom-gutters
+Allow: /downspouts
+Allow: /galvalume-gutters
+Allow: /galvanized-gutters
+Allow: /greene
+Allow: /gutter-cleaning
+Allow: /gutter-guards
+Allow: /gutter-replacement
+Allow: /privacy
+Allow: /seamless-gutter-installation
+Allow: /servicelocations
+Allow: /services
+Allow: /subcontracting
+Allow: /submitted
+Allow: /termsandconditions
+Allow: /warranty
+Allow: /why
+Allow: /blount
+Allow: /cocke
+Allow: /greene
+Allow: /hamblen
+Allow: /jefferson
+Allow: /knox
+Allow: /sevier
+Allow: /washington
+Allow: /cities/alcoa
+Allow: /cities/maryville
+Allow: /cities/friendsville
+Allow: /cities/townsend
+Allow: /cities/louisville
+Allow: /cities/newport
+Allow: /cities/parrottsville
+Allow: /cities/cosby
+Allow: /cities/delrio
+Allow: /cities/greeneville
+Allow: /cities/mosheim
+Allow: /cities/tusculum
+Allow: /cities/baileyton
+Allow: /cities/morristown
+Allow: /cities/russellville
+Allow: /cities/whitesburg
+Allow: /cities/talbott
+Allow: /cities/dandridge
+Allow: /cities/jeffersoncity
+Allow: /cities/whitepine
+Allow: /cities/newmarket
+Allow: /cities/baneberry
+Allow: /cities/knoxville
+Allow: /cities/farragut
+Allow: /cities/powell
+Allow: /cities/corryton
+Allow: /cities/sevierville
+Allow: /cities/pigeonforge
+Allow: /cities/gatlinburg
+Allow: /cities/pittmancenter
+Allow: /cities/johnsoncity
+Allow: /cities/jonesborough
+Allow: /cities/limestone
+Allow: /cities/telford
