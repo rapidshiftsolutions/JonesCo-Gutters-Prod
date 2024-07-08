@@ -1,6 +1,3 @@
-Continuing from where we left off, here is the completion of the updated sitemap including all counties and cities:
-
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -419,6 +416,4 @@ Continuing from where we left off, here is the completion of the updated sitemap
     <priority>0.80</priority>
     <changefreq>monthly</changefreq>
   </url>
-</urlset>
-
 </urlset>
