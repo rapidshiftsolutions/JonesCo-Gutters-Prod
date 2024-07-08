@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CheckCircleIcon, ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/20/solid';
+import Link from 'next/link';
 
 const counties = [
   {
@@ -81,7 +82,11 @@ export default function ServiceAreas() {
                 onClick={() => toggleCounty(index)}
                 className="flex justify-between items-center w-full p-6 text-left text-lg font-bold bg-JonesCo-Blue-900 text-white hover:bg-JonesCo-Blue-700 transition-colors duration-300"
               >
-                <span><a href={county.link}>{county.name}</a></span>
+                <span>
+                  <Link href={county.link} legacyBehavior>
+                    <a>{county.name}</a>
+                  </Link>
+                </span>
                 {openCounty === index ? (
                   <ChevronUpIcon className="h-6 w-6" />
                 ) : (
@@ -95,23 +100,27 @@ export default function ServiceAreas() {
                   </p>
                   <ul className="list-disc pl-5 mt-4 text-base sm:text-lg md:text-xl">
                     {county.cities.map((city) => (
-                      <li key={city} className="text-gray-600">{city}</li>
+                      <li key={city}>
+                        <Link href={`/cities/${city.toLowerCase().replace(/ /g, '-')}`} legacyBehavior>
+                          <a className="text-gray-600 hover:text-JonesCo-Blue-900">{city}</a>
+                        </Link>
+                      </li>
                     ))}
                   </ul>
                   <div className="mt-6 text-base sm:text-lg md:text-xl leading-7 text-gray-700">
                     <p>Our comprehensive services in {county.name.split(',')[0]} include:</p>
                     <ul className="list-disc pl-5 mt-2">
-                      <li><a href="/gutter-cleaning" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Expert Gutter Cleaning Services</a></li>
-                      <li><a href="/gutter-guards" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Durable Gutter Guard Installation</a></li>
-                      <li><a href="/gutter-replacement" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Seamless Gutter Replacement</a></li>
-                      <li><a href="/services" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Rain Gutter Repair</a></li>
-                      <li><a href="/services" className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Gutter Maintenance</a></li>
+                      <li><Link href="/gutter-cleaning" legacyBehavior><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Expert Gutter Cleaning Services</a></Link></li>
+                      <li><Link href="/gutter-guards" legacyBehavior><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Durable Gutter Guard Installation</a></Link></li>
+                      <li><Link href="/gutter-replacement" legacyBehavior><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Seamless Gutter Replacement</a></Link></li>
+                      <li><Link href="/services" legacyBehavior><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Rain Gutter Repair</a></Link></li>
+                      <li><Link href="/services" legacyBehavior><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Gutter Maintenance</a></Link></li>
                     </ul>
                     <p className="mt-4">
                       Join the many satisfied homeowners in {county.name.split(',')[0]} who trust JonesCo for their gutter needs. Discover the JonesCo difference today and see why we are the preferred gutter professionals in {county.name.split(',')[0]}.
                     </p>
                     <p className="mt-4 font-bold">
-                      Contact us today at <a href="/contact" className="underline">jonescogutters.com/contact</a> or call 423-207-3325 to schedule your free, no-obligation quote!
+                      Contact us today at <Link href="/contact" legacyBehavior><a className="underline">jonescogutters.com/contact</a></Link> or call <a href="tel:423-207-3325" className="underline">423-207-3325</a> to schedule your free, no-obligation quote!
                     </p>
                   </div>
                 </div>

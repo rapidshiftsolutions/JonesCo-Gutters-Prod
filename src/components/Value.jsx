@@ -39,7 +39,7 @@ const StepsToExpect = () => {
     <div className="bg-JonesCo-Green-200 py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Problems Gone in 6 Steps
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-600">

@@ -11,6 +11,7 @@ import John from '@/components/Why'
 import Subcontracting from '@/components/subcontracting'
 import Reviews from '@/components/reviews'
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import Estimate from '@/components/freeestimate-webhook'
 
 
 export default function Home() {
@@ -41,10 +42,7 @@ export default function Home() {
         <WhyJonesCo />
         <OurServices />
         <ServiceLocations />
-        <Subcontracting />
-        <CTAA />
-        <John />
-        <CTAD />
+        <Estimate />
         <GoogleAnalytics />
 
 

@@ -3,7 +3,7 @@ import Banner from '@/components/banner'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import CTAA from '@/components/CTA-B'
-import Hero from '@/components/Hero'
+import Estimate from '@/components/freeestimate-webhook'
 
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
       
       <Header />
       <main className="-z-50">
-        <Hero />
+        <Estimate />
       </main>
       <Footer />
     </>
