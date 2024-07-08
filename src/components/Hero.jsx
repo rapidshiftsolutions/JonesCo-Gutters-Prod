@@ -198,10 +198,10 @@ const Hero = () => {
 
           )}
           <div>
-            <h2 className="text-2xl font-black tracking-tight text-JonesCo-Blue-950 sm:text-3xl mb-2 text-center">
+            <h2 className="text-2xl font-black tracking-tight text-JonesCo-Blue-950 sm:text-3xl mb-4 text-center">
               Request a Free Estimate
             </h2>
-            <p className="text-center text-gray-700 mb-4">Get a quick and free estimate for your gutter needs by filling out our simple form below!</p>
+            <p className="text-center text-gray-700 mb-4">Get a quick and free estimate for your gutter needs.</p>
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 gap-6">
                 <div>
