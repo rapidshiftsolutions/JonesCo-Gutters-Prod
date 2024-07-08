@@ -29,7 +29,7 @@ const CountyPage = ({ county, cities, description, keywords }) => {
           <ul className="list-disc list-inside text-JonesCo-Green-900 mb-8">
             {cities.map(city => (
               <li key={city}>
-                <Link href={`/cities/${city.toLowerCase().replace(/ /g, '-')}`} legacyBehavior>
+                <Link href={`/cities/${city.toLowerCase().replace(/ /g, '')}`} legacyBehavior>
                   <a className="text-JonesCo-Green-900 hover:underline">{city}</a>
                 </Link>
               </li>
