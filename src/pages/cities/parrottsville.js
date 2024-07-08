@@ -3,26 +3,16 @@ import React from 'react';
 import CityPage from '@/components/CityPage';
 
 const Parrottsville = () => {
-  const city = "Parrottsville";
-  const county = "Cocke";
-  const description = "JonesCo Seamless Gutter Systems provides top-notch gutter services in Parrottsville, TN. We are proud to offer the best services to protect your home from water damage and enhance its curb appeal.";
-  const keywords = [
-    "Parrottsville gutter services",
-    "gutter installation in Parrottsville",
-    "gutter replacement in Parrottsville",
-    "gutter cleaning in Parrottsville",
-    "gutter guards installation in Parrottsville",
-    "custom gutter solutions in Parrottsville",
-    "downspout installation and repair in Parrottsville",
-    "Parrottsville seamless gutters",
-    "Parrottsville copper gutters",
-    "Parrottsville galvanized gutters",
-    "Parrottsville galvalume gutters",
-    "Parrottsville colored gutters"
-  ];
+  const description = "JonesCo Seamless Gutter Systems provides exceptional gutter services in Parrottsville, Cocke. Our team ensures that your gutters are functioning perfectly to protect your home from water damage.";
+  const keywords = ["Parrottsville gutter services", "Parrottsville seamless gutters", "gutter installation Parrottsville", "gutter cleaning Parrottsville", "gutter replacement Parrottsville", "Parrottsville gutter guards", "Parrottsville custom gutters"];
 
   return (
-    <CityPage city={city} county={county} description={description} keywords={keywords} />
+    <CityPage
+      city="Parrottsville"
+      county="Cocke"
+      description={description}
+      keywords={keywords}
+    />
   );
 };
 

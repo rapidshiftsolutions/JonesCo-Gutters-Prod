@@ -3,26 +3,16 @@ import React from 'react';
 import CityPage from '@/components/CityPage';
 
 const Gatlinburg = () => {
-  const city = "Gatlinburg";
-  const county = "Sevier";
-  const description = "JonesCo Seamless Gutter Systems provides top-notch gutter services in Gatlinburg, TN. We are proud to offer the best services to protect your home from water damage and enhance its curb appeal.";
-  const keywords = [
-    "Gatlinburg gutter services",
-    "gutter installation in Gatlinburg",
-    "gutter replacement in Gatlinburg",
-    "gutter cleaning in Gatlinburg",
-    "gutter guards installation in Gatlinburg",
-    "custom gutter solutions in Gatlinburg",
-    "downspout installation and repair in Gatlinburg",
-    "Gatlinburg seamless gutters",
-    "Gatlinburg copper gutters",
-    "Gatlinburg galvanized gutters",
-    "Gatlinburg galvalume gutters",
-    "Gatlinburg colored gutters"
-  ];
+  const description = "JonesCo Seamless Gutter Systems provides exceptional gutter services in Gatlinburg, Sevier. Our team ensures that your gutters are functioning perfectly to protect your home from water damage.";
+  const keywords = ["Gatlinburg gutter services", "Gatlinburg seamless gutters", "gutter installation Gatlinburg", "gutter cleaning Gatlinburg", "gutter replacement Gatlinburg", "Gatlinburg gutter guards", "Gatlinburg custom gutters"];
 
   return (
-    <CityPage city={city} county={county} description={description} keywords={keywords} />
+    <CityPage
+      city="Gatlinburg"
+      county="Sevier"
+      description={description}
+      keywords={keywords}
+    />
   );
 };
 

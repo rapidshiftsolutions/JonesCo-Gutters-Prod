@@ -3,26 +3,16 @@ import React from 'react';
 import CityPage from '@/components/CityPage';
 
 const Whitesburg = () => {
-  const city = "Whitesburg";
-  const county = "Hamblen";
-  const description = "JonesCo Seamless Gutter Systems provides top-notch gutter services in Whitesburg, TN. We are proud to offer the best services to protect your home from water damage and enhance its curb appeal.";
-  const keywords = [
-    "Whitesburg gutter services",
-    "gutter installation in Whitesburg",
-    "gutter replacement in Whitesburg",
-    "gutter cleaning in Whitesburg",
-    "gutter guards installation in Whitesburg",
-    "custom gutter solutions in Whitesburg",
-    "downspout installation and repair in Whitesburg",
-    "Whitesburg seamless gutters",
-    "Whitesburg copper gutters",
-    "Whitesburg galvanized gutters",
-    "Whitesburg galvalume gutters",
-    "Whitesburg colored gutters"
-  ];
+  const description = "JonesCo Seamless Gutter Systems provides exceptional gutter services in Whitesburg, Hamblen. Our team ensures that your gutters are functioning perfectly to protect your home from water damage.";
+  const keywords = ["Whitesburg gutter services", "Whitesburg seamless gutters", "gutter installation Whitesburg", "gutter cleaning Whitesburg", "gutter replacement Whitesburg", "Whitesburg gutter guards", "Whitesburg custom gutters"];
 
   return (
-    <CityPage city={city} county={county} description={description} keywords={keywords} />
+    <CityPage
+      city="Whitesburg"
+      county="Hamblen"
+      description={description}
+      keywords={keywords}
+    />
   );
 };
 

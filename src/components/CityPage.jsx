@@ -7,11 +7,15 @@ import Estimate from '@/components/freeestimate-webhook';
 import Head from 'next/head';
 
 const CityPage = ({ city, county, description, keywords }) => {
+  if (!city || !county) {
+    return <div>Error: Missing city or county information.</div>;
+  }
+
   return (
     <div>
       <Head>
-        <title>Gutter Services in {city}, TN | JonesCo Seamless Gutter Systems</title>
-        <meta name="description" content={description} />
+        <title>{`${city} Gutter Services | JonesCo Seamless Gutter Systems`}</title>
+        <meta name="description" content={`Top-notch gutter services in ${city}, ${county}.`} />
         <meta name="keywords" content={keywords.join(', ')} />
       </Head>
       <Header />

@@ -10,7 +10,7 @@ const counties = {
   Jefferson: ['Dandridge', 'Jefferson City', 'White Pine', 'New Market', 'Baneberry'],
   Knox: ['Knoxville', 'Farragut', 'Powell', 'Corryton'],
   Sevier: ['Sevierville', 'Pigeon Forge', 'Gatlinburg', 'Pittman Center'],
-  Washington: ['Johnson City', 'Jonesborough', 'Limestone', 'Telford'],
+  Washington: ['Johnson City', 'Jonesborough', 'Limestone', 'Telford']
 };
 
 const cityTemplate = (city, county) => `
@@ -18,26 +18,16 @@ import React from 'react';
 import CityPage from '@/components/CityPage';
 
 const ${city.replace(/ /g, '')} = () => {
-  const city = "${city}";
-  const county = "${county}";
-  const description = "JonesCo Seamless Gutter Systems provides top-notch gutter services in ${city}, TN. We are proud to offer the best services to protect your home from water damage and enhance its curb appeal.";
-  const keywords = [
-    "${city} gutter services",
-    "gutter installation in ${city}",
-    "gutter replacement in ${city}",
-    "gutter cleaning in ${city}",
-    "gutter guards installation in ${city}",
-    "custom gutter solutions in ${city}",
-    "downspout installation and repair in ${city}",
-    "${city} seamless gutters",
-    "${city} copper gutters",
-    "${city} galvanized gutters",
-    "${city} galvalume gutters",
-    "${city} colored gutters"
-  ];
+  const description = "JonesCo Seamless Gutter Systems provides exceptional gutter services in ${city}, ${county}. Our team ensures that your gutters are functioning perfectly to protect your home from water damage.";
+  const keywords = ["${city} gutter services", "${city} seamless gutters", "gutter installation ${city}", "gutter cleaning ${city}", "gutter replacement ${city}", "${city} gutter guards", "${city} custom gutters"];
 
   return (
-    <CityPage city={city} county={county} description={description} keywords={keywords} />
+    <CityPage
+      city="${city}"
+      county="${county}"
+      description={description}
+      keywords={keywords}
+    />
   );
 };
 

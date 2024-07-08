@@ -3,26 +3,16 @@ import React from 'react';
 import CityPage from '@/components/CityPage';
 
 const Talbott = () => {
-  const city = "Talbott";
-  const county = "Hamblen";
-  const description = "JonesCo Seamless Gutter Systems provides top-notch gutter services in Talbott, TN. We are proud to offer the best services to protect your home from water damage and enhance its curb appeal.";
-  const keywords = [
-    "Talbott gutter services",
-    "gutter installation in Talbott",
-    "gutter replacement in Talbott",
-    "gutter cleaning in Talbott",
-    "gutter guards installation in Talbott",
-    "custom gutter solutions in Talbott",
-    "downspout installation and repair in Talbott",
-    "Talbott seamless gutters",
-    "Talbott copper gutters",
-    "Talbott galvanized gutters",
-    "Talbott galvalume gutters",
-    "Talbott colored gutters"
-  ];
+  const description = "JonesCo Seamless Gutter Systems provides exceptional gutter services in Talbott, Hamblen. Our team ensures that your gutters are functioning perfectly to protect your home from water damage.";
+  const keywords = ["Talbott gutter services", "Talbott seamless gutters", "gutter installation Talbott", "gutter cleaning Talbott", "gutter replacement Talbott", "Talbott gutter guards", "Talbott custom gutters"];
 
   return (
-    <CityPage city={city} county={county} description={description} keywords={keywords} />
+    <CityPage
+      city="Talbott"
+      county="Hamblen"
+      description={description}
+      keywords={keywords}
+    />
   );
 };
 

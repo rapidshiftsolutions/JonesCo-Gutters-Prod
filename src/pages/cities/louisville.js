@@ -3,26 +3,16 @@ import React from 'react';
 import CityPage from '@/components/CityPage';
 
 const Louisville = () => {
-  const city = "Louisville";
-  const county = "Blount";
-  const description = "JonesCo Seamless Gutter Systems provides top-notch gutter services in Louisville, TN. We are proud to offer the best services to protect your home from water damage and enhance its curb appeal.";
-  const keywords = [
-    "Louisville gutter services",
-    "gutter installation in Louisville",
-    "gutter replacement in Louisville",
-    "gutter cleaning in Louisville",
-    "gutter guards installation in Louisville",
-    "custom gutter solutions in Louisville",
-    "downspout installation and repair in Louisville",
-    "Louisville seamless gutters",
-    "Louisville copper gutters",
-    "Louisville galvanized gutters",
-    "Louisville galvalume gutters",
-    "Louisville colored gutters"
-  ];
+  const description = "JonesCo Seamless Gutter Systems provides exceptional gutter services in Louisville, Blount. Our team ensures that your gutters are functioning perfectly to protect your home from water damage.";
+  const keywords = ["Louisville gutter services", "Louisville seamless gutters", "gutter installation Louisville", "gutter cleaning Louisville", "gutter replacement Louisville", "Louisville gutter guards", "Louisville custom gutters"];
 
   return (
-    <CityPage city={city} county={county} description={description} keywords={keywords} />
+    <CityPage
+      city="Louisville"
+      county="Blount"
+      description={description}
+      keywords={keywords}
+    />
   );
 };
 

@@ -3,26 +3,16 @@ import React from 'react';
 import CityPage from '@/components/CityPage';
 
 const Alcoa = () => {
-  const city = "Alcoa";
-  const county = "Blount";
-  const description = "JonesCo Seamless Gutter Systems provides top-notch gutter services in Alcoa, TN. We are proud to offer the best services to protect your home from water damage and enhance its curb appeal.";
-  const keywords = [
-    "Alcoa gutter services",
-    "gutter installation in Alcoa",
-    "gutter replacement in Alcoa",
-    "gutter cleaning in Alcoa",
-    "gutter guards installation in Alcoa",
-    "custom gutter solutions in Alcoa",
-    "downspout installation and repair in Alcoa",
-    "Alcoa seamless gutters",
-    "Alcoa copper gutters",
-    "Alcoa galvanized gutters",
-    "Alcoa galvalume gutters",
-    "Alcoa colored gutters"
-  ];
+  const description = "JonesCo Seamless Gutter Systems provides exceptional gutter services in Alcoa, Blount. Our team ensures that your gutters are functioning perfectly to protect your home from water damage.";
+  const keywords = ["Alcoa gutter services", "Alcoa seamless gutters", "gutter installation Alcoa", "gutter cleaning Alcoa", "gutter replacement Alcoa", "Alcoa gutter guards", "Alcoa custom gutters"];
 
   return (
-    <CityPage city={city} county={county} description={description} keywords={keywords} />
+    <CityPage
+      city="Alcoa"
+      county="Blount"
+      description={description}
+      keywords={keywords}
+    />
   );
 };
 
