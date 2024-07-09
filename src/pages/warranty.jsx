@@ -7,15 +7,15 @@ export default function WarrantyPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Warranty Information</title>
-        <meta name="theme-color" content="#C5F5CA" />
+        <title>JonesCo Gutters - Warranty Information</title>
+        <meta name="theme-color" content="#0066CC" />
         <meta
           name="description"
           content="Learn about the warranty information for JonesCo Seamless Gutter Systems. Protect your investment with our comprehensive warranty coverage."
         />
         <meta name="keywords" content="Seamless Gutter Installation, Gutter Replacement, Gutter Cleaning, Gutter Guards Installation, Custom Gutter Solutions, Downspout Installation, Warranty Information, JonesCo Warranty" />
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="JonesCo Seamless Gutter Systems || Warranty Information" />
+        <meta property="og:title" content="JonesCo Gutters - Warranty Information" />
         <meta property="og:description" content="Learn about the warranty information for JonesCo Seamless Gutter Systems. Protect your investment with our comprehensive warranty coverage." />
         <meta property="og:url" content="https://jonescogutters.com/warranty" />
         <meta property="og:type" content="website" />

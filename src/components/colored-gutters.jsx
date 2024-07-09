@@ -2,13 +2,13 @@ import React from 'react';
 
 const ColoredGutters = () => {
   return (
-    <div className="bg-JonesCo-Blue-800 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-JonesCo-Blue-600 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl font-black tracking-tight text-JonesCo-Blue-100 sm:text-4xl">
+          <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl">
             Colored Gutters
           </h2>
-          <p className="mt-4 text-lg leading-6 text-JonesCo-Green-300">
+          <p className="mt-4 text-lg leading-6 text-JonesCo-Green-100">
             Add a splash of color to your home's exterior with our high-quality colored gutters.
           </p>
         </div>
@@ -52,12 +52,6 @@ const ColoredGutters = () => {
               </dl>
             </div>
           </div>
-        </div>
-
-        <div className="mt-12 text-center">
-          <a href="/contact" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-JonesCo-Green-600 hover:bg-JonesCo-Blue-700">
-            Contact Us for a Free Estimate
-          </a>
         </div>
       </div>
     </div>

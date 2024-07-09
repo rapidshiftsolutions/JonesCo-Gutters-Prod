@@ -231,6 +231,12 @@ export default function NavBar() {
           <a href="/about" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
             About Us
           </a>
+          <a href="/subcontract" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
+            Subcontract
+          </a>
+          <a href="/careers" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
+            Careers
+          </a>
           <a href="/contact" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
             Contact
           </a>
@@ -350,6 +356,18 @@ export default function NavBar() {
                 className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
               >
                 About Us
+              </a>
+              <a
+                href="/subcontracting"
+                className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
+              >
+                Subcontracting
+              </a>
+              <a
+                href="/careers"
+                className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
+              >
+                Careers
               </a>
               <a
                 href="/contact"

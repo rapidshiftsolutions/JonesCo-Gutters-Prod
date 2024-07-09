@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Privacy Policy</title>
-        <meta name="theme-color" content="#C5F5CA" />
+        <title>JonesCo Gutters - Privacy Policy</title>
+        <meta name="theme-color" content="#0066CC" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -17,7 +17,7 @@ export default function Home() {
         />
         <meta name="keywords" content="Privacy Policy, Personal Information Protection, Data Security, JonesCo Seamless Gutter Systems" />
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="JonesCo Seamless Gutter Systems || Privacy Policy" />
+        <meta property="og:title" content="JonesCo Gutters - Privacy Policy" />
         <meta property="og:description" content="Review the privacy policy of JonesCo Seamless Gutter Systems to understand how we protect your personal information." />
         <meta property="og:url" content="https://jonescogutters.com/privacy" />
         <meta property="og:type" content="website" />

@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>JonesCo Seamless Gutter Systems || Home</title>
-        <meta name="theme-color" content="#C5F5CA" />
+        <title>JonesCo Gutters - Home</title>
+        <meta name="theme-color" content="#0066CC" />
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
@@ -127,7 +127,7 @@ export default function Home() {
           rain gutters repair near me
         " />
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="JonesCo Seamless Gutter Systems || Home" />
+        <meta property="og:title" content="JonesCo Gutters - Home" />
         <meta property="og:description" content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Seamless Gutter Systems is the trusted choice in Eastern Tennessee." />
         <meta property="og:url" content="https://jonescogutters.com/" />
         <meta property="og:type" content="website" />
