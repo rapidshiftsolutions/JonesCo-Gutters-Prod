@@ -4,6 +4,8 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import CTAA from '@/components/CTA-B'
 import Subcontracting from '@/components/subcontracting'
+import ServiceLocations from '@/components/ServiceLocationsCity'
+
 
 export default function Home() {
   return (
@@ -69,7 +71,7 @@ export default function Home() {
       <Header />
       <main>
         <Subcontracting />
-        <CTAA />
+        <ServiceLocations />
       </main>
       <Footer />
     </>

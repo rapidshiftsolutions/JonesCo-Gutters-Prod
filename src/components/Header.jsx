@@ -231,7 +231,7 @@ export default function NavBar() {
           <a href="/about" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
             About Us
           </a>
-          <a href="/subcontract" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
+          <a href="/subcontracting" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
             Subcontract
           </a>
           <a href="/careers" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
