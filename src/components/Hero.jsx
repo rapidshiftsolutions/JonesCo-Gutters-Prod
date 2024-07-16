@@ -83,7 +83,7 @@ const Hero = () => {
           }}
         ></iframe>
       )}
-      <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Blue-900 opacity-80 pb-2"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-JonesCo-Blue-900 md:opacity-60 pb-2"></div>
       <div className="relative z-10 w-full max-w-7xl mx-4 sm:mx-auto">
         <div className={`bg-white shadow-lg rounded-lg p-6 ${isDesktop ? 'grid grid-cols-2 gap-8' : 'max-w-md mx-auto'}`}>
           {isDesktop && (
