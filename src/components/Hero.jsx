@@ -201,12 +201,12 @@ const Hero = () => {
             <h2 className="text-2xl font-black tracking-tight text-JonesCo-Blue-950 sm:text-3xl mb-4 text-center">
               Request a Free Estimate
             </h2>
-            <p className="text-center text-gray-700 mb-4">Fill out the form, we'll do the rest!</p>
+            <p className="text-center text-gray-700 mb-4">Complete this form, we'll do the rest!</p>
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                    Name
+                    Name *
                   </label>
                   <input
                     type="text"
@@ -220,7 +220,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                    Email
+                    Email *
                   </label>
                   <input
                     type="email"
@@ -234,7 +234,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
-                    Phone
+                    Phone *
                   </label>
                   <input
                     type="tel"
@@ -248,7 +248,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <label htmlFor="zipCode" className="block text-sm font-medium text-gray-700">
-                    Zip Code
+                    Zip Code *
                   </label>
                   <input
                     type="text"
