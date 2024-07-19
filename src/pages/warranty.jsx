@@ -1,94 +1,106 @@
+import React from 'react';
 import Head from 'next/head';
-import Banner from '@/components/banner';
-import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
-export default function WarrantyPage() {
+const Warranty = () => {
   return (
     <>
       <Head>
-        <title>JonesCo Gutters - Warranty Information</title>
-        <meta name="theme-color" content="#0066CC" />
+        <title>JonesCo Gutters - Warranty</title>
+        <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"
-          content="Learn about the warranty information for JonesCo Seamless Gutter Systems. Protect your investment with our comprehensive warranty coverage."
+          content="JonesCo Seamless Gutter Systems provides a comprehensive warranty for gutter installations, downspouts, and gutter guards. Learn about our warranty coverage and claim process."
         />
-        <meta name="keywords" content="Seamless Gutter Installation, Gutter Replacement, Gutter Cleaning, Gutter Guards Installation, Custom Gutter Solutions, Downspout Installation, Warranty Information, JonesCo Warranty" />
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="JonesCo Gutters - Warranty Information" />
-        <meta property="og:description" content="Learn about the warranty information for JonesCo Seamless Gutter Systems. Protect your investment with our comprehensive warranty coverage." />
+        <meta property="og:title" content="JonesCo Gutters - Warranty" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides a comprehensive warranty for gutter installations, downspouts, and gutter guards. Learn about our warranty coverage and claim process." />
         <meta property="og:url" content="https://jonescogutters.com/warranty" />
         <meta property="og:type" content="website" />
       </Head>
       
       <Header />
-      <main>
-        <WarrantyInformation />
+      <main className="bg-JonesCo-Blue-50 py-8">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl font-bold text-center text-JonesCo-Blue-900 mb-8">Warranty</h1>
+          
+          <section className="mb-8">
+            <h2 className="text-lg font-semibold text-JonesCo-Blue-800 mb-4">Standard Gutter and Downspout Limited Labor Warranty</h2>
+            <p className="text-lg text-gray-700">
+              This Labor Warranty certifies that the guttering systems installed by JonesCo Seamless Gutter Systems ("JonesCo") are guaranteed for a period of one (1) year from the date of installation against sagging, pulling loose, leaking, or not functioning properly due to improper installation. All claims may be submitted in writing or via email to JonesCo. This warranty is not transferable.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-lg font-semibold text-JonesCo-Blue-800 mb-4">What is Covered</h2>
+            <ul className="list-disc list-inside text-lg text-gray-700">
+              <li>Defects in materials used in gutter installations, downspouts, and gutter guards.</li>
+              <li>Defects in workmanship related to the installation of gutters, downspouts, and gutter guards.</li>
+              <li>Damage caused by faulty installation of gutters, downspouts, and gutter guards.</li>
+            </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-lg font-semibold text-JonesCo-Blue-800 mb-4">What is NOT Covered</h2>
+            <ul className="list-disc list-inside text-lg text-gray-700">
+              <li>Natural, Act-of-God occurrences such as, but not limited to, lightning, hurricanes, hail, earthquakes, floods, tornadoes, and falling objects.</li>
+              <li>Damage to the property or structure to which the guttering system has been applied caused by settling, cracking, movement, shifting, distorting, or splitting, including but not limited to structural failure of walls, roofs, foundations, fascia, or rafters.</li>
+              <li>Inadequate or improper ventilation of the home, or accumulation of water, ice damming, or mold due to structural deficiencies and/or insufficient drainage.</li>
+              <li>Any deliberate act or negligence of the purchaser, workman, or any other person when installing or maintaining surfaces of the structure to which materials have been applied.</li>
+              <li>Normal wear and tear as per manufacturer specifications (in case of a claim, the manufacturing company will have the final say if the product has to be replaced).</li>
+              <li>Color fading, staining, replacement of any rotten wood, water behind gutters without eave metal, or any erosion.</li>
+              <li>Any installed materials not provided by JonesCo.</li>
+              <li>Expansion or contraction of windows, siding, roofing, concrete, or trim.</li>
+              <li>Improper maintenance of the guttering system by the customer, including but not limited to clogging caused by leaves or debris in the gutter.</li>
+            </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-lg font-semibold text-JonesCo-Blue-800 mb-4">Additional Notes</h2>
+            <p className="text-lg text-gray-700">
+              The main cause of customer complaints is gutters overflowing due to debris in the gutter. JonesCo is not responsible for general maintenance, inspections, and cleaning of guttering systems. Gutter cleanings are not covered by any warranty.
+            </p>
+            <p className="text-lg text-gray-700 mt-4">
+              PLEASE NOTE THAT ANY SERVICE CALL REQUESTED AFTER 90 DAYS OF INITIAL INSTALL WILL INCUR A FEE IF WE NEED TO CLEAN GUTTERS TO ACCESS REPAIR OR IF WE FIND THAT THE REPORTED PROBLEM IS DUE TO CUSTOMER NEGLECT OR DUE TO CLOGGING CAUSED BY LEAVES OR DEBRIS. THIS INCLUDES ANY SERVICE CALLS TO REPLACE ROTTED WOOD DUE TO LEAKS FROM NEGLECTING TO CLEAN OR MAINTAIN YOUR GUTTERS.
+            </p>
+            <p className="text-lg text-gray-700 mt-4">
+              Rain gutters are not designed to make a watertight seal against the fascia board. Water running between the gutter and fascia board or behind the fascia board is usually caused by:
+              <ul className="list-disc list-inside mt-2">
+                <li>Short, broken, or old curled-under shingles causing the water to wick back onto the fascia board.</li>
+                <li>Pockets in roof shingles caused by the top of the fascia board being higher than the roof decking, allowing the water to track between the shingles and down behind the fascia board. This may cause rotting of the roof decking, rafter ends, fascia board, or eave overhang.</li>
+                <li>Faulty or missing flashing around chimneys, vent stacks, and wall flashing among others.</li>
+              </ul>
+              These cases are not caused by our gutter system and therefore not covered under our Labor Warranty.
+            </p>
+            <p className="text-lg text-gray-700 mt-4">
+              JonesCo will not be responsible for any peripheral needs or issues related to the guttering system. This includes leaf build-up or clogging, cleaning dirty gutters, issues with drainage or dry-well system, etc. JonesCo will not replace a component of the system if it is not faulty while replacing something that is faulty and under warranty. JonesCo is also not responsible for another person or contractor's work on the gutter system following our install. This includes but is not limited to a roofer changing the pitch of the roof, the overhang of the shingle, or any aspect of the roof as it relates to the gutter system at the time of our install.
+            </p>
+            <p className="text-lg text-gray-700 mt-4">
+              Installation, removal, repair, adjustment, tampering, or re-installation of any JonesCo guttering system or component by anyone other than JonesCo voids any and all warranties within this document.
+            </p>
+            <p className="text-lg text-gray-700 mt-4">
+              The customer has the duty to deliver payment in full based on the original signed contract price for material and installation provided by JonesCo in accordance with the payment terms set forth; failure to do so voids any and all warranties within this document.
+            </p>
+            <p className="text-lg text-gray-700 mt-4">
+              JonesCo shall not be liable for injury to persons or damage to property, structure, or contents, or for incidental, special, or consequential damages for breach of any written or implied warranty on defects in workmanship. If any warranty work is required that needs to be subcontracted, then JonesCo has the right to select the contractor for the warranty work.
+            </p>
+            <p className="text-lg text-gray-700 mt-4">
+              In order to make a warranty claim and set up a service call, we require photos and in some cases videos of the area(s) in question.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-lg font-semibold text-JonesCo-Blue-800 mb-4">Disclaimer</h2>
+            <p className="text-lg text-gray-700">
+              THIS DOCUMENT IS YOUR WARRANTY AND BECOMES EFFECTIVE UPON RECEIPT OF PAYMENT IN FULL. NO REGISTRATION OR SIGNATURE IS REQUIRED.
+            </p>
+          </section>
+        </div>
       </main>
       <Footer />
     </>
   );
-}
-
-// The WarrantyInformation component
-const WarrantyInformation = () => {
-  return (
-    <div className="bg-white py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-7xl text-center">
-        <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          Warranty Information
-        </h1>
-        <p className="mt-4 text-lg leading-8 text-gray-600">
-          At JonesCo Seamless Gutter Systems, we stand behind the quality of our work and materials. Our comprehensive warranty coverage ensures that your investment is protected.
-        </p>
-      </div>
-
-      <div className="mt-12 max-w-2xl mx-auto lg:max-w-4xl text-left">
-        <div className="text-base sm:text-lg md:text-xl leading-7 text-gray-900">
-          <h2 className="text-2xl font-bold text-JonesCo-Blue-900 mb-4">What Our Warranty Covers</h2>
-          <p>
-            Our warranty covers any defects in materials and workmanship under normal use during the warranty period. This includes:
-          </p>
-          <ul className="list-disc list-inside mt-4">
-            <li>Seamless Gutter Installation</li>
-            <li>Gutter Replacement</li>
-            <li>Gutter Cleaning</li>
-            <li>Gutter Guards Installation</li>
-            <li>Custom Gutter Solutions</li>
-            <li>Downspout Installation</li>
-          </ul>
-          <p className="mt-6">
-            If a product or service provided by JonesCo Seamless Gutter Systems is found to be defective within the warranty period, we will repair or replace the defective materials at no cost to you.
-          </p>
-
-          <h2 className="text-2xl font-bold text-JonesCo-Blue-900 mt-8 mb-4">Warranty Terms and Conditions</h2>
-          <p>
-            The warranty period is valid for one year from the date of installation. The warranty is void under the following conditions:
-          </p>
-          <ul className="list-disc list-inside mt-4">
-            <li>Improper maintenance by the homeowner</li>
-            <li>Damage caused by natural disasters (e.g., storms, floods, earthquakes)</li>
-            <li>Unauthorized modifications or repairs</li>
-            <li>Damage caused by external factors (e.g., tree branches, ladders)</li>
-          </ul>
-          <p className="mt-6">
-            JonesCo Seamless Gutter Systems is not liable for any indirect, incidental, or consequential damages arising from the use of our products.
-          </p>
-
-          <h2 className="text-2xl font-bold text-JonesCo-Blue-900 mt-8 mb-4">How to File a Warranty Claim</h2>
-          <p>
-            To file a warranty claim, please contact us at <a href="mailto:hey@jonescogutters.com" className="underline text-JonesCo-Blue-600 hover:text-JonesCo-Blue-800">hey@jonescogutters.com</a> or call 423-207-3325. Please provide the following information:
-          </p>
-          <ul className="list-disc list-inside mt-4">
-            <li>Your name and contact information</li>
-            <li>Date of installation or service</li>
-            <li>Details of the issue</li>
-          </ul>
-          <p className="mt-6">
-            Our team will review your claim and schedule a service visit to assess and address the issue. We strive to resolve all warranty claims promptly to ensure your complete satisfaction.
-          </p>
-        </div>
-      </div>
-    </div>
-  );
 };
+
+export default Warranty;
