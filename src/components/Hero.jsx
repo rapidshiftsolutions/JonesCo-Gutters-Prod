@@ -13,6 +13,11 @@ const Hero = () => {
     email: '',
     phone: '',
     address: '',
+    street: '',
+    city: '',
+    state: '',
+    country: '',
+    zip: '',
   });
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -40,10 +45,33 @@ const Hero = () => {
   const onPlaceChanged = useCallback(() => {
     if (autocompleteRef.current) {
       const place = autocompleteRef.current.getPlace();
-      if (place.formatted_address) {
+      if (place.address_components) {
+        const addressComponents = place.address_components.reduce((acc, component) => {
+          const types = component.types;
+          if (types.includes('street_number')) {
+            acc.street_number = component.long_name;
+          } else if (types.includes('route')) {
+            acc.route = component.long_name;
+          } else if (types.includes('locality')) {
+            acc.city = component.long_name;
+          } else if (types.includes('administrative_area_level_1')) {
+            acc.state = component.short_name;
+          } else if (types.includes('country')) {
+            acc.country = component.long_name;
+          } else if (types.includes('postal_code')) {
+            acc.zip = component.long_name;
+          }
+          return acc;
+        }, {});
+
         setFormData((prevData) => ({
           ...prevData,
           address: place.formatted_address,
+          street: `${addressComponents.street_number || ''} ${addressComponents.route || ''}`.trim(),
+          city: addressComponents.city || '',
+          state: addressComponents.state || '',
+          country: addressComponents.country || '',
+          zip: addressComponents.zip || '',
         }));
       }
     }
@@ -71,6 +99,11 @@ const Hero = () => {
           email: '',
           phone: '',
           address: '',
+          street: '',
+          city: '',
+          state: '',
+          country: '',
+          zip: '',
         });
         router.push('/submitted');
       } else {
