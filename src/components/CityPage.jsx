@@ -14,8 +14,8 @@ const CityPage = ({ city, county, description, keywords }) => {
   return (
     <div>
       <Head>
-        <title>{`${city} Gutter Services | JonesCo Seamless Gutter Systems`}</title>
-        <meta name="description" content={`Top-notch gutter services in ${city}, ${county}.`} />
+        <title>{`Best Gutter Services in ${city} | JonesCo Gutters`}</title>
+        <meta name="description" content={`Top-notch seamless gutters, gutter guards, gutter cleaning and more in ${city}.`} />
         <meta name="keywords" content={keywords.join(', ')} />
       </Head>
       <Header />
