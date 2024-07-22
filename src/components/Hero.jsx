@@ -1,5 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
+import { LoadScript, Autocomplete } from '@react-google-maps/api';
+
+const libraries = ['places'];
 
 const Hero = () => {
   const videoRef = useRef();
@@ -9,10 +12,11 @@ const Hero = () => {
     name: '',
     email: '',
     phone: '',
-    zipCode: '',
+    address: '',
   });
 
   const [isDesktop, setIsDesktop] = useState(false);
+  const autocompleteRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -32,6 +36,18 @@ const Hero = () => {
       [name]: value,
     });
   };
+
+  const onPlaceChanged = useCallback(() => {
+    if (autocompleteRef.current) {
+      const place = autocompleteRef.current.getPlace();
+      if (place.formatted_address) {
+        setFormData((prevData) => ({
+          ...prevData,
+          address: place.formatted_address,
+        }));
+      }
+    }
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -54,7 +70,7 @@ const Hero = () => {
           name: '',
           email: '',
           phone: '',
-          zipCode: '',
+          address: '',
         });
         router.push('/submitted');
       } else {
@@ -87,8 +103,6 @@ const Hero = () => {
       <div className="relative z-10 mx-4 w-full max-w-7xl sm:mx-auto">
         <div className={`bg-white shadow-lg rounded-lg p-6 ${isDesktop ? 'grid grid-cols-2 gap-8' : 'mx-auto max-w-md'}`}>
           {isDesktop && (
-
-
             <div className="flex flex-col justify-between items-center px-10 h-full rounded-xl bg-JonesCo-Blue-100">
               <div className="flex-grow">
                 <h2 className="mt-8 mb-8 text-2xl font-black tracking-tight text-center text-JonesCo-Blue-950 sm:text-3xl">
@@ -150,7 +164,6 @@ const Hero = () => {
                     Trusted by homeowners across Eastern Tennessee
                   </p>
                 </div>
-
               </div>
               <div className="flex flex-col mt-6 mb-4 w-full">
                 <div className="hidden flex-col justify-end w-full md:flex">
@@ -187,11 +200,6 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-
-
-
-
-
           )}
           <div>
             <h2 className="mb-4 text-2xl font-black tracking-tight text-center text-JonesCo-Blue-950 sm:text-3xl">
@@ -243,18 +251,22 @@ const Hero = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="zipCode" className="block text-sm font-medium text-gray-700">
-                    Zip Code *
+                  <label htmlFor="address" className="block text-sm font-medium text-gray-700">
+                    Address *
                   </label>
-                  <input
-                    type="text"
-                    name="zipCode"
-                    id="zipCode"
-                    value={formData.zipCode}
-                    onChange={handleChange}
-                    required
-                    className="block mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                  />
+                  <LoadScript googleMapsApiKey="AIzaSyAgGO-4UJ1-wS6aua__cpo1uVcefrlPaGg" libraries={libraries}>
+                    <Autocomplete onLoad={(ref) => (autocompleteRef.current = ref)} onPlaceChanged={onPlaceChanged}>
+                      <input
+                        type="text"
+                        name="address"
+                        id="address"
+                        value={formData.address}
+                        onChange={handleChange}
+                        required
+                        className="block mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      />
+                    </Autocomplete>
+                  </LoadScript>
                 </div>
               </div>
               <div className="mt-6 text-center">
