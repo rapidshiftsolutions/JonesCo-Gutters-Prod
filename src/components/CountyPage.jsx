@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Value from '@/components/Value';
-import Estimate from '@/components/freeestimate-webhook';
+import Estimate from '@/components/Hero';
 import Head from 'next/head';
 
 const CountyPage = ({ county, cities, description, keywords }) => {

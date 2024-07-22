@@ -11,7 +11,7 @@ import John from '@/components/Why';
 import Subcontracting from '@/components/subcontracting';
 import Reviews from '@/components/reviews';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
-import Estimate from '@/components/freeestimate-webhook';
+import Estimate from '@/components/Hero';
 
 export default function Home() {
   return (

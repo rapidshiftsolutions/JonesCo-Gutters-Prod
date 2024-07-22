@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Banner from '@/components/banner';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import Estimate from '@/components/freeestimate-webhook';
+import Estimate from '@/components/Hero';
 import OurServices from '@/components/customguttersolutions';
 
 export default function Home() {
