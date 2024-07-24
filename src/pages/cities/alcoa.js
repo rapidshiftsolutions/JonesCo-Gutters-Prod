@@ -1,119 +1,42 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Alcoa = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Alcoa. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Alcoa.";
-  const keywords = [
-    "commercial gutter installation near Alcoa",
-    "seamless gutter company near Alcoa",
-    "seamless gutters companies near Alcoa",
-    "gutter repair contractors near Alcoa",
-    "seamless gutter contractors near Alcoa",
-    "seamless gutter installation near Alcoa",
-    "seamless gutter installer near Alcoa",
-    "seamless guttering companies near Alcoa",
-    "seamless gutters contractors near Alcoa",
-    "seamless gutters installation near Alcoa",
-    "seamless gutters installers near Alcoa",
-    "seamless rain gutters near Alcoa",
-    "custom gutters near Alcoa",
-    "gutter companies around Alcoa",
-    "gutter contractor near Alcoa",
-    "gutter contractors near Alcoa",
-    "gutter guards installers near Alcoa",
-    "gutter price calculator Alcoa",
-    "gutters and siding contractors near Alcoa",
-    "handyman gutter repair near Alcoa",
-    "rain gutter contractor near Alcoa",
-    "rain gutter contractors near Alcoa",
-    "rain gutters contractors near Alcoa",
-    "roof gutter installers near Alcoa",
-    "seamless gutter companies near Alcoa",
-    "seamless gutter contractor near Alcoa",
-    "seamless gutter installers near Alcoa",
-    "seamless gutters installed near Alcoa",
-    "seamless gutters near Alcoa",
-    "seemless gutters near Alcoa",
-    "siding and gutters near Alcoa",
-    "gutter business near Alcoa",
-    "gutter guards installed near Alcoa",
-    "gutter install near Alcoa",
-    "guttering contractors near Alcoa",
-    "gutters and siding near Alcoa",
-    "gutters contractor near Alcoa",
-    "gutters contractors near Alcoa",
-    "gutters install near Alcoa",
-    "roof and gutter contractors near Alcoa",
-    "seamless gutter near Alcoa",
-    "seamless guttering near Alcoa",
-    "top rated gutter companies near Alcoa",
-    "youtube gutter installation Alcoa",
-    "continuous gutters near Alcoa",
-    "gutter instalation near Alcoa",
-    "gutter install companies near Alcoa",
-    "gutter installation companies near Alcoa",
-    "gutter installation company near Alcoa",
-    "gutter installation contractors near Alcoa",
-    "gutter installer near Alcoa",
-    "gutter installers near Alcoa",
-    "gutter replacement companies near Alcoa",
-    "gutter service near Alcoa",
-    "guttering installation near Alcoa",
-    "guttering installers near Alcoa",
-    "gutters installation near Alcoa",
-    "gutters installed near Alcoa",
-    "mini gutter Alcoa",
-    "small gutter Alcoa",
-    "small gutters Alcoa",
-    "where to buy mobile home gutters Alcoa",
-    "tools for gutter installation Alcoa",
-    "window gutters Alcoa",
-    "large rain gutters Alcoa",
-    "2 inch gutter Alcoa",
-    "menards downspouts Alcoa",
-    "rain gutters at menards Alcoa",
-    "downspout extension menards Alcoa",
-    "downspout repair near Alcoa",
-    "gares de casa Alcoa",
-    "wide rain gutters Alcoa",
-    "16 ft gutter lowe's Alcoa",
-    "mini gutters lowe's Alcoa",
-    "gutter parts home depot Alcoa",
-    "gutter roof Alcoa",
-    "mini gutters Alcoa",
-    "plastic rain gutters home depot Alcoa",
-    "roofing gutter Alcoa",
-    "plastic gutters home depot Alcoa",
-    "gutter screws home depot Alcoa",
-    "add downspout to rain gutter Alcoa",
-    "aluminum rain gutters home depot Alcoa",
-    "gutter downspouts at lowes Alcoa",
-    "aluminum gutters home depot Alcoa",
-    "gutter downspout installation Alcoa",
-    "rain gutter company near Alcoa",
-    "roof gutter repair near Alcoa",
-    "seamless gutter price calculator Alcoa",
-    "affordable gutters near Alcoa",
-    "local gutter company Alcoa",
-    "local rain gutter companies Alcoa",
-    "water gutter Alcoa",
-    "downspouts at lowes Alcoa",
-    "gutters installers near Alcoa",
-    "roofing and gutters near Alcoa",
-    "gutter fixing near Alcoa",
-    "home depot gutters and downspouts Alcoa",
-    "homedepot gutters Alcoa",
-    "rain gutters repair near Alcoa"
-  ];
-
   return (
-    <CityPage
-      city="Alcoa"
-      county="Blount"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Alcoa, Blount County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Alcoa. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Alcoa." />
+        <meta name="keywords" content="commercial gutter installation near Alcoa, seamless gutter company near Alcoa, seamless gutters companies near Alcoa, gutter repair contractors near Alcoa, seamless gutter contractors near Alcoa, seamless gutter installation near Alcoa, seamless gutter installer near Alcoa, seamless guttering companies near Alcoa, seamless gutters contractors near Alcoa, seamless gutters installation near Alcoa, seamless gutters installers near Alcoa, seamless rain gutters near Alcoa, custom gutters near Alcoa, gutter companies around near Alcoa, gutter contractor near Alcoa, gutter contractors near Alcoa, gutter guards installers near Alcoa, gutter price calculator near Alcoa, gutters and siding contractors near Alcoa, handyman gutter repair near Alcoa, rain gutter contractor near Alcoa, rain gutter contractors near Alcoa, rain gutters contractors near Alcoa, roof gutter installers near Alcoa, seamless gutter companies near Alcoa, seamless gutter contractor near Alcoa, seamless gutter installers near Alcoa, seamless gutters installed near Alcoa, seamless gutters near Alcoa, seemless gutters near Alcoa, siding and gutters near Alcoa, gutter business near Alcoa, gutter guards installed near Alcoa, gutter install near Alcoa, guttering contractors near Alcoa, gutters and siding near Alcoa, gutters contractor near Alcoa, gutters contractors near Alcoa, gutters install near Alcoa, roof and gutter contractors near Alcoa, seamless gutter near Alcoa, seamless guttering near Alcoa, top rated gutter companies near Alcoa, youtube gutter installation near Alcoa, continuous gutters near Alcoa, gutter instalation near Alcoa, gutter install companies near Alcoa, gutter installation companies near Alcoa, gutter installation company near Alcoa, gutter installation contractors near Alcoa, gutter installer near Alcoa, gutter installers near Alcoa, gutter replacement companies near Alcoa, gutter service near Alcoa, guttering installation near Alcoa, guttering installers near Alcoa, gutters installation near Alcoa, gutters installed near Alcoa, mini gutter near Alcoa, small gutter near Alcoa, small gutters near Alcoa, where to buy mobile home gutters near Alcoa, tools for gutter installation near Alcoa, window gutters near Alcoa, large rain gutters near Alcoa, 2 inch gutter near Alcoa, menards downspouts near Alcoa, rain gutters at menards near Alcoa, downspout extension menards near Alcoa, downspout repair near Alcoa, gares de casa near Alcoa, wide rain gutters near Alcoa, 16 ft gutter lowe's near Alcoa, mini gutters lowe's near Alcoa, gutter parts home depot near Alcoa, gutter roof near Alcoa, mini gutters near Alcoa, plastic rain gutters home depot near Alcoa, roofing gutter near Alcoa, plastic gutters home depot near Alcoa, gutter screws home depot near Alcoa, add downspout to rain gutter near Alcoa, aluminum rain gutters home depot near Alcoa, gutter downspouts at lowes near Alcoa, aluminum gutters home depot near Alcoa, gutter downspout installation near Alcoa, rain gutter company near Alcoa, roof gutter repair near Alcoa, seamless gutter price calculator near Alcoa, affordable gutters near Alcoa, local gutter company near Alcoa, local rain gutter companies near Alcoa, water gutter near Alcoa, downspouts at lowes near Alcoa, gutters installers near Alcoa, roofing and gutters near Alcoa, gutter fixing near Alcoa, home depot gutters and downspouts near Alcoa, homedepot gutters near Alcoa, rain gutters repair near Alcoa" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Alcoa, Blount County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Alcoa. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Alcoa." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/alcoa" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/alcoa" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Alcoa"
+        county="Blount"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Alcoa. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Alcoa."
+        keywords={["commercial gutter installation near Alcoa", "seamless gutter company near Alcoa", "seamless gutters companies near Alcoa", "gutter repair contractors near Alcoa", "seamless gutter contractors near Alcoa", "seamless gutter installation near Alcoa", "seamless gutter installer near Alcoa", "seamless guttering companies near Alcoa", "seamless gutters contractors near Alcoa", "seamless gutters installation near Alcoa", "seamless gutters installers near Alcoa", "seamless rain gutters near Alcoa", "custom gutters near Alcoa", "gutter companies around near Alcoa", "gutter contractor near Alcoa", "gutter contractors near Alcoa", "gutter guards installers near Alcoa", "gutter price calculator near Alcoa", "gutters and siding contractors near Alcoa", "handyman gutter repair near Alcoa", "rain gutter contractor near Alcoa", "rain gutter contractors near Alcoa", "rain gutters contractors near Alcoa", "roof gutter installers near Alcoa", "seamless gutter companies near Alcoa", "seamless gutter contractor near Alcoa", "seamless gutter installers near Alcoa", "seamless gutters installed near Alcoa", "seamless gutters near Alcoa", "seemless gutters near Alcoa", "siding and gutters near Alcoa", "gutter business near Alcoa", "gutter guards installed near Alcoa", "gutter install near Alcoa", "guttering contractors near Alcoa", "gutters and siding near Alcoa", "gutters contractor near Alcoa", "gutters contractors near Alcoa", "gutters install near Alcoa", "roof and gutter contractors near Alcoa", "seamless gutter near Alcoa", "seamless guttering near Alcoa", "top rated gutter companies near Alcoa", "youtube gutter installation near Alcoa", "continuous gutters near Alcoa", "gutter instalation near Alcoa", "gutter install companies near Alcoa", "gutter installation companies near Alcoa", "gutter installation company near Alcoa", "gutter installation contractors near Alcoa", "gutter installer near Alcoa", "gutter installers near Alcoa", "gutter replacement companies near Alcoa", "gutter service near Alcoa", "guttering installation near Alcoa", "guttering installers near Alcoa", "gutters installation near Alcoa", "gutters installed near Alcoa", "mini gutter near Alcoa", "small gutter near Alcoa", "small gutters near Alcoa", "where to buy mobile home gutters near Alcoa", "tools for gutter installation near Alcoa", "window gutters near Alcoa", "large rain gutters near Alcoa", "2 inch gutter near Alcoa", "menards downspouts near Alcoa", "rain gutters at menards near Alcoa", "downspout extension menards near Alcoa", "downspout repair near Alcoa", "gares de casa near Alcoa", "wide rain gutters near Alcoa", "16 ft gutter lowe's near Alcoa", "mini gutters lowe's near Alcoa", "gutter parts home depot near Alcoa", "gutter roof near Alcoa", "mini gutters near Alcoa", "plastic rain gutters home depot near Alcoa", "roofing gutter near Alcoa", "plastic gutters home depot near Alcoa", "gutter screws home depot near Alcoa", "add downspout to rain gutter near Alcoa", "aluminum rain gutters home depot near Alcoa", "gutter downspouts at lowes near Alcoa", "aluminum gutters home depot near Alcoa", "gutter downspout installation near Alcoa", "rain gutter company near Alcoa", "roof gutter repair near Alcoa", "seamless gutter price calculator near Alcoa", "affordable gutters near Alcoa", "local gutter company near Alcoa", "local rain gutter companies near Alcoa", "water gutter near Alcoa", "downspouts at lowes near Alcoa", "gutters installers near Alcoa", "roofing and gutters near Alcoa", "gutter fixing near Alcoa", "home depot gutters and downspouts near Alcoa", "homedepot gutters near Alcoa", "rain gutters repair near Alcoa"]}
+      />
+    </>
   );
 };
 

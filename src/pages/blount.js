@@ -1,117 +1,44 @@
 
 import React from 'react';
 import CountyPage from '@/components/CountyPage';
+import Head from 'next/head';
 
 const Blount = () => {
-  const county = "Blount";
-  const cities = ["Alcoa","Maryville","Friendsville","Townsend","Louisville"];
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Blount County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Blount County.";
-  const keywords = [
-    "commercial gutter installation near Blount County",
-    "seamless gutter company near Blount County",
-    "seamless gutters companies near Blount County",
-    "gutter repair contractors near Blount County",
-    "seamless gutter contractors near Blount County",
-    "seamless gutter installation near Blount County",
-    "seamless gutter installer near Blount County",
-    "seamless guttering companies near Blount County",
-    "seamless gutters contractors near Blount County",
-    "seamless gutters installation near Blount County",
-    "seamless gutters installers near Blount County",
-    "seamless rain gutters near Blount County",
-    "custom gutters near Blount County",
-    "gutter companies around Blount County",
-    "gutter contractor near Blount County",
-    "gutter contractors near Blount County",
-    "gutter guards installers near Blount County",
-    "gutter price calculator Blount County",
-    "gutters and siding contractors near Blount County",
-    "handyman gutter repair near Blount County",
-    "rain gutter contractor near Blount County",
-    "rain gutter contractors near Blount County",
-    "rain gutters contractors near Blount County",
-    "roof gutter installers near Blount County",
-    "seamless gutter companies near Blount County",
-    "seamless gutter contractor near Blount County",
-    "seamless gutter installers near Blount County",
-    "seamless gutters installed near Blount County",
-    "seamless gutters near Blount County",
-    "seemless gutters near Blount County",
-    "siding and gutters near Blount County",
-    "gutter business near Blount County",
-    "gutter guards installed near Blount County",
-    "gutter install near Blount County",
-    "guttering contractors near Blount County",
-    "gutters and siding near Blount County",
-    "gutters contractor near Blount County",
-    "gutters contractors near Blount County",
-    "gutters install near Blount County",
-    "roof and gutter contractors near Blount County",
-    "seamless gutter near Blount County",
-    "seamless guttering near Blount County",
-    "top rated gutter companies near Blount County",
-    "youtube gutter installation Blount County",
-    "continuous gutters near Blount County",
-    "gutter instalation near Blount County",
-    "gutter install companies near Blount County",
-    "gutter installation companies near Blount County",
-    "gutter installation company near Blount County",
-    "gutter installation contractors near Blount County",
-    "gutter installer near Blount County",
-    "gutter installers near Blount County",
-    "gutter replacement companies near Blount County",
-    "gutter service near Blount County",
-    "guttering installation near Blount County",
-    "guttering installers near Blount County",
-    "gutters installation near Blount County",
-    "gutters installed near Blount County",
-    "mini gutter Blount County",
-    "small gutter Blount County",
-    "small gutters Blount County",
-    "where to buy mobile home gutters Blount County",
-    "tools for gutter installation Blount County",
-    "window gutters Blount County",
-    "large rain gutters Blount County",
-    "2 inch gutter Blount County",
-    "menards downspouts Blount County",
-    "rain gutters at menards Blount County",
-    "downspout extension menards Blount County",
-    "downspout repair near Blount County",
-    "gares de casa Blount County",
-    "wide rain gutters Blount County",
-    "16 ft gutter lowe's Blount County",
-    "mini gutters lowe's Blount County",
-    "gutter parts home depot Blount County",
-    "gutter roof Blount County",
-    "mini gutters Blount County",
-    "plastic rain gutters home depot Blount County",
-    "roofing gutter Blount County",
-    "plastic gutters home depot Blount County",
-    "gutter screws home depot Blount County",
-    "add downspout to rain gutter Blount County",
-    "aluminum rain gutters home depot Blount County",
-    "gutter downspouts at lowes Blount County",
-    "aluminum gutters home depot Blount County",
-    "gutter downspout installation Blount County",
-    "rain gutter company near Blount County",
-    "roof gutter repair near Blount County",
-    "seamless gutter price calculator Blount County",
-    "affordable gutters near Blount County",
-    "local gutter company Blount County",
-    "local rain gutter companies Blount County",
-    "water gutter Blount County",
-    "downspouts at lowes Blount County",
-    "gutters installers near Blount County",
-    "roofing and gutters near Blount County",
-    "gutter fixing near Blount County",
-    "home depot gutters and downspouts Blount County",
-    "homedepot gutters Blount County",
-    "rain gutters repair near Blount County"
-  ];
-
   return (
-    <CountyPage county={county} cities={cities} description={description} keywords={keywords} />
+    <>
+      <Head>
+        <title>Gutter Services in Blount County, TN | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Blount County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Blount County." />
+        <meta name="keywords" content="commercial gutter installation near Blount County, seamless gutter company near Blount County, seamless gutters companies near Blount County, gutter repair contractors near Blount County, seamless gutter contractors near Blount County, seamless gutter installation near Blount County, seamless gutter installer near Blount County, seamless guttering companies near Blount County, seamless gutters contractors near Blount County, seamless gutters installation near Blount County, seamless gutters installers near Blount County, seamless rain gutters near Blount County, custom gutters near Blount County, gutter companies around near Blount County, gutter contractor near Blount County, gutter contractors near Blount County, gutter guards installers near Blount County, gutter price calculator near Blount County, gutters and siding contractors near Blount County, handyman gutter repair near Blount County, rain gutter contractor near Blount County, rain gutter contractors near Blount County, rain gutters contractors near Blount County, roof gutter installers near Blount County, seamless gutter companies near Blount County, seamless gutter contractor near Blount County, seamless gutter installers near Blount County, seamless gutters installed near Blount County, seamless gutters near Blount County, seemless gutters near Blount County, siding and gutters near Blount County, gutter business near Blount County, gutter guards installed near Blount County, gutter install near Blount County, guttering contractors near Blount County, gutters and siding near Blount County, gutters contractor near Blount County, gutters contractors near Blount County, gutters install near Blount County, roof and gutter contractors near Blount County, seamless gutter near Blount County, seamless guttering near Blount County, top rated gutter companies near Blount County, youtube gutter installation near Blount County, continuous gutters near Blount County, gutter instalation near Blount County, gutter install companies near Blount County, gutter installation companies near Blount County, gutter installation company near Blount County, gutter installation contractors near Blount County, gutter installer near Blount County, gutter installers near Blount County, gutter replacement companies near Blount County, gutter service near Blount County, guttering installation near Blount County, guttering installers near Blount County, gutters installation near Blount County, gutters installed near Blount County, mini gutter near Blount County, small gutter near Blount County, small gutters near Blount County, where to buy mobile home gutters near Blount County, tools for gutter installation near Blount County, window gutters near Blount County, large rain gutters near Blount County, 2 inch gutter near Blount County, menards downspouts near Blount County, rain gutters at menards near Blount County, downspout extension menards near Blount County, downspout repair near Blount County, gares de casa near Blount County, wide rain gutters near Blount County, 16 ft gutter lowe's near Blount County, mini gutters lowe's near Blount County, gutter parts home depot near Blount County, gutter roof near Blount County, mini gutters near Blount County, plastic rain gutters home depot near Blount County, roofing gutter near Blount County, plastic gutters home depot near Blount County, gutter screws home depot near Blount County, add downspout to rain gutter near Blount County, aluminum rain gutters home depot near Blount County, gutter downspouts at lowes near Blount County, aluminum gutters home depot near Blount County, gutter downspout installation near Blount County, rain gutter company near Blount County, roof gutter repair near Blount County, seamless gutter price calculator near Blount County, affordable gutters near Blount County, local gutter company near Blount County, local rain gutter companies near Blount County, water gutter near Blount County, downspouts at lowes near Blount County, gutters installers near Blount County, roofing and gutters near Blount County, gutter fixing near Blount County, home depot gutters and downspouts near Blount County, homedepot gutters near Blount County, rain gutters repair near Blount County" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Blount County, TN | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Blount County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Blount County." />
+        <meta property="og:url" content="https://jonescogutters.com/counties/blount" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/counties/blount" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CountyPage
+        county="Blount"
+        cities={["Alcoa","Maryville","Friendsville","Townsend","Louisville"]}
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Blount County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Blount County."
+        keywords={["commercial gutter installation near Blount County","seamless gutter company near Blount County","seamless gutters companies near Blount County","gutter repair contractors near Blount County","seamless gutter contractors near Blount County","seamless gutter installation near Blount County","seamless gutter installer near Blount County","seamless guttering companies near Blount County","seamless gutters contractors near Blount County","seamless gutters installation near Blount County","seamless gutters installers near Blount County","seamless rain gutters near Blount County","custom gutters near Blount County","gutter companies around near Blount County","gutter contractor near Blount County","gutter contractors near Blount County","gutter guards installers near Blount County","gutter price calculator near Blount County","gutters and siding contractors near Blount County","handyman gutter repair near Blount County","rain gutter contractor near Blount County","rain gutter contractors near Blount County","rain gutters contractors near Blount County","roof gutter installers near Blount County","seamless gutter companies near Blount County","seamless gutter contractor near Blount County","seamless gutter installers near Blount County","seamless gutters installed near Blount County","seamless gutters near Blount County","seemless gutters near Blount County","siding and gutters near Blount County","gutter business near Blount County","gutter guards installed near Blount County","gutter install near Blount County","guttering contractors near Blount County","gutters and siding near Blount County","gutters contractor near Blount County","gutters contractors near Blount County","gutters install near Blount County","roof and gutter contractors near Blount County","seamless gutter near Blount County","seamless guttering near Blount County","top rated gutter companies near Blount County","youtube gutter installation near Blount County","continuous gutters near Blount County","gutter instalation near Blount County","gutter install companies near Blount County","gutter installation companies near Blount County","gutter installation company near Blount County","gutter installation contractors near Blount County","gutter installer near Blount County","gutter installers near Blount County","gutter replacement companies near Blount County","gutter service near Blount County","guttering installation near Blount County","guttering installers near Blount County","gutters installation near Blount County","gutters installed near Blount County","mini gutter near Blount County","small gutter near Blount County","small gutters near Blount County","where to buy mobile home gutters near Blount County","tools for gutter installation near Blount County","window gutters near Blount County","large rain gutters near Blount County","2 inch gutter near Blount County","menards downspouts near Blount County","rain gutters at menards near Blount County","downspout extension menards near Blount County","downspout repair near Blount County","gares de casa near Blount County","wide rain gutters near Blount County","16 ft gutter lowe's near Blount County","mini gutters lowe's near Blount County","gutter parts home depot near Blount County","gutter roof near Blount County","mini gutters near Blount County","plastic rain gutters home depot near Blount County","roofing gutter near Blount County","plastic gutters home depot near Blount County","gutter screws home depot near Blount County","add downspout to rain gutter near Blount County","aluminum rain gutters home depot near Blount County","gutter downspouts at lowes near Blount County","aluminum gutters home depot near Blount County","gutter downspout installation near Blount County","rain gutter company near Blount County","roof gutter repair near Blount County","seamless gutter price calculator near Blount County","affordable gutters near Blount County","local gutter company near Blount County","local rain gutter companies near Blount County","water gutter near Blount County","downspouts at lowes near Blount County","gutters installers near Blount County","roofing and gutters near Blount County","gutter fixing near Blount County","home depot gutters and downspouts near Blount County","homedepot gutters near Blount County","rain gutters repair near Blount County"]}
+      />
+    </>
   );
 };
 
 export default Blount;
+  

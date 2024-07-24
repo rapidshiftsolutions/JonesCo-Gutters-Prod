@@ -1,117 +1,44 @@
 
 import React from 'react';
 import CountyPage from '@/components/CountyPage';
+import Head from 'next/head';
 
 const Jefferson = () => {
-  const county = "Jefferson";
-  const cities = ["Dandridge","Jefferson City","White Pine","New Market","Baneberry"];
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Jefferson County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Jefferson County.";
-  const keywords = [
-    "commercial gutter installation near Jefferson County",
-    "seamless gutter company near Jefferson County",
-    "seamless gutters companies near Jefferson County",
-    "gutter repair contractors near Jefferson County",
-    "seamless gutter contractors near Jefferson County",
-    "seamless gutter installation near Jefferson County",
-    "seamless gutter installer near Jefferson County",
-    "seamless guttering companies near Jefferson County",
-    "seamless gutters contractors near Jefferson County",
-    "seamless gutters installation near Jefferson County",
-    "seamless gutters installers near Jefferson County",
-    "seamless rain gutters near Jefferson County",
-    "custom gutters near Jefferson County",
-    "gutter companies around Jefferson County",
-    "gutter contractor near Jefferson County",
-    "gutter contractors near Jefferson County",
-    "gutter guards installers near Jefferson County",
-    "gutter price calculator Jefferson County",
-    "gutters and siding contractors near Jefferson County",
-    "handyman gutter repair near Jefferson County",
-    "rain gutter contractor near Jefferson County",
-    "rain gutter contractors near Jefferson County",
-    "rain gutters contractors near Jefferson County",
-    "roof gutter installers near Jefferson County",
-    "seamless gutter companies near Jefferson County",
-    "seamless gutter contractor near Jefferson County",
-    "seamless gutter installers near Jefferson County",
-    "seamless gutters installed near Jefferson County",
-    "seamless gutters near Jefferson County",
-    "seemless gutters near Jefferson County",
-    "siding and gutters near Jefferson County",
-    "gutter business near Jefferson County",
-    "gutter guards installed near Jefferson County",
-    "gutter install near Jefferson County",
-    "guttering contractors near Jefferson County",
-    "gutters and siding near Jefferson County",
-    "gutters contractor near Jefferson County",
-    "gutters contractors near Jefferson County",
-    "gutters install near Jefferson County",
-    "roof and gutter contractors near Jefferson County",
-    "seamless gutter near Jefferson County",
-    "seamless guttering near Jefferson County",
-    "top rated gutter companies near Jefferson County",
-    "youtube gutter installation Jefferson County",
-    "continuous gutters near Jefferson County",
-    "gutter instalation near Jefferson County",
-    "gutter install companies near Jefferson County",
-    "gutter installation companies near Jefferson County",
-    "gutter installation company near Jefferson County",
-    "gutter installation contractors near Jefferson County",
-    "gutter installer near Jefferson County",
-    "gutter installers near Jefferson County",
-    "gutter replacement companies near Jefferson County",
-    "gutter service near Jefferson County",
-    "guttering installation near Jefferson County",
-    "guttering installers near Jefferson County",
-    "gutters installation near Jefferson County",
-    "gutters installed near Jefferson County",
-    "mini gutter Jefferson County",
-    "small gutter Jefferson County",
-    "small gutters Jefferson County",
-    "where to buy mobile home gutters Jefferson County",
-    "tools for gutter installation Jefferson County",
-    "window gutters Jefferson County",
-    "large rain gutters Jefferson County",
-    "2 inch gutter Jefferson County",
-    "menards downspouts Jefferson County",
-    "rain gutters at menards Jefferson County",
-    "downspout extension menards Jefferson County",
-    "downspout repair near Jefferson County",
-    "gares de casa Jefferson County",
-    "wide rain gutters Jefferson County",
-    "16 ft gutter lowe's Jefferson County",
-    "mini gutters lowe's Jefferson County",
-    "gutter parts home depot Jefferson County",
-    "gutter roof Jefferson County",
-    "mini gutters Jefferson County",
-    "plastic rain gutters home depot Jefferson County",
-    "roofing gutter Jefferson County",
-    "plastic gutters home depot Jefferson County",
-    "gutter screws home depot Jefferson County",
-    "add downspout to rain gutter Jefferson County",
-    "aluminum rain gutters home depot Jefferson County",
-    "gutter downspouts at lowes Jefferson County",
-    "aluminum gutters home depot Jefferson County",
-    "gutter downspout installation Jefferson County",
-    "rain gutter company near Jefferson County",
-    "roof gutter repair near Jefferson County",
-    "seamless gutter price calculator Jefferson County",
-    "affordable gutters near Jefferson County",
-    "local gutter company Jefferson County",
-    "local rain gutter companies Jefferson County",
-    "water gutter Jefferson County",
-    "downspouts at lowes Jefferson County",
-    "gutters installers near Jefferson County",
-    "roofing and gutters near Jefferson County",
-    "gutter fixing near Jefferson County",
-    "home depot gutters and downspouts Jefferson County",
-    "homedepot gutters Jefferson County",
-    "rain gutters repair near Jefferson County"
-  ];
-
   return (
-    <CountyPage county={county} cities={cities} description={description} keywords={keywords} />
+    <>
+      <Head>
+        <title>Gutter Services in Jefferson County, TN | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Jefferson County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Jefferson County." />
+        <meta name="keywords" content="commercial gutter installation near Jefferson County, seamless gutter company near Jefferson County, seamless gutters companies near Jefferson County, gutter repair contractors near Jefferson County, seamless gutter contractors near Jefferson County, seamless gutter installation near Jefferson County, seamless gutter installer near Jefferson County, seamless guttering companies near Jefferson County, seamless gutters contractors near Jefferson County, seamless gutters installation near Jefferson County, seamless gutters installers near Jefferson County, seamless rain gutters near Jefferson County, custom gutters near Jefferson County, gutter companies around near Jefferson County, gutter contractor near Jefferson County, gutter contractors near Jefferson County, gutter guards installers near Jefferson County, gutter price calculator near Jefferson County, gutters and siding contractors near Jefferson County, handyman gutter repair near Jefferson County, rain gutter contractor near Jefferson County, rain gutter contractors near Jefferson County, rain gutters contractors near Jefferson County, roof gutter installers near Jefferson County, seamless gutter companies near Jefferson County, seamless gutter contractor near Jefferson County, seamless gutter installers near Jefferson County, seamless gutters installed near Jefferson County, seamless gutters near Jefferson County, seemless gutters near Jefferson County, siding and gutters near Jefferson County, gutter business near Jefferson County, gutter guards installed near Jefferson County, gutter install near Jefferson County, guttering contractors near Jefferson County, gutters and siding near Jefferson County, gutters contractor near Jefferson County, gutters contractors near Jefferson County, gutters install near Jefferson County, roof and gutter contractors near Jefferson County, seamless gutter near Jefferson County, seamless guttering near Jefferson County, top rated gutter companies near Jefferson County, youtube gutter installation near Jefferson County, continuous gutters near Jefferson County, gutter instalation near Jefferson County, gutter install companies near Jefferson County, gutter installation companies near Jefferson County, gutter installation company near Jefferson County, gutter installation contractors near Jefferson County, gutter installer near Jefferson County, gutter installers near Jefferson County, gutter replacement companies near Jefferson County, gutter service near Jefferson County, guttering installation near Jefferson County, guttering installers near Jefferson County, gutters installation near Jefferson County, gutters installed near Jefferson County, mini gutter near Jefferson County, small gutter near Jefferson County, small gutters near Jefferson County, where to buy mobile home gutters near Jefferson County, tools for gutter installation near Jefferson County, window gutters near Jefferson County, large rain gutters near Jefferson County, 2 inch gutter near Jefferson County, menards downspouts near Jefferson County, rain gutters at menards near Jefferson County, downspout extension menards near Jefferson County, downspout repair near Jefferson County, gares de casa near Jefferson County, wide rain gutters near Jefferson County, 16 ft gutter lowe's near Jefferson County, mini gutters lowe's near Jefferson County, gutter parts home depot near Jefferson County, gutter roof near Jefferson County, mini gutters near Jefferson County, plastic rain gutters home depot near Jefferson County, roofing gutter near Jefferson County, plastic gutters home depot near Jefferson County, gutter screws home depot near Jefferson County, add downspout to rain gutter near Jefferson County, aluminum rain gutters home depot near Jefferson County, gutter downspouts at lowes near Jefferson County, aluminum gutters home depot near Jefferson County, gutter downspout installation near Jefferson County, rain gutter company near Jefferson County, roof gutter repair near Jefferson County, seamless gutter price calculator near Jefferson County, affordable gutters near Jefferson County, local gutter company near Jefferson County, local rain gutter companies near Jefferson County, water gutter near Jefferson County, downspouts at lowes near Jefferson County, gutters installers near Jefferson County, roofing and gutters near Jefferson County, gutter fixing near Jefferson County, home depot gutters and downspouts near Jefferson County, homedepot gutters near Jefferson County, rain gutters repair near Jefferson County" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Jefferson County, TN | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Jefferson County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Jefferson County." />
+        <meta property="og:url" content="https://jonescogutters.com/counties/jefferson" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/counties/jefferson" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CountyPage
+        county="Jefferson"
+        cities={["Dandridge","Jefferson City","White Pine","New Market","Baneberry"]}
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Jefferson County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Jefferson County."
+        keywords={["commercial gutter installation near Jefferson County","seamless gutter company near Jefferson County","seamless gutters companies near Jefferson County","gutter repair contractors near Jefferson County","seamless gutter contractors near Jefferson County","seamless gutter installation near Jefferson County","seamless gutter installer near Jefferson County","seamless guttering companies near Jefferson County","seamless gutters contractors near Jefferson County","seamless gutters installation near Jefferson County","seamless gutters installers near Jefferson County","seamless rain gutters near Jefferson County","custom gutters near Jefferson County","gutter companies around near Jefferson County","gutter contractor near Jefferson County","gutter contractors near Jefferson County","gutter guards installers near Jefferson County","gutter price calculator near Jefferson County","gutters and siding contractors near Jefferson County","handyman gutter repair near Jefferson County","rain gutter contractor near Jefferson County","rain gutter contractors near Jefferson County","rain gutters contractors near Jefferson County","roof gutter installers near Jefferson County","seamless gutter companies near Jefferson County","seamless gutter contractor near Jefferson County","seamless gutter installers near Jefferson County","seamless gutters installed near Jefferson County","seamless gutters near Jefferson County","seemless gutters near Jefferson County","siding and gutters near Jefferson County","gutter business near Jefferson County","gutter guards installed near Jefferson County","gutter install near Jefferson County","guttering contractors near Jefferson County","gutters and siding near Jefferson County","gutters contractor near Jefferson County","gutters contractors near Jefferson County","gutters install near Jefferson County","roof and gutter contractors near Jefferson County","seamless gutter near Jefferson County","seamless guttering near Jefferson County","top rated gutter companies near Jefferson County","youtube gutter installation near Jefferson County","continuous gutters near Jefferson County","gutter instalation near Jefferson County","gutter install companies near Jefferson County","gutter installation companies near Jefferson County","gutter installation company near Jefferson County","gutter installation contractors near Jefferson County","gutter installer near Jefferson County","gutter installers near Jefferson County","gutter replacement companies near Jefferson County","gutter service near Jefferson County","guttering installation near Jefferson County","guttering installers near Jefferson County","gutters installation near Jefferson County","gutters installed near Jefferson County","mini gutter near Jefferson County","small gutter near Jefferson County","small gutters near Jefferson County","where to buy mobile home gutters near Jefferson County","tools for gutter installation near Jefferson County","window gutters near Jefferson County","large rain gutters near Jefferson County","2 inch gutter near Jefferson County","menards downspouts near Jefferson County","rain gutters at menards near Jefferson County","downspout extension menards near Jefferson County","downspout repair near Jefferson County","gares de casa near Jefferson County","wide rain gutters near Jefferson County","16 ft gutter lowe's near Jefferson County","mini gutters lowe's near Jefferson County","gutter parts home depot near Jefferson County","gutter roof near Jefferson County","mini gutters near Jefferson County","plastic rain gutters home depot near Jefferson County","roofing gutter near Jefferson County","plastic gutters home depot near Jefferson County","gutter screws home depot near Jefferson County","add downspout to rain gutter near Jefferson County","aluminum rain gutters home depot near Jefferson County","gutter downspouts at lowes near Jefferson County","aluminum gutters home depot near Jefferson County","gutter downspout installation near Jefferson County","rain gutter company near Jefferson County","roof gutter repair near Jefferson County","seamless gutter price calculator near Jefferson County","affordable gutters near Jefferson County","local gutter company near Jefferson County","local rain gutter companies near Jefferson County","water gutter near Jefferson County","downspouts at lowes near Jefferson County","gutters installers near Jefferson County","roofing and gutters near Jefferson County","gutter fixing near Jefferson County","home depot gutters and downspouts near Jefferson County","homedepot gutters near Jefferson County","rain gutters repair near Jefferson County"]}
+      />
+    </>
   );
 };
 
 export default Jefferson;
+  

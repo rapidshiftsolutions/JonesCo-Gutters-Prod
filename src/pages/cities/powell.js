@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Powell = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Powell. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Powell.";
-  const keywords = [
-    "commercial gutter installation near Powell",
-    "seamless gutter company near Powell",
-    "seamless gutters companies near Powell",
-    "gutter repair contractors near Powell",
-    "seamless gutter contractors near Powell",
-    "seamless gutter installation near Powell",
-    "seamless gutter installer near Powell",
-    "seamless guttering companies near Powell",
-    "seamless gutters contractors near Powell",
-    "seamless gutters installation near Powell",
-    "seamless gutters installers near Powell",
-    "seamless rain gutters near Powell",
-    "custom gutters near Powell",
-    "gutter companies around Powell",
-    "gutter contractor near Powell",
-    "gutter contractors near Powell",
-    "gutter guards installers near Powell",
-    "gutter price calculator Powell",
-    "gutters and siding contractors near Powell",
-    "handyman gutter repair near Powell",
-    "rain gutter contractor near Powell",
-    "rain gutter contractors near Powell",
-    "rain gutters contractors near Powell",
-    "roof gutter installers near Powell",
-    "seamless gutter companies near Powell",
-    "seamless gutter contractor near Powell",
-    "seamless gutter installers near Powell",
-    "seamless gutters installed near Powell",
-    "seamless gutters near Powell",
-    "seemless gutters near Powell",
-    "siding and gutters near Powell",
-    "gutter business near Powell",
-    "gutter guards installed near Powell",
-    "gutter install near Powell",
-    "guttering contractors near Powell",
-    "gutters and siding near Powell",
-    "gutters contractor near Powell",
-    "gutters contractors near Powell",
-    "gutters install near Powell",
-    "roof and gutter contractors near Powell",
-    "seamless gutter near Powell",
-    "seamless guttering near Powell",
-    "top rated gutter companies near Powell",
-    "youtube gutter installation Powell",
-    "continuous gutters near Powell",
-    "gutter instalation near Powell",
-    "gutter install companies near Powell",
-    "gutter installation companies near Powell",
-    "gutter installation company near Powell",
-    "gutter installation contractors near Powell",
-    "gutter installer near Powell",
-    "gutter installers near Powell",
-    "gutter replacement companies near Powell",
-    "gutter service near Powell",
-    "guttering installation near Powell",
-    "guttering installers near Powell",
-    "gutters installation near Powell",
-    "gutters installed near Powell",
-    "mini gutter Powell",
-    "small gutter Powell",
-    "small gutters Powell",
-    "where to buy mobile home gutters Powell",
-    "tools for gutter installation Powell",
-    "window gutters Powell",
-    "large rain gutters Powell",
-    "2 inch gutter Powell",
-    "menards downspouts Powell",
-    "rain gutters at menards Powell",
-    "downspout extension menards Powell",
-    "downspout repair near Powell",
-    "gares de casa Powell",
-    "wide rain gutters Powell",
-    "16 ft gutter lowe's Powell",
-    "mini gutters lowe's Powell",
-    "gutter parts home depot Powell",
-    "gutter roof Powell",
-    "mini gutters Powell",
-    "plastic rain gutters home depot Powell",
-    "roofing gutter Powell",
-    "plastic gutters home depot Powell",
-    "gutter screws home depot Powell",
-    "add downspout to rain gutter Powell",
-    "aluminum rain gutters home depot Powell",
-    "gutter downspouts at lowes Powell",
-    "aluminum gutters home depot Powell",
-    "gutter downspout installation Powell",
-    "rain gutter company near Powell",
-    "roof gutter repair near Powell",
-    "seamless gutter price calculator Powell",
-    "affordable gutters near Powell",
-    "local gutter company Powell",
-    "local rain gutter companies Powell",
-    "water gutter Powell",
-    "downspouts at lowes Powell",
-    "gutters installers near Powell",
-    "roofing and gutters near Powell",
-    "gutter fixing near Powell",
-    "home depot gutters and downspouts Powell",
-    "homedepot gutters Powell",
-    "rain gutters repair near Powell"
-  ];
-
   return (
-    <CityPage
-      city="Powell"
-      county="Knox"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Powell, Knox County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Powell. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Powell." />
+        <meta name="keywords" content="commercial gutter installation near Powell, seamless gutter company near Powell, seamless gutters companies near Powell, gutter repair contractors near Powell, seamless gutter contractors near Powell, seamless gutter installation near Powell, seamless gutter installer near Powell, seamless guttering companies near Powell, seamless gutters contractors near Powell, seamless gutters installation near Powell, seamless gutters installers near Powell, seamless rain gutters near Powell, custom gutters near Powell, gutter companies around near Powell, gutter contractor near Powell, gutter contractors near Powell, gutter guards installers near Powell, gutter price calculator near Powell, gutters and siding contractors near Powell, handyman gutter repair near Powell, rain gutter contractor near Powell, rain gutter contractors near Powell, rain gutters contractors near Powell, roof gutter installers near Powell, seamless gutter companies near Powell, seamless gutter contractor near Powell, seamless gutter installers near Powell, seamless gutters installed near Powell, seamless gutters near Powell, seemless gutters near Powell, siding and gutters near Powell, gutter business near Powell, gutter guards installed near Powell, gutter install near Powell, guttering contractors near Powell, gutters and siding near Powell, gutters contractor near Powell, gutters contractors near Powell, gutters install near Powell, roof and gutter contractors near Powell, seamless gutter near Powell, seamless guttering near Powell, top rated gutter companies near Powell, youtube gutter installation near Powell, continuous gutters near Powell, gutter instalation near Powell, gutter install companies near Powell, gutter installation companies near Powell, gutter installation company near Powell, gutter installation contractors near Powell, gutter installer near Powell, gutter installers near Powell, gutter replacement companies near Powell, gutter service near Powell, guttering installation near Powell, guttering installers near Powell, gutters installation near Powell, gutters installed near Powell, mini gutter near Powell, small gutter near Powell, small gutters near Powell, where to buy mobile home gutters near Powell, tools for gutter installation near Powell, window gutters near Powell, large rain gutters near Powell, 2 inch gutter near Powell, menards downspouts near Powell, rain gutters at menards near Powell, downspout extension menards near Powell, downspout repair near Powell, gares de casa near Powell, wide rain gutters near Powell, 16 ft gutter lowe's near Powell, mini gutters lowe's near Powell, gutter parts home depot near Powell, gutter roof near Powell, mini gutters near Powell, plastic rain gutters home depot near Powell, roofing gutter near Powell, plastic gutters home depot near Powell, gutter screws home depot near Powell, add downspout to rain gutter near Powell, aluminum rain gutters home depot near Powell, gutter downspouts at lowes near Powell, aluminum gutters home depot near Powell, gutter downspout installation near Powell, rain gutter company near Powell, roof gutter repair near Powell, seamless gutter price calculator near Powell, affordable gutters near Powell, local gutter company near Powell, local rain gutter companies near Powell, water gutter near Powell, downspouts at lowes near Powell, gutters installers near Powell, roofing and gutters near Powell, gutter fixing near Powell, home depot gutters and downspouts near Powell, homedepot gutters near Powell, rain gutters repair near Powell" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Powell, Knox County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Powell. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Powell." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/powell" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/powell" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Powell"
+        county="Knox"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Powell. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Powell."
+        keywords={["commercial gutter installation near Powell","seamless gutter company near Powell","seamless gutters companies near Powell","gutter repair contractors near Powell","seamless gutter contractors near Powell","seamless gutter installation near Powell","seamless gutter installer near Powell","seamless guttering companies near Powell","seamless gutters contractors near Powell","seamless gutters installation near Powell","seamless gutters installers near Powell","seamless rain gutters near Powell","custom gutters near Powell","gutter companies around near Powell","gutter contractor near Powell","gutter contractors near Powell","gutter guards installers near Powell","gutter price calculator near Powell","gutters and siding contractors near Powell","handyman gutter repair near Powell","rain gutter contractor near Powell","rain gutter contractors near Powell","rain gutters contractors near Powell","roof gutter installers near Powell","seamless gutter companies near Powell","seamless gutter contractor near Powell","seamless gutter installers near Powell","seamless gutters installed near Powell","seamless gutters near Powell","seemless gutters near Powell","siding and gutters near Powell","gutter business near Powell","gutter guards installed near Powell","gutter install near Powell","guttering contractors near Powell","gutters and siding near Powell","gutters contractor near Powell","gutters contractors near Powell","gutters install near Powell","roof and gutter contractors near Powell","seamless gutter near Powell","seamless guttering near Powell","top rated gutter companies near Powell","youtube gutter installation near Powell","continuous gutters near Powell","gutter instalation near Powell","gutter install companies near Powell","gutter installation companies near Powell","gutter installation company near Powell","gutter installation contractors near Powell","gutter installer near Powell","gutter installers near Powell","gutter replacement companies near Powell","gutter service near Powell","guttering installation near Powell","guttering installers near Powell","gutters installation near Powell","gutters installed near Powell","mini gutter near Powell","small gutter near Powell","small gutters near Powell","where to buy mobile home gutters near Powell","tools for gutter installation near Powell","window gutters near Powell","large rain gutters near Powell","2 inch gutter near Powell","menards downspouts near Powell","rain gutters at menards near Powell","downspout extension menards near Powell","downspout repair near Powell","gares de casa near Powell","wide rain gutters near Powell","16 ft gutter lowe's near Powell","mini gutters lowe's near Powell","gutter parts home depot near Powell","gutter roof near Powell","mini gutters near Powell","plastic rain gutters home depot near Powell","roofing gutter near Powell","plastic gutters home depot near Powell","gutter screws home depot near Powell","add downspout to rain gutter near Powell","aluminum rain gutters home depot near Powell","gutter downspouts at lowes near Powell","aluminum gutters home depot near Powell","gutter downspout installation near Powell","rain gutter company near Powell","roof gutter repair near Powell","seamless gutter price calculator near Powell","affordable gutters near Powell","local gutter company near Powell","local rain gutter companies near Powell","water gutter near Powell","downspouts at lowes near Powell","gutters installers near Powell","roofing and gutters near Powell","gutter fixing near Powell","home depot gutters and downspouts near Powell","homedepot gutters near Powell","rain gutters repair near Powell"]}
+      />
+    </>
   );
 };
 
 export default Powell;
+  

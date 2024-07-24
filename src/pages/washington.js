@@ -1,117 +1,44 @@
 
 import React from 'react';
 import CountyPage from '@/components/CountyPage';
+import Head from 'next/head';
 
 const Washington = () => {
-  const county = "Washington";
-  const cities = ["Johnson City","Jonesborough","Limestone","Telford"];
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Washington County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Washington County.";
-  const keywords = [
-    "commercial gutter installation near Washington County",
-    "seamless gutter company near Washington County",
-    "seamless gutters companies near Washington County",
-    "gutter repair contractors near Washington County",
-    "seamless gutter contractors near Washington County",
-    "seamless gutter installation near Washington County",
-    "seamless gutter installer near Washington County",
-    "seamless guttering companies near Washington County",
-    "seamless gutters contractors near Washington County",
-    "seamless gutters installation near Washington County",
-    "seamless gutters installers near Washington County",
-    "seamless rain gutters near Washington County",
-    "custom gutters near Washington County",
-    "gutter companies around Washington County",
-    "gutter contractor near Washington County",
-    "gutter contractors near Washington County",
-    "gutter guards installers near Washington County",
-    "gutter price calculator Washington County",
-    "gutters and siding contractors near Washington County",
-    "handyman gutter repair near Washington County",
-    "rain gutter contractor near Washington County",
-    "rain gutter contractors near Washington County",
-    "rain gutters contractors near Washington County",
-    "roof gutter installers near Washington County",
-    "seamless gutter companies near Washington County",
-    "seamless gutter contractor near Washington County",
-    "seamless gutter installers near Washington County",
-    "seamless gutters installed near Washington County",
-    "seamless gutters near Washington County",
-    "seemless gutters near Washington County",
-    "siding and gutters near Washington County",
-    "gutter business near Washington County",
-    "gutter guards installed near Washington County",
-    "gutter install near Washington County",
-    "guttering contractors near Washington County",
-    "gutters and siding near Washington County",
-    "gutters contractor near Washington County",
-    "gutters contractors near Washington County",
-    "gutters install near Washington County",
-    "roof and gutter contractors near Washington County",
-    "seamless gutter near Washington County",
-    "seamless guttering near Washington County",
-    "top rated gutter companies near Washington County",
-    "youtube gutter installation Washington County",
-    "continuous gutters near Washington County",
-    "gutter instalation near Washington County",
-    "gutter install companies near Washington County",
-    "gutter installation companies near Washington County",
-    "gutter installation company near Washington County",
-    "gutter installation contractors near Washington County",
-    "gutter installer near Washington County",
-    "gutter installers near Washington County",
-    "gutter replacement companies near Washington County",
-    "gutter service near Washington County",
-    "guttering installation near Washington County",
-    "guttering installers near Washington County",
-    "gutters installation near Washington County",
-    "gutters installed near Washington County",
-    "mini gutter Washington County",
-    "small gutter Washington County",
-    "small gutters Washington County",
-    "where to buy mobile home gutters Washington County",
-    "tools for gutter installation Washington County",
-    "window gutters Washington County",
-    "large rain gutters Washington County",
-    "2 inch gutter Washington County",
-    "menards downspouts Washington County",
-    "rain gutters at menards Washington County",
-    "downspout extension menards Washington County",
-    "downspout repair near Washington County",
-    "gares de casa Washington County",
-    "wide rain gutters Washington County",
-    "16 ft gutter lowe's Washington County",
-    "mini gutters lowe's Washington County",
-    "gutter parts home depot Washington County",
-    "gutter roof Washington County",
-    "mini gutters Washington County",
-    "plastic rain gutters home depot Washington County",
-    "roofing gutter Washington County",
-    "plastic gutters home depot Washington County",
-    "gutter screws home depot Washington County",
-    "add downspout to rain gutter Washington County",
-    "aluminum rain gutters home depot Washington County",
-    "gutter downspouts at lowes Washington County",
-    "aluminum gutters home depot Washington County",
-    "gutter downspout installation Washington County",
-    "rain gutter company near Washington County",
-    "roof gutter repair near Washington County",
-    "seamless gutter price calculator Washington County",
-    "affordable gutters near Washington County",
-    "local gutter company Washington County",
-    "local rain gutter companies Washington County",
-    "water gutter Washington County",
-    "downspouts at lowes Washington County",
-    "gutters installers near Washington County",
-    "roofing and gutters near Washington County",
-    "gutter fixing near Washington County",
-    "home depot gutters and downspouts Washington County",
-    "homedepot gutters Washington County",
-    "rain gutters repair near Washington County"
-  ];
-
   return (
-    <CountyPage county={county} cities={cities} description={description} keywords={keywords} />
+    <>
+      <Head>
+        <title>Gutter Services in Washington County, TN | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Washington County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Washington County." />
+        <meta name="keywords" content="commercial gutter installation near Washington County, seamless gutter company near Washington County, seamless gutters companies near Washington County, gutter repair contractors near Washington County, seamless gutter contractors near Washington County, seamless gutter installation near Washington County, seamless gutter installer near Washington County, seamless guttering companies near Washington County, seamless gutters contractors near Washington County, seamless gutters installation near Washington County, seamless gutters installers near Washington County, seamless rain gutters near Washington County, custom gutters near Washington County, gutter companies around near Washington County, gutter contractor near Washington County, gutter contractors near Washington County, gutter guards installers near Washington County, gutter price calculator near Washington County, gutters and siding contractors near Washington County, handyman gutter repair near Washington County, rain gutter contractor near Washington County, rain gutter contractors near Washington County, rain gutters contractors near Washington County, roof gutter installers near Washington County, seamless gutter companies near Washington County, seamless gutter contractor near Washington County, seamless gutter installers near Washington County, seamless gutters installed near Washington County, seamless gutters near Washington County, seemless gutters near Washington County, siding and gutters near Washington County, gutter business near Washington County, gutter guards installed near Washington County, gutter install near Washington County, guttering contractors near Washington County, gutters and siding near Washington County, gutters contractor near Washington County, gutters contractors near Washington County, gutters install near Washington County, roof and gutter contractors near Washington County, seamless gutter near Washington County, seamless guttering near Washington County, top rated gutter companies near Washington County, youtube gutter installation near Washington County, continuous gutters near Washington County, gutter instalation near Washington County, gutter install companies near Washington County, gutter installation companies near Washington County, gutter installation company near Washington County, gutter installation contractors near Washington County, gutter installer near Washington County, gutter installers near Washington County, gutter replacement companies near Washington County, gutter service near Washington County, guttering installation near Washington County, guttering installers near Washington County, gutters installation near Washington County, gutters installed near Washington County, mini gutter near Washington County, small gutter near Washington County, small gutters near Washington County, where to buy mobile home gutters near Washington County, tools for gutter installation near Washington County, window gutters near Washington County, large rain gutters near Washington County, 2 inch gutter near Washington County, menards downspouts near Washington County, rain gutters at menards near Washington County, downspout extension menards near Washington County, downspout repair near Washington County, gares de casa near Washington County, wide rain gutters near Washington County, 16 ft gutter lowe's near Washington County, mini gutters lowe's near Washington County, gutter parts home depot near Washington County, gutter roof near Washington County, mini gutters near Washington County, plastic rain gutters home depot near Washington County, roofing gutter near Washington County, plastic gutters home depot near Washington County, gutter screws home depot near Washington County, add downspout to rain gutter near Washington County, aluminum rain gutters home depot near Washington County, gutter downspouts at lowes near Washington County, aluminum gutters home depot near Washington County, gutter downspout installation near Washington County, rain gutter company near Washington County, roof gutter repair near Washington County, seamless gutter price calculator near Washington County, affordable gutters near Washington County, local gutter company near Washington County, local rain gutter companies near Washington County, water gutter near Washington County, downspouts at lowes near Washington County, gutters installers near Washington County, roofing and gutters near Washington County, gutter fixing near Washington County, home depot gutters and downspouts near Washington County, homedepot gutters near Washington County, rain gutters repair near Washington County" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Washington County, TN | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Washington County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Washington County." />
+        <meta property="og:url" content="https://jonescogutters.com/counties/washington" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/counties/washington" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CountyPage
+        county="Washington"
+        cities={["Johnson City","Jonesborough","Limestone","Telford"]}
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Washington County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Washington County."
+        keywords={["commercial gutter installation near Washington County","seamless gutter company near Washington County","seamless gutters companies near Washington County","gutter repair contractors near Washington County","seamless gutter contractors near Washington County","seamless gutter installation near Washington County","seamless gutter installer near Washington County","seamless guttering companies near Washington County","seamless gutters contractors near Washington County","seamless gutters installation near Washington County","seamless gutters installers near Washington County","seamless rain gutters near Washington County","custom gutters near Washington County","gutter companies around near Washington County","gutter contractor near Washington County","gutter contractors near Washington County","gutter guards installers near Washington County","gutter price calculator near Washington County","gutters and siding contractors near Washington County","handyman gutter repair near Washington County","rain gutter contractor near Washington County","rain gutter contractors near Washington County","rain gutters contractors near Washington County","roof gutter installers near Washington County","seamless gutter companies near Washington County","seamless gutter contractor near Washington County","seamless gutter installers near Washington County","seamless gutters installed near Washington County","seamless gutters near Washington County","seemless gutters near Washington County","siding and gutters near Washington County","gutter business near Washington County","gutter guards installed near Washington County","gutter install near Washington County","guttering contractors near Washington County","gutters and siding near Washington County","gutters contractor near Washington County","gutters contractors near Washington County","gutters install near Washington County","roof and gutter contractors near Washington County","seamless gutter near Washington County","seamless guttering near Washington County","top rated gutter companies near Washington County","youtube gutter installation near Washington County","continuous gutters near Washington County","gutter instalation near Washington County","gutter install companies near Washington County","gutter installation companies near Washington County","gutter installation company near Washington County","gutter installation contractors near Washington County","gutter installer near Washington County","gutter installers near Washington County","gutter replacement companies near Washington County","gutter service near Washington County","guttering installation near Washington County","guttering installers near Washington County","gutters installation near Washington County","gutters installed near Washington County","mini gutter near Washington County","small gutter near Washington County","small gutters near Washington County","where to buy mobile home gutters near Washington County","tools for gutter installation near Washington County","window gutters near Washington County","large rain gutters near Washington County","2 inch gutter near Washington County","menards downspouts near Washington County","rain gutters at menards near Washington County","downspout extension menards near Washington County","downspout repair near Washington County","gares de casa near Washington County","wide rain gutters near Washington County","16 ft gutter lowe's near Washington County","mini gutters lowe's near Washington County","gutter parts home depot near Washington County","gutter roof near Washington County","mini gutters near Washington County","plastic rain gutters home depot near Washington County","roofing gutter near Washington County","plastic gutters home depot near Washington County","gutter screws home depot near Washington County","add downspout to rain gutter near Washington County","aluminum rain gutters home depot near Washington County","gutter downspouts at lowes near Washington County","aluminum gutters home depot near Washington County","gutter downspout installation near Washington County","rain gutter company near Washington County","roof gutter repair near Washington County","seamless gutter price calculator near Washington County","affordable gutters near Washington County","local gutter company near Washington County","local rain gutter companies near Washington County","water gutter near Washington County","downspouts at lowes near Washington County","gutters installers near Washington County","roofing and gutters near Washington County","gutter fixing near Washington County","home depot gutters and downspouts near Washington County","homedepot gutters near Washington County","rain gutters repair near Washington County"]}
+      />
+    </>
   );
 };
 
 export default Washington;
+  

@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Baileyton = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Baileyton. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Baileyton.";
-  const keywords = [
-    "commercial gutter installation near Baileyton",
-    "seamless gutter company near Baileyton",
-    "seamless gutters companies near Baileyton",
-    "gutter repair contractors near Baileyton",
-    "seamless gutter contractors near Baileyton",
-    "seamless gutter installation near Baileyton",
-    "seamless gutter installer near Baileyton",
-    "seamless guttering companies near Baileyton",
-    "seamless gutters contractors near Baileyton",
-    "seamless gutters installation near Baileyton",
-    "seamless gutters installers near Baileyton",
-    "seamless rain gutters near Baileyton",
-    "custom gutters near Baileyton",
-    "gutter companies around Baileyton",
-    "gutter contractor near Baileyton",
-    "gutter contractors near Baileyton",
-    "gutter guards installers near Baileyton",
-    "gutter price calculator Baileyton",
-    "gutters and siding contractors near Baileyton",
-    "handyman gutter repair near Baileyton",
-    "rain gutter contractor near Baileyton",
-    "rain gutter contractors near Baileyton",
-    "rain gutters contractors near Baileyton",
-    "roof gutter installers near Baileyton",
-    "seamless gutter companies near Baileyton",
-    "seamless gutter contractor near Baileyton",
-    "seamless gutter installers near Baileyton",
-    "seamless gutters installed near Baileyton",
-    "seamless gutters near Baileyton",
-    "seemless gutters near Baileyton",
-    "siding and gutters near Baileyton",
-    "gutter business near Baileyton",
-    "gutter guards installed near Baileyton",
-    "gutter install near Baileyton",
-    "guttering contractors near Baileyton",
-    "gutters and siding near Baileyton",
-    "gutters contractor near Baileyton",
-    "gutters contractors near Baileyton",
-    "gutters install near Baileyton",
-    "roof and gutter contractors near Baileyton",
-    "seamless gutter near Baileyton",
-    "seamless guttering near Baileyton",
-    "top rated gutter companies near Baileyton",
-    "youtube gutter installation Baileyton",
-    "continuous gutters near Baileyton",
-    "gutter instalation near Baileyton",
-    "gutter install companies near Baileyton",
-    "gutter installation companies near Baileyton",
-    "gutter installation company near Baileyton",
-    "gutter installation contractors near Baileyton",
-    "gutter installer near Baileyton",
-    "gutter installers near Baileyton",
-    "gutter replacement companies near Baileyton",
-    "gutter service near Baileyton",
-    "guttering installation near Baileyton",
-    "guttering installers near Baileyton",
-    "gutters installation near Baileyton",
-    "gutters installed near Baileyton",
-    "mini gutter Baileyton",
-    "small gutter Baileyton",
-    "small gutters Baileyton",
-    "where to buy mobile home gutters Baileyton",
-    "tools for gutter installation Baileyton",
-    "window gutters Baileyton",
-    "large rain gutters Baileyton",
-    "2 inch gutter Baileyton",
-    "menards downspouts Baileyton",
-    "rain gutters at menards Baileyton",
-    "downspout extension menards Baileyton",
-    "downspout repair near Baileyton",
-    "gares de casa Baileyton",
-    "wide rain gutters Baileyton",
-    "16 ft gutter lowe's Baileyton",
-    "mini gutters lowe's Baileyton",
-    "gutter parts home depot Baileyton",
-    "gutter roof Baileyton",
-    "mini gutters Baileyton",
-    "plastic rain gutters home depot Baileyton",
-    "roofing gutter Baileyton",
-    "plastic gutters home depot Baileyton",
-    "gutter screws home depot Baileyton",
-    "add downspout to rain gutter Baileyton",
-    "aluminum rain gutters home depot Baileyton",
-    "gutter downspouts at lowes Baileyton",
-    "aluminum gutters home depot Baileyton",
-    "gutter downspout installation Baileyton",
-    "rain gutter company near Baileyton",
-    "roof gutter repair near Baileyton",
-    "seamless gutter price calculator Baileyton",
-    "affordable gutters near Baileyton",
-    "local gutter company Baileyton",
-    "local rain gutter companies Baileyton",
-    "water gutter Baileyton",
-    "downspouts at lowes Baileyton",
-    "gutters installers near Baileyton",
-    "roofing and gutters near Baileyton",
-    "gutter fixing near Baileyton",
-    "home depot gutters and downspouts Baileyton",
-    "homedepot gutters Baileyton",
-    "rain gutters repair near Baileyton"
-  ];
-
   return (
-    <CityPage
-      city="Baileyton"
-      county="Greene"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Baileyton, Greene County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Baileyton. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Baileyton." />
+        <meta name="keywords" content="commercial gutter installation near Baileyton, seamless gutter company near Baileyton, seamless gutters companies near Baileyton, gutter repair contractors near Baileyton, seamless gutter contractors near Baileyton, seamless gutter installation near Baileyton, seamless gutter installer near Baileyton, seamless guttering companies near Baileyton, seamless gutters contractors near Baileyton, seamless gutters installation near Baileyton, seamless gutters installers near Baileyton, seamless rain gutters near Baileyton, custom gutters near Baileyton, gutter companies around near Baileyton, gutter contractor near Baileyton, gutter contractors near Baileyton, gutter guards installers near Baileyton, gutter price calculator near Baileyton, gutters and siding contractors near Baileyton, handyman gutter repair near Baileyton, rain gutter contractor near Baileyton, rain gutter contractors near Baileyton, rain gutters contractors near Baileyton, roof gutter installers near Baileyton, seamless gutter companies near Baileyton, seamless gutter contractor near Baileyton, seamless gutter installers near Baileyton, seamless gutters installed near Baileyton, seamless gutters near Baileyton, seemless gutters near Baileyton, siding and gutters near Baileyton, gutter business near Baileyton, gutter guards installed near Baileyton, gutter install near Baileyton, guttering contractors near Baileyton, gutters and siding near Baileyton, gutters contractor near Baileyton, gutters contractors near Baileyton, gutters install near Baileyton, roof and gutter contractors near Baileyton, seamless gutter near Baileyton, seamless guttering near Baileyton, top rated gutter companies near Baileyton, youtube gutter installation near Baileyton, continuous gutters near Baileyton, gutter instalation near Baileyton, gutter install companies near Baileyton, gutter installation companies near Baileyton, gutter installation company near Baileyton, gutter installation contractors near Baileyton, gutter installer near Baileyton, gutter installers near Baileyton, gutter replacement companies near Baileyton, gutter service near Baileyton, guttering installation near Baileyton, guttering installers near Baileyton, gutters installation near Baileyton, gutters installed near Baileyton, mini gutter near Baileyton, small gutter near Baileyton, small gutters near Baileyton, where to buy mobile home gutters near Baileyton, tools for gutter installation near Baileyton, window gutters near Baileyton, large rain gutters near Baileyton, 2 inch gutter near Baileyton, menards downspouts near Baileyton, rain gutters at menards near Baileyton, downspout extension menards near Baileyton, downspout repair near Baileyton, gares de casa near Baileyton, wide rain gutters near Baileyton, 16 ft gutter lowe's near Baileyton, mini gutters lowe's near Baileyton, gutter parts home depot near Baileyton, gutter roof near Baileyton, mini gutters near Baileyton, plastic rain gutters home depot near Baileyton, roofing gutter near Baileyton, plastic gutters home depot near Baileyton, gutter screws home depot near Baileyton, add downspout to rain gutter near Baileyton, aluminum rain gutters home depot near Baileyton, gutter downspouts at lowes near Baileyton, aluminum gutters home depot near Baileyton, gutter downspout installation near Baileyton, rain gutter company near Baileyton, roof gutter repair near Baileyton, seamless gutter price calculator near Baileyton, affordable gutters near Baileyton, local gutter company near Baileyton, local rain gutter companies near Baileyton, water gutter near Baileyton, downspouts at lowes near Baileyton, gutters installers near Baileyton, roofing and gutters near Baileyton, gutter fixing near Baileyton, home depot gutters and downspouts near Baileyton, homedepot gutters near Baileyton, rain gutters repair near Baileyton" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Baileyton, Greene County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Baileyton. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Baileyton." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/baileyton" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/baileyton" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Baileyton"
+        county="Greene"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Baileyton. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Baileyton."
+        keywords={["commercial gutter installation near Baileyton","seamless gutter company near Baileyton","seamless gutters companies near Baileyton","gutter repair contractors near Baileyton","seamless gutter contractors near Baileyton","seamless gutter installation near Baileyton","seamless gutter installer near Baileyton","seamless guttering companies near Baileyton","seamless gutters contractors near Baileyton","seamless gutters installation near Baileyton","seamless gutters installers near Baileyton","seamless rain gutters near Baileyton","custom gutters near Baileyton","gutter companies around near Baileyton","gutter contractor near Baileyton","gutter contractors near Baileyton","gutter guards installers near Baileyton","gutter price calculator near Baileyton","gutters and siding contractors near Baileyton","handyman gutter repair near Baileyton","rain gutter contractor near Baileyton","rain gutter contractors near Baileyton","rain gutters contractors near Baileyton","roof gutter installers near Baileyton","seamless gutter companies near Baileyton","seamless gutter contractor near Baileyton","seamless gutter installers near Baileyton","seamless gutters installed near Baileyton","seamless gutters near Baileyton","seemless gutters near Baileyton","siding and gutters near Baileyton","gutter business near Baileyton","gutter guards installed near Baileyton","gutter install near Baileyton","guttering contractors near Baileyton","gutters and siding near Baileyton","gutters contractor near Baileyton","gutters contractors near Baileyton","gutters install near Baileyton","roof and gutter contractors near Baileyton","seamless gutter near Baileyton","seamless guttering near Baileyton","top rated gutter companies near Baileyton","youtube gutter installation near Baileyton","continuous gutters near Baileyton","gutter instalation near Baileyton","gutter install companies near Baileyton","gutter installation companies near Baileyton","gutter installation company near Baileyton","gutter installation contractors near Baileyton","gutter installer near Baileyton","gutter installers near Baileyton","gutter replacement companies near Baileyton","gutter service near Baileyton","guttering installation near Baileyton","guttering installers near Baileyton","gutters installation near Baileyton","gutters installed near Baileyton","mini gutter near Baileyton","small gutter near Baileyton","small gutters near Baileyton","where to buy mobile home gutters near Baileyton","tools for gutter installation near Baileyton","window gutters near Baileyton","large rain gutters near Baileyton","2 inch gutter near Baileyton","menards downspouts near Baileyton","rain gutters at menards near Baileyton","downspout extension menards near Baileyton","downspout repair near Baileyton","gares de casa near Baileyton","wide rain gutters near Baileyton","16 ft gutter lowe's near Baileyton","mini gutters lowe's near Baileyton","gutter parts home depot near Baileyton","gutter roof near Baileyton","mini gutters near Baileyton","plastic rain gutters home depot near Baileyton","roofing gutter near Baileyton","plastic gutters home depot near Baileyton","gutter screws home depot near Baileyton","add downspout to rain gutter near Baileyton","aluminum rain gutters home depot near Baileyton","gutter downspouts at lowes near Baileyton","aluminum gutters home depot near Baileyton","gutter downspout installation near Baileyton","rain gutter company near Baileyton","roof gutter repair near Baileyton","seamless gutter price calculator near Baileyton","affordable gutters near Baileyton","local gutter company near Baileyton","local rain gutter companies near Baileyton","water gutter near Baileyton","downspouts at lowes near Baileyton","gutters installers near Baileyton","roofing and gutters near Baileyton","gutter fixing near Baileyton","home depot gutters and downspouts near Baileyton","homedepot gutters near Baileyton","rain gutters repair near Baileyton"]}
+      />
+    </>
   );
 };
 
 export default Baileyton;
+  

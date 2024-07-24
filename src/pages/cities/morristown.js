@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Morristown = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Morristown. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Morristown.";
-  const keywords = [
-    "commercial gutter installation near Morristown",
-    "seamless gutter company near Morristown",
-    "seamless gutters companies near Morristown",
-    "gutter repair contractors near Morristown",
-    "seamless gutter contractors near Morristown",
-    "seamless gutter installation near Morristown",
-    "seamless gutter installer near Morristown",
-    "seamless guttering companies near Morristown",
-    "seamless gutters contractors near Morristown",
-    "seamless gutters installation near Morristown",
-    "seamless gutters installers near Morristown",
-    "seamless rain gutters near Morristown",
-    "custom gutters near Morristown",
-    "gutter companies around Morristown",
-    "gutter contractor near Morristown",
-    "gutter contractors near Morristown",
-    "gutter guards installers near Morristown",
-    "gutter price calculator Morristown",
-    "gutters and siding contractors near Morristown",
-    "handyman gutter repair near Morristown",
-    "rain gutter contractor near Morristown",
-    "rain gutter contractors near Morristown",
-    "rain gutters contractors near Morristown",
-    "roof gutter installers near Morristown",
-    "seamless gutter companies near Morristown",
-    "seamless gutter contractor near Morristown",
-    "seamless gutter installers near Morristown",
-    "seamless gutters installed near Morristown",
-    "seamless gutters near Morristown",
-    "seemless gutters near Morristown",
-    "siding and gutters near Morristown",
-    "gutter business near Morristown",
-    "gutter guards installed near Morristown",
-    "gutter install near Morristown",
-    "guttering contractors near Morristown",
-    "gutters and siding near Morristown",
-    "gutters contractor near Morristown",
-    "gutters contractors near Morristown",
-    "gutters install near Morristown",
-    "roof and gutter contractors near Morristown",
-    "seamless gutter near Morristown",
-    "seamless guttering near Morristown",
-    "top rated gutter companies near Morristown",
-    "youtube gutter installation Morristown",
-    "continuous gutters near Morristown",
-    "gutter instalation near Morristown",
-    "gutter install companies near Morristown",
-    "gutter installation companies near Morristown",
-    "gutter installation company near Morristown",
-    "gutter installation contractors near Morristown",
-    "gutter installer near Morristown",
-    "gutter installers near Morristown",
-    "gutter replacement companies near Morristown",
-    "gutter service near Morristown",
-    "guttering installation near Morristown",
-    "guttering installers near Morristown",
-    "gutters installation near Morristown",
-    "gutters installed near Morristown",
-    "mini gutter Morristown",
-    "small gutter Morristown",
-    "small gutters Morristown",
-    "where to buy mobile home gutters Morristown",
-    "tools for gutter installation Morristown",
-    "window gutters Morristown",
-    "large rain gutters Morristown",
-    "2 inch gutter Morristown",
-    "menards downspouts Morristown",
-    "rain gutters at menards Morristown",
-    "downspout extension menards Morristown",
-    "downspout repair near Morristown",
-    "gares de casa Morristown",
-    "wide rain gutters Morristown",
-    "16 ft gutter lowe's Morristown",
-    "mini gutters lowe's Morristown",
-    "gutter parts home depot Morristown",
-    "gutter roof Morristown",
-    "mini gutters Morristown",
-    "plastic rain gutters home depot Morristown",
-    "roofing gutter Morristown",
-    "plastic gutters home depot Morristown",
-    "gutter screws home depot Morristown",
-    "add downspout to rain gutter Morristown",
-    "aluminum rain gutters home depot Morristown",
-    "gutter downspouts at lowes Morristown",
-    "aluminum gutters home depot Morristown",
-    "gutter downspout installation Morristown",
-    "rain gutter company near Morristown",
-    "roof gutter repair near Morristown",
-    "seamless gutter price calculator Morristown",
-    "affordable gutters near Morristown",
-    "local gutter company Morristown",
-    "local rain gutter companies Morristown",
-    "water gutter Morristown",
-    "downspouts at lowes Morristown",
-    "gutters installers near Morristown",
-    "roofing and gutters near Morristown",
-    "gutter fixing near Morristown",
-    "home depot gutters and downspouts Morristown",
-    "homedepot gutters Morristown",
-    "rain gutters repair near Morristown"
-  ];
-
   return (
-    <CityPage
-      city="Morristown"
-      county="Hamblen"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Morristown, Hamblen County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Morristown. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Morristown." />
+        <meta name="keywords" content="commercial gutter installation near Morristown, seamless gutter company near Morristown, seamless gutters companies near Morristown, gutter repair contractors near Morristown, seamless gutter contractors near Morristown, seamless gutter installation near Morristown, seamless gutter installer near Morristown, seamless guttering companies near Morristown, seamless gutters contractors near Morristown, seamless gutters installation near Morristown, seamless gutters installers near Morristown, seamless rain gutters near Morristown, custom gutters near Morristown, gutter companies around near Morristown, gutter contractor near Morristown, gutter contractors near Morristown, gutter guards installers near Morristown, gutter price calculator near Morristown, gutters and siding contractors near Morristown, handyman gutter repair near Morristown, rain gutter contractor near Morristown, rain gutter contractors near Morristown, rain gutters contractors near Morristown, roof gutter installers near Morristown, seamless gutter companies near Morristown, seamless gutter contractor near Morristown, seamless gutter installers near Morristown, seamless gutters installed near Morristown, seamless gutters near Morristown, seemless gutters near Morristown, siding and gutters near Morristown, gutter business near Morristown, gutter guards installed near Morristown, gutter install near Morristown, guttering contractors near Morristown, gutters and siding near Morristown, gutters contractor near Morristown, gutters contractors near Morristown, gutters install near Morristown, roof and gutter contractors near Morristown, seamless gutter near Morristown, seamless guttering near Morristown, top rated gutter companies near Morristown, youtube gutter installation near Morristown, continuous gutters near Morristown, gutter instalation near Morristown, gutter install companies near Morristown, gutter installation companies near Morristown, gutter installation company near Morristown, gutter installation contractors near Morristown, gutter installer near Morristown, gutter installers near Morristown, gutter replacement companies near Morristown, gutter service near Morristown, guttering installation near Morristown, guttering installers near Morristown, gutters installation near Morristown, gutters installed near Morristown, mini gutter near Morristown, small gutter near Morristown, small gutters near Morristown, where to buy mobile home gutters near Morristown, tools for gutter installation near Morristown, window gutters near Morristown, large rain gutters near Morristown, 2 inch gutter near Morristown, menards downspouts near Morristown, rain gutters at menards near Morristown, downspout extension menards near Morristown, downspout repair near Morristown, gares de casa near Morristown, wide rain gutters near Morristown, 16 ft gutter lowe's near Morristown, mini gutters lowe's near Morristown, gutter parts home depot near Morristown, gutter roof near Morristown, mini gutters near Morristown, plastic rain gutters home depot near Morristown, roofing gutter near Morristown, plastic gutters home depot near Morristown, gutter screws home depot near Morristown, add downspout to rain gutter near Morristown, aluminum rain gutters home depot near Morristown, gutter downspouts at lowes near Morristown, aluminum gutters home depot near Morristown, gutter downspout installation near Morristown, rain gutter company near Morristown, roof gutter repair near Morristown, seamless gutter price calculator near Morristown, affordable gutters near Morristown, local gutter company near Morristown, local rain gutter companies near Morristown, water gutter near Morristown, downspouts at lowes near Morristown, gutters installers near Morristown, roofing and gutters near Morristown, gutter fixing near Morristown, home depot gutters and downspouts near Morristown, homedepot gutters near Morristown, rain gutters repair near Morristown" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Morristown, Hamblen County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Morristown. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Morristown." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/morristown" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/morristown" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Morristown"
+        county="Hamblen"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Morristown. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Morristown."
+        keywords={["commercial gutter installation near Morristown","seamless gutter company near Morristown","seamless gutters companies near Morristown","gutter repair contractors near Morristown","seamless gutter contractors near Morristown","seamless gutter installation near Morristown","seamless gutter installer near Morristown","seamless guttering companies near Morristown","seamless gutters contractors near Morristown","seamless gutters installation near Morristown","seamless gutters installers near Morristown","seamless rain gutters near Morristown","custom gutters near Morristown","gutter companies around near Morristown","gutter contractor near Morristown","gutter contractors near Morristown","gutter guards installers near Morristown","gutter price calculator near Morristown","gutters and siding contractors near Morristown","handyman gutter repair near Morristown","rain gutter contractor near Morristown","rain gutter contractors near Morristown","rain gutters contractors near Morristown","roof gutter installers near Morristown","seamless gutter companies near Morristown","seamless gutter contractor near Morristown","seamless gutter installers near Morristown","seamless gutters installed near Morristown","seamless gutters near Morristown","seemless gutters near Morristown","siding and gutters near Morristown","gutter business near Morristown","gutter guards installed near Morristown","gutter install near Morristown","guttering contractors near Morristown","gutters and siding near Morristown","gutters contractor near Morristown","gutters contractors near Morristown","gutters install near Morristown","roof and gutter contractors near Morristown","seamless gutter near Morristown","seamless guttering near Morristown","top rated gutter companies near Morristown","youtube gutter installation near Morristown","continuous gutters near Morristown","gutter instalation near Morristown","gutter install companies near Morristown","gutter installation companies near Morristown","gutter installation company near Morristown","gutter installation contractors near Morristown","gutter installer near Morristown","gutter installers near Morristown","gutter replacement companies near Morristown","gutter service near Morristown","guttering installation near Morristown","guttering installers near Morristown","gutters installation near Morristown","gutters installed near Morristown","mini gutter near Morristown","small gutter near Morristown","small gutters near Morristown","where to buy mobile home gutters near Morristown","tools for gutter installation near Morristown","window gutters near Morristown","large rain gutters near Morristown","2 inch gutter near Morristown","menards downspouts near Morristown","rain gutters at menards near Morristown","downspout extension menards near Morristown","downspout repair near Morristown","gares de casa near Morristown","wide rain gutters near Morristown","16 ft gutter lowe's near Morristown","mini gutters lowe's near Morristown","gutter parts home depot near Morristown","gutter roof near Morristown","mini gutters near Morristown","plastic rain gutters home depot near Morristown","roofing gutter near Morristown","plastic gutters home depot near Morristown","gutter screws home depot near Morristown","add downspout to rain gutter near Morristown","aluminum rain gutters home depot near Morristown","gutter downspouts at lowes near Morristown","aluminum gutters home depot near Morristown","gutter downspout installation near Morristown","rain gutter company near Morristown","roof gutter repair near Morristown","seamless gutter price calculator near Morristown","affordable gutters near Morristown","local gutter company near Morristown","local rain gutter companies near Morristown","water gutter near Morristown","downspouts at lowes near Morristown","gutters installers near Morristown","roofing and gutters near Morristown","gutter fixing near Morristown","home depot gutters and downspouts near Morristown","homedepot gutters near Morristown","rain gutters repair near Morristown"]}
+      />
+    </>
   );
 };
 
 export default Morristown;
+  

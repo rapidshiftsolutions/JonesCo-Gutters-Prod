@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import { LoadScript, Autocomplete } from '@react-google-maps/api';
@@ -5,9 +6,8 @@ import { LoadScript, Autocomplete } from '@react-google-maps/api';
 const libraries = ['places'];
 
 const Hero = () => {
-  const videoRef = useRef();
   const router = useRouter();
-
+  const autocompleteRef = useRef(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -19,27 +19,18 @@ const Hero = () => {
     country: '',
     zip: '',
   });
-
   const [isDesktop, setIsDesktop] = useState(false);
-  const autocompleteRef = useRef(null);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsDesktop(window.innerWidth >= 768);
-    };
+    const handleResize = () => setIsDesktop(window.innerWidth >= 768);
     handleResize();
     window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+    setFormData({ ...formData, [name]: value });
   };
 
   const onPlaceChanged = useCallback(() => {
@@ -48,19 +39,12 @@ const Hero = () => {
       if (place.address_components) {
         const addressComponents = place.address_components.reduce((acc, component) => {
           const types = component.types;
-          if (types.includes('street_number')) {
-            acc.street_number = component.long_name;
-          } else if (types.includes('route')) {
-            acc.route = component.long_name;
-          } else if (types.includes('locality')) {
-            acc.city = component.long_name;
-          } else if (types.includes('administrative_area_level_1')) {
-            acc.state = component.short_name;
-          } else if (types.includes('country')) {
-            acc.country = component.long_name;
-          } else if (types.includes('postal_code')) {
-            acc.zip = component.long_name;
-          }
+          if (types.includes('street_number')) acc.street_number = component.long_name;
+          if (types.includes('route')) acc.route = component.long_name;
+          if (types.includes('locality')) acc.city = component.long_name;
+          if (types.includes('administrative_area_level_1')) acc.state = component.short_name;
+          if (types.includes('country')) acc.country = component.long_name;
+          if (types.includes('postal_code')) acc.zip = component.long_name;
           return acc;
         }, {});
 
@@ -79,16 +63,13 @@ const Hero = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const zapierWebhookUrl = 'https://hooks.zapier.com/hooks/catch/19076579/2386szr/';
     const urlEncodedData = new URLSearchParams(formData).toString();
 
     try {
       const response = await fetch(zapierWebhookUrl, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: urlEncodedData,
       });
 
@@ -115,22 +96,13 @@ const Hero = () => {
   };
 
   return (
-    <div ref={videoRef} className="relative h-[80vh] md:h-[100vh] md:h-[90vh] overflow-hidden z-10 flex items-center justify-center">
+    <div className="relative h-[80vh] md:h-[90vh] overflow-hidden z-10 flex items-center justify-center">
       {isDesktop && (
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src="https://www.youtube.com/embed/sr3fAhxiwzQ?autoplay=1&mute=1&loop=1&playlist=sr3fAhxiwzQ"
-          title="Background Video"
-          frameBorder="0"
-          allow="autoplay; loop; fullscreen"
-          loading="lazy"
-          style={{
-            width: '1920px',
-            height: '1080px',
-            transform: 'scale(2)',
-            transformOrigin: 'center center',
-          }}
-        ></iframe>
+        <img
+          className="object-cover absolute top-0 left-0 w-full h-full"
+          src="/images/hero-background.webp"
+          alt="Background"
+        />
       )}
       <div className="absolute top-0 left-0 pb-2 w-full h-full bg-JonesCo-Blue-900 md:opacity-60"></div>
       <div className="relative z-10 mx-4 w-full max-w-7xl sm:mx-auto">
@@ -141,62 +113,22 @@ const Hero = () => {
                 <h2 className="mt-8 mb-8 text-2xl font-black tracking-tight text-center text-JonesCo-Blue-950 sm:text-3xl">
                   Done Right, The First Time.
                 </h2>
-                <div className="flex items-center mb-4">
-                  <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <p className="text-lg text-gray-700">
-                    Quality and precision with every project
-                  </p>
-                </div>
-                <div className="flex items-center mb-4">
-                  <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <p className="text-lg text-gray-700">
-                    Experienced team
-                  </p>
-                </div>
-                <div className="flex items-center mb-4">
-                  <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <p className="text-lg text-gray-700">
-                    Best materials and techniques
-                  </p>
-                </div>
-                <div className="flex items-center mb-4">
-                  <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <p className="text-lg text-gray-700">
-                    Meticulous attention to detail
-                  </p>
-                </div>
-                <div className="flex items-center mb-4">
-                  <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <p className="text-lg text-gray-700">
-                    Solutions tailored to your needs
-                  </p>
-                </div>
-                <div className="flex items-center mb-4">
-                  <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <p className="text-lg text-gray-700">
-                    Commitment to customer satisfaction
-                  </p>
-                </div>
-                <div className="flex items-center mb-4">
-                  <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <p className="text-lg text-gray-700">
-                    Trusted by homeowners across Eastern Tennessee
-                  </p>
-                </div>
+                {[
+                  'Quality and precision with every project',
+                  'Experienced team',
+                  'Best materials and techniques',
+                  'Meticulous attention to detail',
+                  'Solutions tailored to your needs',
+                  'Commitment to customer satisfaction',
+                  'Trusted by homeowners across Eastern Tennessee'
+                ].map((text, index) => (
+                  <div key={index} className="flex items-center mb-4">
+                    <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <p className="text-lg text-gray-700">{text}</p>
+                  </div>
+                ))}
               </div>
               <div className="flex flex-col mt-6 mb-4 w-full">
                 <div className="hidden flex-col justify-end w-full md:flex">

@@ -1,117 +1,44 @@
 
 import React from 'react';
 import CountyPage from '@/components/CountyPage';
+import Head from 'next/head';
 
 const Hamblen = () => {
-  const county = "Hamblen";
-  const cities = ["Morristown","Russellville","Whitesburg","Talbott"];
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Hamblen County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Hamblen County.";
-  const keywords = [
-    "commercial gutter installation near Hamblen County",
-    "seamless gutter company near Hamblen County",
-    "seamless gutters companies near Hamblen County",
-    "gutter repair contractors near Hamblen County",
-    "seamless gutter contractors near Hamblen County",
-    "seamless gutter installation near Hamblen County",
-    "seamless gutter installer near Hamblen County",
-    "seamless guttering companies near Hamblen County",
-    "seamless gutters contractors near Hamblen County",
-    "seamless gutters installation near Hamblen County",
-    "seamless gutters installers near Hamblen County",
-    "seamless rain gutters near Hamblen County",
-    "custom gutters near Hamblen County",
-    "gutter companies around Hamblen County",
-    "gutter contractor near Hamblen County",
-    "gutter contractors near Hamblen County",
-    "gutter guards installers near Hamblen County",
-    "gutter price calculator Hamblen County",
-    "gutters and siding contractors near Hamblen County",
-    "handyman gutter repair near Hamblen County",
-    "rain gutter contractor near Hamblen County",
-    "rain gutter contractors near Hamblen County",
-    "rain gutters contractors near Hamblen County",
-    "roof gutter installers near Hamblen County",
-    "seamless gutter companies near Hamblen County",
-    "seamless gutter contractor near Hamblen County",
-    "seamless gutter installers near Hamblen County",
-    "seamless gutters installed near Hamblen County",
-    "seamless gutters near Hamblen County",
-    "seemless gutters near Hamblen County",
-    "siding and gutters near Hamblen County",
-    "gutter business near Hamblen County",
-    "gutter guards installed near Hamblen County",
-    "gutter install near Hamblen County",
-    "guttering contractors near Hamblen County",
-    "gutters and siding near Hamblen County",
-    "gutters contractor near Hamblen County",
-    "gutters contractors near Hamblen County",
-    "gutters install near Hamblen County",
-    "roof and gutter contractors near Hamblen County",
-    "seamless gutter near Hamblen County",
-    "seamless guttering near Hamblen County",
-    "top rated gutter companies near Hamblen County",
-    "youtube gutter installation Hamblen County",
-    "continuous gutters near Hamblen County",
-    "gutter instalation near Hamblen County",
-    "gutter install companies near Hamblen County",
-    "gutter installation companies near Hamblen County",
-    "gutter installation company near Hamblen County",
-    "gutter installation contractors near Hamblen County",
-    "gutter installer near Hamblen County",
-    "gutter installers near Hamblen County",
-    "gutter replacement companies near Hamblen County",
-    "gutter service near Hamblen County",
-    "guttering installation near Hamblen County",
-    "guttering installers near Hamblen County",
-    "gutters installation near Hamblen County",
-    "gutters installed near Hamblen County",
-    "mini gutter Hamblen County",
-    "small gutter Hamblen County",
-    "small gutters Hamblen County",
-    "where to buy mobile home gutters Hamblen County",
-    "tools for gutter installation Hamblen County",
-    "window gutters Hamblen County",
-    "large rain gutters Hamblen County",
-    "2 inch gutter Hamblen County",
-    "menards downspouts Hamblen County",
-    "rain gutters at menards Hamblen County",
-    "downspout extension menards Hamblen County",
-    "downspout repair near Hamblen County",
-    "gares de casa Hamblen County",
-    "wide rain gutters Hamblen County",
-    "16 ft gutter lowe's Hamblen County",
-    "mini gutters lowe's Hamblen County",
-    "gutter parts home depot Hamblen County",
-    "gutter roof Hamblen County",
-    "mini gutters Hamblen County",
-    "plastic rain gutters home depot Hamblen County",
-    "roofing gutter Hamblen County",
-    "plastic gutters home depot Hamblen County",
-    "gutter screws home depot Hamblen County",
-    "add downspout to rain gutter Hamblen County",
-    "aluminum rain gutters home depot Hamblen County",
-    "gutter downspouts at lowes Hamblen County",
-    "aluminum gutters home depot Hamblen County",
-    "gutter downspout installation Hamblen County",
-    "rain gutter company near Hamblen County",
-    "roof gutter repair near Hamblen County",
-    "seamless gutter price calculator Hamblen County",
-    "affordable gutters near Hamblen County",
-    "local gutter company Hamblen County",
-    "local rain gutter companies Hamblen County",
-    "water gutter Hamblen County",
-    "downspouts at lowes Hamblen County",
-    "gutters installers near Hamblen County",
-    "roofing and gutters near Hamblen County",
-    "gutter fixing near Hamblen County",
-    "home depot gutters and downspouts Hamblen County",
-    "homedepot gutters Hamblen County",
-    "rain gutters repair near Hamblen County"
-  ];
-
   return (
-    <CountyPage county={county} cities={cities} description={description} keywords={keywords} />
+    <>
+      <Head>
+        <title>Gutter Services in Hamblen County, TN | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Hamblen County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Hamblen County." />
+        <meta name="keywords" content="commercial gutter installation near Hamblen County, seamless gutter company near Hamblen County, seamless gutters companies near Hamblen County, gutter repair contractors near Hamblen County, seamless gutter contractors near Hamblen County, seamless gutter installation near Hamblen County, seamless gutter installer near Hamblen County, seamless guttering companies near Hamblen County, seamless gutters contractors near Hamblen County, seamless gutters installation near Hamblen County, seamless gutters installers near Hamblen County, seamless rain gutters near Hamblen County, custom gutters near Hamblen County, gutter companies around near Hamblen County, gutter contractor near Hamblen County, gutter contractors near Hamblen County, gutter guards installers near Hamblen County, gutter price calculator near Hamblen County, gutters and siding contractors near Hamblen County, handyman gutter repair near Hamblen County, rain gutter contractor near Hamblen County, rain gutter contractors near Hamblen County, rain gutters contractors near Hamblen County, roof gutter installers near Hamblen County, seamless gutter companies near Hamblen County, seamless gutter contractor near Hamblen County, seamless gutter installers near Hamblen County, seamless gutters installed near Hamblen County, seamless gutters near Hamblen County, seemless gutters near Hamblen County, siding and gutters near Hamblen County, gutter business near Hamblen County, gutter guards installed near Hamblen County, gutter install near Hamblen County, guttering contractors near Hamblen County, gutters and siding near Hamblen County, gutters contractor near Hamblen County, gutters contractors near Hamblen County, gutters install near Hamblen County, roof and gutter contractors near Hamblen County, seamless gutter near Hamblen County, seamless guttering near Hamblen County, top rated gutter companies near Hamblen County, youtube gutter installation near Hamblen County, continuous gutters near Hamblen County, gutter instalation near Hamblen County, gutter install companies near Hamblen County, gutter installation companies near Hamblen County, gutter installation company near Hamblen County, gutter installation contractors near Hamblen County, gutter installer near Hamblen County, gutter installers near Hamblen County, gutter replacement companies near Hamblen County, gutter service near Hamblen County, guttering installation near Hamblen County, guttering installers near Hamblen County, gutters installation near Hamblen County, gutters installed near Hamblen County, mini gutter near Hamblen County, small gutter near Hamblen County, small gutters near Hamblen County, where to buy mobile home gutters near Hamblen County, tools for gutter installation near Hamblen County, window gutters near Hamblen County, large rain gutters near Hamblen County, 2 inch gutter near Hamblen County, menards downspouts near Hamblen County, rain gutters at menards near Hamblen County, downspout extension menards near Hamblen County, downspout repair near Hamblen County, gares de casa near Hamblen County, wide rain gutters near Hamblen County, 16 ft gutter lowe's near Hamblen County, mini gutters lowe's near Hamblen County, gutter parts home depot near Hamblen County, gutter roof near Hamblen County, mini gutters near Hamblen County, plastic rain gutters home depot near Hamblen County, roofing gutter near Hamblen County, plastic gutters home depot near Hamblen County, gutter screws home depot near Hamblen County, add downspout to rain gutter near Hamblen County, aluminum rain gutters home depot near Hamblen County, gutter downspouts at lowes near Hamblen County, aluminum gutters home depot near Hamblen County, gutter downspout installation near Hamblen County, rain gutter company near Hamblen County, roof gutter repair near Hamblen County, seamless gutter price calculator near Hamblen County, affordable gutters near Hamblen County, local gutter company near Hamblen County, local rain gutter companies near Hamblen County, water gutter near Hamblen County, downspouts at lowes near Hamblen County, gutters installers near Hamblen County, roofing and gutters near Hamblen County, gutter fixing near Hamblen County, home depot gutters and downspouts near Hamblen County, homedepot gutters near Hamblen County, rain gutters repair near Hamblen County" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Hamblen County, TN | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Hamblen County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Hamblen County." />
+        <meta property="og:url" content="https://jonescogutters.com/counties/hamblen" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/counties/hamblen" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CountyPage
+        county="Hamblen"
+        cities={["Morristown","Russellville","Whitesburg","Talbott"]}
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Hamblen County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Hamblen County."
+        keywords={["commercial gutter installation near Hamblen County","seamless gutter company near Hamblen County","seamless gutters companies near Hamblen County","gutter repair contractors near Hamblen County","seamless gutter contractors near Hamblen County","seamless gutter installation near Hamblen County","seamless gutter installer near Hamblen County","seamless guttering companies near Hamblen County","seamless gutters contractors near Hamblen County","seamless gutters installation near Hamblen County","seamless gutters installers near Hamblen County","seamless rain gutters near Hamblen County","custom gutters near Hamblen County","gutter companies around near Hamblen County","gutter contractor near Hamblen County","gutter contractors near Hamblen County","gutter guards installers near Hamblen County","gutter price calculator near Hamblen County","gutters and siding contractors near Hamblen County","handyman gutter repair near Hamblen County","rain gutter contractor near Hamblen County","rain gutter contractors near Hamblen County","rain gutters contractors near Hamblen County","roof gutter installers near Hamblen County","seamless gutter companies near Hamblen County","seamless gutter contractor near Hamblen County","seamless gutter installers near Hamblen County","seamless gutters installed near Hamblen County","seamless gutters near Hamblen County","seemless gutters near Hamblen County","siding and gutters near Hamblen County","gutter business near Hamblen County","gutter guards installed near Hamblen County","gutter install near Hamblen County","guttering contractors near Hamblen County","gutters and siding near Hamblen County","gutters contractor near Hamblen County","gutters contractors near Hamblen County","gutters install near Hamblen County","roof and gutter contractors near Hamblen County","seamless gutter near Hamblen County","seamless guttering near Hamblen County","top rated gutter companies near Hamblen County","youtube gutter installation near Hamblen County","continuous gutters near Hamblen County","gutter instalation near Hamblen County","gutter install companies near Hamblen County","gutter installation companies near Hamblen County","gutter installation company near Hamblen County","gutter installation contractors near Hamblen County","gutter installer near Hamblen County","gutter installers near Hamblen County","gutter replacement companies near Hamblen County","gutter service near Hamblen County","guttering installation near Hamblen County","guttering installers near Hamblen County","gutters installation near Hamblen County","gutters installed near Hamblen County","mini gutter near Hamblen County","small gutter near Hamblen County","small gutters near Hamblen County","where to buy mobile home gutters near Hamblen County","tools for gutter installation near Hamblen County","window gutters near Hamblen County","large rain gutters near Hamblen County","2 inch gutter near Hamblen County","menards downspouts near Hamblen County","rain gutters at menards near Hamblen County","downspout extension menards near Hamblen County","downspout repair near Hamblen County","gares de casa near Hamblen County","wide rain gutters near Hamblen County","16 ft gutter lowe's near Hamblen County","mini gutters lowe's near Hamblen County","gutter parts home depot near Hamblen County","gutter roof near Hamblen County","mini gutters near Hamblen County","plastic rain gutters home depot near Hamblen County","roofing gutter near Hamblen County","plastic gutters home depot near Hamblen County","gutter screws home depot near Hamblen County","add downspout to rain gutter near Hamblen County","aluminum rain gutters home depot near Hamblen County","gutter downspouts at lowes near Hamblen County","aluminum gutters home depot near Hamblen County","gutter downspout installation near Hamblen County","rain gutter company near Hamblen County","roof gutter repair near Hamblen County","seamless gutter price calculator near Hamblen County","affordable gutters near Hamblen County","local gutter company near Hamblen County","local rain gutter companies near Hamblen County","water gutter near Hamblen County","downspouts at lowes near Hamblen County","gutters installers near Hamblen County","roofing and gutters near Hamblen County","gutter fixing near Hamblen County","home depot gutters and downspouts near Hamblen County","homedepot gutters near Hamblen County","rain gutters repair near Hamblen County"]}
+      />
+    </>
   );
 };
 
 export default Hamblen;
+  

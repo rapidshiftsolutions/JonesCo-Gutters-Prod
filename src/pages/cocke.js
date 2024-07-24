@@ -1,117 +1,44 @@
 
 import React from 'react';
 import CountyPage from '@/components/CountyPage';
+import Head from 'next/head';
 
 const Cocke = () => {
-  const county = "Cocke";
-  const cities = ["Newport","Parrottsville","Cosby","Del Rio"];
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Cocke County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Cocke County.";
-  const keywords = [
-    "commercial gutter installation near Cocke County",
-    "seamless gutter company near Cocke County",
-    "seamless gutters companies near Cocke County",
-    "gutter repair contractors near Cocke County",
-    "seamless gutter contractors near Cocke County",
-    "seamless gutter installation near Cocke County",
-    "seamless gutter installer near Cocke County",
-    "seamless guttering companies near Cocke County",
-    "seamless gutters contractors near Cocke County",
-    "seamless gutters installation near Cocke County",
-    "seamless gutters installers near Cocke County",
-    "seamless rain gutters near Cocke County",
-    "custom gutters near Cocke County",
-    "gutter companies around Cocke County",
-    "gutter contractor near Cocke County",
-    "gutter contractors near Cocke County",
-    "gutter guards installers near Cocke County",
-    "gutter price calculator Cocke County",
-    "gutters and siding contractors near Cocke County",
-    "handyman gutter repair near Cocke County",
-    "rain gutter contractor near Cocke County",
-    "rain gutter contractors near Cocke County",
-    "rain gutters contractors near Cocke County",
-    "roof gutter installers near Cocke County",
-    "seamless gutter companies near Cocke County",
-    "seamless gutter contractor near Cocke County",
-    "seamless gutter installers near Cocke County",
-    "seamless gutters installed near Cocke County",
-    "seamless gutters near Cocke County",
-    "seemless gutters near Cocke County",
-    "siding and gutters near Cocke County",
-    "gutter business near Cocke County",
-    "gutter guards installed near Cocke County",
-    "gutter install near Cocke County",
-    "guttering contractors near Cocke County",
-    "gutters and siding near Cocke County",
-    "gutters contractor near Cocke County",
-    "gutters contractors near Cocke County",
-    "gutters install near Cocke County",
-    "roof and gutter contractors near Cocke County",
-    "seamless gutter near Cocke County",
-    "seamless guttering near Cocke County",
-    "top rated gutter companies near Cocke County",
-    "youtube gutter installation Cocke County",
-    "continuous gutters near Cocke County",
-    "gutter instalation near Cocke County",
-    "gutter install companies near Cocke County",
-    "gutter installation companies near Cocke County",
-    "gutter installation company near Cocke County",
-    "gutter installation contractors near Cocke County",
-    "gutter installer near Cocke County",
-    "gutter installers near Cocke County",
-    "gutter replacement companies near Cocke County",
-    "gutter service near Cocke County",
-    "guttering installation near Cocke County",
-    "guttering installers near Cocke County",
-    "gutters installation near Cocke County",
-    "gutters installed near Cocke County",
-    "mini gutter Cocke County",
-    "small gutter Cocke County",
-    "small gutters Cocke County",
-    "where to buy mobile home gutters Cocke County",
-    "tools for gutter installation Cocke County",
-    "window gutters Cocke County",
-    "large rain gutters Cocke County",
-    "2 inch gutter Cocke County",
-    "menards downspouts Cocke County",
-    "rain gutters at menards Cocke County",
-    "downspout extension menards Cocke County",
-    "downspout repair near Cocke County",
-    "gares de casa Cocke County",
-    "wide rain gutters Cocke County",
-    "16 ft gutter lowe's Cocke County",
-    "mini gutters lowe's Cocke County",
-    "gutter parts home depot Cocke County",
-    "gutter roof Cocke County",
-    "mini gutters Cocke County",
-    "plastic rain gutters home depot Cocke County",
-    "roofing gutter Cocke County",
-    "plastic gutters home depot Cocke County",
-    "gutter screws home depot Cocke County",
-    "add downspout to rain gutter Cocke County",
-    "aluminum rain gutters home depot Cocke County",
-    "gutter downspouts at lowes Cocke County",
-    "aluminum gutters home depot Cocke County",
-    "gutter downspout installation Cocke County",
-    "rain gutter company near Cocke County",
-    "roof gutter repair near Cocke County",
-    "seamless gutter price calculator Cocke County",
-    "affordable gutters near Cocke County",
-    "local gutter company Cocke County",
-    "local rain gutter companies Cocke County",
-    "water gutter Cocke County",
-    "downspouts at lowes Cocke County",
-    "gutters installers near Cocke County",
-    "roofing and gutters near Cocke County",
-    "gutter fixing near Cocke County",
-    "home depot gutters and downspouts Cocke County",
-    "homedepot gutters Cocke County",
-    "rain gutters repair near Cocke County"
-  ];
-
   return (
-    <CountyPage county={county} cities={cities} description={description} keywords={keywords} />
+    <>
+      <Head>
+        <title>Gutter Services in Cocke County, TN | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Cocke County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Cocke County." />
+        <meta name="keywords" content="commercial gutter installation near Cocke County, seamless gutter company near Cocke County, seamless gutters companies near Cocke County, gutter repair contractors near Cocke County, seamless gutter contractors near Cocke County, seamless gutter installation near Cocke County, seamless gutter installer near Cocke County, seamless guttering companies near Cocke County, seamless gutters contractors near Cocke County, seamless gutters installation near Cocke County, seamless gutters installers near Cocke County, seamless rain gutters near Cocke County, custom gutters near Cocke County, gutter companies around near Cocke County, gutter contractor near Cocke County, gutter contractors near Cocke County, gutter guards installers near Cocke County, gutter price calculator near Cocke County, gutters and siding contractors near Cocke County, handyman gutter repair near Cocke County, rain gutter contractor near Cocke County, rain gutter contractors near Cocke County, rain gutters contractors near Cocke County, roof gutter installers near Cocke County, seamless gutter companies near Cocke County, seamless gutter contractor near Cocke County, seamless gutter installers near Cocke County, seamless gutters installed near Cocke County, seamless gutters near Cocke County, seemless gutters near Cocke County, siding and gutters near Cocke County, gutter business near Cocke County, gutter guards installed near Cocke County, gutter install near Cocke County, guttering contractors near Cocke County, gutters and siding near Cocke County, gutters contractor near Cocke County, gutters contractors near Cocke County, gutters install near Cocke County, roof and gutter contractors near Cocke County, seamless gutter near Cocke County, seamless guttering near Cocke County, top rated gutter companies near Cocke County, youtube gutter installation near Cocke County, continuous gutters near Cocke County, gutter instalation near Cocke County, gutter install companies near Cocke County, gutter installation companies near Cocke County, gutter installation company near Cocke County, gutter installation contractors near Cocke County, gutter installer near Cocke County, gutter installers near Cocke County, gutter replacement companies near Cocke County, gutter service near Cocke County, guttering installation near Cocke County, guttering installers near Cocke County, gutters installation near Cocke County, gutters installed near Cocke County, mini gutter near Cocke County, small gutter near Cocke County, small gutters near Cocke County, where to buy mobile home gutters near Cocke County, tools for gutter installation near Cocke County, window gutters near Cocke County, large rain gutters near Cocke County, 2 inch gutter near Cocke County, menards downspouts near Cocke County, rain gutters at menards near Cocke County, downspout extension menards near Cocke County, downspout repair near Cocke County, gares de casa near Cocke County, wide rain gutters near Cocke County, 16 ft gutter lowe's near Cocke County, mini gutters lowe's near Cocke County, gutter parts home depot near Cocke County, gutter roof near Cocke County, mini gutters near Cocke County, plastic rain gutters home depot near Cocke County, roofing gutter near Cocke County, plastic gutters home depot near Cocke County, gutter screws home depot near Cocke County, add downspout to rain gutter near Cocke County, aluminum rain gutters home depot near Cocke County, gutter downspouts at lowes near Cocke County, aluminum gutters home depot near Cocke County, gutter downspout installation near Cocke County, rain gutter company near Cocke County, roof gutter repair near Cocke County, seamless gutter price calculator near Cocke County, affordable gutters near Cocke County, local gutter company near Cocke County, local rain gutter companies near Cocke County, water gutter near Cocke County, downspouts at lowes near Cocke County, gutters installers near Cocke County, roofing and gutters near Cocke County, gutter fixing near Cocke County, home depot gutters and downspouts near Cocke County, homedepot gutters near Cocke County, rain gutters repair near Cocke County" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Cocke County, TN | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Cocke County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Cocke County." />
+        <meta property="og:url" content="https://jonescogutters.com/counties/cocke" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/counties/cocke" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CountyPage
+        county="Cocke"
+        cities={["Newport","Parrottsville","Cosby","Del Rio"]}
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Cocke County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Cocke County."
+        keywords={["commercial gutter installation near Cocke County","seamless gutter company near Cocke County","seamless gutters companies near Cocke County","gutter repair contractors near Cocke County","seamless gutter contractors near Cocke County","seamless gutter installation near Cocke County","seamless gutter installer near Cocke County","seamless guttering companies near Cocke County","seamless gutters contractors near Cocke County","seamless gutters installation near Cocke County","seamless gutters installers near Cocke County","seamless rain gutters near Cocke County","custom gutters near Cocke County","gutter companies around near Cocke County","gutter contractor near Cocke County","gutter contractors near Cocke County","gutter guards installers near Cocke County","gutter price calculator near Cocke County","gutters and siding contractors near Cocke County","handyman gutter repair near Cocke County","rain gutter contractor near Cocke County","rain gutter contractors near Cocke County","rain gutters contractors near Cocke County","roof gutter installers near Cocke County","seamless gutter companies near Cocke County","seamless gutter contractor near Cocke County","seamless gutter installers near Cocke County","seamless gutters installed near Cocke County","seamless gutters near Cocke County","seemless gutters near Cocke County","siding and gutters near Cocke County","gutter business near Cocke County","gutter guards installed near Cocke County","gutter install near Cocke County","guttering contractors near Cocke County","gutters and siding near Cocke County","gutters contractor near Cocke County","gutters contractors near Cocke County","gutters install near Cocke County","roof and gutter contractors near Cocke County","seamless gutter near Cocke County","seamless guttering near Cocke County","top rated gutter companies near Cocke County","youtube gutter installation near Cocke County","continuous gutters near Cocke County","gutter instalation near Cocke County","gutter install companies near Cocke County","gutter installation companies near Cocke County","gutter installation company near Cocke County","gutter installation contractors near Cocke County","gutter installer near Cocke County","gutter installers near Cocke County","gutter replacement companies near Cocke County","gutter service near Cocke County","guttering installation near Cocke County","guttering installers near Cocke County","gutters installation near Cocke County","gutters installed near Cocke County","mini gutter near Cocke County","small gutter near Cocke County","small gutters near Cocke County","where to buy mobile home gutters near Cocke County","tools for gutter installation near Cocke County","window gutters near Cocke County","large rain gutters near Cocke County","2 inch gutter near Cocke County","menards downspouts near Cocke County","rain gutters at menards near Cocke County","downspout extension menards near Cocke County","downspout repair near Cocke County","gares de casa near Cocke County","wide rain gutters near Cocke County","16 ft gutter lowe's near Cocke County","mini gutters lowe's near Cocke County","gutter parts home depot near Cocke County","gutter roof near Cocke County","mini gutters near Cocke County","plastic rain gutters home depot near Cocke County","roofing gutter near Cocke County","plastic gutters home depot near Cocke County","gutter screws home depot near Cocke County","add downspout to rain gutter near Cocke County","aluminum rain gutters home depot near Cocke County","gutter downspouts at lowes near Cocke County","aluminum gutters home depot near Cocke County","gutter downspout installation near Cocke County","rain gutter company near Cocke County","roof gutter repair near Cocke County","seamless gutter price calculator near Cocke County","affordable gutters near Cocke County","local gutter company near Cocke County","local rain gutter companies near Cocke County","water gutter near Cocke County","downspouts at lowes near Cocke County","gutters installers near Cocke County","roofing and gutters near Cocke County","gutter fixing near Cocke County","home depot gutters and downspouts near Cocke County","homedepot gutters near Cocke County","rain gutters repair near Cocke County"]}
+      />
+    </>
   );
 };
 
 export default Cocke;
+  

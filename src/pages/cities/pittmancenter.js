@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const PittmanCenter = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Pittman Center. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Pittman Center.";
-  const keywords = [
-    "commercial gutter installation near Pittman Center",
-    "seamless gutter company near Pittman Center",
-    "seamless gutters companies near Pittman Center",
-    "gutter repair contractors near Pittman Center",
-    "seamless gutter contractors near Pittman Center",
-    "seamless gutter installation near Pittman Center",
-    "seamless gutter installer near Pittman Center",
-    "seamless guttering companies near Pittman Center",
-    "seamless gutters contractors near Pittman Center",
-    "seamless gutters installation near Pittman Center",
-    "seamless gutters installers near Pittman Center",
-    "seamless rain gutters near Pittman Center",
-    "custom gutters near Pittman Center",
-    "gutter companies around Pittman Center",
-    "gutter contractor near Pittman Center",
-    "gutter contractors near Pittman Center",
-    "gutter guards installers near Pittman Center",
-    "gutter price calculator Pittman Center",
-    "gutters and siding contractors near Pittman Center",
-    "handyman gutter repair near Pittman Center",
-    "rain gutter contractor near Pittman Center",
-    "rain gutter contractors near Pittman Center",
-    "rain gutters contractors near Pittman Center",
-    "roof gutter installers near Pittman Center",
-    "seamless gutter companies near Pittman Center",
-    "seamless gutter contractor near Pittman Center",
-    "seamless gutter installers near Pittman Center",
-    "seamless gutters installed near Pittman Center",
-    "seamless gutters near Pittman Center",
-    "seemless gutters near Pittman Center",
-    "siding and gutters near Pittman Center",
-    "gutter business near Pittman Center",
-    "gutter guards installed near Pittman Center",
-    "gutter install near Pittman Center",
-    "guttering contractors near Pittman Center",
-    "gutters and siding near Pittman Center",
-    "gutters contractor near Pittman Center",
-    "gutters contractors near Pittman Center",
-    "gutters install near Pittman Center",
-    "roof and gutter contractors near Pittman Center",
-    "seamless gutter near Pittman Center",
-    "seamless guttering near Pittman Center",
-    "top rated gutter companies near Pittman Center",
-    "youtube gutter installation Pittman Center",
-    "continuous gutters near Pittman Center",
-    "gutter instalation near Pittman Center",
-    "gutter install companies near Pittman Center",
-    "gutter installation companies near Pittman Center",
-    "gutter installation company near Pittman Center",
-    "gutter installation contractors near Pittman Center",
-    "gutter installer near Pittman Center",
-    "gutter installers near Pittman Center",
-    "gutter replacement companies near Pittman Center",
-    "gutter service near Pittman Center",
-    "guttering installation near Pittman Center",
-    "guttering installers near Pittman Center",
-    "gutters installation near Pittman Center",
-    "gutters installed near Pittman Center",
-    "mini gutter Pittman Center",
-    "small gutter Pittman Center",
-    "small gutters Pittman Center",
-    "where to buy mobile home gutters Pittman Center",
-    "tools for gutter installation Pittman Center",
-    "window gutters Pittman Center",
-    "large rain gutters Pittman Center",
-    "2 inch gutter Pittman Center",
-    "menards downspouts Pittman Center",
-    "rain gutters at menards Pittman Center",
-    "downspout extension menards Pittman Center",
-    "downspout repair near Pittman Center",
-    "gares de casa Pittman Center",
-    "wide rain gutters Pittman Center",
-    "16 ft gutter lowe's Pittman Center",
-    "mini gutters lowe's Pittman Center",
-    "gutter parts home depot Pittman Center",
-    "gutter roof Pittman Center",
-    "mini gutters Pittman Center",
-    "plastic rain gutters home depot Pittman Center",
-    "roofing gutter Pittman Center",
-    "plastic gutters home depot Pittman Center",
-    "gutter screws home depot Pittman Center",
-    "add downspout to rain gutter Pittman Center",
-    "aluminum rain gutters home depot Pittman Center",
-    "gutter downspouts at lowes Pittman Center",
-    "aluminum gutters home depot Pittman Center",
-    "gutter downspout installation Pittman Center",
-    "rain gutter company near Pittman Center",
-    "roof gutter repair near Pittman Center",
-    "seamless gutter price calculator Pittman Center",
-    "affordable gutters near Pittman Center",
-    "local gutter company Pittman Center",
-    "local rain gutter companies Pittman Center",
-    "water gutter Pittman Center",
-    "downspouts at lowes Pittman Center",
-    "gutters installers near Pittman Center",
-    "roofing and gutters near Pittman Center",
-    "gutter fixing near Pittman Center",
-    "home depot gutters and downspouts Pittman Center",
-    "homedepot gutters Pittman Center",
-    "rain gutters repair near Pittman Center"
-  ];
-
   return (
-    <CityPage
-      city="Pittman Center"
-      county="Sevier"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Pittman Center, Sevier County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Pittman Center. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Pittman Center." />
+        <meta name="keywords" content="commercial gutter installation near Pittman Center, seamless gutter company near Pittman Center, seamless gutters companies near Pittman Center, gutter repair contractors near Pittman Center, seamless gutter contractors near Pittman Center, seamless gutter installation near Pittman Center, seamless gutter installer near Pittman Center, seamless guttering companies near Pittman Center, seamless gutters contractors near Pittman Center, seamless gutters installation near Pittman Center, seamless gutters installers near Pittman Center, seamless rain gutters near Pittman Center, custom gutters near Pittman Center, gutter companies around near Pittman Center, gutter contractor near Pittman Center, gutter contractors near Pittman Center, gutter guards installers near Pittman Center, gutter price calculator near Pittman Center, gutters and siding contractors near Pittman Center, handyman gutter repair near Pittman Center, rain gutter contractor near Pittman Center, rain gutter contractors near Pittman Center, rain gutters contractors near Pittman Center, roof gutter installers near Pittman Center, seamless gutter companies near Pittman Center, seamless gutter contractor near Pittman Center, seamless gutter installers near Pittman Center, seamless gutters installed near Pittman Center, seamless gutters near Pittman Center, seemless gutters near Pittman Center, siding and gutters near Pittman Center, gutter business near Pittman Center, gutter guards installed near Pittman Center, gutter install near Pittman Center, guttering contractors near Pittman Center, gutters and siding near Pittman Center, gutters contractor near Pittman Center, gutters contractors near Pittman Center, gutters install near Pittman Center, roof and gutter contractors near Pittman Center, seamless gutter near Pittman Center, seamless guttering near Pittman Center, top rated gutter companies near Pittman Center, youtube gutter installation near Pittman Center, continuous gutters near Pittman Center, gutter instalation near Pittman Center, gutter install companies near Pittman Center, gutter installation companies near Pittman Center, gutter installation company near Pittman Center, gutter installation contractors near Pittman Center, gutter installer near Pittman Center, gutter installers near Pittman Center, gutter replacement companies near Pittman Center, gutter service near Pittman Center, guttering installation near Pittman Center, guttering installers near Pittman Center, gutters installation near Pittman Center, gutters installed near Pittman Center, mini gutter near Pittman Center, small gutter near Pittman Center, small gutters near Pittman Center, where to buy mobile home gutters near Pittman Center, tools for gutter installation near Pittman Center, window gutters near Pittman Center, large rain gutters near Pittman Center, 2 inch gutter near Pittman Center, menards downspouts near Pittman Center, rain gutters at menards near Pittman Center, downspout extension menards near Pittman Center, downspout repair near Pittman Center, gares de casa near Pittman Center, wide rain gutters near Pittman Center, 16 ft gutter lowe's near Pittman Center, mini gutters lowe's near Pittman Center, gutter parts home depot near Pittman Center, gutter roof near Pittman Center, mini gutters near Pittman Center, plastic rain gutters home depot near Pittman Center, roofing gutter near Pittman Center, plastic gutters home depot near Pittman Center, gutter screws home depot near Pittman Center, add downspout to rain gutter near Pittman Center, aluminum rain gutters home depot near Pittman Center, gutter downspouts at lowes near Pittman Center, aluminum gutters home depot near Pittman Center, gutter downspout installation near Pittman Center, rain gutter company near Pittman Center, roof gutter repair near Pittman Center, seamless gutter price calculator near Pittman Center, affordable gutters near Pittman Center, local gutter company near Pittman Center, local rain gutter companies near Pittman Center, water gutter near Pittman Center, downspouts at lowes near Pittman Center, gutters installers near Pittman Center, roofing and gutters near Pittman Center, gutter fixing near Pittman Center, home depot gutters and downspouts near Pittman Center, homedepot gutters near Pittman Center, rain gutters repair near Pittman Center" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Pittman Center, Sevier County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Pittman Center. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Pittman Center." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/pittmancenter" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/pittmancenter" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Pittman Center"
+        county="Sevier"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Pittman Center. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Pittman Center."
+        keywords={["commercial gutter installation near Pittman Center","seamless gutter company near Pittman Center","seamless gutters companies near Pittman Center","gutter repair contractors near Pittman Center","seamless gutter contractors near Pittman Center","seamless gutter installation near Pittman Center","seamless gutter installer near Pittman Center","seamless guttering companies near Pittman Center","seamless gutters contractors near Pittman Center","seamless gutters installation near Pittman Center","seamless gutters installers near Pittman Center","seamless rain gutters near Pittman Center","custom gutters near Pittman Center","gutter companies around near Pittman Center","gutter contractor near Pittman Center","gutter contractors near Pittman Center","gutter guards installers near Pittman Center","gutter price calculator near Pittman Center","gutters and siding contractors near Pittman Center","handyman gutter repair near Pittman Center","rain gutter contractor near Pittman Center","rain gutter contractors near Pittman Center","rain gutters contractors near Pittman Center","roof gutter installers near Pittman Center","seamless gutter companies near Pittman Center","seamless gutter contractor near Pittman Center","seamless gutter installers near Pittman Center","seamless gutters installed near Pittman Center","seamless gutters near Pittman Center","seemless gutters near Pittman Center","siding and gutters near Pittman Center","gutter business near Pittman Center","gutter guards installed near Pittman Center","gutter install near Pittman Center","guttering contractors near Pittman Center","gutters and siding near Pittman Center","gutters contractor near Pittman Center","gutters contractors near Pittman Center","gutters install near Pittman Center","roof and gutter contractors near Pittman Center","seamless gutter near Pittman Center","seamless guttering near Pittman Center","top rated gutter companies near Pittman Center","youtube gutter installation near Pittman Center","continuous gutters near Pittman Center","gutter instalation near Pittman Center","gutter install companies near Pittman Center","gutter installation companies near Pittman Center","gutter installation company near Pittman Center","gutter installation contractors near Pittman Center","gutter installer near Pittman Center","gutter installers near Pittman Center","gutter replacement companies near Pittman Center","gutter service near Pittman Center","guttering installation near Pittman Center","guttering installers near Pittman Center","gutters installation near Pittman Center","gutters installed near Pittman Center","mini gutter near Pittman Center","small gutter near Pittman Center","small gutters near Pittman Center","where to buy mobile home gutters near Pittman Center","tools for gutter installation near Pittman Center","window gutters near Pittman Center","large rain gutters near Pittman Center","2 inch gutter near Pittman Center","menards downspouts near Pittman Center","rain gutters at menards near Pittman Center","downspout extension menards near Pittman Center","downspout repair near Pittman Center","gares de casa near Pittman Center","wide rain gutters near Pittman Center","16 ft gutter lowe's near Pittman Center","mini gutters lowe's near Pittman Center","gutter parts home depot near Pittman Center","gutter roof near Pittman Center","mini gutters near Pittman Center","plastic rain gutters home depot near Pittman Center","roofing gutter near Pittman Center","plastic gutters home depot near Pittman Center","gutter screws home depot near Pittman Center","add downspout to rain gutter near Pittman Center","aluminum rain gutters home depot near Pittman Center","gutter downspouts at lowes near Pittman Center","aluminum gutters home depot near Pittman Center","gutter downspout installation near Pittman Center","rain gutter company near Pittman Center","roof gutter repair near Pittman Center","seamless gutter price calculator near Pittman Center","affordable gutters near Pittman Center","local gutter company near Pittman Center","local rain gutter companies near Pittman Center","water gutter near Pittman Center","downspouts at lowes near Pittman Center","gutters installers near Pittman Center","roofing and gutters near Pittman Center","gutter fixing near Pittman Center","home depot gutters and downspouts near Pittman Center","homedepot gutters near Pittman Center","rain gutters repair near Pittman Center"]}
+      />
+    </>
   );
 };
 
 export default PittmanCenter;
+  

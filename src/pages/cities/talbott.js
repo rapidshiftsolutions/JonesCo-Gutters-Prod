@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Talbott = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Talbott. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Talbott.";
-  const keywords = [
-    "commercial gutter installation near Talbott",
-    "seamless gutter company near Talbott",
-    "seamless gutters companies near Talbott",
-    "gutter repair contractors near Talbott",
-    "seamless gutter contractors near Talbott",
-    "seamless gutter installation near Talbott",
-    "seamless gutter installer near Talbott",
-    "seamless guttering companies near Talbott",
-    "seamless gutters contractors near Talbott",
-    "seamless gutters installation near Talbott",
-    "seamless gutters installers near Talbott",
-    "seamless rain gutters near Talbott",
-    "custom gutters near Talbott",
-    "gutter companies around Talbott",
-    "gutter contractor near Talbott",
-    "gutter contractors near Talbott",
-    "gutter guards installers near Talbott",
-    "gutter price calculator Talbott",
-    "gutters and siding contractors near Talbott",
-    "handyman gutter repair near Talbott",
-    "rain gutter contractor near Talbott",
-    "rain gutter contractors near Talbott",
-    "rain gutters contractors near Talbott",
-    "roof gutter installers near Talbott",
-    "seamless gutter companies near Talbott",
-    "seamless gutter contractor near Talbott",
-    "seamless gutter installers near Talbott",
-    "seamless gutters installed near Talbott",
-    "seamless gutters near Talbott",
-    "seemless gutters near Talbott",
-    "siding and gutters near Talbott",
-    "gutter business near Talbott",
-    "gutter guards installed near Talbott",
-    "gutter install near Talbott",
-    "guttering contractors near Talbott",
-    "gutters and siding near Talbott",
-    "gutters contractor near Talbott",
-    "gutters contractors near Talbott",
-    "gutters install near Talbott",
-    "roof and gutter contractors near Talbott",
-    "seamless gutter near Talbott",
-    "seamless guttering near Talbott",
-    "top rated gutter companies near Talbott",
-    "youtube gutter installation Talbott",
-    "continuous gutters near Talbott",
-    "gutter instalation near Talbott",
-    "gutter install companies near Talbott",
-    "gutter installation companies near Talbott",
-    "gutter installation company near Talbott",
-    "gutter installation contractors near Talbott",
-    "gutter installer near Talbott",
-    "gutter installers near Talbott",
-    "gutter replacement companies near Talbott",
-    "gutter service near Talbott",
-    "guttering installation near Talbott",
-    "guttering installers near Talbott",
-    "gutters installation near Talbott",
-    "gutters installed near Talbott",
-    "mini gutter Talbott",
-    "small gutter Talbott",
-    "small gutters Talbott",
-    "where to buy mobile home gutters Talbott",
-    "tools for gutter installation Talbott",
-    "window gutters Talbott",
-    "large rain gutters Talbott",
-    "2 inch gutter Talbott",
-    "menards downspouts Talbott",
-    "rain gutters at menards Talbott",
-    "downspout extension menards Talbott",
-    "downspout repair near Talbott",
-    "gares de casa Talbott",
-    "wide rain gutters Talbott",
-    "16 ft gutter lowe's Talbott",
-    "mini gutters lowe's Talbott",
-    "gutter parts home depot Talbott",
-    "gutter roof Talbott",
-    "mini gutters Talbott",
-    "plastic rain gutters home depot Talbott",
-    "roofing gutter Talbott",
-    "plastic gutters home depot Talbott",
-    "gutter screws home depot Talbott",
-    "add downspout to rain gutter Talbott",
-    "aluminum rain gutters home depot Talbott",
-    "gutter downspouts at lowes Talbott",
-    "aluminum gutters home depot Talbott",
-    "gutter downspout installation Talbott",
-    "rain gutter company near Talbott",
-    "roof gutter repair near Talbott",
-    "seamless gutter price calculator Talbott",
-    "affordable gutters near Talbott",
-    "local gutter company Talbott",
-    "local rain gutter companies Talbott",
-    "water gutter Talbott",
-    "downspouts at lowes Talbott",
-    "gutters installers near Talbott",
-    "roofing and gutters near Talbott",
-    "gutter fixing near Talbott",
-    "home depot gutters and downspouts Talbott",
-    "homedepot gutters Talbott",
-    "rain gutters repair near Talbott"
-  ];
-
   return (
-    <CityPage
-      city="Talbott"
-      county="Hamblen"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Talbott, Hamblen County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Talbott. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Talbott." />
+        <meta name="keywords" content="commercial gutter installation near Talbott, seamless gutter company near Talbott, seamless gutters companies near Talbott, gutter repair contractors near Talbott, seamless gutter contractors near Talbott, seamless gutter installation near Talbott, seamless gutter installer near Talbott, seamless guttering companies near Talbott, seamless gutters contractors near Talbott, seamless gutters installation near Talbott, seamless gutters installers near Talbott, seamless rain gutters near Talbott, custom gutters near Talbott, gutter companies around near Talbott, gutter contractor near Talbott, gutter contractors near Talbott, gutter guards installers near Talbott, gutter price calculator near Talbott, gutters and siding contractors near Talbott, handyman gutter repair near Talbott, rain gutter contractor near Talbott, rain gutter contractors near Talbott, rain gutters contractors near Talbott, roof gutter installers near Talbott, seamless gutter companies near Talbott, seamless gutter contractor near Talbott, seamless gutter installers near Talbott, seamless gutters installed near Talbott, seamless gutters near Talbott, seemless gutters near Talbott, siding and gutters near Talbott, gutter business near Talbott, gutter guards installed near Talbott, gutter install near Talbott, guttering contractors near Talbott, gutters and siding near Talbott, gutters contractor near Talbott, gutters contractors near Talbott, gutters install near Talbott, roof and gutter contractors near Talbott, seamless gutter near Talbott, seamless guttering near Talbott, top rated gutter companies near Talbott, youtube gutter installation near Talbott, continuous gutters near Talbott, gutter instalation near Talbott, gutter install companies near Talbott, gutter installation companies near Talbott, gutter installation company near Talbott, gutter installation contractors near Talbott, gutter installer near Talbott, gutter installers near Talbott, gutter replacement companies near Talbott, gutter service near Talbott, guttering installation near Talbott, guttering installers near Talbott, gutters installation near Talbott, gutters installed near Talbott, mini gutter near Talbott, small gutter near Talbott, small gutters near Talbott, where to buy mobile home gutters near Talbott, tools for gutter installation near Talbott, window gutters near Talbott, large rain gutters near Talbott, 2 inch gutter near Talbott, menards downspouts near Talbott, rain gutters at menards near Talbott, downspout extension menards near Talbott, downspout repair near Talbott, gares de casa near Talbott, wide rain gutters near Talbott, 16 ft gutter lowe's near Talbott, mini gutters lowe's near Talbott, gutter parts home depot near Talbott, gutter roof near Talbott, mini gutters near Talbott, plastic rain gutters home depot near Talbott, roofing gutter near Talbott, plastic gutters home depot near Talbott, gutter screws home depot near Talbott, add downspout to rain gutter near Talbott, aluminum rain gutters home depot near Talbott, gutter downspouts at lowes near Talbott, aluminum gutters home depot near Talbott, gutter downspout installation near Talbott, rain gutter company near Talbott, roof gutter repair near Talbott, seamless gutter price calculator near Talbott, affordable gutters near Talbott, local gutter company near Talbott, local rain gutter companies near Talbott, water gutter near Talbott, downspouts at lowes near Talbott, gutters installers near Talbott, roofing and gutters near Talbott, gutter fixing near Talbott, home depot gutters and downspouts near Talbott, homedepot gutters near Talbott, rain gutters repair near Talbott" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Talbott, Hamblen County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Talbott. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Talbott." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/talbott" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/talbott" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Talbott"
+        county="Hamblen"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Talbott. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Talbott."
+        keywords={["commercial gutter installation near Talbott","seamless gutter company near Talbott","seamless gutters companies near Talbott","gutter repair contractors near Talbott","seamless gutter contractors near Talbott","seamless gutter installation near Talbott","seamless gutter installer near Talbott","seamless guttering companies near Talbott","seamless gutters contractors near Talbott","seamless gutters installation near Talbott","seamless gutters installers near Talbott","seamless rain gutters near Talbott","custom gutters near Talbott","gutter companies around near Talbott","gutter contractor near Talbott","gutter contractors near Talbott","gutter guards installers near Talbott","gutter price calculator near Talbott","gutters and siding contractors near Talbott","handyman gutter repair near Talbott","rain gutter contractor near Talbott","rain gutter contractors near Talbott","rain gutters contractors near Talbott","roof gutter installers near Talbott","seamless gutter companies near Talbott","seamless gutter contractor near Talbott","seamless gutter installers near Talbott","seamless gutters installed near Talbott","seamless gutters near Talbott","seemless gutters near Talbott","siding and gutters near Talbott","gutter business near Talbott","gutter guards installed near Talbott","gutter install near Talbott","guttering contractors near Talbott","gutters and siding near Talbott","gutters contractor near Talbott","gutters contractors near Talbott","gutters install near Talbott","roof and gutter contractors near Talbott","seamless gutter near Talbott","seamless guttering near Talbott","top rated gutter companies near Talbott","youtube gutter installation near Talbott","continuous gutters near Talbott","gutter instalation near Talbott","gutter install companies near Talbott","gutter installation companies near Talbott","gutter installation company near Talbott","gutter installation contractors near Talbott","gutter installer near Talbott","gutter installers near Talbott","gutter replacement companies near Talbott","gutter service near Talbott","guttering installation near Talbott","guttering installers near Talbott","gutters installation near Talbott","gutters installed near Talbott","mini gutter near Talbott","small gutter near Talbott","small gutters near Talbott","where to buy mobile home gutters near Talbott","tools for gutter installation near Talbott","window gutters near Talbott","large rain gutters near Talbott","2 inch gutter near Talbott","menards downspouts near Talbott","rain gutters at menards near Talbott","downspout extension menards near Talbott","downspout repair near Talbott","gares de casa near Talbott","wide rain gutters near Talbott","16 ft gutter lowe's near Talbott","mini gutters lowe's near Talbott","gutter parts home depot near Talbott","gutter roof near Talbott","mini gutters near Talbott","plastic rain gutters home depot near Talbott","roofing gutter near Talbott","plastic gutters home depot near Talbott","gutter screws home depot near Talbott","add downspout to rain gutter near Talbott","aluminum rain gutters home depot near Talbott","gutter downspouts at lowes near Talbott","aluminum gutters home depot near Talbott","gutter downspout installation near Talbott","rain gutter company near Talbott","roof gutter repair near Talbott","seamless gutter price calculator near Talbott","affordable gutters near Talbott","local gutter company near Talbott","local rain gutter companies near Talbott","water gutter near Talbott","downspouts at lowes near Talbott","gutters installers near Talbott","roofing and gutters near Talbott","gutter fixing near Talbott","home depot gutters and downspouts near Talbott","homedepot gutters near Talbott","rain gutters repair near Talbott"]}
+      />
+    </>
   );
 };
 
 export default Talbott;
+  

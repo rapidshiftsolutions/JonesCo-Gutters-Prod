@@ -1,14 +1,10 @@
 import Head from 'next/head';
-import CTAA from '@/components/CTA-A';
-import CTAD from '@/components/CTA-D';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import OurServices from '@/components/OurServices';
 import ServiceLocations from '@/components/ServiceLocationsCity';
 import WhyJonesCo from '@/components/Value';
-import John from '@/components/Why';
-import Subcontracting from '@/components/subcontracting';
 import Reviews from '@/components/reviews';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import Estimate from '@/components/Hero';
@@ -131,6 +127,21 @@ export default function Home() {
         <meta property="og:description" content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Seamless Gutter Systems is the trusted choice in Eastern Tennessee." />
         <meta property="og:url" content="https://jonescogutters.com/" />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/static/images/hero-background.jpg" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="description" content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Seamless Gutter Systems is the trusted choice in Eastern Tennessee." />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
       </Head>
       <Header />
 

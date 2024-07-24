@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Newport = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Newport. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Newport.";
-  const keywords = [
-    "commercial gutter installation near Newport",
-    "seamless gutter company near Newport",
-    "seamless gutters companies near Newport",
-    "gutter repair contractors near Newport",
-    "seamless gutter contractors near Newport",
-    "seamless gutter installation near Newport",
-    "seamless gutter installer near Newport",
-    "seamless guttering companies near Newport",
-    "seamless gutters contractors near Newport",
-    "seamless gutters installation near Newport",
-    "seamless gutters installers near Newport",
-    "seamless rain gutters near Newport",
-    "custom gutters near Newport",
-    "gutter companies around Newport",
-    "gutter contractor near Newport",
-    "gutter contractors near Newport",
-    "gutter guards installers near Newport",
-    "gutter price calculator Newport",
-    "gutters and siding contractors near Newport",
-    "handyman gutter repair near Newport",
-    "rain gutter contractor near Newport",
-    "rain gutter contractors near Newport",
-    "rain gutters contractors near Newport",
-    "roof gutter installers near Newport",
-    "seamless gutter companies near Newport",
-    "seamless gutter contractor near Newport",
-    "seamless gutter installers near Newport",
-    "seamless gutters installed near Newport",
-    "seamless gutters near Newport",
-    "seemless gutters near Newport",
-    "siding and gutters near Newport",
-    "gutter business near Newport",
-    "gutter guards installed near Newport",
-    "gutter install near Newport",
-    "guttering contractors near Newport",
-    "gutters and siding near Newport",
-    "gutters contractor near Newport",
-    "gutters contractors near Newport",
-    "gutters install near Newport",
-    "roof and gutter contractors near Newport",
-    "seamless gutter near Newport",
-    "seamless guttering near Newport",
-    "top rated gutter companies near Newport",
-    "youtube gutter installation Newport",
-    "continuous gutters near Newport",
-    "gutter instalation near Newport",
-    "gutter install companies near Newport",
-    "gutter installation companies near Newport",
-    "gutter installation company near Newport",
-    "gutter installation contractors near Newport",
-    "gutter installer near Newport",
-    "gutter installers near Newport",
-    "gutter replacement companies near Newport",
-    "gutter service near Newport",
-    "guttering installation near Newport",
-    "guttering installers near Newport",
-    "gutters installation near Newport",
-    "gutters installed near Newport",
-    "mini gutter Newport",
-    "small gutter Newport",
-    "small gutters Newport",
-    "where to buy mobile home gutters Newport",
-    "tools for gutter installation Newport",
-    "window gutters Newport",
-    "large rain gutters Newport",
-    "2 inch gutter Newport",
-    "menards downspouts Newport",
-    "rain gutters at menards Newport",
-    "downspout extension menards Newport",
-    "downspout repair near Newport",
-    "gares de casa Newport",
-    "wide rain gutters Newport",
-    "16 ft gutter lowe's Newport",
-    "mini gutters lowe's Newport",
-    "gutter parts home depot Newport",
-    "gutter roof Newport",
-    "mini gutters Newport",
-    "plastic rain gutters home depot Newport",
-    "roofing gutter Newport",
-    "plastic gutters home depot Newport",
-    "gutter screws home depot Newport",
-    "add downspout to rain gutter Newport",
-    "aluminum rain gutters home depot Newport",
-    "gutter downspouts at lowes Newport",
-    "aluminum gutters home depot Newport",
-    "gutter downspout installation Newport",
-    "rain gutter company near Newport",
-    "roof gutter repair near Newport",
-    "seamless gutter price calculator Newport",
-    "affordable gutters near Newport",
-    "local gutter company Newport",
-    "local rain gutter companies Newport",
-    "water gutter Newport",
-    "downspouts at lowes Newport",
-    "gutters installers near Newport",
-    "roofing and gutters near Newport",
-    "gutter fixing near Newport",
-    "home depot gutters and downspouts Newport",
-    "homedepot gutters Newport",
-    "rain gutters repair near Newport"
-  ];
-
   return (
-    <CityPage
-      city="Newport"
-      county="Cocke"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Newport, Cocke County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Newport. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Newport." />
+        <meta name="keywords" content="commercial gutter installation near Newport, seamless gutter company near Newport, seamless gutters companies near Newport, gutter repair contractors near Newport, seamless gutter contractors near Newport, seamless gutter installation near Newport, seamless gutter installer near Newport, seamless guttering companies near Newport, seamless gutters contractors near Newport, seamless gutters installation near Newport, seamless gutters installers near Newport, seamless rain gutters near Newport, custom gutters near Newport, gutter companies around near Newport, gutter contractor near Newport, gutter contractors near Newport, gutter guards installers near Newport, gutter price calculator near Newport, gutters and siding contractors near Newport, handyman gutter repair near Newport, rain gutter contractor near Newport, rain gutter contractors near Newport, rain gutters contractors near Newport, roof gutter installers near Newport, seamless gutter companies near Newport, seamless gutter contractor near Newport, seamless gutter installers near Newport, seamless gutters installed near Newport, seamless gutters near Newport, seemless gutters near Newport, siding and gutters near Newport, gutter business near Newport, gutter guards installed near Newport, gutter install near Newport, guttering contractors near Newport, gutters and siding near Newport, gutters contractor near Newport, gutters contractors near Newport, gutters install near Newport, roof and gutter contractors near Newport, seamless gutter near Newport, seamless guttering near Newport, top rated gutter companies near Newport, youtube gutter installation near Newport, continuous gutters near Newport, gutter instalation near Newport, gutter install companies near Newport, gutter installation companies near Newport, gutter installation company near Newport, gutter installation contractors near Newport, gutter installer near Newport, gutter installers near Newport, gutter replacement companies near Newport, gutter service near Newport, guttering installation near Newport, guttering installers near Newport, gutters installation near Newport, gutters installed near Newport, mini gutter near Newport, small gutter near Newport, small gutters near Newport, where to buy mobile home gutters near Newport, tools for gutter installation near Newport, window gutters near Newport, large rain gutters near Newport, 2 inch gutter near Newport, menards downspouts near Newport, rain gutters at menards near Newport, downspout extension menards near Newport, downspout repair near Newport, gares de casa near Newport, wide rain gutters near Newport, 16 ft gutter lowe's near Newport, mini gutters lowe's near Newport, gutter parts home depot near Newport, gutter roof near Newport, mini gutters near Newport, plastic rain gutters home depot near Newport, roofing gutter near Newport, plastic gutters home depot near Newport, gutter screws home depot near Newport, add downspout to rain gutter near Newport, aluminum rain gutters home depot near Newport, gutter downspouts at lowes near Newport, aluminum gutters home depot near Newport, gutter downspout installation near Newport, rain gutter company near Newport, roof gutter repair near Newport, seamless gutter price calculator near Newport, affordable gutters near Newport, local gutter company near Newport, local rain gutter companies near Newport, water gutter near Newport, downspouts at lowes near Newport, gutters installers near Newport, roofing and gutters near Newport, gutter fixing near Newport, home depot gutters and downspouts near Newport, homedepot gutters near Newport, rain gutters repair near Newport" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Newport, Cocke County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Newport. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Newport." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/newport" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/newport" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Newport"
+        county="Cocke"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Newport. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Newport."
+        keywords={["commercial gutter installation near Newport","seamless gutter company near Newport","seamless gutters companies near Newport","gutter repair contractors near Newport","seamless gutter contractors near Newport","seamless gutter installation near Newport","seamless gutter installer near Newport","seamless guttering companies near Newport","seamless gutters contractors near Newport","seamless gutters installation near Newport","seamless gutters installers near Newport","seamless rain gutters near Newport","custom gutters near Newport","gutter companies around near Newport","gutter contractor near Newport","gutter contractors near Newport","gutter guards installers near Newport","gutter price calculator near Newport","gutters and siding contractors near Newport","handyman gutter repair near Newport","rain gutter contractor near Newport","rain gutter contractors near Newport","rain gutters contractors near Newport","roof gutter installers near Newport","seamless gutter companies near Newport","seamless gutter contractor near Newport","seamless gutter installers near Newport","seamless gutters installed near Newport","seamless gutters near Newport","seemless gutters near Newport","siding and gutters near Newport","gutter business near Newport","gutter guards installed near Newport","gutter install near Newport","guttering contractors near Newport","gutters and siding near Newport","gutters contractor near Newport","gutters contractors near Newport","gutters install near Newport","roof and gutter contractors near Newport","seamless gutter near Newport","seamless guttering near Newport","top rated gutter companies near Newport","youtube gutter installation near Newport","continuous gutters near Newport","gutter instalation near Newport","gutter install companies near Newport","gutter installation companies near Newport","gutter installation company near Newport","gutter installation contractors near Newport","gutter installer near Newport","gutter installers near Newport","gutter replacement companies near Newport","gutter service near Newport","guttering installation near Newport","guttering installers near Newport","gutters installation near Newport","gutters installed near Newport","mini gutter near Newport","small gutter near Newport","small gutters near Newport","where to buy mobile home gutters near Newport","tools for gutter installation near Newport","window gutters near Newport","large rain gutters near Newport","2 inch gutter near Newport","menards downspouts near Newport","rain gutters at menards near Newport","downspout extension menards near Newport","downspout repair near Newport","gares de casa near Newport","wide rain gutters near Newport","16 ft gutter lowe's near Newport","mini gutters lowe's near Newport","gutter parts home depot near Newport","gutter roof near Newport","mini gutters near Newport","plastic rain gutters home depot near Newport","roofing gutter near Newport","plastic gutters home depot near Newport","gutter screws home depot near Newport","add downspout to rain gutter near Newport","aluminum rain gutters home depot near Newport","gutter downspouts at lowes near Newport","aluminum gutters home depot near Newport","gutter downspout installation near Newport","rain gutter company near Newport","roof gutter repair near Newport","seamless gutter price calculator near Newport","affordable gutters near Newport","local gutter company near Newport","local rain gutter companies near Newport","water gutter near Newport","downspouts at lowes near Newport","gutters installers near Newport","roofing and gutters near Newport","gutter fixing near Newport","home depot gutters and downspouts near Newport","homedepot gutters near Newport","rain gutters repair near Newport"]}
+      />
+    </>
   );
 };
 
 export default Newport;
+  

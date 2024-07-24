@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <!-- Main tile image (150x150 pixels) -->
+      <square150x150logo src="/icons/maskable_icon_x150.png"/>
+
+      <!-- Wide tile image (310x150 pixels) -->
+      <wide310x150logo src="/icons/maskable_icon_x310.png"/>
+
+      <!-- Large square tile image (310x310 pixels) -->
+      <square310x310logo src="/icons/maskable_icon_x310.png"/>
+
+      <!-- Background color of the tile -->
+      <TileColor>#0066CC</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>

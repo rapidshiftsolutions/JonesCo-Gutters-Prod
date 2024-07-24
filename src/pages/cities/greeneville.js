@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Greeneville = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Greeneville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Greeneville.";
-  const keywords = [
-    "commercial gutter installation near Greeneville",
-    "seamless gutter company near Greeneville",
-    "seamless gutters companies near Greeneville",
-    "gutter repair contractors near Greeneville",
-    "seamless gutter contractors near Greeneville",
-    "seamless gutter installation near Greeneville",
-    "seamless gutter installer near Greeneville",
-    "seamless guttering companies near Greeneville",
-    "seamless gutters contractors near Greeneville",
-    "seamless gutters installation near Greeneville",
-    "seamless gutters installers near Greeneville",
-    "seamless rain gutters near Greeneville",
-    "custom gutters near Greeneville",
-    "gutter companies around Greeneville",
-    "gutter contractor near Greeneville",
-    "gutter contractors near Greeneville",
-    "gutter guards installers near Greeneville",
-    "gutter price calculator Greeneville",
-    "gutters and siding contractors near Greeneville",
-    "handyman gutter repair near Greeneville",
-    "rain gutter contractor near Greeneville",
-    "rain gutter contractors near Greeneville",
-    "rain gutters contractors near Greeneville",
-    "roof gutter installers near Greeneville",
-    "seamless gutter companies near Greeneville",
-    "seamless gutter contractor near Greeneville",
-    "seamless gutter installers near Greeneville",
-    "seamless gutters installed near Greeneville",
-    "seamless gutters near Greeneville",
-    "seemless gutters near Greeneville",
-    "siding and gutters near Greeneville",
-    "gutter business near Greeneville",
-    "gutter guards installed near Greeneville",
-    "gutter install near Greeneville",
-    "guttering contractors near Greeneville",
-    "gutters and siding near Greeneville",
-    "gutters contractor near Greeneville",
-    "gutters contractors near Greeneville",
-    "gutters install near Greeneville",
-    "roof and gutter contractors near Greeneville",
-    "seamless gutter near Greeneville",
-    "seamless guttering near Greeneville",
-    "top rated gutter companies near Greeneville",
-    "youtube gutter installation Greeneville",
-    "continuous gutters near Greeneville",
-    "gutter instalation near Greeneville",
-    "gutter install companies near Greeneville",
-    "gutter installation companies near Greeneville",
-    "gutter installation company near Greeneville",
-    "gutter installation contractors near Greeneville",
-    "gutter installer near Greeneville",
-    "gutter installers near Greeneville",
-    "gutter replacement companies near Greeneville",
-    "gutter service near Greeneville",
-    "guttering installation near Greeneville",
-    "guttering installers near Greeneville",
-    "gutters installation near Greeneville",
-    "gutters installed near Greeneville",
-    "mini gutter Greeneville",
-    "small gutter Greeneville",
-    "small gutters Greeneville",
-    "where to buy mobile home gutters Greeneville",
-    "tools for gutter installation Greeneville",
-    "window gutters Greeneville",
-    "large rain gutters Greeneville",
-    "2 inch gutter Greeneville",
-    "menards downspouts Greeneville",
-    "rain gutters at menards Greeneville",
-    "downspout extension menards Greeneville",
-    "downspout repair near Greeneville",
-    "gares de casa Greeneville",
-    "wide rain gutters Greeneville",
-    "16 ft gutter lowe's Greeneville",
-    "mini gutters lowe's Greeneville",
-    "gutter parts home depot Greeneville",
-    "gutter roof Greeneville",
-    "mini gutters Greeneville",
-    "plastic rain gutters home depot Greeneville",
-    "roofing gutter Greeneville",
-    "plastic gutters home depot Greeneville",
-    "gutter screws home depot Greeneville",
-    "add downspout to rain gutter Greeneville",
-    "aluminum rain gutters home depot Greeneville",
-    "gutter downspouts at lowes Greeneville",
-    "aluminum gutters home depot Greeneville",
-    "gutter downspout installation Greeneville",
-    "rain gutter company near Greeneville",
-    "roof gutter repair near Greeneville",
-    "seamless gutter price calculator Greeneville",
-    "affordable gutters near Greeneville",
-    "local gutter company Greeneville",
-    "local rain gutter companies Greeneville",
-    "water gutter Greeneville",
-    "downspouts at lowes Greeneville",
-    "gutters installers near Greeneville",
-    "roofing and gutters near Greeneville",
-    "gutter fixing near Greeneville",
-    "home depot gutters and downspouts Greeneville",
-    "homedepot gutters Greeneville",
-    "rain gutters repair near Greeneville"
-  ];
-
   return (
-    <CityPage
-      city="Greeneville"
-      county="Greene"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Greeneville, Greene County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Greeneville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Greeneville." />
+        <meta name="keywords" content="commercial gutter installation near Greeneville, seamless gutter company near Greeneville, seamless gutters companies near Greeneville, gutter repair contractors near Greeneville, seamless gutter contractors near Greeneville, seamless gutter installation near Greeneville, seamless gutter installer near Greeneville, seamless guttering companies near Greeneville, seamless gutters contractors near Greeneville, seamless gutters installation near Greeneville, seamless gutters installers near Greeneville, seamless rain gutters near Greeneville, custom gutters near Greeneville, gutter companies around near Greeneville, gutter contractor near Greeneville, gutter contractors near Greeneville, gutter guards installers near Greeneville, gutter price calculator near Greeneville, gutters and siding contractors near Greeneville, handyman gutter repair near Greeneville, rain gutter contractor near Greeneville, rain gutter contractors near Greeneville, rain gutters contractors near Greeneville, roof gutter installers near Greeneville, seamless gutter companies near Greeneville, seamless gutter contractor near Greeneville, seamless gutter installers near Greeneville, seamless gutters installed near Greeneville, seamless gutters near Greeneville, seemless gutters near Greeneville, siding and gutters near Greeneville, gutter business near Greeneville, gutter guards installed near Greeneville, gutter install near Greeneville, guttering contractors near Greeneville, gutters and siding near Greeneville, gutters contractor near Greeneville, gutters contractors near Greeneville, gutters install near Greeneville, roof and gutter contractors near Greeneville, seamless gutter near Greeneville, seamless guttering near Greeneville, top rated gutter companies near Greeneville, youtube gutter installation near Greeneville, continuous gutters near Greeneville, gutter instalation near Greeneville, gutter install companies near Greeneville, gutter installation companies near Greeneville, gutter installation company near Greeneville, gutter installation contractors near Greeneville, gutter installer near Greeneville, gutter installers near Greeneville, gutter replacement companies near Greeneville, gutter service near Greeneville, guttering installation near Greeneville, guttering installers near Greeneville, gutters installation near Greeneville, gutters installed near Greeneville, mini gutter near Greeneville, small gutter near Greeneville, small gutters near Greeneville, where to buy mobile home gutters near Greeneville, tools for gutter installation near Greeneville, window gutters near Greeneville, large rain gutters near Greeneville, 2 inch gutter near Greeneville, menards downspouts near Greeneville, rain gutters at menards near Greeneville, downspout extension menards near Greeneville, downspout repair near Greeneville, gares de casa near Greeneville, wide rain gutters near Greeneville, 16 ft gutter lowe's near Greeneville, mini gutters lowe's near Greeneville, gutter parts home depot near Greeneville, gutter roof near Greeneville, mini gutters near Greeneville, plastic rain gutters home depot near Greeneville, roofing gutter near Greeneville, plastic gutters home depot near Greeneville, gutter screws home depot near Greeneville, add downspout to rain gutter near Greeneville, aluminum rain gutters home depot near Greeneville, gutter downspouts at lowes near Greeneville, aluminum gutters home depot near Greeneville, gutter downspout installation near Greeneville, rain gutter company near Greeneville, roof gutter repair near Greeneville, seamless gutter price calculator near Greeneville, affordable gutters near Greeneville, local gutter company near Greeneville, local rain gutter companies near Greeneville, water gutter near Greeneville, downspouts at lowes near Greeneville, gutters installers near Greeneville, roofing and gutters near Greeneville, gutter fixing near Greeneville, home depot gutters and downspouts near Greeneville, homedepot gutters near Greeneville, rain gutters repair near Greeneville" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Greeneville, Greene County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Greeneville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Greeneville." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/greeneville" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/greeneville" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Greeneville"
+        county="Greene"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Greeneville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Greeneville."
+        keywords={["commercial gutter installation near Greeneville","seamless gutter company near Greeneville","seamless gutters companies near Greeneville","gutter repair contractors near Greeneville","seamless gutter contractors near Greeneville","seamless gutter installation near Greeneville","seamless gutter installer near Greeneville","seamless guttering companies near Greeneville","seamless gutters contractors near Greeneville","seamless gutters installation near Greeneville","seamless gutters installers near Greeneville","seamless rain gutters near Greeneville","custom gutters near Greeneville","gutter companies around near Greeneville","gutter contractor near Greeneville","gutter contractors near Greeneville","gutter guards installers near Greeneville","gutter price calculator near Greeneville","gutters and siding contractors near Greeneville","handyman gutter repair near Greeneville","rain gutter contractor near Greeneville","rain gutter contractors near Greeneville","rain gutters contractors near Greeneville","roof gutter installers near Greeneville","seamless gutter companies near Greeneville","seamless gutter contractor near Greeneville","seamless gutter installers near Greeneville","seamless gutters installed near Greeneville","seamless gutters near Greeneville","seemless gutters near Greeneville","siding and gutters near Greeneville","gutter business near Greeneville","gutter guards installed near Greeneville","gutter install near Greeneville","guttering contractors near Greeneville","gutters and siding near Greeneville","gutters contractor near Greeneville","gutters contractors near Greeneville","gutters install near Greeneville","roof and gutter contractors near Greeneville","seamless gutter near Greeneville","seamless guttering near Greeneville","top rated gutter companies near Greeneville","youtube gutter installation near Greeneville","continuous gutters near Greeneville","gutter instalation near Greeneville","gutter install companies near Greeneville","gutter installation companies near Greeneville","gutter installation company near Greeneville","gutter installation contractors near Greeneville","gutter installer near Greeneville","gutter installers near Greeneville","gutter replacement companies near Greeneville","gutter service near Greeneville","guttering installation near Greeneville","guttering installers near Greeneville","gutters installation near Greeneville","gutters installed near Greeneville","mini gutter near Greeneville","small gutter near Greeneville","small gutters near Greeneville","where to buy mobile home gutters near Greeneville","tools for gutter installation near Greeneville","window gutters near Greeneville","large rain gutters near Greeneville","2 inch gutter near Greeneville","menards downspouts near Greeneville","rain gutters at menards near Greeneville","downspout extension menards near Greeneville","downspout repair near Greeneville","gares de casa near Greeneville","wide rain gutters near Greeneville","16 ft gutter lowe's near Greeneville","mini gutters lowe's near Greeneville","gutter parts home depot near Greeneville","gutter roof near Greeneville","mini gutters near Greeneville","plastic rain gutters home depot near Greeneville","roofing gutter near Greeneville","plastic gutters home depot near Greeneville","gutter screws home depot near Greeneville","add downspout to rain gutter near Greeneville","aluminum rain gutters home depot near Greeneville","gutter downspouts at lowes near Greeneville","aluminum gutters home depot near Greeneville","gutter downspout installation near Greeneville","rain gutter company near Greeneville","roof gutter repair near Greeneville","seamless gutter price calculator near Greeneville","affordable gutters near Greeneville","local gutter company near Greeneville","local rain gutter companies near Greeneville","water gutter near Greeneville","downspouts at lowes near Greeneville","gutters installers near Greeneville","roofing and gutters near Greeneville","gutter fixing near Greeneville","home depot gutters and downspouts near Greeneville","homedepot gutters near Greeneville","rain gutters repair near Greeneville"]}
+      />
+    </>
   );
 };
 
 export default Greeneville;
+  

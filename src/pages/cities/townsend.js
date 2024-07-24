@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Townsend = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Townsend. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Townsend.";
-  const keywords = [
-    "commercial gutter installation near Townsend",
-    "seamless gutter company near Townsend",
-    "seamless gutters companies near Townsend",
-    "gutter repair contractors near Townsend",
-    "seamless gutter contractors near Townsend",
-    "seamless gutter installation near Townsend",
-    "seamless gutter installer near Townsend",
-    "seamless guttering companies near Townsend",
-    "seamless gutters contractors near Townsend",
-    "seamless gutters installation near Townsend",
-    "seamless gutters installers near Townsend",
-    "seamless rain gutters near Townsend",
-    "custom gutters near Townsend",
-    "gutter companies around Townsend",
-    "gutter contractor near Townsend",
-    "gutter contractors near Townsend",
-    "gutter guards installers near Townsend",
-    "gutter price calculator Townsend",
-    "gutters and siding contractors near Townsend",
-    "handyman gutter repair near Townsend",
-    "rain gutter contractor near Townsend",
-    "rain gutter contractors near Townsend",
-    "rain gutters contractors near Townsend",
-    "roof gutter installers near Townsend",
-    "seamless gutter companies near Townsend",
-    "seamless gutter contractor near Townsend",
-    "seamless gutter installers near Townsend",
-    "seamless gutters installed near Townsend",
-    "seamless gutters near Townsend",
-    "seemless gutters near Townsend",
-    "siding and gutters near Townsend",
-    "gutter business near Townsend",
-    "gutter guards installed near Townsend",
-    "gutter install near Townsend",
-    "guttering contractors near Townsend",
-    "gutters and siding near Townsend",
-    "gutters contractor near Townsend",
-    "gutters contractors near Townsend",
-    "gutters install near Townsend",
-    "roof and gutter contractors near Townsend",
-    "seamless gutter near Townsend",
-    "seamless guttering near Townsend",
-    "top rated gutter companies near Townsend",
-    "youtube gutter installation Townsend",
-    "continuous gutters near Townsend",
-    "gutter instalation near Townsend",
-    "gutter install companies near Townsend",
-    "gutter installation companies near Townsend",
-    "gutter installation company near Townsend",
-    "gutter installation contractors near Townsend",
-    "gutter installer near Townsend",
-    "gutter installers near Townsend",
-    "gutter replacement companies near Townsend",
-    "gutter service near Townsend",
-    "guttering installation near Townsend",
-    "guttering installers near Townsend",
-    "gutters installation near Townsend",
-    "gutters installed near Townsend",
-    "mini gutter Townsend",
-    "small gutter Townsend",
-    "small gutters Townsend",
-    "where to buy mobile home gutters Townsend",
-    "tools for gutter installation Townsend",
-    "window gutters Townsend",
-    "large rain gutters Townsend",
-    "2 inch gutter Townsend",
-    "menards downspouts Townsend",
-    "rain gutters at menards Townsend",
-    "downspout extension menards Townsend",
-    "downspout repair near Townsend",
-    "gares de casa Townsend",
-    "wide rain gutters Townsend",
-    "16 ft gutter lowe's Townsend",
-    "mini gutters lowe's Townsend",
-    "gutter parts home depot Townsend",
-    "gutter roof Townsend",
-    "mini gutters Townsend",
-    "plastic rain gutters home depot Townsend",
-    "roofing gutter Townsend",
-    "plastic gutters home depot Townsend",
-    "gutter screws home depot Townsend",
-    "add downspout to rain gutter Townsend",
-    "aluminum rain gutters home depot Townsend",
-    "gutter downspouts at lowes Townsend",
-    "aluminum gutters home depot Townsend",
-    "gutter downspout installation Townsend",
-    "rain gutter company near Townsend",
-    "roof gutter repair near Townsend",
-    "seamless gutter price calculator Townsend",
-    "affordable gutters near Townsend",
-    "local gutter company Townsend",
-    "local rain gutter companies Townsend",
-    "water gutter Townsend",
-    "downspouts at lowes Townsend",
-    "gutters installers near Townsend",
-    "roofing and gutters near Townsend",
-    "gutter fixing near Townsend",
-    "home depot gutters and downspouts Townsend",
-    "homedepot gutters Townsend",
-    "rain gutters repair near Townsend"
-  ];
-
   return (
-    <CityPage
-      city="Townsend"
-      county="Blount"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Townsend, Blount County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Townsend. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Townsend." />
+        <meta name="keywords" content="commercial gutter installation near Townsend, seamless gutter company near Townsend, seamless gutters companies near Townsend, gutter repair contractors near Townsend, seamless gutter contractors near Townsend, seamless gutter installation near Townsend, seamless gutter installer near Townsend, seamless guttering companies near Townsend, seamless gutters contractors near Townsend, seamless gutters installation near Townsend, seamless gutters installers near Townsend, seamless rain gutters near Townsend, custom gutters near Townsend, gutter companies around near Townsend, gutter contractor near Townsend, gutter contractors near Townsend, gutter guards installers near Townsend, gutter price calculator near Townsend, gutters and siding contractors near Townsend, handyman gutter repair near Townsend, rain gutter contractor near Townsend, rain gutter contractors near Townsend, rain gutters contractors near Townsend, roof gutter installers near Townsend, seamless gutter companies near Townsend, seamless gutter contractor near Townsend, seamless gutter installers near Townsend, seamless gutters installed near Townsend, seamless gutters near Townsend, seemless gutters near Townsend, siding and gutters near Townsend, gutter business near Townsend, gutter guards installed near Townsend, gutter install near Townsend, guttering contractors near Townsend, gutters and siding near Townsend, gutters contractor near Townsend, gutters contractors near Townsend, gutters install near Townsend, roof and gutter contractors near Townsend, seamless gutter near Townsend, seamless guttering near Townsend, top rated gutter companies near Townsend, youtube gutter installation near Townsend, continuous gutters near Townsend, gutter instalation near Townsend, gutter install companies near Townsend, gutter installation companies near Townsend, gutter installation company near Townsend, gutter installation contractors near Townsend, gutter installer near Townsend, gutter installers near Townsend, gutter replacement companies near Townsend, gutter service near Townsend, guttering installation near Townsend, guttering installers near Townsend, gutters installation near Townsend, gutters installed near Townsend, mini gutter near Townsend, small gutter near Townsend, small gutters near Townsend, where to buy mobile home gutters near Townsend, tools for gutter installation near Townsend, window gutters near Townsend, large rain gutters near Townsend, 2 inch gutter near Townsend, menards downspouts near Townsend, rain gutters at menards near Townsend, downspout extension menards near Townsend, downspout repair near Townsend, gares de casa near Townsend, wide rain gutters near Townsend, 16 ft gutter lowe's near Townsend, mini gutters lowe's near Townsend, gutter parts home depot near Townsend, gutter roof near Townsend, mini gutters near Townsend, plastic rain gutters home depot near Townsend, roofing gutter near Townsend, plastic gutters home depot near Townsend, gutter screws home depot near Townsend, add downspout to rain gutter near Townsend, aluminum rain gutters home depot near Townsend, gutter downspouts at lowes near Townsend, aluminum gutters home depot near Townsend, gutter downspout installation near Townsend, rain gutter company near Townsend, roof gutter repair near Townsend, seamless gutter price calculator near Townsend, affordable gutters near Townsend, local gutter company near Townsend, local rain gutter companies near Townsend, water gutter near Townsend, downspouts at lowes near Townsend, gutters installers near Townsend, roofing and gutters near Townsend, gutter fixing near Townsend, home depot gutters and downspouts near Townsend, homedepot gutters near Townsend, rain gutters repair near Townsend" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Townsend, Blount County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Townsend. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Townsend." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/townsend" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/townsend" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Townsend"
+        county="Blount"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Townsend. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Townsend."
+        keywords={["commercial gutter installation near Townsend","seamless gutter company near Townsend","seamless gutters companies near Townsend","gutter repair contractors near Townsend","seamless gutter contractors near Townsend","seamless gutter installation near Townsend","seamless gutter installer near Townsend","seamless guttering companies near Townsend","seamless gutters contractors near Townsend","seamless gutters installation near Townsend","seamless gutters installers near Townsend","seamless rain gutters near Townsend","custom gutters near Townsend","gutter companies around near Townsend","gutter contractor near Townsend","gutter contractors near Townsend","gutter guards installers near Townsend","gutter price calculator near Townsend","gutters and siding contractors near Townsend","handyman gutter repair near Townsend","rain gutter contractor near Townsend","rain gutter contractors near Townsend","rain gutters contractors near Townsend","roof gutter installers near Townsend","seamless gutter companies near Townsend","seamless gutter contractor near Townsend","seamless gutter installers near Townsend","seamless gutters installed near Townsend","seamless gutters near Townsend","seemless gutters near Townsend","siding and gutters near Townsend","gutter business near Townsend","gutter guards installed near Townsend","gutter install near Townsend","guttering contractors near Townsend","gutters and siding near Townsend","gutters contractor near Townsend","gutters contractors near Townsend","gutters install near Townsend","roof and gutter contractors near Townsend","seamless gutter near Townsend","seamless guttering near Townsend","top rated gutter companies near Townsend","youtube gutter installation near Townsend","continuous gutters near Townsend","gutter instalation near Townsend","gutter install companies near Townsend","gutter installation companies near Townsend","gutter installation company near Townsend","gutter installation contractors near Townsend","gutter installer near Townsend","gutter installers near Townsend","gutter replacement companies near Townsend","gutter service near Townsend","guttering installation near Townsend","guttering installers near Townsend","gutters installation near Townsend","gutters installed near Townsend","mini gutter near Townsend","small gutter near Townsend","small gutters near Townsend","where to buy mobile home gutters near Townsend","tools for gutter installation near Townsend","window gutters near Townsend","large rain gutters near Townsend","2 inch gutter near Townsend","menards downspouts near Townsend","rain gutters at menards near Townsend","downspout extension menards near Townsend","downspout repair near Townsend","gares de casa near Townsend","wide rain gutters near Townsend","16 ft gutter lowe's near Townsend","mini gutters lowe's near Townsend","gutter parts home depot near Townsend","gutter roof near Townsend","mini gutters near Townsend","plastic rain gutters home depot near Townsend","roofing gutter near Townsend","plastic gutters home depot near Townsend","gutter screws home depot near Townsend","add downspout to rain gutter near Townsend","aluminum rain gutters home depot near Townsend","gutter downspouts at lowes near Townsend","aluminum gutters home depot near Townsend","gutter downspout installation near Townsend","rain gutter company near Townsend","roof gutter repair near Townsend","seamless gutter price calculator near Townsend","affordable gutters near Townsend","local gutter company near Townsend","local rain gutter companies near Townsend","water gutter near Townsend","downspouts at lowes near Townsend","gutters installers near Townsend","roofing and gutters near Townsend","gutter fixing near Townsend","home depot gutters and downspouts near Townsend","homedepot gutters near Townsend","rain gutters repair near Townsend"]}
+      />
+    </>
   );
 };
 
 export default Townsend;
+  

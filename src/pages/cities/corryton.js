@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Corryton = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Corryton. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Corryton.";
-  const keywords = [
-    "commercial gutter installation near Corryton",
-    "seamless gutter company near Corryton",
-    "seamless gutters companies near Corryton",
-    "gutter repair contractors near Corryton",
-    "seamless gutter contractors near Corryton",
-    "seamless gutter installation near Corryton",
-    "seamless gutter installer near Corryton",
-    "seamless guttering companies near Corryton",
-    "seamless gutters contractors near Corryton",
-    "seamless gutters installation near Corryton",
-    "seamless gutters installers near Corryton",
-    "seamless rain gutters near Corryton",
-    "custom gutters near Corryton",
-    "gutter companies around Corryton",
-    "gutter contractor near Corryton",
-    "gutter contractors near Corryton",
-    "gutter guards installers near Corryton",
-    "gutter price calculator Corryton",
-    "gutters and siding contractors near Corryton",
-    "handyman gutter repair near Corryton",
-    "rain gutter contractor near Corryton",
-    "rain gutter contractors near Corryton",
-    "rain gutters contractors near Corryton",
-    "roof gutter installers near Corryton",
-    "seamless gutter companies near Corryton",
-    "seamless gutter contractor near Corryton",
-    "seamless gutter installers near Corryton",
-    "seamless gutters installed near Corryton",
-    "seamless gutters near Corryton",
-    "seemless gutters near Corryton",
-    "siding and gutters near Corryton",
-    "gutter business near Corryton",
-    "gutter guards installed near Corryton",
-    "gutter install near Corryton",
-    "guttering contractors near Corryton",
-    "gutters and siding near Corryton",
-    "gutters contractor near Corryton",
-    "gutters contractors near Corryton",
-    "gutters install near Corryton",
-    "roof and gutter contractors near Corryton",
-    "seamless gutter near Corryton",
-    "seamless guttering near Corryton",
-    "top rated gutter companies near Corryton",
-    "youtube gutter installation Corryton",
-    "continuous gutters near Corryton",
-    "gutter instalation near Corryton",
-    "gutter install companies near Corryton",
-    "gutter installation companies near Corryton",
-    "gutter installation company near Corryton",
-    "gutter installation contractors near Corryton",
-    "gutter installer near Corryton",
-    "gutter installers near Corryton",
-    "gutter replacement companies near Corryton",
-    "gutter service near Corryton",
-    "guttering installation near Corryton",
-    "guttering installers near Corryton",
-    "gutters installation near Corryton",
-    "gutters installed near Corryton",
-    "mini gutter Corryton",
-    "small gutter Corryton",
-    "small gutters Corryton",
-    "where to buy mobile home gutters Corryton",
-    "tools for gutter installation Corryton",
-    "window gutters Corryton",
-    "large rain gutters Corryton",
-    "2 inch gutter Corryton",
-    "menards downspouts Corryton",
-    "rain gutters at menards Corryton",
-    "downspout extension menards Corryton",
-    "downspout repair near Corryton",
-    "gares de casa Corryton",
-    "wide rain gutters Corryton",
-    "16 ft gutter lowe's Corryton",
-    "mini gutters lowe's Corryton",
-    "gutter parts home depot Corryton",
-    "gutter roof Corryton",
-    "mini gutters Corryton",
-    "plastic rain gutters home depot Corryton",
-    "roofing gutter Corryton",
-    "plastic gutters home depot Corryton",
-    "gutter screws home depot Corryton",
-    "add downspout to rain gutter Corryton",
-    "aluminum rain gutters home depot Corryton",
-    "gutter downspouts at lowes Corryton",
-    "aluminum gutters home depot Corryton",
-    "gutter downspout installation Corryton",
-    "rain gutter company near Corryton",
-    "roof gutter repair near Corryton",
-    "seamless gutter price calculator Corryton",
-    "affordable gutters near Corryton",
-    "local gutter company Corryton",
-    "local rain gutter companies Corryton",
-    "water gutter Corryton",
-    "downspouts at lowes Corryton",
-    "gutters installers near Corryton",
-    "roofing and gutters near Corryton",
-    "gutter fixing near Corryton",
-    "home depot gutters and downspouts Corryton",
-    "homedepot gutters Corryton",
-    "rain gutters repair near Corryton"
-  ];
-
   return (
-    <CityPage
-      city="Corryton"
-      county="Knox"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Corryton, Knox County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Corryton. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Corryton." />
+        <meta name="keywords" content="commercial gutter installation near Corryton, seamless gutter company near Corryton, seamless gutters companies near Corryton, gutter repair contractors near Corryton, seamless gutter contractors near Corryton, seamless gutter installation near Corryton, seamless gutter installer near Corryton, seamless guttering companies near Corryton, seamless gutters contractors near Corryton, seamless gutters installation near Corryton, seamless gutters installers near Corryton, seamless rain gutters near Corryton, custom gutters near Corryton, gutter companies around near Corryton, gutter contractor near Corryton, gutter contractors near Corryton, gutter guards installers near Corryton, gutter price calculator near Corryton, gutters and siding contractors near Corryton, handyman gutter repair near Corryton, rain gutter contractor near Corryton, rain gutter contractors near Corryton, rain gutters contractors near Corryton, roof gutter installers near Corryton, seamless gutter companies near Corryton, seamless gutter contractor near Corryton, seamless gutter installers near Corryton, seamless gutters installed near Corryton, seamless gutters near Corryton, seemless gutters near Corryton, siding and gutters near Corryton, gutter business near Corryton, gutter guards installed near Corryton, gutter install near Corryton, guttering contractors near Corryton, gutters and siding near Corryton, gutters contractor near Corryton, gutters contractors near Corryton, gutters install near Corryton, roof and gutter contractors near Corryton, seamless gutter near Corryton, seamless guttering near Corryton, top rated gutter companies near Corryton, youtube gutter installation near Corryton, continuous gutters near Corryton, gutter instalation near Corryton, gutter install companies near Corryton, gutter installation companies near Corryton, gutter installation company near Corryton, gutter installation contractors near Corryton, gutter installer near Corryton, gutter installers near Corryton, gutter replacement companies near Corryton, gutter service near Corryton, guttering installation near Corryton, guttering installers near Corryton, gutters installation near Corryton, gutters installed near Corryton, mini gutter near Corryton, small gutter near Corryton, small gutters near Corryton, where to buy mobile home gutters near Corryton, tools for gutter installation near Corryton, window gutters near Corryton, large rain gutters near Corryton, 2 inch gutter near Corryton, menards downspouts near Corryton, rain gutters at menards near Corryton, downspout extension menards near Corryton, downspout repair near Corryton, gares de casa near Corryton, wide rain gutters near Corryton, 16 ft gutter lowe's near Corryton, mini gutters lowe's near Corryton, gutter parts home depot near Corryton, gutter roof near Corryton, mini gutters near Corryton, plastic rain gutters home depot near Corryton, roofing gutter near Corryton, plastic gutters home depot near Corryton, gutter screws home depot near Corryton, add downspout to rain gutter near Corryton, aluminum rain gutters home depot near Corryton, gutter downspouts at lowes near Corryton, aluminum gutters home depot near Corryton, gutter downspout installation near Corryton, rain gutter company near Corryton, roof gutter repair near Corryton, seamless gutter price calculator near Corryton, affordable gutters near Corryton, local gutter company near Corryton, local rain gutter companies near Corryton, water gutter near Corryton, downspouts at lowes near Corryton, gutters installers near Corryton, roofing and gutters near Corryton, gutter fixing near Corryton, home depot gutters and downspouts near Corryton, homedepot gutters near Corryton, rain gutters repair near Corryton" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Corryton, Knox County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Corryton. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Corryton." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/corryton" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/corryton" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Corryton"
+        county="Knox"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Corryton. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Corryton."
+        keywords={["commercial gutter installation near Corryton","seamless gutter company near Corryton","seamless gutters companies near Corryton","gutter repair contractors near Corryton","seamless gutter contractors near Corryton","seamless gutter installation near Corryton","seamless gutter installer near Corryton","seamless guttering companies near Corryton","seamless gutters contractors near Corryton","seamless gutters installation near Corryton","seamless gutters installers near Corryton","seamless rain gutters near Corryton","custom gutters near Corryton","gutter companies around near Corryton","gutter contractor near Corryton","gutter contractors near Corryton","gutter guards installers near Corryton","gutter price calculator near Corryton","gutters and siding contractors near Corryton","handyman gutter repair near Corryton","rain gutter contractor near Corryton","rain gutter contractors near Corryton","rain gutters contractors near Corryton","roof gutter installers near Corryton","seamless gutter companies near Corryton","seamless gutter contractor near Corryton","seamless gutter installers near Corryton","seamless gutters installed near Corryton","seamless gutters near Corryton","seemless gutters near Corryton","siding and gutters near Corryton","gutter business near Corryton","gutter guards installed near Corryton","gutter install near Corryton","guttering contractors near Corryton","gutters and siding near Corryton","gutters contractor near Corryton","gutters contractors near Corryton","gutters install near Corryton","roof and gutter contractors near Corryton","seamless gutter near Corryton","seamless guttering near Corryton","top rated gutter companies near Corryton","youtube gutter installation near Corryton","continuous gutters near Corryton","gutter instalation near Corryton","gutter install companies near Corryton","gutter installation companies near Corryton","gutter installation company near Corryton","gutter installation contractors near Corryton","gutter installer near Corryton","gutter installers near Corryton","gutter replacement companies near Corryton","gutter service near Corryton","guttering installation near Corryton","guttering installers near Corryton","gutters installation near Corryton","gutters installed near Corryton","mini gutter near Corryton","small gutter near Corryton","small gutters near Corryton","where to buy mobile home gutters near Corryton","tools for gutter installation near Corryton","window gutters near Corryton","large rain gutters near Corryton","2 inch gutter near Corryton","menards downspouts near Corryton","rain gutters at menards near Corryton","downspout extension menards near Corryton","downspout repair near Corryton","gares de casa near Corryton","wide rain gutters near Corryton","16 ft gutter lowe's near Corryton","mini gutters lowe's near Corryton","gutter parts home depot near Corryton","gutter roof near Corryton","mini gutters near Corryton","plastic rain gutters home depot near Corryton","roofing gutter near Corryton","plastic gutters home depot near Corryton","gutter screws home depot near Corryton","add downspout to rain gutter near Corryton","aluminum rain gutters home depot near Corryton","gutter downspouts at lowes near Corryton","aluminum gutters home depot near Corryton","gutter downspout installation near Corryton","rain gutter company near Corryton","roof gutter repair near Corryton","seamless gutter price calculator near Corryton","affordable gutters near Corryton","local gutter company near Corryton","local rain gutter companies near Corryton","water gutter near Corryton","downspouts at lowes near Corryton","gutters installers near Corryton","roofing and gutters near Corryton","gutter fixing near Corryton","home depot gutters and downspouts near Corryton","homedepot gutters near Corryton","rain gutters repair near Corryton"]}
+      />
+    </>
   );
 };
 
 export default Corryton;
+  

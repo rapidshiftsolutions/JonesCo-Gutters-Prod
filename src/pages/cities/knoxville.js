@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Knoxville = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Knoxville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Knoxville.";
-  const keywords = [
-    "commercial gutter installation near Knoxville",
-    "seamless gutter company near Knoxville",
-    "seamless gutters companies near Knoxville",
-    "gutter repair contractors near Knoxville",
-    "seamless gutter contractors near Knoxville",
-    "seamless gutter installation near Knoxville",
-    "seamless gutter installer near Knoxville",
-    "seamless guttering companies near Knoxville",
-    "seamless gutters contractors near Knoxville",
-    "seamless gutters installation near Knoxville",
-    "seamless gutters installers near Knoxville",
-    "seamless rain gutters near Knoxville",
-    "custom gutters near Knoxville",
-    "gutter companies around Knoxville",
-    "gutter contractor near Knoxville",
-    "gutter contractors near Knoxville",
-    "gutter guards installers near Knoxville",
-    "gutter price calculator Knoxville",
-    "gutters and siding contractors near Knoxville",
-    "handyman gutter repair near Knoxville",
-    "rain gutter contractor near Knoxville",
-    "rain gutter contractors near Knoxville",
-    "rain gutters contractors near Knoxville",
-    "roof gutter installers near Knoxville",
-    "seamless gutter companies near Knoxville",
-    "seamless gutter contractor near Knoxville",
-    "seamless gutter installers near Knoxville",
-    "seamless gutters installed near Knoxville",
-    "seamless gutters near Knoxville",
-    "seemless gutters near Knoxville",
-    "siding and gutters near Knoxville",
-    "gutter business near Knoxville",
-    "gutter guards installed near Knoxville",
-    "gutter install near Knoxville",
-    "guttering contractors near Knoxville",
-    "gutters and siding near Knoxville",
-    "gutters contractor near Knoxville",
-    "gutters contractors near Knoxville",
-    "gutters install near Knoxville",
-    "roof and gutter contractors near Knoxville",
-    "seamless gutter near Knoxville",
-    "seamless guttering near Knoxville",
-    "top rated gutter companies near Knoxville",
-    "youtube gutter installation Knoxville",
-    "continuous gutters near Knoxville",
-    "gutter instalation near Knoxville",
-    "gutter install companies near Knoxville",
-    "gutter installation companies near Knoxville",
-    "gutter installation company near Knoxville",
-    "gutter installation contractors near Knoxville",
-    "gutter installer near Knoxville",
-    "gutter installers near Knoxville",
-    "gutter replacement companies near Knoxville",
-    "gutter service near Knoxville",
-    "guttering installation near Knoxville",
-    "guttering installers near Knoxville",
-    "gutters installation near Knoxville",
-    "gutters installed near Knoxville",
-    "mini gutter Knoxville",
-    "small gutter Knoxville",
-    "small gutters Knoxville",
-    "where to buy mobile home gutters Knoxville",
-    "tools for gutter installation Knoxville",
-    "window gutters Knoxville",
-    "large rain gutters Knoxville",
-    "2 inch gutter Knoxville",
-    "menards downspouts Knoxville",
-    "rain gutters at menards Knoxville",
-    "downspout extension menards Knoxville",
-    "downspout repair near Knoxville",
-    "gares de casa Knoxville",
-    "wide rain gutters Knoxville",
-    "16 ft gutter lowe's Knoxville",
-    "mini gutters lowe's Knoxville",
-    "gutter parts home depot Knoxville",
-    "gutter roof Knoxville",
-    "mini gutters Knoxville",
-    "plastic rain gutters home depot Knoxville",
-    "roofing gutter Knoxville",
-    "plastic gutters home depot Knoxville",
-    "gutter screws home depot Knoxville",
-    "add downspout to rain gutter Knoxville",
-    "aluminum rain gutters home depot Knoxville",
-    "gutter downspouts at lowes Knoxville",
-    "aluminum gutters home depot Knoxville",
-    "gutter downspout installation Knoxville",
-    "rain gutter company near Knoxville",
-    "roof gutter repair near Knoxville",
-    "seamless gutter price calculator Knoxville",
-    "affordable gutters near Knoxville",
-    "local gutter company Knoxville",
-    "local rain gutter companies Knoxville",
-    "water gutter Knoxville",
-    "downspouts at lowes Knoxville",
-    "gutters installers near Knoxville",
-    "roofing and gutters near Knoxville",
-    "gutter fixing near Knoxville",
-    "home depot gutters and downspouts Knoxville",
-    "homedepot gutters Knoxville",
-    "rain gutters repair near Knoxville"
-  ];
-
   return (
-    <CityPage
-      city="Knoxville"
-      county="Knox"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Knoxville, Knox County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Knoxville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Knoxville." />
+        <meta name="keywords" content="commercial gutter installation near Knoxville, seamless gutter company near Knoxville, seamless gutters companies near Knoxville, gutter repair contractors near Knoxville, seamless gutter contractors near Knoxville, seamless gutter installation near Knoxville, seamless gutter installer near Knoxville, seamless guttering companies near Knoxville, seamless gutters contractors near Knoxville, seamless gutters installation near Knoxville, seamless gutters installers near Knoxville, seamless rain gutters near Knoxville, custom gutters near Knoxville, gutter companies around near Knoxville, gutter contractor near Knoxville, gutter contractors near Knoxville, gutter guards installers near Knoxville, gutter price calculator near Knoxville, gutters and siding contractors near Knoxville, handyman gutter repair near Knoxville, rain gutter contractor near Knoxville, rain gutter contractors near Knoxville, rain gutters contractors near Knoxville, roof gutter installers near Knoxville, seamless gutter companies near Knoxville, seamless gutter contractor near Knoxville, seamless gutter installers near Knoxville, seamless gutters installed near Knoxville, seamless gutters near Knoxville, seemless gutters near Knoxville, siding and gutters near Knoxville, gutter business near Knoxville, gutter guards installed near Knoxville, gutter install near Knoxville, guttering contractors near Knoxville, gutters and siding near Knoxville, gutters contractor near Knoxville, gutters contractors near Knoxville, gutters install near Knoxville, roof and gutter contractors near Knoxville, seamless gutter near Knoxville, seamless guttering near Knoxville, top rated gutter companies near Knoxville, youtube gutter installation near Knoxville, continuous gutters near Knoxville, gutter instalation near Knoxville, gutter install companies near Knoxville, gutter installation companies near Knoxville, gutter installation company near Knoxville, gutter installation contractors near Knoxville, gutter installer near Knoxville, gutter installers near Knoxville, gutter replacement companies near Knoxville, gutter service near Knoxville, guttering installation near Knoxville, guttering installers near Knoxville, gutters installation near Knoxville, gutters installed near Knoxville, mini gutter near Knoxville, small gutter near Knoxville, small gutters near Knoxville, where to buy mobile home gutters near Knoxville, tools for gutter installation near Knoxville, window gutters near Knoxville, large rain gutters near Knoxville, 2 inch gutter near Knoxville, menards downspouts near Knoxville, rain gutters at menards near Knoxville, downspout extension menards near Knoxville, downspout repair near Knoxville, gares de casa near Knoxville, wide rain gutters near Knoxville, 16 ft gutter lowe's near Knoxville, mini gutters lowe's near Knoxville, gutter parts home depot near Knoxville, gutter roof near Knoxville, mini gutters near Knoxville, plastic rain gutters home depot near Knoxville, roofing gutter near Knoxville, plastic gutters home depot near Knoxville, gutter screws home depot near Knoxville, add downspout to rain gutter near Knoxville, aluminum rain gutters home depot near Knoxville, gutter downspouts at lowes near Knoxville, aluminum gutters home depot near Knoxville, gutter downspout installation near Knoxville, rain gutter company near Knoxville, roof gutter repair near Knoxville, seamless gutter price calculator near Knoxville, affordable gutters near Knoxville, local gutter company near Knoxville, local rain gutter companies near Knoxville, water gutter near Knoxville, downspouts at lowes near Knoxville, gutters installers near Knoxville, roofing and gutters near Knoxville, gutter fixing near Knoxville, home depot gutters and downspouts near Knoxville, homedepot gutters near Knoxville, rain gutters repair near Knoxville" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Knoxville, Knox County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Knoxville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Knoxville." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/knoxville" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/knoxville" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Knoxville"
+        county="Knox"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Knoxville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Knoxville."
+        keywords={["commercial gutter installation near Knoxville","seamless gutter company near Knoxville","seamless gutters companies near Knoxville","gutter repair contractors near Knoxville","seamless gutter contractors near Knoxville","seamless gutter installation near Knoxville","seamless gutter installer near Knoxville","seamless guttering companies near Knoxville","seamless gutters contractors near Knoxville","seamless gutters installation near Knoxville","seamless gutters installers near Knoxville","seamless rain gutters near Knoxville","custom gutters near Knoxville","gutter companies around near Knoxville","gutter contractor near Knoxville","gutter contractors near Knoxville","gutter guards installers near Knoxville","gutter price calculator near Knoxville","gutters and siding contractors near Knoxville","handyman gutter repair near Knoxville","rain gutter contractor near Knoxville","rain gutter contractors near Knoxville","rain gutters contractors near Knoxville","roof gutter installers near Knoxville","seamless gutter companies near Knoxville","seamless gutter contractor near Knoxville","seamless gutter installers near Knoxville","seamless gutters installed near Knoxville","seamless gutters near Knoxville","seemless gutters near Knoxville","siding and gutters near Knoxville","gutter business near Knoxville","gutter guards installed near Knoxville","gutter install near Knoxville","guttering contractors near Knoxville","gutters and siding near Knoxville","gutters contractor near Knoxville","gutters contractors near Knoxville","gutters install near Knoxville","roof and gutter contractors near Knoxville","seamless gutter near Knoxville","seamless guttering near Knoxville","top rated gutter companies near Knoxville","youtube gutter installation near Knoxville","continuous gutters near Knoxville","gutter instalation near Knoxville","gutter install companies near Knoxville","gutter installation companies near Knoxville","gutter installation company near Knoxville","gutter installation contractors near Knoxville","gutter installer near Knoxville","gutter installers near Knoxville","gutter replacement companies near Knoxville","gutter service near Knoxville","guttering installation near Knoxville","guttering installers near Knoxville","gutters installation near Knoxville","gutters installed near Knoxville","mini gutter near Knoxville","small gutter near Knoxville","small gutters near Knoxville","where to buy mobile home gutters near Knoxville","tools for gutter installation near Knoxville","window gutters near Knoxville","large rain gutters near Knoxville","2 inch gutter near Knoxville","menards downspouts near Knoxville","rain gutters at menards near Knoxville","downspout extension menards near Knoxville","downspout repair near Knoxville","gares de casa near Knoxville","wide rain gutters near Knoxville","16 ft gutter lowe's near Knoxville","mini gutters lowe's near Knoxville","gutter parts home depot near Knoxville","gutter roof near Knoxville","mini gutters near Knoxville","plastic rain gutters home depot near Knoxville","roofing gutter near Knoxville","plastic gutters home depot near Knoxville","gutter screws home depot near Knoxville","add downspout to rain gutter near Knoxville","aluminum rain gutters home depot near Knoxville","gutter downspouts at lowes near Knoxville","aluminum gutters home depot near Knoxville","gutter downspout installation near Knoxville","rain gutter company near Knoxville","roof gutter repair near Knoxville","seamless gutter price calculator near Knoxville","affordable gutters near Knoxville","local gutter company near Knoxville","local rain gutter companies near Knoxville","water gutter near Knoxville","downspouts at lowes near Knoxville","gutters installers near Knoxville","roofing and gutters near Knoxville","gutter fixing near Knoxville","home depot gutters and downspouts near Knoxville","homedepot gutters near Knoxville","rain gutters repair near Knoxville"]}
+      />
+    </>
   );
 };
 
 export default Knoxville;
+  

@@ -13,126 +13,161 @@ const counties = {
   Washington: ['Johnson City', 'Jonesborough', 'Limestone', 'Telford'],
 };
 
-const countyTemplate = (county, cities) => `
+// List of keywords from the CSV file
+const seoKeywords = [
+  "commercial gutter installation",
+  "seamless gutter company",
+  "seamless gutters companies",
+  "gutter repair contractors",
+  "seamless gutter contractors",
+  "seamless gutter installation",
+  "seamless gutter installer",
+  "seamless guttering companies",
+  "seamless gutters contractors",
+  "seamless gutters installation",
+  "seamless gutters installers",
+  "seamless rain gutters",
+  "custom gutters",
+  "gutter companies around",
+  "gutter contractor",
+  "gutter contractors",
+  "gutter guards installers",
+  "gutter price calculator",
+  "gutters and siding contractors",
+  "handyman gutter repair",
+  "rain gutter contractor",
+  "rain gutter contractors",
+  "rain gutters contractors",
+  "roof gutter installers",
+  "seamless gutter companies",
+  "seamless gutter contractor",
+  "seamless gutter installers",
+  "seamless gutters installed",
+  "seamless gutters",
+  "seemless gutters",
+  "siding and gutters",
+  "gutter business",
+  "gutter guards installed",
+  "gutter install",
+  "guttering contractors",
+  "gutters and siding",
+  "gutters contractor",
+  "gutters contractors",
+  "gutters install",
+  "roof and gutter contractors",
+  "seamless gutter",
+  "seamless guttering",
+  "top rated gutter companies",
+  "youtube gutter installation",
+  "continuous gutters",
+  "gutter instalation",
+  "gutter install companies",
+  "gutter installation companies",
+  "gutter installation company",
+  "gutter installation contractors",
+  "gutter installer",
+  "gutter installers",
+  "gutter replacement companies",
+  "gutter service",
+  "guttering installation",
+  "guttering installers",
+  "gutters installation",
+  "gutters installed",
+  "mini gutter",
+  "small gutter",
+  "small gutters",
+  "where to buy mobile home gutters",
+  "tools for gutter installation",
+  "window gutters",
+  "large rain gutters",
+  "2 inch gutter",
+  "menards downspouts",
+  "rain gutters at menards",
+  "downspout extension menards",
+  "downspout repair",
+  "gares de casa",
+  "wide rain gutters",
+  "16 ft gutter lowe's",
+  "mini gutters lowe's",
+  "gutter parts home depot",
+  "gutter roof",
+  "mini gutters",
+  "plastic rain gutters home depot",
+  "roofing gutter",
+  "plastic gutters home depot",
+  "gutter screws home depot",
+  "add downspout to rain gutter",
+  "aluminum rain gutters home depot",
+  "gutter downspouts at lowes",
+  "aluminum gutters home depot",
+  "gutter downspout installation",
+  "rain gutter company",
+  "roof gutter repair",
+  "seamless gutter price calculator",
+  "affordable gutters",
+  "local gutter company",
+  "local rain gutter companies",
+  "water gutter",
+  "downspouts at lowes",
+  "gutters installers",
+  "roofing and gutters",
+  "gutter fixing",
+  "home depot gutters and downspouts",
+  "homedepot gutters",
+  "rain gutters repair"
+];
+
+const countyTemplate = (county, cities) => {
+  const description = `JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in ${county} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${county} County.`;
+  const keywords = seoKeywords.map(keyword => `${keyword} near ${county} County`).join(', ');
+
+  return `
 import React from 'react';
 import CountyPage from '@/components/CountyPage';
+import Head from 'next/head';
 
 const ${county.replace(/ /g, '')} = () => {
-  const county = "${county}";
-  const cities = ${JSON.stringify(cities)};
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in ${county} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${county} County.";
-  const keywords = [
-    "commercial gutter installation near ${county} County",
-    "seamless gutter company near ${county} County",
-    "seamless gutters companies near ${county} County",
-    "gutter repair contractors near ${county} County",
-    "seamless gutter contractors near ${county} County",
-    "seamless gutter installation near ${county} County",
-    "seamless gutter installer near ${county} County",
-    "seamless guttering companies near ${county} County",
-    "seamless gutters contractors near ${county} County",
-    "seamless gutters installation near ${county} County",
-    "seamless gutters installers near ${county} County",
-    "seamless rain gutters near ${county} County",
-    "custom gutters near ${county} County",
-    "gutter companies around ${county} County",
-    "gutter contractor near ${county} County",
-    "gutter contractors near ${county} County",
-    "gutter guards installers near ${county} County",
-    "gutter price calculator ${county} County",
-    "gutters and siding contractors near ${county} County",
-    "handyman gutter repair near ${county} County",
-    "rain gutter contractor near ${county} County",
-    "rain gutter contractors near ${county} County",
-    "rain gutters contractors near ${county} County",
-    "roof gutter installers near ${county} County",
-    "seamless gutter companies near ${county} County",
-    "seamless gutter contractor near ${county} County",
-    "seamless gutter installers near ${county} County",
-    "seamless gutters installed near ${county} County",
-    "seamless gutters near ${county} County",
-    "seemless gutters near ${county} County",
-    "siding and gutters near ${county} County",
-    "gutter business near ${county} County",
-    "gutter guards installed near ${county} County",
-    "gutter install near ${county} County",
-    "guttering contractors near ${county} County",
-    "gutters and siding near ${county} County",
-    "gutters contractor near ${county} County",
-    "gutters contractors near ${county} County",
-    "gutters install near ${county} County",
-    "roof and gutter contractors near ${county} County",
-    "seamless gutter near ${county} County",
-    "seamless guttering near ${county} County",
-    "top rated gutter companies near ${county} County",
-    "youtube gutter installation ${county} County",
-    "continuous gutters near ${county} County",
-    "gutter instalation near ${county} County",
-    "gutter install companies near ${county} County",
-    "gutter installation companies near ${county} County",
-    "gutter installation company near ${county} County",
-    "gutter installation contractors near ${county} County",
-    "gutter installer near ${county} County",
-    "gutter installers near ${county} County",
-    "gutter replacement companies near ${county} County",
-    "gutter service near ${county} County",
-    "guttering installation near ${county} County",
-    "guttering installers near ${county} County",
-    "gutters installation near ${county} County",
-    "gutters installed near ${county} County",
-    "mini gutter ${county} County",
-    "small gutter ${county} County",
-    "small gutters ${county} County",
-    "where to buy mobile home gutters ${county} County",
-    "tools for gutter installation ${county} County",
-    "window gutters ${county} County",
-    "large rain gutters ${county} County",
-    "2 inch gutter ${county} County",
-    "menards downspouts ${county} County",
-    "rain gutters at menards ${county} County",
-    "downspout extension menards ${county} County",
-    "downspout repair near ${county} County",
-    "gares de casa ${county} County",
-    "wide rain gutters ${county} County",
-    "16 ft gutter lowe's ${county} County",
-    "mini gutters lowe's ${county} County",
-    "gutter parts home depot ${county} County",
-    "gutter roof ${county} County",
-    "mini gutters ${county} County",
-    "plastic rain gutters home depot ${county} County",
-    "roofing gutter ${county} County",
-    "plastic gutters home depot ${county} County",
-    "gutter screws home depot ${county} County",
-    "add downspout to rain gutter ${county} County",
-    "aluminum rain gutters home depot ${county} County",
-    "gutter downspouts at lowes ${county} County",
-    "aluminum gutters home depot ${county} County",
-    "gutter downspout installation ${county} County",
-    "rain gutter company near ${county} County",
-    "roof gutter repair near ${county} County",
-    "seamless gutter price calculator ${county} County",
-    "affordable gutters near ${county} County",
-    "local gutter company ${county} County",
-    "local rain gutter companies ${county} County",
-    "water gutter ${county} County",
-    "downspouts at lowes ${county} County",
-    "gutters installers near ${county} County",
-    "roofing and gutters near ${county} County",
-    "gutter fixing near ${county} County",
-    "home depot gutters and downspouts ${county} County",
-    "homedepot gutters ${county} County",
-    "rain gutters repair near ${county} County"
-  ];
-
   return (
-    <CountyPage county={county} cities={cities} description={description} keywords={keywords} />
+    <>
+      <Head>
+        <title>Gutter Services in ${county} County, TN | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="${description}" />
+        <meta name="keywords" content="${keywords}" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in ${county} County, TN | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="${description}" />
+        <meta property="og:url" content="https://jonescogutters.com/counties/${county.toLowerCase().replace(/ /g, '')}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/counties/${county.toLowerCase().replace(/ /g, '')}" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CountyPage
+        county="${county}"
+        cities={${JSON.stringify(cities)}}
+        description="${description}"
+        keywords={["${keywords.split(', ').join('","')}"]}
+      />
+    </>
   );
 };
 
 export default ${county.replace(/ /g, '')};
-`;
+  `;
+};
 
-const pagesDir = path.join(__dirname, 'src/pages');
+const pagesDir = path.join(__dirname, 'src/pages/');
 
 // Ensure the directory exists
 if (!fs.existsSync(pagesDir)) {

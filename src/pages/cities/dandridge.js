@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Dandridge = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Dandridge. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Dandridge.";
-  const keywords = [
-    "commercial gutter installation near Dandridge",
-    "seamless gutter company near Dandridge",
-    "seamless gutters companies near Dandridge",
-    "gutter repair contractors near Dandridge",
-    "seamless gutter contractors near Dandridge",
-    "seamless gutter installation near Dandridge",
-    "seamless gutter installer near Dandridge",
-    "seamless guttering companies near Dandridge",
-    "seamless gutters contractors near Dandridge",
-    "seamless gutters installation near Dandridge",
-    "seamless gutters installers near Dandridge",
-    "seamless rain gutters near Dandridge",
-    "custom gutters near Dandridge",
-    "gutter companies around Dandridge",
-    "gutter contractor near Dandridge",
-    "gutter contractors near Dandridge",
-    "gutter guards installers near Dandridge",
-    "gutter price calculator Dandridge",
-    "gutters and siding contractors near Dandridge",
-    "handyman gutter repair near Dandridge",
-    "rain gutter contractor near Dandridge",
-    "rain gutter contractors near Dandridge",
-    "rain gutters contractors near Dandridge",
-    "roof gutter installers near Dandridge",
-    "seamless gutter companies near Dandridge",
-    "seamless gutter contractor near Dandridge",
-    "seamless gutter installers near Dandridge",
-    "seamless gutters installed near Dandridge",
-    "seamless gutters near Dandridge",
-    "seemless gutters near Dandridge",
-    "siding and gutters near Dandridge",
-    "gutter business near Dandridge",
-    "gutter guards installed near Dandridge",
-    "gutter install near Dandridge",
-    "guttering contractors near Dandridge",
-    "gutters and siding near Dandridge",
-    "gutters contractor near Dandridge",
-    "gutters contractors near Dandridge",
-    "gutters install near Dandridge",
-    "roof and gutter contractors near Dandridge",
-    "seamless gutter near Dandridge",
-    "seamless guttering near Dandridge",
-    "top rated gutter companies near Dandridge",
-    "youtube gutter installation Dandridge",
-    "continuous gutters near Dandridge",
-    "gutter instalation near Dandridge",
-    "gutter install companies near Dandridge",
-    "gutter installation companies near Dandridge",
-    "gutter installation company near Dandridge",
-    "gutter installation contractors near Dandridge",
-    "gutter installer near Dandridge",
-    "gutter installers near Dandridge",
-    "gutter replacement companies near Dandridge",
-    "gutter service near Dandridge",
-    "guttering installation near Dandridge",
-    "guttering installers near Dandridge",
-    "gutters installation near Dandridge",
-    "gutters installed near Dandridge",
-    "mini gutter Dandridge",
-    "small gutter Dandridge",
-    "small gutters Dandridge",
-    "where to buy mobile home gutters Dandridge",
-    "tools for gutter installation Dandridge",
-    "window gutters Dandridge",
-    "large rain gutters Dandridge",
-    "2 inch gutter Dandridge",
-    "menards downspouts Dandridge",
-    "rain gutters at menards Dandridge",
-    "downspout extension menards Dandridge",
-    "downspout repair near Dandridge",
-    "gares de casa Dandridge",
-    "wide rain gutters Dandridge",
-    "16 ft gutter lowe's Dandridge",
-    "mini gutters lowe's Dandridge",
-    "gutter parts home depot Dandridge",
-    "gutter roof Dandridge",
-    "mini gutters Dandridge",
-    "plastic rain gutters home depot Dandridge",
-    "roofing gutter Dandridge",
-    "plastic gutters home depot Dandridge",
-    "gutter screws home depot Dandridge",
-    "add downspout to rain gutter Dandridge",
-    "aluminum rain gutters home depot Dandridge",
-    "gutter downspouts at lowes Dandridge",
-    "aluminum gutters home depot Dandridge",
-    "gutter downspout installation Dandridge",
-    "rain gutter company near Dandridge",
-    "roof gutter repair near Dandridge",
-    "seamless gutter price calculator Dandridge",
-    "affordable gutters near Dandridge",
-    "local gutter company Dandridge",
-    "local rain gutter companies Dandridge",
-    "water gutter Dandridge",
-    "downspouts at lowes Dandridge",
-    "gutters installers near Dandridge",
-    "roofing and gutters near Dandridge",
-    "gutter fixing near Dandridge",
-    "home depot gutters and downspouts Dandridge",
-    "homedepot gutters Dandridge",
-    "rain gutters repair near Dandridge"
-  ];
-
   return (
-    <CityPage
-      city="Dandridge"
-      county="Jefferson"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Dandridge, Jefferson County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Dandridge. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Dandridge." />
+        <meta name="keywords" content="commercial gutter installation near Dandridge, seamless gutter company near Dandridge, seamless gutters companies near Dandridge, gutter repair contractors near Dandridge, seamless gutter contractors near Dandridge, seamless gutter installation near Dandridge, seamless gutter installer near Dandridge, seamless guttering companies near Dandridge, seamless gutters contractors near Dandridge, seamless gutters installation near Dandridge, seamless gutters installers near Dandridge, seamless rain gutters near Dandridge, custom gutters near Dandridge, gutter companies around near Dandridge, gutter contractor near Dandridge, gutter contractors near Dandridge, gutter guards installers near Dandridge, gutter price calculator near Dandridge, gutters and siding contractors near Dandridge, handyman gutter repair near Dandridge, rain gutter contractor near Dandridge, rain gutter contractors near Dandridge, rain gutters contractors near Dandridge, roof gutter installers near Dandridge, seamless gutter companies near Dandridge, seamless gutter contractor near Dandridge, seamless gutter installers near Dandridge, seamless gutters installed near Dandridge, seamless gutters near Dandridge, seemless gutters near Dandridge, siding and gutters near Dandridge, gutter business near Dandridge, gutter guards installed near Dandridge, gutter install near Dandridge, guttering contractors near Dandridge, gutters and siding near Dandridge, gutters contractor near Dandridge, gutters contractors near Dandridge, gutters install near Dandridge, roof and gutter contractors near Dandridge, seamless gutter near Dandridge, seamless guttering near Dandridge, top rated gutter companies near Dandridge, youtube gutter installation near Dandridge, continuous gutters near Dandridge, gutter instalation near Dandridge, gutter install companies near Dandridge, gutter installation companies near Dandridge, gutter installation company near Dandridge, gutter installation contractors near Dandridge, gutter installer near Dandridge, gutter installers near Dandridge, gutter replacement companies near Dandridge, gutter service near Dandridge, guttering installation near Dandridge, guttering installers near Dandridge, gutters installation near Dandridge, gutters installed near Dandridge, mini gutter near Dandridge, small gutter near Dandridge, small gutters near Dandridge, where to buy mobile home gutters near Dandridge, tools for gutter installation near Dandridge, window gutters near Dandridge, large rain gutters near Dandridge, 2 inch gutter near Dandridge, menards downspouts near Dandridge, rain gutters at menards near Dandridge, downspout extension menards near Dandridge, downspout repair near Dandridge, gares de casa near Dandridge, wide rain gutters near Dandridge, 16 ft gutter lowe's near Dandridge, mini gutters lowe's near Dandridge, gutter parts home depot near Dandridge, gutter roof near Dandridge, mini gutters near Dandridge, plastic rain gutters home depot near Dandridge, roofing gutter near Dandridge, plastic gutters home depot near Dandridge, gutter screws home depot near Dandridge, add downspout to rain gutter near Dandridge, aluminum rain gutters home depot near Dandridge, gutter downspouts at lowes near Dandridge, aluminum gutters home depot near Dandridge, gutter downspout installation near Dandridge, rain gutter company near Dandridge, roof gutter repair near Dandridge, seamless gutter price calculator near Dandridge, affordable gutters near Dandridge, local gutter company near Dandridge, local rain gutter companies near Dandridge, water gutter near Dandridge, downspouts at lowes near Dandridge, gutters installers near Dandridge, roofing and gutters near Dandridge, gutter fixing near Dandridge, home depot gutters and downspouts near Dandridge, homedepot gutters near Dandridge, rain gutters repair near Dandridge" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Dandridge, Jefferson County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Dandridge. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Dandridge." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/dandridge" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/dandridge" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Dandridge"
+        county="Jefferson"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Dandridge. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Dandridge."
+        keywords={["commercial gutter installation near Dandridge","seamless gutter company near Dandridge","seamless gutters companies near Dandridge","gutter repair contractors near Dandridge","seamless gutter contractors near Dandridge","seamless gutter installation near Dandridge","seamless gutter installer near Dandridge","seamless guttering companies near Dandridge","seamless gutters contractors near Dandridge","seamless gutters installation near Dandridge","seamless gutters installers near Dandridge","seamless rain gutters near Dandridge","custom gutters near Dandridge","gutter companies around near Dandridge","gutter contractor near Dandridge","gutter contractors near Dandridge","gutter guards installers near Dandridge","gutter price calculator near Dandridge","gutters and siding contractors near Dandridge","handyman gutter repair near Dandridge","rain gutter contractor near Dandridge","rain gutter contractors near Dandridge","rain gutters contractors near Dandridge","roof gutter installers near Dandridge","seamless gutter companies near Dandridge","seamless gutter contractor near Dandridge","seamless gutter installers near Dandridge","seamless gutters installed near Dandridge","seamless gutters near Dandridge","seemless gutters near Dandridge","siding and gutters near Dandridge","gutter business near Dandridge","gutter guards installed near Dandridge","gutter install near Dandridge","guttering contractors near Dandridge","gutters and siding near Dandridge","gutters contractor near Dandridge","gutters contractors near Dandridge","gutters install near Dandridge","roof and gutter contractors near Dandridge","seamless gutter near Dandridge","seamless guttering near Dandridge","top rated gutter companies near Dandridge","youtube gutter installation near Dandridge","continuous gutters near Dandridge","gutter instalation near Dandridge","gutter install companies near Dandridge","gutter installation companies near Dandridge","gutter installation company near Dandridge","gutter installation contractors near Dandridge","gutter installer near Dandridge","gutter installers near Dandridge","gutter replacement companies near Dandridge","gutter service near Dandridge","guttering installation near Dandridge","guttering installers near Dandridge","gutters installation near Dandridge","gutters installed near Dandridge","mini gutter near Dandridge","small gutter near Dandridge","small gutters near Dandridge","where to buy mobile home gutters near Dandridge","tools for gutter installation near Dandridge","window gutters near Dandridge","large rain gutters near Dandridge","2 inch gutter near Dandridge","menards downspouts near Dandridge","rain gutters at menards near Dandridge","downspout extension menards near Dandridge","downspout repair near Dandridge","gares de casa near Dandridge","wide rain gutters near Dandridge","16 ft gutter lowe's near Dandridge","mini gutters lowe's near Dandridge","gutter parts home depot near Dandridge","gutter roof near Dandridge","mini gutters near Dandridge","plastic rain gutters home depot near Dandridge","roofing gutter near Dandridge","plastic gutters home depot near Dandridge","gutter screws home depot near Dandridge","add downspout to rain gutter near Dandridge","aluminum rain gutters home depot near Dandridge","gutter downspouts at lowes near Dandridge","aluminum gutters home depot near Dandridge","gutter downspout installation near Dandridge","rain gutter company near Dandridge","roof gutter repair near Dandridge","seamless gutter price calculator near Dandridge","affordable gutters near Dandridge","local gutter company near Dandridge","local rain gutter companies near Dandridge","water gutter near Dandridge","downspouts at lowes near Dandridge","gutters installers near Dandridge","roofing and gutters near Dandridge","gutter fixing near Dandridge","home depot gutters and downspouts near Dandridge","homedepot gutters near Dandridge","rain gutters repair near Dandridge"]}
+      />
+    </>
   );
 };
 
 export default Dandridge;
+  

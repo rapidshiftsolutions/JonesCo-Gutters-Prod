@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const JohnsonCity = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Johnson City. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Johnson City.";
-  const keywords = [
-    "commercial gutter installation near Johnson City",
-    "seamless gutter company near Johnson City",
-    "seamless gutters companies near Johnson City",
-    "gutter repair contractors near Johnson City",
-    "seamless gutter contractors near Johnson City",
-    "seamless gutter installation near Johnson City",
-    "seamless gutter installer near Johnson City",
-    "seamless guttering companies near Johnson City",
-    "seamless gutters contractors near Johnson City",
-    "seamless gutters installation near Johnson City",
-    "seamless gutters installers near Johnson City",
-    "seamless rain gutters near Johnson City",
-    "custom gutters near Johnson City",
-    "gutter companies around Johnson City",
-    "gutter contractor near Johnson City",
-    "gutter contractors near Johnson City",
-    "gutter guards installers near Johnson City",
-    "gutter price calculator Johnson City",
-    "gutters and siding contractors near Johnson City",
-    "handyman gutter repair near Johnson City",
-    "rain gutter contractor near Johnson City",
-    "rain gutter contractors near Johnson City",
-    "rain gutters contractors near Johnson City",
-    "roof gutter installers near Johnson City",
-    "seamless gutter companies near Johnson City",
-    "seamless gutter contractor near Johnson City",
-    "seamless gutter installers near Johnson City",
-    "seamless gutters installed near Johnson City",
-    "seamless gutters near Johnson City",
-    "seemless gutters near Johnson City",
-    "siding and gutters near Johnson City",
-    "gutter business near Johnson City",
-    "gutter guards installed near Johnson City",
-    "gutter install near Johnson City",
-    "guttering contractors near Johnson City",
-    "gutters and siding near Johnson City",
-    "gutters contractor near Johnson City",
-    "gutters contractors near Johnson City",
-    "gutters install near Johnson City",
-    "roof and gutter contractors near Johnson City",
-    "seamless gutter near Johnson City",
-    "seamless guttering near Johnson City",
-    "top rated gutter companies near Johnson City",
-    "youtube gutter installation Johnson City",
-    "continuous gutters near Johnson City",
-    "gutter instalation near Johnson City",
-    "gutter install companies near Johnson City",
-    "gutter installation companies near Johnson City",
-    "gutter installation company near Johnson City",
-    "gutter installation contractors near Johnson City",
-    "gutter installer near Johnson City",
-    "gutter installers near Johnson City",
-    "gutter replacement companies near Johnson City",
-    "gutter service near Johnson City",
-    "guttering installation near Johnson City",
-    "guttering installers near Johnson City",
-    "gutters installation near Johnson City",
-    "gutters installed near Johnson City",
-    "mini gutter Johnson City",
-    "small gutter Johnson City",
-    "small gutters Johnson City",
-    "where to buy mobile home gutters Johnson City",
-    "tools for gutter installation Johnson City",
-    "window gutters Johnson City",
-    "large rain gutters Johnson City",
-    "2 inch gutter Johnson City",
-    "menards downspouts Johnson City",
-    "rain gutters at menards Johnson City",
-    "downspout extension menards Johnson City",
-    "downspout repair near Johnson City",
-    "gares de casa Johnson City",
-    "wide rain gutters Johnson City",
-    "16 ft gutter lowe's Johnson City",
-    "mini gutters lowe's Johnson City",
-    "gutter parts home depot Johnson City",
-    "gutter roof Johnson City",
-    "mini gutters Johnson City",
-    "plastic rain gutters home depot Johnson City",
-    "roofing gutter Johnson City",
-    "plastic gutters home depot Johnson City",
-    "gutter screws home depot Johnson City",
-    "add downspout to rain gutter Johnson City",
-    "aluminum rain gutters home depot Johnson City",
-    "gutter downspouts at lowes Johnson City",
-    "aluminum gutters home depot Johnson City",
-    "gutter downspout installation Johnson City",
-    "rain gutter company near Johnson City",
-    "roof gutter repair near Johnson City",
-    "seamless gutter price calculator Johnson City",
-    "affordable gutters near Johnson City",
-    "local gutter company Johnson City",
-    "local rain gutter companies Johnson City",
-    "water gutter Johnson City",
-    "downspouts at lowes Johnson City",
-    "gutters installers near Johnson City",
-    "roofing and gutters near Johnson City",
-    "gutter fixing near Johnson City",
-    "home depot gutters and downspouts Johnson City",
-    "homedepot gutters Johnson City",
-    "rain gutters repair near Johnson City"
-  ];
-
   return (
-    <CityPage
-      city="Johnson City"
-      county="Washington"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Johnson City, Washington County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Johnson City. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Johnson City." />
+        <meta name="keywords" content="commercial gutter installation near Johnson City, seamless gutter company near Johnson City, seamless gutters companies near Johnson City, gutter repair contractors near Johnson City, seamless gutter contractors near Johnson City, seamless gutter installation near Johnson City, seamless gutter installer near Johnson City, seamless guttering companies near Johnson City, seamless gutters contractors near Johnson City, seamless gutters installation near Johnson City, seamless gutters installers near Johnson City, seamless rain gutters near Johnson City, custom gutters near Johnson City, gutter companies around near Johnson City, gutter contractor near Johnson City, gutter contractors near Johnson City, gutter guards installers near Johnson City, gutter price calculator near Johnson City, gutters and siding contractors near Johnson City, handyman gutter repair near Johnson City, rain gutter contractor near Johnson City, rain gutter contractors near Johnson City, rain gutters contractors near Johnson City, roof gutter installers near Johnson City, seamless gutter companies near Johnson City, seamless gutter contractor near Johnson City, seamless gutter installers near Johnson City, seamless gutters installed near Johnson City, seamless gutters near Johnson City, seemless gutters near Johnson City, siding and gutters near Johnson City, gutter business near Johnson City, gutter guards installed near Johnson City, gutter install near Johnson City, guttering contractors near Johnson City, gutters and siding near Johnson City, gutters contractor near Johnson City, gutters contractors near Johnson City, gutters install near Johnson City, roof and gutter contractors near Johnson City, seamless gutter near Johnson City, seamless guttering near Johnson City, top rated gutter companies near Johnson City, youtube gutter installation near Johnson City, continuous gutters near Johnson City, gutter instalation near Johnson City, gutter install companies near Johnson City, gutter installation companies near Johnson City, gutter installation company near Johnson City, gutter installation contractors near Johnson City, gutter installer near Johnson City, gutter installers near Johnson City, gutter replacement companies near Johnson City, gutter service near Johnson City, guttering installation near Johnson City, guttering installers near Johnson City, gutters installation near Johnson City, gutters installed near Johnson City, mini gutter near Johnson City, small gutter near Johnson City, small gutters near Johnson City, where to buy mobile home gutters near Johnson City, tools for gutter installation near Johnson City, window gutters near Johnson City, large rain gutters near Johnson City, 2 inch gutter near Johnson City, menards downspouts near Johnson City, rain gutters at menards near Johnson City, downspout extension menards near Johnson City, downspout repair near Johnson City, gares de casa near Johnson City, wide rain gutters near Johnson City, 16 ft gutter lowe's near Johnson City, mini gutters lowe's near Johnson City, gutter parts home depot near Johnson City, gutter roof near Johnson City, mini gutters near Johnson City, plastic rain gutters home depot near Johnson City, roofing gutter near Johnson City, plastic gutters home depot near Johnson City, gutter screws home depot near Johnson City, add downspout to rain gutter near Johnson City, aluminum rain gutters home depot near Johnson City, gutter downspouts at lowes near Johnson City, aluminum gutters home depot near Johnson City, gutter downspout installation near Johnson City, rain gutter company near Johnson City, roof gutter repair near Johnson City, seamless gutter price calculator near Johnson City, affordable gutters near Johnson City, local gutter company near Johnson City, local rain gutter companies near Johnson City, water gutter near Johnson City, downspouts at lowes near Johnson City, gutters installers near Johnson City, roofing and gutters near Johnson City, gutter fixing near Johnson City, home depot gutters and downspouts near Johnson City, homedepot gutters near Johnson City, rain gutters repair near Johnson City" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Johnson City, Washington County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Johnson City. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Johnson City." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/johnsoncity" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/johnsoncity" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Johnson City"
+        county="Washington"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Johnson City. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Johnson City."
+        keywords={["commercial gutter installation near Johnson City","seamless gutter company near Johnson City","seamless gutters companies near Johnson City","gutter repair contractors near Johnson City","seamless gutter contractors near Johnson City","seamless gutter installation near Johnson City","seamless gutter installer near Johnson City","seamless guttering companies near Johnson City","seamless gutters contractors near Johnson City","seamless gutters installation near Johnson City","seamless gutters installers near Johnson City","seamless rain gutters near Johnson City","custom gutters near Johnson City","gutter companies around near Johnson City","gutter contractor near Johnson City","gutter contractors near Johnson City","gutter guards installers near Johnson City","gutter price calculator near Johnson City","gutters and siding contractors near Johnson City","handyman gutter repair near Johnson City","rain gutter contractor near Johnson City","rain gutter contractors near Johnson City","rain gutters contractors near Johnson City","roof gutter installers near Johnson City","seamless gutter companies near Johnson City","seamless gutter contractor near Johnson City","seamless gutter installers near Johnson City","seamless gutters installed near Johnson City","seamless gutters near Johnson City","seemless gutters near Johnson City","siding and gutters near Johnson City","gutter business near Johnson City","gutter guards installed near Johnson City","gutter install near Johnson City","guttering contractors near Johnson City","gutters and siding near Johnson City","gutters contractor near Johnson City","gutters contractors near Johnson City","gutters install near Johnson City","roof and gutter contractors near Johnson City","seamless gutter near Johnson City","seamless guttering near Johnson City","top rated gutter companies near Johnson City","youtube gutter installation near Johnson City","continuous gutters near Johnson City","gutter instalation near Johnson City","gutter install companies near Johnson City","gutter installation companies near Johnson City","gutter installation company near Johnson City","gutter installation contractors near Johnson City","gutter installer near Johnson City","gutter installers near Johnson City","gutter replacement companies near Johnson City","gutter service near Johnson City","guttering installation near Johnson City","guttering installers near Johnson City","gutters installation near Johnson City","gutters installed near Johnson City","mini gutter near Johnson City","small gutter near Johnson City","small gutters near Johnson City","where to buy mobile home gutters near Johnson City","tools for gutter installation near Johnson City","window gutters near Johnson City","large rain gutters near Johnson City","2 inch gutter near Johnson City","menards downspouts near Johnson City","rain gutters at menards near Johnson City","downspout extension menards near Johnson City","downspout repair near Johnson City","gares de casa near Johnson City","wide rain gutters near Johnson City","16 ft gutter lowe's near Johnson City","mini gutters lowe's near Johnson City","gutter parts home depot near Johnson City","gutter roof near Johnson City","mini gutters near Johnson City","plastic rain gutters home depot near Johnson City","roofing gutter near Johnson City","plastic gutters home depot near Johnson City","gutter screws home depot near Johnson City","add downspout to rain gutter near Johnson City","aluminum rain gutters home depot near Johnson City","gutter downspouts at lowes near Johnson City","aluminum gutters home depot near Johnson City","gutter downspout installation near Johnson City","rain gutter company near Johnson City","roof gutter repair near Johnson City","seamless gutter price calculator near Johnson City","affordable gutters near Johnson City","local gutter company near Johnson City","local rain gutter companies near Johnson City","water gutter near Johnson City","downspouts at lowes near Johnson City","gutters installers near Johnson City","roofing and gutters near Johnson City","gutter fixing near Johnson City","home depot gutters and downspouts near Johnson City","homedepot gutters near Johnson City","rain gutters repair near Johnson City"]}
+      />
+    </>
   );
 };
 
 export default JohnsonCity;
+  

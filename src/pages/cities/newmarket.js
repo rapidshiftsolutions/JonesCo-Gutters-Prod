@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const NewMarket = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in New Market. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in New Market.";
-  const keywords = [
-    "commercial gutter installation near New Market",
-    "seamless gutter company near New Market",
-    "seamless gutters companies near New Market",
-    "gutter repair contractors near New Market",
-    "seamless gutter contractors near New Market",
-    "seamless gutter installation near New Market",
-    "seamless gutter installer near New Market",
-    "seamless guttering companies near New Market",
-    "seamless gutters contractors near New Market",
-    "seamless gutters installation near New Market",
-    "seamless gutters installers near New Market",
-    "seamless rain gutters near New Market",
-    "custom gutters near New Market",
-    "gutter companies around New Market",
-    "gutter contractor near New Market",
-    "gutter contractors near New Market",
-    "gutter guards installers near New Market",
-    "gutter price calculator New Market",
-    "gutters and siding contractors near New Market",
-    "handyman gutter repair near New Market",
-    "rain gutter contractor near New Market",
-    "rain gutter contractors near New Market",
-    "rain gutters contractors near New Market",
-    "roof gutter installers near New Market",
-    "seamless gutter companies near New Market",
-    "seamless gutter contractor near New Market",
-    "seamless gutter installers near New Market",
-    "seamless gutters installed near New Market",
-    "seamless gutters near New Market",
-    "seemless gutters near New Market",
-    "siding and gutters near New Market",
-    "gutter business near New Market",
-    "gutter guards installed near New Market",
-    "gutter install near New Market",
-    "guttering contractors near New Market",
-    "gutters and siding near New Market",
-    "gutters contractor near New Market",
-    "gutters contractors near New Market",
-    "gutters install near New Market",
-    "roof and gutter contractors near New Market",
-    "seamless gutter near New Market",
-    "seamless guttering near New Market",
-    "top rated gutter companies near New Market",
-    "youtube gutter installation New Market",
-    "continuous gutters near New Market",
-    "gutter instalation near New Market",
-    "gutter install companies near New Market",
-    "gutter installation companies near New Market",
-    "gutter installation company near New Market",
-    "gutter installation contractors near New Market",
-    "gutter installer near New Market",
-    "gutter installers near New Market",
-    "gutter replacement companies near New Market",
-    "gutter service near New Market",
-    "guttering installation near New Market",
-    "guttering installers near New Market",
-    "gutters installation near New Market",
-    "gutters installed near New Market",
-    "mini gutter New Market",
-    "small gutter New Market",
-    "small gutters New Market",
-    "where to buy mobile home gutters New Market",
-    "tools for gutter installation New Market",
-    "window gutters New Market",
-    "large rain gutters New Market",
-    "2 inch gutter New Market",
-    "menards downspouts New Market",
-    "rain gutters at menards New Market",
-    "downspout extension menards New Market",
-    "downspout repair near New Market",
-    "gares de casa New Market",
-    "wide rain gutters New Market",
-    "16 ft gutter lowe's New Market",
-    "mini gutters lowe's New Market",
-    "gutter parts home depot New Market",
-    "gutter roof New Market",
-    "mini gutters New Market",
-    "plastic rain gutters home depot New Market",
-    "roofing gutter New Market",
-    "plastic gutters home depot New Market",
-    "gutter screws home depot New Market",
-    "add downspout to rain gutter New Market",
-    "aluminum rain gutters home depot New Market",
-    "gutter downspouts at lowes New Market",
-    "aluminum gutters home depot New Market",
-    "gutter downspout installation New Market",
-    "rain gutter company near New Market",
-    "roof gutter repair near New Market",
-    "seamless gutter price calculator New Market",
-    "affordable gutters near New Market",
-    "local gutter company New Market",
-    "local rain gutter companies New Market",
-    "water gutter New Market",
-    "downspouts at lowes New Market",
-    "gutters installers near New Market",
-    "roofing and gutters near New Market",
-    "gutter fixing near New Market",
-    "home depot gutters and downspouts New Market",
-    "homedepot gutters New Market",
-    "rain gutters repair near New Market"
-  ];
-
   return (
-    <CityPage
-      city="New Market"
-      county="Jefferson"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in New Market, Jefferson County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in New Market. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in New Market." />
+        <meta name="keywords" content="commercial gutter installation near New Market, seamless gutter company near New Market, seamless gutters companies near New Market, gutter repair contractors near New Market, seamless gutter contractors near New Market, seamless gutter installation near New Market, seamless gutter installer near New Market, seamless guttering companies near New Market, seamless gutters contractors near New Market, seamless gutters installation near New Market, seamless gutters installers near New Market, seamless rain gutters near New Market, custom gutters near New Market, gutter companies around near New Market, gutter contractor near New Market, gutter contractors near New Market, gutter guards installers near New Market, gutter price calculator near New Market, gutters and siding contractors near New Market, handyman gutter repair near New Market, rain gutter contractor near New Market, rain gutter contractors near New Market, rain gutters contractors near New Market, roof gutter installers near New Market, seamless gutter companies near New Market, seamless gutter contractor near New Market, seamless gutter installers near New Market, seamless gutters installed near New Market, seamless gutters near New Market, seemless gutters near New Market, siding and gutters near New Market, gutter business near New Market, gutter guards installed near New Market, gutter install near New Market, guttering contractors near New Market, gutters and siding near New Market, gutters contractor near New Market, gutters contractors near New Market, gutters install near New Market, roof and gutter contractors near New Market, seamless gutter near New Market, seamless guttering near New Market, top rated gutter companies near New Market, youtube gutter installation near New Market, continuous gutters near New Market, gutter instalation near New Market, gutter install companies near New Market, gutter installation companies near New Market, gutter installation company near New Market, gutter installation contractors near New Market, gutter installer near New Market, gutter installers near New Market, gutter replacement companies near New Market, gutter service near New Market, guttering installation near New Market, guttering installers near New Market, gutters installation near New Market, gutters installed near New Market, mini gutter near New Market, small gutter near New Market, small gutters near New Market, where to buy mobile home gutters near New Market, tools for gutter installation near New Market, window gutters near New Market, large rain gutters near New Market, 2 inch gutter near New Market, menards downspouts near New Market, rain gutters at menards near New Market, downspout extension menards near New Market, downspout repair near New Market, gares de casa near New Market, wide rain gutters near New Market, 16 ft gutter lowe's near New Market, mini gutters lowe's near New Market, gutter parts home depot near New Market, gutter roof near New Market, mini gutters near New Market, plastic rain gutters home depot near New Market, roofing gutter near New Market, plastic gutters home depot near New Market, gutter screws home depot near New Market, add downspout to rain gutter near New Market, aluminum rain gutters home depot near New Market, gutter downspouts at lowes near New Market, aluminum gutters home depot near New Market, gutter downspout installation near New Market, rain gutter company near New Market, roof gutter repair near New Market, seamless gutter price calculator near New Market, affordable gutters near New Market, local gutter company near New Market, local rain gutter companies near New Market, water gutter near New Market, downspouts at lowes near New Market, gutters installers near New Market, roofing and gutters near New Market, gutter fixing near New Market, home depot gutters and downspouts near New Market, homedepot gutters near New Market, rain gutters repair near New Market" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in New Market, Jefferson County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in New Market. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in New Market." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/newmarket" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/newmarket" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="New Market"
+        county="Jefferson"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in New Market. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in New Market."
+        keywords={["commercial gutter installation near New Market","seamless gutter company near New Market","seamless gutters companies near New Market","gutter repair contractors near New Market","seamless gutter contractors near New Market","seamless gutter installation near New Market","seamless gutter installer near New Market","seamless guttering companies near New Market","seamless gutters contractors near New Market","seamless gutters installation near New Market","seamless gutters installers near New Market","seamless rain gutters near New Market","custom gutters near New Market","gutter companies around near New Market","gutter contractor near New Market","gutter contractors near New Market","gutter guards installers near New Market","gutter price calculator near New Market","gutters and siding contractors near New Market","handyman gutter repair near New Market","rain gutter contractor near New Market","rain gutter contractors near New Market","rain gutters contractors near New Market","roof gutter installers near New Market","seamless gutter companies near New Market","seamless gutter contractor near New Market","seamless gutter installers near New Market","seamless gutters installed near New Market","seamless gutters near New Market","seemless gutters near New Market","siding and gutters near New Market","gutter business near New Market","gutter guards installed near New Market","gutter install near New Market","guttering contractors near New Market","gutters and siding near New Market","gutters contractor near New Market","gutters contractors near New Market","gutters install near New Market","roof and gutter contractors near New Market","seamless gutter near New Market","seamless guttering near New Market","top rated gutter companies near New Market","youtube gutter installation near New Market","continuous gutters near New Market","gutter instalation near New Market","gutter install companies near New Market","gutter installation companies near New Market","gutter installation company near New Market","gutter installation contractors near New Market","gutter installer near New Market","gutter installers near New Market","gutter replacement companies near New Market","gutter service near New Market","guttering installation near New Market","guttering installers near New Market","gutters installation near New Market","gutters installed near New Market","mini gutter near New Market","small gutter near New Market","small gutters near New Market","where to buy mobile home gutters near New Market","tools for gutter installation near New Market","window gutters near New Market","large rain gutters near New Market","2 inch gutter near New Market","menards downspouts near New Market","rain gutters at menards near New Market","downspout extension menards near New Market","downspout repair near New Market","gares de casa near New Market","wide rain gutters near New Market","16 ft gutter lowe's near New Market","mini gutters lowe's near New Market","gutter parts home depot near New Market","gutter roof near New Market","mini gutters near New Market","plastic rain gutters home depot near New Market","roofing gutter near New Market","plastic gutters home depot near New Market","gutter screws home depot near New Market","add downspout to rain gutter near New Market","aluminum rain gutters home depot near New Market","gutter downspouts at lowes near New Market","aluminum gutters home depot near New Market","gutter downspout installation near New Market","rain gutter company near New Market","roof gutter repair near New Market","seamless gutter price calculator near New Market","affordable gutters near New Market","local gutter company near New Market","local rain gutter companies near New Market","water gutter near New Market","downspouts at lowes near New Market","gutters installers near New Market","roofing and gutters near New Market","gutter fixing near New Market","home depot gutters and downspouts near New Market","homedepot gutters near New Market","rain gutters repair near New Market"]}
+      />
+    </>
   );
 };
 
 export default NewMarket;
+  

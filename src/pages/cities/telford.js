@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Telford = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Telford. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Telford.";
-  const keywords = [
-    "commercial gutter installation near Telford",
-    "seamless gutter company near Telford",
-    "seamless gutters companies near Telford",
-    "gutter repair contractors near Telford",
-    "seamless gutter contractors near Telford",
-    "seamless gutter installation near Telford",
-    "seamless gutter installer near Telford",
-    "seamless guttering companies near Telford",
-    "seamless gutters contractors near Telford",
-    "seamless gutters installation near Telford",
-    "seamless gutters installers near Telford",
-    "seamless rain gutters near Telford",
-    "custom gutters near Telford",
-    "gutter companies around Telford",
-    "gutter contractor near Telford",
-    "gutter contractors near Telford",
-    "gutter guards installers near Telford",
-    "gutter price calculator Telford",
-    "gutters and siding contractors near Telford",
-    "handyman gutter repair near Telford",
-    "rain gutter contractor near Telford",
-    "rain gutter contractors near Telford",
-    "rain gutters contractors near Telford",
-    "roof gutter installers near Telford",
-    "seamless gutter companies near Telford",
-    "seamless gutter contractor near Telford",
-    "seamless gutter installers near Telford",
-    "seamless gutters installed near Telford",
-    "seamless gutters near Telford",
-    "seemless gutters near Telford",
-    "siding and gutters near Telford",
-    "gutter business near Telford",
-    "gutter guards installed near Telford",
-    "gutter install near Telford",
-    "guttering contractors near Telford",
-    "gutters and siding near Telford",
-    "gutters contractor near Telford",
-    "gutters contractors near Telford",
-    "gutters install near Telford",
-    "roof and gutter contractors near Telford",
-    "seamless gutter near Telford",
-    "seamless guttering near Telford",
-    "top rated gutter companies near Telford",
-    "youtube gutter installation Telford",
-    "continuous gutters near Telford",
-    "gutter instalation near Telford",
-    "gutter install companies near Telford",
-    "gutter installation companies near Telford",
-    "gutter installation company near Telford",
-    "gutter installation contractors near Telford",
-    "gutter installer near Telford",
-    "gutter installers near Telford",
-    "gutter replacement companies near Telford",
-    "gutter service near Telford",
-    "guttering installation near Telford",
-    "guttering installers near Telford",
-    "gutters installation near Telford",
-    "gutters installed near Telford",
-    "mini gutter Telford",
-    "small gutter Telford",
-    "small gutters Telford",
-    "where to buy mobile home gutters Telford",
-    "tools for gutter installation Telford",
-    "window gutters Telford",
-    "large rain gutters Telford",
-    "2 inch gutter Telford",
-    "menards downspouts Telford",
-    "rain gutters at menards Telford",
-    "downspout extension menards Telford",
-    "downspout repair near Telford",
-    "gares de casa Telford",
-    "wide rain gutters Telford",
-    "16 ft gutter lowe's Telford",
-    "mini gutters lowe's Telford",
-    "gutter parts home depot Telford",
-    "gutter roof Telford",
-    "mini gutters Telford",
-    "plastic rain gutters home depot Telford",
-    "roofing gutter Telford",
-    "plastic gutters home depot Telford",
-    "gutter screws home depot Telford",
-    "add downspout to rain gutter Telford",
-    "aluminum rain gutters home depot Telford",
-    "gutter downspouts at lowes Telford",
-    "aluminum gutters home depot Telford",
-    "gutter downspout installation Telford",
-    "rain gutter company near Telford",
-    "roof gutter repair near Telford",
-    "seamless gutter price calculator Telford",
-    "affordable gutters near Telford",
-    "local gutter company Telford",
-    "local rain gutter companies Telford",
-    "water gutter Telford",
-    "downspouts at lowes Telford",
-    "gutters installers near Telford",
-    "roofing and gutters near Telford",
-    "gutter fixing near Telford",
-    "home depot gutters and downspouts Telford",
-    "homedepot gutters Telford",
-    "rain gutters repair near Telford"
-  ];
-
   return (
-    <CityPage
-      city="Telford"
-      county="Washington"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Telford, Washington County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Telford. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Telford." />
+        <meta name="keywords" content="commercial gutter installation near Telford, seamless gutter company near Telford, seamless gutters companies near Telford, gutter repair contractors near Telford, seamless gutter contractors near Telford, seamless gutter installation near Telford, seamless gutter installer near Telford, seamless guttering companies near Telford, seamless gutters contractors near Telford, seamless gutters installation near Telford, seamless gutters installers near Telford, seamless rain gutters near Telford, custom gutters near Telford, gutter companies around near Telford, gutter contractor near Telford, gutter contractors near Telford, gutter guards installers near Telford, gutter price calculator near Telford, gutters and siding contractors near Telford, handyman gutter repair near Telford, rain gutter contractor near Telford, rain gutter contractors near Telford, rain gutters contractors near Telford, roof gutter installers near Telford, seamless gutter companies near Telford, seamless gutter contractor near Telford, seamless gutter installers near Telford, seamless gutters installed near Telford, seamless gutters near Telford, seemless gutters near Telford, siding and gutters near Telford, gutter business near Telford, gutter guards installed near Telford, gutter install near Telford, guttering contractors near Telford, gutters and siding near Telford, gutters contractor near Telford, gutters contractors near Telford, gutters install near Telford, roof and gutter contractors near Telford, seamless gutter near Telford, seamless guttering near Telford, top rated gutter companies near Telford, youtube gutter installation near Telford, continuous gutters near Telford, gutter instalation near Telford, gutter install companies near Telford, gutter installation companies near Telford, gutter installation company near Telford, gutter installation contractors near Telford, gutter installer near Telford, gutter installers near Telford, gutter replacement companies near Telford, gutter service near Telford, guttering installation near Telford, guttering installers near Telford, gutters installation near Telford, gutters installed near Telford, mini gutter near Telford, small gutter near Telford, small gutters near Telford, where to buy mobile home gutters near Telford, tools for gutter installation near Telford, window gutters near Telford, large rain gutters near Telford, 2 inch gutter near Telford, menards downspouts near Telford, rain gutters at menards near Telford, downspout extension menards near Telford, downspout repair near Telford, gares de casa near Telford, wide rain gutters near Telford, 16 ft gutter lowe's near Telford, mini gutters lowe's near Telford, gutter parts home depot near Telford, gutter roof near Telford, mini gutters near Telford, plastic rain gutters home depot near Telford, roofing gutter near Telford, plastic gutters home depot near Telford, gutter screws home depot near Telford, add downspout to rain gutter near Telford, aluminum rain gutters home depot near Telford, gutter downspouts at lowes near Telford, aluminum gutters home depot near Telford, gutter downspout installation near Telford, rain gutter company near Telford, roof gutter repair near Telford, seamless gutter price calculator near Telford, affordable gutters near Telford, local gutter company near Telford, local rain gutter companies near Telford, water gutter near Telford, downspouts at lowes near Telford, gutters installers near Telford, roofing and gutters near Telford, gutter fixing near Telford, home depot gutters and downspouts near Telford, homedepot gutters near Telford, rain gutters repair near Telford" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Telford, Washington County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Telford. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Telford." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/telford" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/telford" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Telford"
+        county="Washington"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Telford. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Telford."
+        keywords={["commercial gutter installation near Telford","seamless gutter company near Telford","seamless gutters companies near Telford","gutter repair contractors near Telford","seamless gutter contractors near Telford","seamless gutter installation near Telford","seamless gutter installer near Telford","seamless guttering companies near Telford","seamless gutters contractors near Telford","seamless gutters installation near Telford","seamless gutters installers near Telford","seamless rain gutters near Telford","custom gutters near Telford","gutter companies around near Telford","gutter contractor near Telford","gutter contractors near Telford","gutter guards installers near Telford","gutter price calculator near Telford","gutters and siding contractors near Telford","handyman gutter repair near Telford","rain gutter contractor near Telford","rain gutter contractors near Telford","rain gutters contractors near Telford","roof gutter installers near Telford","seamless gutter companies near Telford","seamless gutter contractor near Telford","seamless gutter installers near Telford","seamless gutters installed near Telford","seamless gutters near Telford","seemless gutters near Telford","siding and gutters near Telford","gutter business near Telford","gutter guards installed near Telford","gutter install near Telford","guttering contractors near Telford","gutters and siding near Telford","gutters contractor near Telford","gutters contractors near Telford","gutters install near Telford","roof and gutter contractors near Telford","seamless gutter near Telford","seamless guttering near Telford","top rated gutter companies near Telford","youtube gutter installation near Telford","continuous gutters near Telford","gutter instalation near Telford","gutter install companies near Telford","gutter installation companies near Telford","gutter installation company near Telford","gutter installation contractors near Telford","gutter installer near Telford","gutter installers near Telford","gutter replacement companies near Telford","gutter service near Telford","guttering installation near Telford","guttering installers near Telford","gutters installation near Telford","gutters installed near Telford","mini gutter near Telford","small gutter near Telford","small gutters near Telford","where to buy mobile home gutters near Telford","tools for gutter installation near Telford","window gutters near Telford","large rain gutters near Telford","2 inch gutter near Telford","menards downspouts near Telford","rain gutters at menards near Telford","downspout extension menards near Telford","downspout repair near Telford","gares de casa near Telford","wide rain gutters near Telford","16 ft gutter lowe's near Telford","mini gutters lowe's near Telford","gutter parts home depot near Telford","gutter roof near Telford","mini gutters near Telford","plastic rain gutters home depot near Telford","roofing gutter near Telford","plastic gutters home depot near Telford","gutter screws home depot near Telford","add downspout to rain gutter near Telford","aluminum rain gutters home depot near Telford","gutter downspouts at lowes near Telford","aluminum gutters home depot near Telford","gutter downspout installation near Telford","rain gutter company near Telford","roof gutter repair near Telford","seamless gutter price calculator near Telford","affordable gutters near Telford","local gutter company near Telford","local rain gutter companies near Telford","water gutter near Telford","downspouts at lowes near Telford","gutters installers near Telford","roofing and gutters near Telford","gutter fixing near Telford","home depot gutters and downspouts near Telford","homedepot gutters near Telford","rain gutters repair near Telford"]}
+      />
+    </>
   );
 };
 
 export default Telford;
+  

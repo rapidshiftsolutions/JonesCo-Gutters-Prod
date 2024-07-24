@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Maryville = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Maryville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Maryville.";
-  const keywords = [
-    "commercial gutter installation near Maryville",
-    "seamless gutter company near Maryville",
-    "seamless gutters companies near Maryville",
-    "gutter repair contractors near Maryville",
-    "seamless gutter contractors near Maryville",
-    "seamless gutter installation near Maryville",
-    "seamless gutter installer near Maryville",
-    "seamless guttering companies near Maryville",
-    "seamless gutters contractors near Maryville",
-    "seamless gutters installation near Maryville",
-    "seamless gutters installers near Maryville",
-    "seamless rain gutters near Maryville",
-    "custom gutters near Maryville",
-    "gutter companies around Maryville",
-    "gutter contractor near Maryville",
-    "gutter contractors near Maryville",
-    "gutter guards installers near Maryville",
-    "gutter price calculator Maryville",
-    "gutters and siding contractors near Maryville",
-    "handyman gutter repair near Maryville",
-    "rain gutter contractor near Maryville",
-    "rain gutter contractors near Maryville",
-    "rain gutters contractors near Maryville",
-    "roof gutter installers near Maryville",
-    "seamless gutter companies near Maryville",
-    "seamless gutter contractor near Maryville",
-    "seamless gutter installers near Maryville",
-    "seamless gutters installed near Maryville",
-    "seamless gutters near Maryville",
-    "seemless gutters near Maryville",
-    "siding and gutters near Maryville",
-    "gutter business near Maryville",
-    "gutter guards installed near Maryville",
-    "gutter install near Maryville",
-    "guttering contractors near Maryville",
-    "gutters and siding near Maryville",
-    "gutters contractor near Maryville",
-    "gutters contractors near Maryville",
-    "gutters install near Maryville",
-    "roof and gutter contractors near Maryville",
-    "seamless gutter near Maryville",
-    "seamless guttering near Maryville",
-    "top rated gutter companies near Maryville",
-    "youtube gutter installation Maryville",
-    "continuous gutters near Maryville",
-    "gutter instalation near Maryville",
-    "gutter install companies near Maryville",
-    "gutter installation companies near Maryville",
-    "gutter installation company near Maryville",
-    "gutter installation contractors near Maryville",
-    "gutter installer near Maryville",
-    "gutter installers near Maryville",
-    "gutter replacement companies near Maryville",
-    "gutter service near Maryville",
-    "guttering installation near Maryville",
-    "guttering installers near Maryville",
-    "gutters installation near Maryville",
-    "gutters installed near Maryville",
-    "mini gutter Maryville",
-    "small gutter Maryville",
-    "small gutters Maryville",
-    "where to buy mobile home gutters Maryville",
-    "tools for gutter installation Maryville",
-    "window gutters Maryville",
-    "large rain gutters Maryville",
-    "2 inch gutter Maryville",
-    "menards downspouts Maryville",
-    "rain gutters at menards Maryville",
-    "downspout extension menards Maryville",
-    "downspout repair near Maryville",
-    "gares de casa Maryville",
-    "wide rain gutters Maryville",
-    "16 ft gutter lowe's Maryville",
-    "mini gutters lowe's Maryville",
-    "gutter parts home depot Maryville",
-    "gutter roof Maryville",
-    "mini gutters Maryville",
-    "plastic rain gutters home depot Maryville",
-    "roofing gutter Maryville",
-    "plastic gutters home depot Maryville",
-    "gutter screws home depot Maryville",
-    "add downspout to rain gutter Maryville",
-    "aluminum rain gutters home depot Maryville",
-    "gutter downspouts at lowes Maryville",
-    "aluminum gutters home depot Maryville",
-    "gutter downspout installation Maryville",
-    "rain gutter company near Maryville",
-    "roof gutter repair near Maryville",
-    "seamless gutter price calculator Maryville",
-    "affordable gutters near Maryville",
-    "local gutter company Maryville",
-    "local rain gutter companies Maryville",
-    "water gutter Maryville",
-    "downspouts at lowes Maryville",
-    "gutters installers near Maryville",
-    "roofing and gutters near Maryville",
-    "gutter fixing near Maryville",
-    "home depot gutters and downspouts Maryville",
-    "homedepot gutters Maryville",
-    "rain gutters repair near Maryville"
-  ];
-
   return (
-    <CityPage
-      city="Maryville"
-      county="Blount"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Maryville, Blount County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Maryville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Maryville." />
+        <meta name="keywords" content="commercial gutter installation near Maryville, seamless gutter company near Maryville, seamless gutters companies near Maryville, gutter repair contractors near Maryville, seamless gutter contractors near Maryville, seamless gutter installation near Maryville, seamless gutter installer near Maryville, seamless guttering companies near Maryville, seamless gutters contractors near Maryville, seamless gutters installation near Maryville, seamless gutters installers near Maryville, seamless rain gutters near Maryville, custom gutters near Maryville, gutter companies around near Maryville, gutter contractor near Maryville, gutter contractors near Maryville, gutter guards installers near Maryville, gutter price calculator near Maryville, gutters and siding contractors near Maryville, handyman gutter repair near Maryville, rain gutter contractor near Maryville, rain gutter contractors near Maryville, rain gutters contractors near Maryville, roof gutter installers near Maryville, seamless gutter companies near Maryville, seamless gutter contractor near Maryville, seamless gutter installers near Maryville, seamless gutters installed near Maryville, seamless gutters near Maryville, seemless gutters near Maryville, siding and gutters near Maryville, gutter business near Maryville, gutter guards installed near Maryville, gutter install near Maryville, guttering contractors near Maryville, gutters and siding near Maryville, gutters contractor near Maryville, gutters contractors near Maryville, gutters install near Maryville, roof and gutter contractors near Maryville, seamless gutter near Maryville, seamless guttering near Maryville, top rated gutter companies near Maryville, youtube gutter installation near Maryville, continuous gutters near Maryville, gutter instalation near Maryville, gutter install companies near Maryville, gutter installation companies near Maryville, gutter installation company near Maryville, gutter installation contractors near Maryville, gutter installer near Maryville, gutter installers near Maryville, gutter replacement companies near Maryville, gutter service near Maryville, guttering installation near Maryville, guttering installers near Maryville, gutters installation near Maryville, gutters installed near Maryville, mini gutter near Maryville, small gutter near Maryville, small gutters near Maryville, where to buy mobile home gutters near Maryville, tools for gutter installation near Maryville, window gutters near Maryville, large rain gutters near Maryville, 2 inch gutter near Maryville, menards downspouts near Maryville, rain gutters at menards near Maryville, downspout extension menards near Maryville, downspout repair near Maryville, gares de casa near Maryville, wide rain gutters near Maryville, 16 ft gutter lowe's near Maryville, mini gutters lowe's near Maryville, gutter parts home depot near Maryville, gutter roof near Maryville, mini gutters near Maryville, plastic rain gutters home depot near Maryville, roofing gutter near Maryville, plastic gutters home depot near Maryville, gutter screws home depot near Maryville, add downspout to rain gutter near Maryville, aluminum rain gutters home depot near Maryville, gutter downspouts at lowes near Maryville, aluminum gutters home depot near Maryville, gutter downspout installation near Maryville, rain gutter company near Maryville, roof gutter repair near Maryville, seamless gutter price calculator near Maryville, affordable gutters near Maryville, local gutter company near Maryville, local rain gutter companies near Maryville, water gutter near Maryville, downspouts at lowes near Maryville, gutters installers near Maryville, roofing and gutters near Maryville, gutter fixing near Maryville, home depot gutters and downspouts near Maryville, homedepot gutters near Maryville, rain gutters repair near Maryville" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Maryville, Blount County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Maryville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Maryville." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/maryville" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/maryville" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Maryville"
+        county="Blount"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Maryville. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Maryville."
+        keywords={["commercial gutter installation near Maryville","seamless gutter company near Maryville","seamless gutters companies near Maryville","gutter repair contractors near Maryville","seamless gutter contractors near Maryville","seamless gutter installation near Maryville","seamless gutter installer near Maryville","seamless guttering companies near Maryville","seamless gutters contractors near Maryville","seamless gutters installation near Maryville","seamless gutters installers near Maryville","seamless rain gutters near Maryville","custom gutters near Maryville","gutter companies around near Maryville","gutter contractor near Maryville","gutter contractors near Maryville","gutter guards installers near Maryville","gutter price calculator near Maryville","gutters and siding contractors near Maryville","handyman gutter repair near Maryville","rain gutter contractor near Maryville","rain gutter contractors near Maryville","rain gutters contractors near Maryville","roof gutter installers near Maryville","seamless gutter companies near Maryville","seamless gutter contractor near Maryville","seamless gutter installers near Maryville","seamless gutters installed near Maryville","seamless gutters near Maryville","seemless gutters near Maryville","siding and gutters near Maryville","gutter business near Maryville","gutter guards installed near Maryville","gutter install near Maryville","guttering contractors near Maryville","gutters and siding near Maryville","gutters contractor near Maryville","gutters contractors near Maryville","gutters install near Maryville","roof and gutter contractors near Maryville","seamless gutter near Maryville","seamless guttering near Maryville","top rated gutter companies near Maryville","youtube gutter installation near Maryville","continuous gutters near Maryville","gutter instalation near Maryville","gutter install companies near Maryville","gutter installation companies near Maryville","gutter installation company near Maryville","gutter installation contractors near Maryville","gutter installer near Maryville","gutter installers near Maryville","gutter replacement companies near Maryville","gutter service near Maryville","guttering installation near Maryville","guttering installers near Maryville","gutters installation near Maryville","gutters installed near Maryville","mini gutter near Maryville","small gutter near Maryville","small gutters near Maryville","where to buy mobile home gutters near Maryville","tools for gutter installation near Maryville","window gutters near Maryville","large rain gutters near Maryville","2 inch gutter near Maryville","menards downspouts near Maryville","rain gutters at menards near Maryville","downspout extension menards near Maryville","downspout repair near Maryville","gares de casa near Maryville","wide rain gutters near Maryville","16 ft gutter lowe's near Maryville","mini gutters lowe's near Maryville","gutter parts home depot near Maryville","gutter roof near Maryville","mini gutters near Maryville","plastic rain gutters home depot near Maryville","roofing gutter near Maryville","plastic gutters home depot near Maryville","gutter screws home depot near Maryville","add downspout to rain gutter near Maryville","aluminum rain gutters home depot near Maryville","gutter downspouts at lowes near Maryville","aluminum gutters home depot near Maryville","gutter downspout installation near Maryville","rain gutter company near Maryville","roof gutter repair near Maryville","seamless gutter price calculator near Maryville","affordable gutters near Maryville","local gutter company near Maryville","local rain gutter companies near Maryville","water gutter near Maryville","downspouts at lowes near Maryville","gutters installers near Maryville","roofing and gutters near Maryville","gutter fixing near Maryville","home depot gutters and downspouts near Maryville","homedepot gutters near Maryville","rain gutters repair near Maryville"]}
+      />
+    </>
   );
 };
 
 export default Maryville;
+  

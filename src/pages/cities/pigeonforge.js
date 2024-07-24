@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const PigeonForge = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Pigeon Forge. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Pigeon Forge.";
-  const keywords = [
-    "commercial gutter installation near Pigeon Forge",
-    "seamless gutter company near Pigeon Forge",
-    "seamless gutters companies near Pigeon Forge",
-    "gutter repair contractors near Pigeon Forge",
-    "seamless gutter contractors near Pigeon Forge",
-    "seamless gutter installation near Pigeon Forge",
-    "seamless gutter installer near Pigeon Forge",
-    "seamless guttering companies near Pigeon Forge",
-    "seamless gutters contractors near Pigeon Forge",
-    "seamless gutters installation near Pigeon Forge",
-    "seamless gutters installers near Pigeon Forge",
-    "seamless rain gutters near Pigeon Forge",
-    "custom gutters near Pigeon Forge",
-    "gutter companies around Pigeon Forge",
-    "gutter contractor near Pigeon Forge",
-    "gutter contractors near Pigeon Forge",
-    "gutter guards installers near Pigeon Forge",
-    "gutter price calculator Pigeon Forge",
-    "gutters and siding contractors near Pigeon Forge",
-    "handyman gutter repair near Pigeon Forge",
-    "rain gutter contractor near Pigeon Forge",
-    "rain gutter contractors near Pigeon Forge",
-    "rain gutters contractors near Pigeon Forge",
-    "roof gutter installers near Pigeon Forge",
-    "seamless gutter companies near Pigeon Forge",
-    "seamless gutter contractor near Pigeon Forge",
-    "seamless gutter installers near Pigeon Forge",
-    "seamless gutters installed near Pigeon Forge",
-    "seamless gutters near Pigeon Forge",
-    "seemless gutters near Pigeon Forge",
-    "siding and gutters near Pigeon Forge",
-    "gutter business near Pigeon Forge",
-    "gutter guards installed near Pigeon Forge",
-    "gutter install near Pigeon Forge",
-    "guttering contractors near Pigeon Forge",
-    "gutters and siding near Pigeon Forge",
-    "gutters contractor near Pigeon Forge",
-    "gutters contractors near Pigeon Forge",
-    "gutters install near Pigeon Forge",
-    "roof and gutter contractors near Pigeon Forge",
-    "seamless gutter near Pigeon Forge",
-    "seamless guttering near Pigeon Forge",
-    "top rated gutter companies near Pigeon Forge",
-    "youtube gutter installation Pigeon Forge",
-    "continuous gutters near Pigeon Forge",
-    "gutter instalation near Pigeon Forge",
-    "gutter install companies near Pigeon Forge",
-    "gutter installation companies near Pigeon Forge",
-    "gutter installation company near Pigeon Forge",
-    "gutter installation contractors near Pigeon Forge",
-    "gutter installer near Pigeon Forge",
-    "gutter installers near Pigeon Forge",
-    "gutter replacement companies near Pigeon Forge",
-    "gutter service near Pigeon Forge",
-    "guttering installation near Pigeon Forge",
-    "guttering installers near Pigeon Forge",
-    "gutters installation near Pigeon Forge",
-    "gutters installed near Pigeon Forge",
-    "mini gutter Pigeon Forge",
-    "small gutter Pigeon Forge",
-    "small gutters Pigeon Forge",
-    "where to buy mobile home gutters Pigeon Forge",
-    "tools for gutter installation Pigeon Forge",
-    "window gutters Pigeon Forge",
-    "large rain gutters Pigeon Forge",
-    "2 inch gutter Pigeon Forge",
-    "menards downspouts Pigeon Forge",
-    "rain gutters at menards Pigeon Forge",
-    "downspout extension menards Pigeon Forge",
-    "downspout repair near Pigeon Forge",
-    "gares de casa Pigeon Forge",
-    "wide rain gutters Pigeon Forge",
-    "16 ft gutter lowe's Pigeon Forge",
-    "mini gutters lowe's Pigeon Forge",
-    "gutter parts home depot Pigeon Forge",
-    "gutter roof Pigeon Forge",
-    "mini gutters Pigeon Forge",
-    "plastic rain gutters home depot Pigeon Forge",
-    "roofing gutter Pigeon Forge",
-    "plastic gutters home depot Pigeon Forge",
-    "gutter screws home depot Pigeon Forge",
-    "add downspout to rain gutter Pigeon Forge",
-    "aluminum rain gutters home depot Pigeon Forge",
-    "gutter downspouts at lowes Pigeon Forge",
-    "aluminum gutters home depot Pigeon Forge",
-    "gutter downspout installation Pigeon Forge",
-    "rain gutter company near Pigeon Forge",
-    "roof gutter repair near Pigeon Forge",
-    "seamless gutter price calculator Pigeon Forge",
-    "affordable gutters near Pigeon Forge",
-    "local gutter company Pigeon Forge",
-    "local rain gutter companies Pigeon Forge",
-    "water gutter Pigeon Forge",
-    "downspouts at lowes Pigeon Forge",
-    "gutters installers near Pigeon Forge",
-    "roofing and gutters near Pigeon Forge",
-    "gutter fixing near Pigeon Forge",
-    "home depot gutters and downspouts Pigeon Forge",
-    "homedepot gutters Pigeon Forge",
-    "rain gutters repair near Pigeon Forge"
-  ];
-
   return (
-    <CityPage
-      city="Pigeon Forge"
-      county="Sevier"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Pigeon Forge, Sevier County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Pigeon Forge. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Pigeon Forge." />
+        <meta name="keywords" content="commercial gutter installation near Pigeon Forge, seamless gutter company near Pigeon Forge, seamless gutters companies near Pigeon Forge, gutter repair contractors near Pigeon Forge, seamless gutter contractors near Pigeon Forge, seamless gutter installation near Pigeon Forge, seamless gutter installer near Pigeon Forge, seamless guttering companies near Pigeon Forge, seamless gutters contractors near Pigeon Forge, seamless gutters installation near Pigeon Forge, seamless gutters installers near Pigeon Forge, seamless rain gutters near Pigeon Forge, custom gutters near Pigeon Forge, gutter companies around near Pigeon Forge, gutter contractor near Pigeon Forge, gutter contractors near Pigeon Forge, gutter guards installers near Pigeon Forge, gutter price calculator near Pigeon Forge, gutters and siding contractors near Pigeon Forge, handyman gutter repair near Pigeon Forge, rain gutter contractor near Pigeon Forge, rain gutter contractors near Pigeon Forge, rain gutters contractors near Pigeon Forge, roof gutter installers near Pigeon Forge, seamless gutter companies near Pigeon Forge, seamless gutter contractor near Pigeon Forge, seamless gutter installers near Pigeon Forge, seamless gutters installed near Pigeon Forge, seamless gutters near Pigeon Forge, seemless gutters near Pigeon Forge, siding and gutters near Pigeon Forge, gutter business near Pigeon Forge, gutter guards installed near Pigeon Forge, gutter install near Pigeon Forge, guttering contractors near Pigeon Forge, gutters and siding near Pigeon Forge, gutters contractor near Pigeon Forge, gutters contractors near Pigeon Forge, gutters install near Pigeon Forge, roof and gutter contractors near Pigeon Forge, seamless gutter near Pigeon Forge, seamless guttering near Pigeon Forge, top rated gutter companies near Pigeon Forge, youtube gutter installation near Pigeon Forge, continuous gutters near Pigeon Forge, gutter instalation near Pigeon Forge, gutter install companies near Pigeon Forge, gutter installation companies near Pigeon Forge, gutter installation company near Pigeon Forge, gutter installation contractors near Pigeon Forge, gutter installer near Pigeon Forge, gutter installers near Pigeon Forge, gutter replacement companies near Pigeon Forge, gutter service near Pigeon Forge, guttering installation near Pigeon Forge, guttering installers near Pigeon Forge, gutters installation near Pigeon Forge, gutters installed near Pigeon Forge, mini gutter near Pigeon Forge, small gutter near Pigeon Forge, small gutters near Pigeon Forge, where to buy mobile home gutters near Pigeon Forge, tools for gutter installation near Pigeon Forge, window gutters near Pigeon Forge, large rain gutters near Pigeon Forge, 2 inch gutter near Pigeon Forge, menards downspouts near Pigeon Forge, rain gutters at menards near Pigeon Forge, downspout extension menards near Pigeon Forge, downspout repair near Pigeon Forge, gares de casa near Pigeon Forge, wide rain gutters near Pigeon Forge, 16 ft gutter lowe's near Pigeon Forge, mini gutters lowe's near Pigeon Forge, gutter parts home depot near Pigeon Forge, gutter roof near Pigeon Forge, mini gutters near Pigeon Forge, plastic rain gutters home depot near Pigeon Forge, roofing gutter near Pigeon Forge, plastic gutters home depot near Pigeon Forge, gutter screws home depot near Pigeon Forge, add downspout to rain gutter near Pigeon Forge, aluminum rain gutters home depot near Pigeon Forge, gutter downspouts at lowes near Pigeon Forge, aluminum gutters home depot near Pigeon Forge, gutter downspout installation near Pigeon Forge, rain gutter company near Pigeon Forge, roof gutter repair near Pigeon Forge, seamless gutter price calculator near Pigeon Forge, affordable gutters near Pigeon Forge, local gutter company near Pigeon Forge, local rain gutter companies near Pigeon Forge, water gutter near Pigeon Forge, downspouts at lowes near Pigeon Forge, gutters installers near Pigeon Forge, roofing and gutters near Pigeon Forge, gutter fixing near Pigeon Forge, home depot gutters and downspouts near Pigeon Forge, homedepot gutters near Pigeon Forge, rain gutters repair near Pigeon Forge" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Pigeon Forge, Sevier County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Pigeon Forge. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Pigeon Forge." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/pigeonforge" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/pigeonforge" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Pigeon Forge"
+        county="Sevier"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Pigeon Forge. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Pigeon Forge."
+        keywords={["commercial gutter installation near Pigeon Forge","seamless gutter company near Pigeon Forge","seamless gutters companies near Pigeon Forge","gutter repair contractors near Pigeon Forge","seamless gutter contractors near Pigeon Forge","seamless gutter installation near Pigeon Forge","seamless gutter installer near Pigeon Forge","seamless guttering companies near Pigeon Forge","seamless gutters contractors near Pigeon Forge","seamless gutters installation near Pigeon Forge","seamless gutters installers near Pigeon Forge","seamless rain gutters near Pigeon Forge","custom gutters near Pigeon Forge","gutter companies around near Pigeon Forge","gutter contractor near Pigeon Forge","gutter contractors near Pigeon Forge","gutter guards installers near Pigeon Forge","gutter price calculator near Pigeon Forge","gutters and siding contractors near Pigeon Forge","handyman gutter repair near Pigeon Forge","rain gutter contractor near Pigeon Forge","rain gutter contractors near Pigeon Forge","rain gutters contractors near Pigeon Forge","roof gutter installers near Pigeon Forge","seamless gutter companies near Pigeon Forge","seamless gutter contractor near Pigeon Forge","seamless gutter installers near Pigeon Forge","seamless gutters installed near Pigeon Forge","seamless gutters near Pigeon Forge","seemless gutters near Pigeon Forge","siding and gutters near Pigeon Forge","gutter business near Pigeon Forge","gutter guards installed near Pigeon Forge","gutter install near Pigeon Forge","guttering contractors near Pigeon Forge","gutters and siding near Pigeon Forge","gutters contractor near Pigeon Forge","gutters contractors near Pigeon Forge","gutters install near Pigeon Forge","roof and gutter contractors near Pigeon Forge","seamless gutter near Pigeon Forge","seamless guttering near Pigeon Forge","top rated gutter companies near Pigeon Forge","youtube gutter installation near Pigeon Forge","continuous gutters near Pigeon Forge","gutter instalation near Pigeon Forge","gutter install companies near Pigeon Forge","gutter installation companies near Pigeon Forge","gutter installation company near Pigeon Forge","gutter installation contractors near Pigeon Forge","gutter installer near Pigeon Forge","gutter installers near Pigeon Forge","gutter replacement companies near Pigeon Forge","gutter service near Pigeon Forge","guttering installation near Pigeon Forge","guttering installers near Pigeon Forge","gutters installation near Pigeon Forge","gutters installed near Pigeon Forge","mini gutter near Pigeon Forge","small gutter near Pigeon Forge","small gutters near Pigeon Forge","where to buy mobile home gutters near Pigeon Forge","tools for gutter installation near Pigeon Forge","window gutters near Pigeon Forge","large rain gutters near Pigeon Forge","2 inch gutter near Pigeon Forge","menards downspouts near Pigeon Forge","rain gutters at menards near Pigeon Forge","downspout extension menards near Pigeon Forge","downspout repair near Pigeon Forge","gares de casa near Pigeon Forge","wide rain gutters near Pigeon Forge","16 ft gutter lowe's near Pigeon Forge","mini gutters lowe's near Pigeon Forge","gutter parts home depot near Pigeon Forge","gutter roof near Pigeon Forge","mini gutters near Pigeon Forge","plastic rain gutters home depot near Pigeon Forge","roofing gutter near Pigeon Forge","plastic gutters home depot near Pigeon Forge","gutter screws home depot near Pigeon Forge","add downspout to rain gutter near Pigeon Forge","aluminum rain gutters home depot near Pigeon Forge","gutter downspouts at lowes near Pigeon Forge","aluminum gutters home depot near Pigeon Forge","gutter downspout installation near Pigeon Forge","rain gutter company near Pigeon Forge","roof gutter repair near Pigeon Forge","seamless gutter price calculator near Pigeon Forge","affordable gutters near Pigeon Forge","local gutter company near Pigeon Forge","local rain gutter companies near Pigeon Forge","water gutter near Pigeon Forge","downspouts at lowes near Pigeon Forge","gutters installers near Pigeon Forge","roofing and gutters near Pigeon Forge","gutter fixing near Pigeon Forge","home depot gutters and downspouts near Pigeon Forge","homedepot gutters near Pigeon Forge","rain gutters repair near Pigeon Forge"]}
+      />
+    </>
   );
 };
 
 export default PigeonForge;
+  

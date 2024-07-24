@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Limestone = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Limestone. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Limestone.";
-  const keywords = [
-    "commercial gutter installation near Limestone",
-    "seamless gutter company near Limestone",
-    "seamless gutters companies near Limestone",
-    "gutter repair contractors near Limestone",
-    "seamless gutter contractors near Limestone",
-    "seamless gutter installation near Limestone",
-    "seamless gutter installer near Limestone",
-    "seamless guttering companies near Limestone",
-    "seamless gutters contractors near Limestone",
-    "seamless gutters installation near Limestone",
-    "seamless gutters installers near Limestone",
-    "seamless rain gutters near Limestone",
-    "custom gutters near Limestone",
-    "gutter companies around Limestone",
-    "gutter contractor near Limestone",
-    "gutter contractors near Limestone",
-    "gutter guards installers near Limestone",
-    "gutter price calculator Limestone",
-    "gutters and siding contractors near Limestone",
-    "handyman gutter repair near Limestone",
-    "rain gutter contractor near Limestone",
-    "rain gutter contractors near Limestone",
-    "rain gutters contractors near Limestone",
-    "roof gutter installers near Limestone",
-    "seamless gutter companies near Limestone",
-    "seamless gutter contractor near Limestone",
-    "seamless gutter installers near Limestone",
-    "seamless gutters installed near Limestone",
-    "seamless gutters near Limestone",
-    "seemless gutters near Limestone",
-    "siding and gutters near Limestone",
-    "gutter business near Limestone",
-    "gutter guards installed near Limestone",
-    "gutter install near Limestone",
-    "guttering contractors near Limestone",
-    "gutters and siding near Limestone",
-    "gutters contractor near Limestone",
-    "gutters contractors near Limestone",
-    "gutters install near Limestone",
-    "roof and gutter contractors near Limestone",
-    "seamless gutter near Limestone",
-    "seamless guttering near Limestone",
-    "top rated gutter companies near Limestone",
-    "youtube gutter installation Limestone",
-    "continuous gutters near Limestone",
-    "gutter instalation near Limestone",
-    "gutter install companies near Limestone",
-    "gutter installation companies near Limestone",
-    "gutter installation company near Limestone",
-    "gutter installation contractors near Limestone",
-    "gutter installer near Limestone",
-    "gutter installers near Limestone",
-    "gutter replacement companies near Limestone",
-    "gutter service near Limestone",
-    "guttering installation near Limestone",
-    "guttering installers near Limestone",
-    "gutters installation near Limestone",
-    "gutters installed near Limestone",
-    "mini gutter Limestone",
-    "small gutter Limestone",
-    "small gutters Limestone",
-    "where to buy mobile home gutters Limestone",
-    "tools for gutter installation Limestone",
-    "window gutters Limestone",
-    "large rain gutters Limestone",
-    "2 inch gutter Limestone",
-    "menards downspouts Limestone",
-    "rain gutters at menards Limestone",
-    "downspout extension menards Limestone",
-    "downspout repair near Limestone",
-    "gares de casa Limestone",
-    "wide rain gutters Limestone",
-    "16 ft gutter lowe's Limestone",
-    "mini gutters lowe's Limestone",
-    "gutter parts home depot Limestone",
-    "gutter roof Limestone",
-    "mini gutters Limestone",
-    "plastic rain gutters home depot Limestone",
-    "roofing gutter Limestone",
-    "plastic gutters home depot Limestone",
-    "gutter screws home depot Limestone",
-    "add downspout to rain gutter Limestone",
-    "aluminum rain gutters home depot Limestone",
-    "gutter downspouts at lowes Limestone",
-    "aluminum gutters home depot Limestone",
-    "gutter downspout installation Limestone",
-    "rain gutter company near Limestone",
-    "roof gutter repair near Limestone",
-    "seamless gutter price calculator Limestone",
-    "affordable gutters near Limestone",
-    "local gutter company Limestone",
-    "local rain gutter companies Limestone",
-    "water gutter Limestone",
-    "downspouts at lowes Limestone",
-    "gutters installers near Limestone",
-    "roofing and gutters near Limestone",
-    "gutter fixing near Limestone",
-    "home depot gutters and downspouts Limestone",
-    "homedepot gutters Limestone",
-    "rain gutters repair near Limestone"
-  ];
-
   return (
-    <CityPage
-      city="Limestone"
-      county="Washington"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Limestone, Washington County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Limestone. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Limestone." />
+        <meta name="keywords" content="commercial gutter installation near Limestone, seamless gutter company near Limestone, seamless gutters companies near Limestone, gutter repair contractors near Limestone, seamless gutter contractors near Limestone, seamless gutter installation near Limestone, seamless gutter installer near Limestone, seamless guttering companies near Limestone, seamless gutters contractors near Limestone, seamless gutters installation near Limestone, seamless gutters installers near Limestone, seamless rain gutters near Limestone, custom gutters near Limestone, gutter companies around near Limestone, gutter contractor near Limestone, gutter contractors near Limestone, gutter guards installers near Limestone, gutter price calculator near Limestone, gutters and siding contractors near Limestone, handyman gutter repair near Limestone, rain gutter contractor near Limestone, rain gutter contractors near Limestone, rain gutters contractors near Limestone, roof gutter installers near Limestone, seamless gutter companies near Limestone, seamless gutter contractor near Limestone, seamless gutter installers near Limestone, seamless gutters installed near Limestone, seamless gutters near Limestone, seemless gutters near Limestone, siding and gutters near Limestone, gutter business near Limestone, gutter guards installed near Limestone, gutter install near Limestone, guttering contractors near Limestone, gutters and siding near Limestone, gutters contractor near Limestone, gutters contractors near Limestone, gutters install near Limestone, roof and gutter contractors near Limestone, seamless gutter near Limestone, seamless guttering near Limestone, top rated gutter companies near Limestone, youtube gutter installation near Limestone, continuous gutters near Limestone, gutter instalation near Limestone, gutter install companies near Limestone, gutter installation companies near Limestone, gutter installation company near Limestone, gutter installation contractors near Limestone, gutter installer near Limestone, gutter installers near Limestone, gutter replacement companies near Limestone, gutter service near Limestone, guttering installation near Limestone, guttering installers near Limestone, gutters installation near Limestone, gutters installed near Limestone, mini gutter near Limestone, small gutter near Limestone, small gutters near Limestone, where to buy mobile home gutters near Limestone, tools for gutter installation near Limestone, window gutters near Limestone, large rain gutters near Limestone, 2 inch gutter near Limestone, menards downspouts near Limestone, rain gutters at menards near Limestone, downspout extension menards near Limestone, downspout repair near Limestone, gares de casa near Limestone, wide rain gutters near Limestone, 16 ft gutter lowe's near Limestone, mini gutters lowe's near Limestone, gutter parts home depot near Limestone, gutter roof near Limestone, mini gutters near Limestone, plastic rain gutters home depot near Limestone, roofing gutter near Limestone, plastic gutters home depot near Limestone, gutter screws home depot near Limestone, add downspout to rain gutter near Limestone, aluminum rain gutters home depot near Limestone, gutter downspouts at lowes near Limestone, aluminum gutters home depot near Limestone, gutter downspout installation near Limestone, rain gutter company near Limestone, roof gutter repair near Limestone, seamless gutter price calculator near Limestone, affordable gutters near Limestone, local gutter company near Limestone, local rain gutter companies near Limestone, water gutter near Limestone, downspouts at lowes near Limestone, gutters installers near Limestone, roofing and gutters near Limestone, gutter fixing near Limestone, home depot gutters and downspouts near Limestone, homedepot gutters near Limestone, rain gutters repair near Limestone" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Limestone, Washington County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Limestone. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Limestone." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/limestone" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/limestone" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Limestone"
+        county="Washington"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Limestone. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Limestone."
+        keywords={["commercial gutter installation near Limestone","seamless gutter company near Limestone","seamless gutters companies near Limestone","gutter repair contractors near Limestone","seamless gutter contractors near Limestone","seamless gutter installation near Limestone","seamless gutter installer near Limestone","seamless guttering companies near Limestone","seamless gutters contractors near Limestone","seamless gutters installation near Limestone","seamless gutters installers near Limestone","seamless rain gutters near Limestone","custom gutters near Limestone","gutter companies around near Limestone","gutter contractor near Limestone","gutter contractors near Limestone","gutter guards installers near Limestone","gutter price calculator near Limestone","gutters and siding contractors near Limestone","handyman gutter repair near Limestone","rain gutter contractor near Limestone","rain gutter contractors near Limestone","rain gutters contractors near Limestone","roof gutter installers near Limestone","seamless gutter companies near Limestone","seamless gutter contractor near Limestone","seamless gutter installers near Limestone","seamless gutters installed near Limestone","seamless gutters near Limestone","seemless gutters near Limestone","siding and gutters near Limestone","gutter business near Limestone","gutter guards installed near Limestone","gutter install near Limestone","guttering contractors near Limestone","gutters and siding near Limestone","gutters contractor near Limestone","gutters contractors near Limestone","gutters install near Limestone","roof and gutter contractors near Limestone","seamless gutter near Limestone","seamless guttering near Limestone","top rated gutter companies near Limestone","youtube gutter installation near Limestone","continuous gutters near Limestone","gutter instalation near Limestone","gutter install companies near Limestone","gutter installation companies near Limestone","gutter installation company near Limestone","gutter installation contractors near Limestone","gutter installer near Limestone","gutter installers near Limestone","gutter replacement companies near Limestone","gutter service near Limestone","guttering installation near Limestone","guttering installers near Limestone","gutters installation near Limestone","gutters installed near Limestone","mini gutter near Limestone","small gutter near Limestone","small gutters near Limestone","where to buy mobile home gutters near Limestone","tools for gutter installation near Limestone","window gutters near Limestone","large rain gutters near Limestone","2 inch gutter near Limestone","menards downspouts near Limestone","rain gutters at menards near Limestone","downspout extension menards near Limestone","downspout repair near Limestone","gares de casa near Limestone","wide rain gutters near Limestone","16 ft gutter lowe's near Limestone","mini gutters lowe's near Limestone","gutter parts home depot near Limestone","gutter roof near Limestone","mini gutters near Limestone","plastic rain gutters home depot near Limestone","roofing gutter near Limestone","plastic gutters home depot near Limestone","gutter screws home depot near Limestone","add downspout to rain gutter near Limestone","aluminum rain gutters home depot near Limestone","gutter downspouts at lowes near Limestone","aluminum gutters home depot near Limestone","gutter downspout installation near Limestone","rain gutter company near Limestone","roof gutter repair near Limestone","seamless gutter price calculator near Limestone","affordable gutters near Limestone","local gutter company near Limestone","local rain gutter companies near Limestone","water gutter near Limestone","downspouts at lowes near Limestone","gutters installers near Limestone","roofing and gutters near Limestone","gutter fixing near Limestone","home depot gutters and downspouts near Limestone","homedepot gutters near Limestone","rain gutters repair near Limestone"]}
+      />
+    </>
   );
 };
 
 export default Limestone;
+  

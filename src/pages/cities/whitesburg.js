@@ -1,120 +1,44 @@
 
 import React from 'react';
 import CityPage from '@/components/CityPage';
+import Head from 'next/head';
 
 const Whitesburg = () => {
-  const description = "JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Whitesburg. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Whitesburg.";
-  const keywords = [
-    "commercial gutter installation near Whitesburg",
-    "seamless gutter company near Whitesburg",
-    "seamless gutters companies near Whitesburg",
-    "gutter repair contractors near Whitesburg",
-    "seamless gutter contractors near Whitesburg",
-    "seamless gutter installation near Whitesburg",
-    "seamless gutter installer near Whitesburg",
-    "seamless guttering companies near Whitesburg",
-    "seamless gutters contractors near Whitesburg",
-    "seamless gutters installation near Whitesburg",
-    "seamless gutters installers near Whitesburg",
-    "seamless rain gutters near Whitesburg",
-    "custom gutters near Whitesburg",
-    "gutter companies around Whitesburg",
-    "gutter contractor near Whitesburg",
-    "gutter contractors near Whitesburg",
-    "gutter guards installers near Whitesburg",
-    "gutter price calculator Whitesburg",
-    "gutters and siding contractors near Whitesburg",
-    "handyman gutter repair near Whitesburg",
-    "rain gutter contractor near Whitesburg",
-    "rain gutter contractors near Whitesburg",
-    "rain gutters contractors near Whitesburg",
-    "roof gutter installers near Whitesburg",
-    "seamless gutter companies near Whitesburg",
-    "seamless gutter contractor near Whitesburg",
-    "seamless gutter installers near Whitesburg",
-    "seamless gutters installed near Whitesburg",
-    "seamless gutters near Whitesburg",
-    "seemless gutters near Whitesburg",
-    "siding and gutters near Whitesburg",
-    "gutter business near Whitesburg",
-    "gutter guards installed near Whitesburg",
-    "gutter install near Whitesburg",
-    "guttering contractors near Whitesburg",
-    "gutters and siding near Whitesburg",
-    "gutters contractor near Whitesburg",
-    "gutters contractors near Whitesburg",
-    "gutters install near Whitesburg",
-    "roof and gutter contractors near Whitesburg",
-    "seamless gutter near Whitesburg",
-    "seamless guttering near Whitesburg",
-    "top rated gutter companies near Whitesburg",
-    "youtube gutter installation Whitesburg",
-    "continuous gutters near Whitesburg",
-    "gutter instalation near Whitesburg",
-    "gutter install companies near Whitesburg",
-    "gutter installation companies near Whitesburg",
-    "gutter installation company near Whitesburg",
-    "gutter installation contractors near Whitesburg",
-    "gutter installer near Whitesburg",
-    "gutter installers near Whitesburg",
-    "gutter replacement companies near Whitesburg",
-    "gutter service near Whitesburg",
-    "guttering installation near Whitesburg",
-    "guttering installers near Whitesburg",
-    "gutters installation near Whitesburg",
-    "gutters installed near Whitesburg",
-    "mini gutter Whitesburg",
-    "small gutter Whitesburg",
-    "small gutters Whitesburg",
-    "where to buy mobile home gutters Whitesburg",
-    "tools for gutter installation Whitesburg",
-    "window gutters Whitesburg",
-    "large rain gutters Whitesburg",
-    "2 inch gutter Whitesburg",
-    "menards downspouts Whitesburg",
-    "rain gutters at menards Whitesburg",
-    "downspout extension menards Whitesburg",
-    "downspout repair near Whitesburg",
-    "gares de casa Whitesburg",
-    "wide rain gutters Whitesburg",
-    "16 ft gutter lowe's Whitesburg",
-    "mini gutters lowe's Whitesburg",
-    "gutter parts home depot Whitesburg",
-    "gutter roof Whitesburg",
-    "mini gutters Whitesburg",
-    "plastic rain gutters home depot Whitesburg",
-    "roofing gutter Whitesburg",
-    "plastic gutters home depot Whitesburg",
-    "gutter screws home depot Whitesburg",
-    "add downspout to rain gutter Whitesburg",
-    "aluminum rain gutters home depot Whitesburg",
-    "gutter downspouts at lowes Whitesburg",
-    "aluminum gutters home depot Whitesburg",
-    "gutter downspout installation Whitesburg",
-    "rain gutter company near Whitesburg",
-    "roof gutter repair near Whitesburg",
-    "seamless gutter price calculator Whitesburg",
-    "affordable gutters near Whitesburg",
-    "local gutter company Whitesburg",
-    "local rain gutter companies Whitesburg",
-    "water gutter Whitesburg",
-    "downspouts at lowes Whitesburg",
-    "gutters installers near Whitesburg",
-    "roofing and gutters near Whitesburg",
-    "gutter fixing near Whitesburg",
-    "home depot gutters and downspouts Whitesburg",
-    "homedepot gutters Whitesburg",
-    "rain gutters repair near Whitesburg"
-  ];
-
   return (
-    <CityPage
-      city="Whitesburg"
-      county="Hamblen"
-      description={description}
-      keywords={keywords}
-    />
+    <>
+      <Head>
+        <title>Gutter Services in Whitesburg, Hamblen County | JonesCo Seamless Gutter Systems</title>
+        <meta name="description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Whitesburg. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Whitesburg." />
+        <meta name="keywords" content="commercial gutter installation near Whitesburg, seamless gutter company near Whitesburg, seamless gutters companies near Whitesburg, gutter repair contractors near Whitesburg, seamless gutter contractors near Whitesburg, seamless gutter installation near Whitesburg, seamless gutter installer near Whitesburg, seamless guttering companies near Whitesburg, seamless gutters contractors near Whitesburg, seamless gutters installation near Whitesburg, seamless gutters installers near Whitesburg, seamless rain gutters near Whitesburg, custom gutters near Whitesburg, gutter companies around near Whitesburg, gutter contractor near Whitesburg, gutter contractors near Whitesburg, gutter guards installers near Whitesburg, gutter price calculator near Whitesburg, gutters and siding contractors near Whitesburg, handyman gutter repair near Whitesburg, rain gutter contractor near Whitesburg, rain gutter contractors near Whitesburg, rain gutters contractors near Whitesburg, roof gutter installers near Whitesburg, seamless gutter companies near Whitesburg, seamless gutter contractor near Whitesburg, seamless gutter installers near Whitesburg, seamless gutters installed near Whitesburg, seamless gutters near Whitesburg, seemless gutters near Whitesburg, siding and gutters near Whitesburg, gutter business near Whitesburg, gutter guards installed near Whitesburg, gutter install near Whitesburg, guttering contractors near Whitesburg, gutters and siding near Whitesburg, gutters contractor near Whitesburg, gutters contractors near Whitesburg, gutters install near Whitesburg, roof and gutter contractors near Whitesburg, seamless gutter near Whitesburg, seamless guttering near Whitesburg, top rated gutter companies near Whitesburg, youtube gutter installation near Whitesburg, continuous gutters near Whitesburg, gutter instalation near Whitesburg, gutter install companies near Whitesburg, gutter installation companies near Whitesburg, gutter installation company near Whitesburg, gutter installation contractors near Whitesburg, gutter installer near Whitesburg, gutter installers near Whitesburg, gutter replacement companies near Whitesburg, gutter service near Whitesburg, guttering installation near Whitesburg, guttering installers near Whitesburg, gutters installation near Whitesburg, gutters installed near Whitesburg, mini gutter near Whitesburg, small gutter near Whitesburg, small gutters near Whitesburg, where to buy mobile home gutters near Whitesburg, tools for gutter installation near Whitesburg, window gutters near Whitesburg, large rain gutters near Whitesburg, 2 inch gutter near Whitesburg, menards downspouts near Whitesburg, rain gutters at menards near Whitesburg, downspout extension menards near Whitesburg, downspout repair near Whitesburg, gares de casa near Whitesburg, wide rain gutters near Whitesburg, 16 ft gutter lowe's near Whitesburg, mini gutters lowe's near Whitesburg, gutter parts home depot near Whitesburg, gutter roof near Whitesburg, mini gutters near Whitesburg, plastic rain gutters home depot near Whitesburg, roofing gutter near Whitesburg, plastic gutters home depot near Whitesburg, gutter screws home depot near Whitesburg, add downspout to rain gutter near Whitesburg, aluminum rain gutters home depot near Whitesburg, gutter downspouts at lowes near Whitesburg, aluminum gutters home depot near Whitesburg, gutter downspout installation near Whitesburg, rain gutter company near Whitesburg, roof gutter repair near Whitesburg, seamless gutter price calculator near Whitesburg, affordable gutters near Whitesburg, local gutter company near Whitesburg, local rain gutter companies near Whitesburg, water gutter near Whitesburg, downspouts at lowes near Whitesburg, gutters installers near Whitesburg, roofing and gutters near Whitesburg, gutter fixing near Whitesburg, home depot gutters and downspouts near Whitesburg, homedepot gutters near Whitesburg, rain gutters repair near Whitesburg" />
+        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta property="og:title" content="Gutter Services in Whitesburg, Hamblen County | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Whitesburg. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Whitesburg." />
+        <meta property="og:url" content="https://jonescogutters.com/cities/whitesburg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+        <link rel="canonical" href="https://jonescogutters.com/cities/whitesburg" />
+        <meta name="application-name" content="JonesCo Gutters" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#0066CC" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="theme-color" content="#0066CC" />
+      </Head>
+      <CityPage
+        city="Whitesburg"
+        county="Hamblen"
+        description="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Whitesburg. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in Whitesburg."
+        keywords={["commercial gutter installation near Whitesburg","seamless gutter company near Whitesburg","seamless gutters companies near Whitesburg","gutter repair contractors near Whitesburg","seamless gutter contractors near Whitesburg","seamless gutter installation near Whitesburg","seamless gutter installer near Whitesburg","seamless guttering companies near Whitesburg","seamless gutters contractors near Whitesburg","seamless gutters installation near Whitesburg","seamless gutters installers near Whitesburg","seamless rain gutters near Whitesburg","custom gutters near Whitesburg","gutter companies around near Whitesburg","gutter contractor near Whitesburg","gutter contractors near Whitesburg","gutter guards installers near Whitesburg","gutter price calculator near Whitesburg","gutters and siding contractors near Whitesburg","handyman gutter repair near Whitesburg","rain gutter contractor near Whitesburg","rain gutter contractors near Whitesburg","rain gutters contractors near Whitesburg","roof gutter installers near Whitesburg","seamless gutter companies near Whitesburg","seamless gutter contractor near Whitesburg","seamless gutter installers near Whitesburg","seamless gutters installed near Whitesburg","seamless gutters near Whitesburg","seemless gutters near Whitesburg","siding and gutters near Whitesburg","gutter business near Whitesburg","gutter guards installed near Whitesburg","gutter install near Whitesburg","guttering contractors near Whitesburg","gutters and siding near Whitesburg","gutters contractor near Whitesburg","gutters contractors near Whitesburg","gutters install near Whitesburg","roof and gutter contractors near Whitesburg","seamless gutter near Whitesburg","seamless guttering near Whitesburg","top rated gutter companies near Whitesburg","youtube gutter installation near Whitesburg","continuous gutters near Whitesburg","gutter instalation near Whitesburg","gutter install companies near Whitesburg","gutter installation companies near Whitesburg","gutter installation company near Whitesburg","gutter installation contractors near Whitesburg","gutter installer near Whitesburg","gutter installers near Whitesburg","gutter replacement companies near Whitesburg","gutter service near Whitesburg","guttering installation near Whitesburg","guttering installers near Whitesburg","gutters installation near Whitesburg","gutters installed near Whitesburg","mini gutter near Whitesburg","small gutter near Whitesburg","small gutters near Whitesburg","where to buy mobile home gutters near Whitesburg","tools for gutter installation near Whitesburg","window gutters near Whitesburg","large rain gutters near Whitesburg","2 inch gutter near Whitesburg","menards downspouts near Whitesburg","rain gutters at menards near Whitesburg","downspout extension menards near Whitesburg","downspout repair near Whitesburg","gares de casa near Whitesburg","wide rain gutters near Whitesburg","16 ft gutter lowe's near Whitesburg","mini gutters lowe's near Whitesburg","gutter parts home depot near Whitesburg","gutter roof near Whitesburg","mini gutters near Whitesburg","plastic rain gutters home depot near Whitesburg","roofing gutter near Whitesburg","plastic gutters home depot near Whitesburg","gutter screws home depot near Whitesburg","add downspout to rain gutter near Whitesburg","aluminum rain gutters home depot near Whitesburg","gutter downspouts at lowes near Whitesburg","aluminum gutters home depot near Whitesburg","gutter downspout installation near Whitesburg","rain gutter company near Whitesburg","roof gutter repair near Whitesburg","seamless gutter price calculator near Whitesburg","affordable gutters near Whitesburg","local gutter company near Whitesburg","local rain gutter companies near Whitesburg","water gutter near Whitesburg","downspouts at lowes near Whitesburg","gutters installers near Whitesburg","roofing and gutters near Whitesburg","gutter fixing near Whitesburg","home depot gutters and downspouts near Whitesburg","homedepot gutters near Whitesburg","rain gutters repair near Whitesburg"]}
+      />
+    </>
   );
 };
 
 export default Whitesburg;
+  
