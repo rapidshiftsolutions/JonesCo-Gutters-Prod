@@ -39,10 +39,9 @@ export default function ColoredGuttersArticle() {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Benefits of Colored Gutters | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="Discover the numerous benefits of colored gutters. Learn why homeowners love colored gutters for their aesthetic appeal, customization options, and durability." />
-        <meta property="og:url" content="https://jonescogutters.com/articles/benefits-of-colored-gutters" />
+        <meta property="og:url" content="https://jonescogutters.com/colored-gutters" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://jonescogutters.com/Images/colored-gutters.jpg" />
-        <link rel="canonical" href="https://jonescogutters.com/articles/benefits-of-colored-gutters" />
+        <link rel="canonical" href="https://jonescogutters.com/colored-gutters" />
       </Head>
       <Header />
       <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>

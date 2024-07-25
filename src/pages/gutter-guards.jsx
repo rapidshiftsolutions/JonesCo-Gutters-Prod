@@ -39,10 +39,10 @@ export default function GutterGuardArticle() {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Gutter Guard Installation Benefits | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="Discover the benefits of gutter guard installation. Learn why homeowners choose gutter guards for their homes and how they provide superior gutter protection." />
-        <meta property="og:url" content="https://jonescogutters.com/articles/gutter-guard-installation-benefits" />
+        <meta property="og:url" content="https://jonescogutters.com/gutter-guards" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://images.pexels.com/photos/1640613/pexels-photo-1640613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-        <link rel="canonical" href="https://jonescogutters.com/articles/gutter-guard-installation-benefits" />
+        <link rel="canonical" href="https://jonescogutters.com/gutter-guards" />
       </Head>
       <Header />
       <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/1640613/pexels-photo-1640613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>

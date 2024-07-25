@@ -137,12 +137,12 @@ const ${county.replace(/ /g, '')} = () => {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Gutter Services in ${county} County, TN | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="${description}" />
-        <meta property="og:url" content="https://jonescogutters.com/counties/${county.toLowerCase().replace(/ /g, '')}" />
+        <meta property="og:url" content="https://jonescogutters.com/${county.toLowerCase().replace(/ /g, '')}" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-        <link rel="canonical" href="https://jonescogutters.com/counties/${county.toLowerCase().replace(/ /g, '')}" />
+        <link rel="canonical" href="https://jonescogutters.com/${county.toLowerCase().replace(/ /g, '')}" />
         <meta name="application-name" content="JonesCo Gutters" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />

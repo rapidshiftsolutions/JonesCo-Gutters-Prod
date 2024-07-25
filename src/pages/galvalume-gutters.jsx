@@ -39,10 +39,9 @@ export default function GalvalumeGuttersArticle() {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Benefits of Galvalume Gutters | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="Discover the numerous benefits of Galvalume gutters. Learn why homeowners love Galvalume gutters for their superior corrosion resistance, durability, and long-lasting performance." />
-        <meta property="og:url" content="https://jonescogutters.com/articles/benefits-of-galvalume-gutters" />
+        <meta property="og:url" content="https://jonescogutters.com/galvalume-gutters" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://jonescogutters.com/Images/galvalume-gutters.jpg" />
-        <link rel="canonical" href="https://jonescogutters.com/articles/benefits-of-galvalume-gutters" />
+        <link rel="canonical" href="https://jonescogutters.com/galvalume-gutters" />
       </Head>
       <Header />
       <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>

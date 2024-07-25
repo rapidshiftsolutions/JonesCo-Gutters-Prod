@@ -39,10 +39,9 @@ export default function GalvanizedGuttersArticle() {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Benefits of Galvanized Gutters | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="Discover the numerous benefits of galvanized gutters. Learn why homeowners love galvanized gutters for their durability, cost-effectiveness, and long-lasting performance." />
-        <meta property="og:url" content="https://jonescogutters.com/articles/benefits-of-galvanized-gutters" />
+        <meta property="og:url" content="https://jonescogutters.com/galvanized-gutters" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://jonescogutters.com/Images/galvanized-gutters.jpg" />
-        <link rel="canonical" href="https://jonescogutters.com/articles/benefits-of-galvanized-gutters" />
+        <link rel="canonical" href="https://jonescogutters.com/galvanized-gutters" />
       </Head>
       <Header />
       <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>

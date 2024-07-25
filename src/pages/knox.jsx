@@ -13,12 +13,12 @@ const Knox = () => {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Gutter Services in Knox County, TN | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in Knox County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in Knox County. Whether you need new gutters installed or existing ones repaired, we have the expertise and commitment to provide the best solutions for your needs. Serving all cities in Knox County, we are dedicated to maintaining the integrity and functionality of your home with our reliable gutter services." />
-        <meta property="og:url" content="https://jonescogutters.com/counties/knox" />
+        <meta property="og:url" content="https://jonescogutters.com/knox" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-        <link rel="canonical" href="https://jonescogutters.com/counties/knox" />
+        <link rel="canonical" href="https://jonescogutters.com/knox" />
         <meta name="application-name" content="JonesCo Gutters" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />

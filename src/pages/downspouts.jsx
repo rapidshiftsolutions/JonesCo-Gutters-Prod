@@ -39,10 +39,10 @@ export default function DownspoutsArticle() {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Downspout Installation Benefits | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="Discover the benefits of professional downspout installation. Learn why downspouts are essential for your home's gutter system and how they protect your property from water damage." />
-        <meta property="og:url" content="https://jonescogutters.com/articles/downspout-installation-benefits" />
+        <meta property="og:url" content="https://jonescogutters.com/downspouts" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://images.pexels.com/photos/5561369/pexels-photo-5561369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-        <link rel="canonical" href="https://jonescogutters.com/articles/downspout-installation-benefits" />
+        <link rel="canonical" href="https://jonescogutters.com/downspouts" />
       </Head>
       <Header />
       <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/5561369/pexels-photo-5561369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>

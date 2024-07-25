@@ -39,10 +39,10 @@ export default function CustomGutterSolutionsArticle() {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Custom Gutter Solutions Benefits | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="Discover the benefits of custom gutter solutions. Learn why custom gutters are the best choice for your home and how professional installation can enhance your gutter system." />
-        <meta property="og:url" content="https://jonescogutters.com/articles/custom-gutter-solutions-benefits" />
+        <meta property="og:url" content="https://jonescogutters.com/custom-gutters" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-        <link rel="canonical" href="https://jonescogutters.com/articles/custom-gutter-solutions-benefits" />
+        <link rel="canonical" href="https://jonescogutters.com/custom-gutters" />
       </Head>
       <Header />
       

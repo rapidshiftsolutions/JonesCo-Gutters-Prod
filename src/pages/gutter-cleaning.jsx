@@ -39,10 +39,10 @@ export default function GutterCleaningArticle() {
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="Gutter Cleaning Benefits | JonesCo Seamless Gutter Systems" />
         <meta property="og:description" content="Discover the benefits of professional gutter cleaning. Learn why regular gutter maintenance is essential and how it can lead to new gutter installations for improved home protection." />
-        <meta property="og:url" content="https://jonescogutters.com/articles/gutter-cleaning-benefits" />
+        <meta property="og:url" content="https://jonescogutters.com/gutter-cleaning" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://images.pexels.com/photos/5248733/pexels-photo-5248733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-        <link rel="canonical" href="https://jonescogutters.com/articles/gutter-cleaning-benefits" />
+        <link rel="canonical" href="https://jonescogutters.com/gutter-cleaning" />
       </Head>
       <Header />
       <div className="w-full h-48 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/5248733/pexels-photo-5248733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>
