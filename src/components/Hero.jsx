@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import { LoadScript, Autocomplete } from '@react-google-maps/api';
@@ -166,7 +165,7 @@ const Hero = () => {
               </div>
             </div>
           )}
-          <div>
+                    <div>
             <h2 className="mb-4 text-2xl font-black tracking-tight text-center text-JonesCo-Blue-950 sm:text-3xl">
               Request a Free Estimate
             </h2>
@@ -181,6 +180,7 @@ const Hero = () => {
                     type="text"
                     name="name"
                     id="name"
+                    autoComplete="name"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -195,6 +195,7 @@ const Hero = () => {
                     type="email"
                     name="email"
                     id="email"
+                    autoComplete="email"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -209,6 +210,7 @@ const Hero = () => {
                     type="tel"
                     name="phone"
                     id="phone"
+                    autoComplete="tel"
                     value={formData.phone}
                     onChange={handleChange}
                     required
@@ -219,12 +221,17 @@ const Hero = () => {
                   <label htmlFor="address" className="block text-sm font-medium text-gray-700">
                     Address *
                   </label>
-                  <LoadScript googleMapsApiKey="AIzaSyAgGO-4UJ1-wS6aua__cpo1uVcefrlPaGg" libraries={libraries}>
+                  <LoadScript
+                    googleMapsApiKey="AIzaSyAgGO-4UJ1-wS6aua__cpo1uVcefrlPaGg"
+                    libraries={libraries}
+                    loadingElement={<div>Loading...</div>}
+                  >
                     <Autocomplete onLoad={(ref) => (autocompleteRef.current = ref)} onPlaceChanged={onPlaceChanged}>
                       <input
                         type="text"
                         name="address"
                         id="address"
+                        autoComplete="address-line1"
                         value={formData.address}
                         onChange={handleChange}
                         required
