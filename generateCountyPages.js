@@ -158,7 +158,7 @@ const ${county.replace(/ /g, '')} = () => {
         county="${county}"
         cities={${JSON.stringify(cities)}}
         description="${description}"
-        keywords={["${keywords.split(', ').join('","')}"]}
+        keywords={${JSON.stringify(keywords.split(', '))}}
       />
     </>
   );
@@ -178,7 +178,7 @@ if (!fs.existsSync(pagesDir)) {
 // Generate the county pages
 Object.entries(counties).forEach(([county, cities]) => {
   const content = countyTemplate(county, cities);
-  const filePath = path.join(pagesDir, `${county.toLowerCase().replace(/ /g, '')}.js`);
+  const filePath = path.join(pagesDir, `${county.toLowerCase().replace(/ /g, '')}.jsx`);
   fs.writeFileSync(filePath, content, 'utf8');
   console.log(`Generated page for ${county} County`);
 });

@@ -178,7 +178,7 @@ if (!fs.existsSync(pagesDir)) {
 Object.entries(counties).forEach(([county, cities]) => {
   cities.forEach(city => {
     const content = cityTemplate(city, county);
-    const filePath = path.join(pagesDir, `${city.toLowerCase().replace(/ /g, '')}.js`);
+    const filePath = path.join(pagesDir, `${city.toLowerCase().replace(/ /g, '')}.jsx`);
     fs.writeFileSync(filePath, content, 'utf8');
     console.log(`Generated page for ${city} in ${county} County`);
   });
