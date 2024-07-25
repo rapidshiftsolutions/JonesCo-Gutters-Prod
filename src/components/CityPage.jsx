@@ -21,7 +21,7 @@ const CityPage = ({ city, county, description, keywords }) => {
       <Header />
       <div className="px-4 py-8 w-full rounded-lg md:px-8 bg-JonesCo-Blue-50">
         <div className="mx-auto max-w-7xl">
-          <h1 className="mb-4 text-2xl font-extrabold md:text-4xl text-JonesCo-Blue-950">Gutter Services in {city}</h1>
+          <h1 className="mb-4 text-xl font-extrabold md:text-3xl text-JonesCo-Blue-950">Gutter Services in {city}</h1>
           <p className="mb-8 text-base md:text-lg text-JonesCo-Blue-900">
             {description}
           </p>
