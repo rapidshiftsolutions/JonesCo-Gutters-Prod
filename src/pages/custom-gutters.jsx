@@ -45,6 +45,7 @@ export default function CustomGutterSolutionsArticle() {
         <link rel="canonical" href="https://jonescogutters.com/articles/custom-gutter-solutions-benefits" />
       </Head>
       <Header />
+      
       <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>
       <main className="py-8 bg-JonesCo-Blue-50">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
