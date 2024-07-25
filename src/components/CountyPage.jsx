@@ -14,7 +14,6 @@ const CountyPage = ({ county, cities, description, keywords }) => {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords.join(', ')} />
       </Head>
-      <Header />
       <div className="px-4 py-8 w-full rounded-lg md:px-8 bg-JonesCo-Green-50">
         <div className="mx-auto max-w-7xl">
           <h1 className="mb-4 text-3xl font-extrabold md:text-4xl text-JonesCo-Green-950">Services in {county} County</h1>

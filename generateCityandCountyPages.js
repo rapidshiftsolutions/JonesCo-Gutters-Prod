@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define the counties and their cities
-const counties = {
+const data = {
   Blount: ['Alcoa', 'Maryville', 'Friendsville', 'Townsend', 'Louisville'],
   Cocke: ['Newport', 'Parrottsville', 'Cosby', 'Del Rio'],
   Greene: ['Greeneville', 'Mosheim', 'Tusculum', 'Baileyton'],
@@ -117,49 +117,61 @@ const seoKeywords = [
   "rain gutters repair"
 ];
 
-const countyTemplate = (county, cities) => {
+const generateKeywords = (base, location) => seoKeywords.map(keyword => `${keyword} near ${location}`).join(', ');
+
+const generateHeadContent = (title, description, url, imageUrl) => `
+  <Head>
+    <title>${title}</title>
+    <meta name="description" content="${description}" />
+    <meta name="keywords" content="${generateKeywords("seamless gutters", url)}" />
+    <meta name="author" content="JonesCo Seamless Gutter Systems" />
+    <meta property="og:title" content="${title}" />
+    <meta property="og:description" content="${description}" />
+    <meta property="og:url" content="${url}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="${imageUrl}" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="canonical" href="${url}" />
+    <meta name="application-name" content="JonesCo Gutters" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="#0066CC" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="theme-color" content="#0066CC" />
+  </Head>
+`;
+
+const generateCountyPage = (county, cities, imageUrl) => {
   const description = `JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in ${county} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${county} County. Whether you need new gutters installed or existing ones repaired, we have the expertise and commitment to provide the best solutions for your needs. Serving all cities in ${county} County, we are dedicated to maintaining the integrity and functionality of your home with our reliable gutter services.`;
 
-  const keywords = seoKeywords.map(keyword => `${keyword} near ${county} County`).join(', ');
+  const title = `Gutter Services in ${county} County, TN | JonesCo Seamless Gutter Systems`;
+  const url = `https://jonescogutters.com/counties/${county.toLowerCase().replace(/ /g, '')}`;
 
   return `
 import React from 'react';
 import CountyPage from '@/components/CountyPage';
 import Head from 'next/head';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const ${county.replace(/ /g, '')} = () => {
   return (
     <>
-      <Head>
-        <title>Gutter Services in ${county} County, TN | JonesCo Seamless Gutter Systems</title>
-        <meta name="description" content="${description}" />
-        <meta name="keywords" content="${keywords}" />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Gutter Services in ${county} County, TN | JonesCo Seamless Gutter Systems" />
-        <meta property="og:description" content="${description}" />
-        <meta property="og:url" content="https://jonescogutters.com/${county.toLowerCase().replace(/ /g, '')}" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://jonescogutters.com/Images/hero-background.webp" />
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-        <link rel="canonical" href="https://jonescogutters.com/${county.toLowerCase().replace(/ /g, '')}" />
-        <meta name="application-name" content="JonesCo Gutters" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="mobile-web-app-capable" content="yes" />
-        <meta name="msapplication-config" content="/icons/browserconfig.xml" />
-        <meta name="msapplication-TileColor" content="#0066CC" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="theme-color" content="#0066CC" />
-      </Head>
+      ${generateHeadContent(title, description, url, imageUrl)}
+      <Header />
+      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('${imageUrl}')" }}></div>
       <CountyPage
         county="${county}"
         cities={${JSON.stringify(cities)}}
         description="${description}"
-        keywords={${JSON.stringify(keywords.split(', '))}}
+        keywords={["${generateKeywords("seamless gutters", county + " County").split(', ').join('","')}"]}
       />
+      <Footer />
     </>
   );
 };
@@ -167,18 +179,65 @@ const ${county.replace(/ /g, '')} = () => {
 export default ${county.replace(/ /g, '')};
   `;
 };
+const generateCityPage = (city, county, imageUrl) => {
+  const description = `JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in ${city}. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in ${city}.`;
 
-const pagesDir = path.join(__dirname, 'src/pages/');
+  const title = `Gutter Services in ${city}, ${county} County | JonesCo Seamless Gutter Systems`;
+  const url = `https://jonescogutters.com/cities/${city.toLowerCase().replace(/ /g, '')}`;
 
-// Ensure the directory exists
-if (!fs.existsSync(pagesDir)) {
-  fs.mkdirSync(pagesDir, { recursive: true });
+  return `
+import React from 'react';
+import CityPage from '@/components/CityPage';
+import Head from 'next/head';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+const ${city.replace(/ /g, '')} = () => {
+  return (
+    <>
+      ${generateHeadContent(title, description, url, imageUrl)}
+      <Header />
+      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('${imageUrl}')" }}></div>
+      <CityPage
+        city="${city}"
+        county="${county}"
+        description="${description}"
+        keywords={["${generateKeywords("seamless gutters", city).split(', ').join('","')}"]}
+      />
+      <Footer />
+    </>
+  );
+};
+
+export default ${city.replace(/ /g, '')};
+  `;
+};
+
+const pagesDirCities = path.join(__dirname, 'src/pages/cities');
+const pagesDirCounties = path.join(__dirname, 'src/pages');
+
+const imageUrl = 'https://i.imgur.com/Wiis4b4.jpeg';
+
+// Ensure the directories exist
+if (!fs.existsSync(pagesDirCities)) {
+  fs.mkdirSync(pagesDirCities, { recursive: true });
 }
 
-// Generate the county pages
-Object.entries(counties).forEach(([county, cities]) => {
-  const content = countyTemplate(county, cities);
-  const filePath = path.join(pagesDir, `${county.toLowerCase().replace(/ /g, '')}.jsx`);
-  fs.writeFileSync(filePath, content, 'utf8');
+if (!fs.existsSync(pagesDirCounties)) {
+  fs.mkdirSync(pagesDirCounties, { recursive: true });
+}
+
+// Generate the city and county pages
+Object.entries(data).forEach(([county, cities]) => {
+  cities.forEach(city => {
+    const content = generateCityPage(city, county, imageUrl);
+    const filePath = path.join(pagesDirCities, `${city.toLowerCase().replace(/ /g, '')}.jsx`);
+    fs.writeFileSync(filePath, content, 'utf8');
+    console.log(`Generated page for ${city} in ${county} County`);
+  });
+
+  const countyContent = generateCountyPage(county, cities, imageUrl);
+  const countyFilePath = path.join(pagesDirCounties, `${county.toLowerCase().replace(/ /g, '')}.jsx`);
+  fs.writeFileSync(countyFilePath, countyContent, 'utf8');
   console.log(`Generated page for ${county} County`);
 });
