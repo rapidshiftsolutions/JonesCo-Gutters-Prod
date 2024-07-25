@@ -1,79 +1,122 @@
-import Head from 'next/head'
-import Banner from '@/components/banner'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import CTAA from '@/components/CTA-B'
-import Subcontracting from '@/components/subcontracting'
-import ServiceLocations from '@/components/ServiceLocationsCity'
+import React from 'react';
+import Head from 'next/head';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import Hero from '@/components/Hero';
+import Link from 'next/link';
 
+const keywords = [
+  "gutter subcontracting opportunities",
+  "subcontract for JonesCo Gutters",
+  "JonesCo Gutters subcontracting",
+  "seamless gutter subcontracting",
+  "gutter installation subcontracting",
+  "subcontracting benefits",
+  "subcontracting partnerships",
+  "why subcontract for JonesCo",
+  "gutter subcontracting services",
+  "JonesCo Gutters partnerships",
+  "subcontracting for gutter companies",
+  "gutter installation partners",
+  "JonesCo subcontractor benefits",
+  "professional gutter subcontracting",
+  "subcontracting opportunities near me"
+];
 
-export default function Home() {
+export default function SubcontractingPage() {
   return (
     <>
       <Head>
-        <title>JonesCo Gutters - Subcontracting</title>
-        <meta name="theme-color" content="#0066CC" />
+        <title>Subcontracting Opportunities | JonesCo Seamless Gutter Systems</title>
         <meta
           name="description"
-          content="Expert subcontracting services for seamless gutter installations and more in Eastern Tennessee. Partner with JonesCo Seamless Gutter Systems for quality and reliability."
+          content="Explore subcontracting opportunities with JonesCo Seamless Gutter Systems. Learn why subcontracting with us is beneficial for your business and how we can collaborate to provide top-quality gutter services."
         />
-        <meta name="keywords" content="
-          Alcoa subcontracting seamless gutter installation, 
-          Maryville subcontracting seamless gutter installation, 
-          Friendsville subcontracting seamless gutter installation, 
-          Townsend subcontracting seamless gutter installation, 
-          Louisville subcontracting seamless gutter installation, 
-          Newport subcontracting seamless gutter installation, 
-          Parrottsville subcontracting seamless gutter installation, 
-          Cosby subcontracting seamless gutter installation, 
-          Del Rio subcontracting seamless gutter installation, 
-          Greeneville subcontracting seamless gutter installation, 
-          Mosheim subcontracting seamless gutter installation, 
-          Tusculum subcontracting seamless gutter installation, 
-          Baileyton subcontracting seamless gutter installation, 
-          Morristown subcontracting seamless gutter installation, 
-          Russellville subcontracting seamless gutter installation, 
-          Whitesburg subcontracting seamless gutter installation, 
-          Talbott subcontracting seamless gutter installation, 
-          Dandridge subcontracting seamless gutter installation, 
-          Jefferson City subcontracting seamless gutter installation, 
-          White Pine subcontracting seamless gutter installation, 
-          New Market subcontracting seamless gutter installation, 
-          Baneberry subcontracting seamless gutter installation, 
-          Knoxville subcontracting seamless gutter installation, 
-          Farragut subcontracting seamless gutter installation, 
-          Powell subcontracting seamless gutter installation, 
-          Corryton subcontracting seamless gutter installation, 
-          Sevierville subcontracting seamless gutter installation, 
-          Pigeon Forge subcontracting seamless gutter installation, 
-          Gatlinburg subcontracting seamless gutter installation, 
-          Pittman Center subcontracting seamless gutter installation, 
-          Johnson City subcontracting seamless gutter installation, 
-          Jonesborough subcontracting seamless gutter installation, 
-          Limestone subcontracting seamless gutter installation, 
-          Telford subcontracting seamless gutter installation, 
-          Blount County subcontracting seamless gutter installation, 
-          Cocke County subcontracting seamless gutter installation, 
-          Greene County subcontracting seamless gutter installation, 
-          Hamblen County subcontracting seamless gutter installation, 
-          Jefferson County subcontracting seamless gutter installation, 
-          Knox County subcontracting seamless gutter installation, 
-          Sevier County subcontracting seamless gutter installation, 
-          Washington County subcontracting seamless gutter installation
-        " />
+        <meta
+          name="keywords"
+          content={keywords.join(", ")}
+        />
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="JonesCo Gutters - subcontracting" />
-        <meta property="og:description" content="Expert subcontracting services for seamless gutter installations and more in Eastern Tennessee. Partner with JonesCo Seamless Gutter Systems for quality and reliability." />
+        <meta property="og:title" content="Subcontracting Opportunities | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="Explore subcontracting opportunities with JonesCo Seamless Gutter Systems. Learn why subcontracting with us is beneficial for your business and how we can collaborate to provide top-quality gutter services." />
         <meta property="og:url" content="https://jonescogutters.com/subcontracting" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+        <link rel="canonical" href="https://jonescogutters.com/subcontracting" />
       </Head>
-      
       <Header />
-      <main>
-        <Subcontracting />
-        <ServiceLocations />
+      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>
+      <main className="py-8 bg-JonesCo-Blue-50">
+        <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+          <article className="mx-auto max-w-3xl prose lg:prose-xl text-JonesCo-Blue-900">
+            <h1 className="mb-8 text-3xl font-black text-center sm:text-4xl md:text-5xl">
+              Subcontracting with JonesCo
+            </h1>
+            <div className="flex items-center mb-8">
+              <img
+                src="/ProfilePics/nathan_j.jpg"  // Update with actual profile picture path
+                alt="Author"
+                className="mr-4 w-12 h-12 rounded-full"
+              />
+              <div className="text-lg">
+                <p className="font-bold">Written by Nathan Jones</p>
+                <p>Co-Owner of JonesCo Gutters</p>
+              </div>
+            </div>
+            <p className="mb-4">
+              At JonesCo Seamless Gutter Systems, we believe in the power of collaboration and partnership. Subcontracting offers a mutually beneficial opportunity for both parties to leverage their strengths and achieve outstanding results. In this article, we will explore why you would want to subcontract for us and why we may want to subcontract for you.
+            </p>
+            <h2 className="mt-8 text-2xl font-bold">Why Subcontract for JonesCo?</h2>
+            <p className="mb-4">
+              Subcontracting for JonesCo Seamless Gutter Systems provides numerous benefits that can help you grow your business and enhance your reputation in the industry. Here are some key reasons to consider partnering with us:
+            </p>
+            <h3 className="mt-6 text-xl font-bold">Steady Work Flow</h3>
+            <p className="mb-4">
+              As a subcontractor for JonesCo, you will benefit from a steady flow of projects. We have a strong presence in Eastern Tennessee and a growing customer base, ensuring that you will have consistent work opportunities. This stability allows you to focus on delivering high-quality services without worrying about finding new clients.
+            </p>
+            <h3 className="mt-6 text-xl font-bold">Reputation and Trust</h3>
+            <p className="mb-4">
+              JonesCo Seamless Gutter Systems is known for its commitment to quality and customer satisfaction. By subcontracting for us, you align your business with our reputable brand. This association can enhance your credibility and attract more clients who trust our name.
+            </p>
+            <h3 className="mt-6 text-xl font-bold">Access to Expertise</h3>
+            <p className="mb-4">
+              Partnering with JonesCo gives you access to our extensive knowledge and expertise in seamless gutter systems. Our team can provide guidance, training, and support to help you improve your skills and deliver top-notch services. This collaboration ensures that you stay updated with industry best practices and innovations.
+            </p>
+            <h3 className="mt-6 text-xl font-bold">Growth Opportunities</h3>
+            <p className="mb-4">
+              Subcontracting for JonesCo opens up growth opportunities for your business. Our projects often involve large-scale installations and complex custom solutions, allowing you to expand your portfolio and take on challenging assignments. This experience can help you build a strong track record and position your business for future success.
+            </p>
+            <h2 className="mt-8 text-2xl font-bold">Why JonesCo May Want to Subcontract for You</h2>
+            <p className="mb-4">
+              Subcontracting is a two-way street. There are several reasons why JonesCo Seamless Gutter Systems might consider subcontracting for your business:
+            </p>
+            <h3 className="mt-6 text-xl font-bold">Specialized Expertise</h3>
+            <p className="mb-4">
+              Your business may offer specialized expertise or unique services that complement our offerings. By subcontracting for you, we can leverage our combined skills and knowledge to deliver comprehensive solutions to clients. This collaboration allows us to provide a wider range of services and meet diverse customer needs.
+            </p>
+            <h3 className="mt-6 text-xl font-bold">Geographical Expansion</h3>
+            <p className="mb-4">
+              Subcontracting for your business enables us to expand our geographical reach. If your company operates in areas where we have limited presence, partnering with you allows us to serve new markets and tap into additional customer bases. This strategic expansion benefits both parties by increasing our market share and visibility.
+            </p>
+            <h3 className="mt-6 text-xl font-bold">Resource Optimization</h3>
+            <p className="mb-4">
+              Subcontracting can help us optimize our resources and manage workload efficiently. During peak seasons or large projects, partnering with your business allows us to scale our operations without compromising quality. This flexibility ensures that we can meet client demands promptly and maintain high service standards.
+            </p>
+            <h3 className="mt-6 text-xl font-bold">Mutual Growth</h3>
+            <p className="mb-4">
+              At JonesCo, we believe in building long-term relationships based on mutual growth and success. By subcontracting for your business, we can create synergistic partnerships that drive innovation and excellence. Together, we can achieve more significant milestones and elevate the gutter installation industry.
+            </p>
+            <p className="mt-6">
+              In conclusion, subcontracting with JonesCo Seamless Gutter Systems offers a wealth of opportunities for both parties. Whether you subcontract for us or we subcontract for you, collaboration and partnership are key to delivering exceptional gutter services and achieving mutual growth. We invite you to explore subcontracting opportunities with us and join our network of trusted partners.
+            </p>
+            <p className="mt-6 mb-12 font-bold">
+              Contact JonesCo Seamless Gutter Systems today to learn more about subcontracting opportunities. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to discuss how we can work together to deliver top-quality gutter services.
+            </p>
+          </article>
+        </div>
       </main>
+      <Hero />
       <Footer />
     </>
-  )
+  );
 }
