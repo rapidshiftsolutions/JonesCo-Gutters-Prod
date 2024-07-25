@@ -27,7 +27,7 @@ export default function SeamlessGutterInstallationArticle() {
   return (
     <>
       <Head>
-        <title>Seamless Gutter Installation Benefits | JonesCo Seamless Gutter Systems</title>
+        <title>Seamless Gutter Installation Benefits | JonesCo Gutters</title>
         <meta
           name="description"
           content="Learn about the benefits of seamless gutter installation. Discover why seamless gutters are the best choice for your home and how professional installation can enhance your gutter system."
@@ -36,8 +36,8 @@ export default function SeamlessGutterInstallationArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Seamless Gutter Installation Benefits | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Seamless Gutter Installation Benefits | JonesCo Gutters" />
         <meta property="og:description" content="Learn about the benefits of seamless gutter installation. Discover why seamless gutters are the best choice for your home and how professional installation can enhance your gutter system." />
         <meta property="og:url" content="https://jonescogutters.com/seamless-gutter-installation" />
         <meta property="og:type" content="article" />
@@ -94,7 +94,7 @@ export default function SeamlessGutterInstallationArticle() {
               In conclusion, seamless gutter installation offers a range of benefits that make them the preferred choice for homeowners. From their leak-free design and custom fit to their low maintenance and aesthetic appeal, seamless gutters provide superior performance and protection. If you’re considering upgrading your gutter system, seamless gutters are an excellent choice.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our professional seamless gutter installation services. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our professional seamless gutter installation services. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

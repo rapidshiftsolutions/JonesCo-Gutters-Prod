@@ -11,11 +11,11 @@ const Warranty = () => {
         <meta name="theme-color" content="#C5F5CA" />
         <meta
           name="description"
-          content="JonesCo Seamless Gutter Systems provides a comprehensive warranty for gutter installations, downspouts, and gutter guards. Learn about our warranty coverage and claim process."
+          content="JonesCo Gutters provides a comprehensive warranty for gutter installations, downspouts, and gutter guards. Learn about our warranty coverage and claim process."
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
         <meta property="og:title" content="JonesCo Gutters - Warranty" />
-        <meta property="og:description" content="JonesCo Seamless Gutter Systems provides a comprehensive warranty for gutter installations, downspouts, and gutter guards. Learn about our warranty coverage and claim process." />
+        <meta property="og:description" content="JonesCo Gutters provides a comprehensive warranty for gutter installations, downspouts, and gutter guards. Learn about our warranty coverage and claim process." />
         <meta property="og:url" content="https://jonescogutters.com/warranty" />
         <meta property="og:type" content="website" />
       </Head>
@@ -28,7 +28,7 @@ const Warranty = () => {
           <section className="mb-8">
             <h2 className="text-lg font-semibold text-JonesCo-Blue-800 mb-4">Standard Gutter and Downspout Limited Labor Warranty</h2>
             <p className="text-lg text-gray-700">
-              This Labor Warranty certifies that the guttering systems installed by JonesCo Seamless Gutter Systems ("JonesCo") are guaranteed for a period of one (1) year from the date of installation against sagging, pulling loose, leaking, or not functioning properly due to improper installation. All claims may be submitted in writing or via email to JonesCo. This warranty is not transferable.
+              This Labor Warranty certifies that the guttering systems installed by JonesCo Gutters ("JonesCo") are guaranteed for a period of one (1) year from the date of installation against sagging, pulling loose, leaking, or not functioning properly due to improper installation. All claims may be submitted in writing or via email to JonesCo. This warranty is not transferable.
             </p>
           </section>
 

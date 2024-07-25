@@ -5,7 +5,7 @@ const Submitted = () => {
   return (
     <>
       <Head>
-        <title>Submission Received | JonesCo Seamless Gutter Systems</title>
+        <title>Submission Received | JonesCo Gutters</title>
         <meta name="description" content="Thank you for requesting a free estimate. Here are your next steps and ways to contact us." />
         <meta name="keywords" content="gutter services, seamless gutters, contact, next steps" />
       </Head>

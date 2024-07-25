@@ -7,7 +7,7 @@ export default function PrivacyPolicy() {
                 <p className="text-base font-semibold leading-7 text-indigo-600">Privacy Assurance</p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Privacy Policy</h1>
                 <p className="mt-6 text-xl leading-8">
-                    At JonesCo Seamless Gutter Systems, safeguarding your personal information is a responsibility we take
+                    At JonesCo Gutters, safeguarding your personal information is a responsibility we take
                     seriously. This Privacy Policy explains how we collect, use, and store your information when you use our
                     services, with the utmost respect for your privacy.
                 </p>

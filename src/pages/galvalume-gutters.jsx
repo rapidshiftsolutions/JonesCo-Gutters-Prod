@@ -27,7 +27,7 @@ export default function GalvalumeGuttersArticle() {
   return (
     <>
       <Head>
-        <title>Benefits of Galvalume Gutters | JonesCo Seamless Gutter Systems</title>
+        <title>Benefits of Galvalume Gutters | JonesCo Gutters</title>
         <meta
           name="description"
           content="Discover the numerous benefits of Galvalume gutters. Learn why homeowners love Galvalume gutters for their superior corrosion resistance, durability, and long-lasting performance."
@@ -36,8 +36,8 @@ export default function GalvalumeGuttersArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Benefits of Galvalume Gutters | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Benefits of Galvalume Gutters | JonesCo Gutters" />
         <meta property="og:description" content="Discover the numerous benefits of Galvalume gutters. Learn why homeowners love Galvalume gutters for their superior corrosion resistance, durability, and long-lasting performance." />
         <meta property="og:url" content="https://jonescogutters.com/galvalume-gutters" />
         <meta property="og:type" content="article" />
@@ -94,7 +94,7 @@ export default function GalvalumeGuttersArticle() {
               In conclusion, Galvalume gutters offer a range of benefits that make them an excellent choice for homeowners looking to enhance the functionality and appearance of their home. From superior corrosion resistance and enhanced durability to low maintenance and environmental benefits, Galvalume gutters provide a high-value solution for your gutter needs.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our Galvalume gutter installation services and how we can help you upgrade your home's gutter system. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our Galvalume gutter installation services and how we can help you upgrade your home's gutter system. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

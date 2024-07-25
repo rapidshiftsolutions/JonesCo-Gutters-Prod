@@ -27,18 +27,18 @@ export default function SubcontractingPage() {
   return (
     <>
       <Head>
-        <title>Subcontracting Opportunities | JonesCo Seamless Gutter Systems</title>
+        <title>Subcontracting Opportunities | JonesCo Gutters</title>
         <meta
           name="description"
-          content="Explore subcontracting opportunities with JonesCo Seamless Gutter Systems. Learn why subcontracting with us is beneficial for your business and how we can collaborate to provide top-quality gutter services."
+          content="Explore subcontracting opportunities with JonesCo Gutters. Learn why subcontracting with us is beneficial for your business and how we can collaborate to provide top-quality gutter services."
         />
         <meta
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Subcontracting Opportunities | JonesCo Seamless Gutter Systems" />
-        <meta property="og:description" content="Explore subcontracting opportunities with JonesCo Seamless Gutter Systems. Learn why subcontracting with us is beneficial for your business and how we can collaborate to provide top-quality gutter services." />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Subcontracting Opportunities | JonesCo Gutters" />
+        <meta property="og:description" content="Explore subcontracting opportunities with JonesCo Gutters. Learn why subcontracting with us is beneficial for your business and how we can collaborate to provide top-quality gutter services." />
         <meta property="og:url" content="https://jonescogutters.com/subcontracting" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
@@ -64,11 +64,11 @@ export default function SubcontractingPage() {
               </div>
             </div>
             <p className="mb-4">
-              At JonesCo Seamless Gutter Systems, we believe in the power of collaboration and partnership. Subcontracting offers a mutually beneficial opportunity for both parties to leverage their strengths and achieve outstanding results. In this article, we will explore why you would want to subcontract for us and why we may want to subcontract for you.
+              At JonesCo Gutters, we believe in the power of collaboration and partnership. Subcontracting offers a mutually beneficial opportunity for both parties to leverage their strengths and achieve outstanding results. In this article, we will explore why you would want to subcontract for us and why we may want to subcontract for you.
             </p>
             <h2 className="mt-8 text-2xl font-bold">Why Subcontract for JonesCo?</h2>
             <p className="mb-4">
-              Subcontracting for JonesCo Seamless Gutter Systems provides numerous benefits that can help you grow your business and enhance your reputation in the industry. Here are some key reasons to consider partnering with us:
+              Subcontracting for JonesCo Gutters provides numerous benefits that can help you grow your business and enhance your reputation in the industry. Here are some key reasons to consider partnering with us:
             </p>
             <h3 className="mt-6 text-xl font-bold">Steady Work Flow</h3>
             <p className="mb-4">
@@ -76,7 +76,7 @@ export default function SubcontractingPage() {
             </p>
             <h3 className="mt-6 text-xl font-bold">Reputation and Trust</h3>
             <p className="mb-4">
-              JonesCo Seamless Gutter Systems is known for its commitment to quality and customer satisfaction. By subcontracting for us, you align your business with our reputable brand. This association can enhance your credibility and attract more clients who trust our name.
+              JonesCo Gutters is known for its commitment to quality and customer satisfaction. By subcontracting for us, you align your business with our reputable brand. This association can enhance your credibility and attract more clients who trust our name.
             </p>
             <h3 className="mt-6 text-xl font-bold">Access to Expertise</h3>
             <p className="mb-4">
@@ -88,7 +88,7 @@ export default function SubcontractingPage() {
             </p>
             <h2 className="mt-8 text-2xl font-bold">Why JonesCo May Want to Subcontract for You</h2>
             <p className="mb-4">
-              Subcontracting is a two-way street. There are several reasons why JonesCo Seamless Gutter Systems might consider subcontracting for your business:
+              Subcontracting is a two-way street. There are several reasons why JonesCo Gutters might consider subcontracting for your business:
             </p>
             <h3 className="mt-6 text-xl font-bold">Specialized Expertise</h3>
             <p className="mb-4">
@@ -107,10 +107,10 @@ export default function SubcontractingPage() {
               At JonesCo, we believe in building long-term relationships based on mutual growth and success. By subcontracting for your business, we can create synergistic partnerships that drive innovation and excellence. Together, we can achieve more significant milestones and elevate the gutter installation industry.
             </p>
             <p className="mt-6">
-              In conclusion, subcontracting with JonesCo Seamless Gutter Systems offers a wealth of opportunities for both parties. Whether you subcontract for us or we subcontract for you, collaboration and partnership are key to delivering exceptional gutter services and achieving mutual growth. We invite you to explore subcontracting opportunities with us and join our network of trusted partners.
+              In conclusion, subcontracting with JonesCo Gutters offers a wealth of opportunities for both parties. Whether you subcontract for us or we subcontract for you, collaboration and partnership are key to delivering exceptional gutter services and achieving mutual growth. We invite you to explore subcontracting opportunities with us and join our network of trusted partners.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about subcontracting opportunities. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to discuss how we can work together to deliver top-quality gutter services.
+              Contact JonesCo Gutters today to learn more about subcontracting opportunities. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to discuss how we can work together to deliver top-quality gutter services.
             </p>
           </article>
         </div>

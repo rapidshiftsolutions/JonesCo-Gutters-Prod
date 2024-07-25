@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="theme-color" content="#0066CC" />
         <meta
           name="description"
-          content="Discover JonesCo Seamless Gutter Systems' expert gutter installations and services in Eastern Tennessee. Learn about our commitment to quality and customer satisfaction."
+          content="Discover JonesCo Gutters' expert gutter installations and services in Eastern Tennessee. Learn about our commitment to quality and customer satisfaction."
         />
         <meta name="keywords" content="
           seamless gutter company about us,
@@ -58,9 +58,9 @@ export default function Home() {
           gutters installation about us,
           gutters installed about us
         " />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
         <meta property="og:title" content="JonesCo Gutters - About Us" />
-        <meta property="og:description" content="Discover JonesCo Seamless Gutter Systems' expert gutter installations and services in Eastern Tennessee. Learn about our commitment to quality and customer satisfaction." />
+        <meta property="og:description" content="Discover JonesCo Gutters' expert gutter installations and services in Eastern Tennessee. Learn about our commitment to quality and customer satisfaction." />
         <meta property="og:url" content="https://jonescogutters.com/about" />
         <meta property="og:type" content="website" />
       </Head>

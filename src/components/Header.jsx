@@ -74,7 +74,7 @@ export default function NavBar() {
       <nav className="mx-auto max-w-7xl p-6 lg:px-8 flex items-center justify-between" aria-label="Global">
         <div className="flex items-center">
           <a href="/" className="flex items-center mr-12">
-            <img className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Seamless Gutter Systems" />
+            <img className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Gutters" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -254,7 +254,7 @@ export default function NavBar() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full max-w-sm bg-white p-6 overflow-y-auto">
             <div className="flex items-center justify-between">
               <a href="/" className="flex items-center">
-                <img className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Seamless Gutter Systems" />
+                <img className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Gutters" />
               </a>
               <button
                 type="button"

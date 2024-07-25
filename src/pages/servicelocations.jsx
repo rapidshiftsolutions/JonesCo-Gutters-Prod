@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="theme-color" content="#0066CC" />
         <meta
           name="description"
-          content="Expert gutter installation and services across Eastern Tennessee. Find out if JonesCo Seamless Gutter Systems serves your area."
+          content="Expert gutter installation and services across Eastern Tennessee. Find out if JonesCo Gutters serves your area."
         />
         <meta name="keywords" content="
           Alcoa seamless gutter installation, 
@@ -57,9 +57,9 @@ export default function Home() {
           Sevier County seamless gutter installation, 
           Washington County seamless gutter installation
         " />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
         <meta property="og:title" content="JonesCo Gutters - Service Locations" />
-        <meta property="og:description" content="Expert gutter installation and services across Eastern Tennessee. Find out if JonesCo Seamless Gutter Systems serves your area." />
+        <meta property="og:description" content="Expert gutter installation and services across Eastern Tennessee. Find out if JonesCo Gutters serves your area." />
         <meta property="og:url" content="https://jonescogutters.com/servicelocations" />
         <meta property="og:type" content="website" />
       </Head>

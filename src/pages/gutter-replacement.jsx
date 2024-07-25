@@ -27,7 +27,7 @@ export default function GutterReplacementArticle() {
   return (
     <>
       <Head>
-        <title>Gutter Replacement Benefits | JonesCo Seamless Gutter Systems</title>
+        <title>Gutter Replacement Benefits | JonesCo Gutters</title>
         <meta
           name="description"
           content="Learn about the benefits of professional gutter replacement. Discover why upgrading your gutter system is essential for home protection and aesthetic appeal."
@@ -36,8 +36,8 @@ export default function GutterReplacementArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Gutter Replacement Benefits | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Gutter Replacement Benefits | JonesCo Gutters" />
         <meta property="og:description" content="Learn about the benefits of professional gutter replacement. Discover why upgrading your gutter system is essential for home protection and aesthetic appeal." />
         <meta property="og:url" content="https://jonescogutters.com/gutter-replacement" />
         <meta property="og:type" content="article" />
@@ -94,7 +94,7 @@ export default function GutterReplacementArticle() {
               In conclusion, gutter replacement offers numerous benefits that protect your home and enhance its value. From preventing water damage and enhancing curb appeal to improving gutter efficiency and reducing maintenance, a new gutter system is an essential upgrade for any homeowner. If you’re considering replacing your old gutters, professional gutter replacement services can provide the best results.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our professional gutter replacement services. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our professional gutter replacement services. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

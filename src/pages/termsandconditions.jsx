@@ -13,12 +13,12 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Review the terms and conditions for using the services provided by JonesCo Seamless Gutter Systems."
+          content="Review the terms and conditions for using the services provided by JonesCo Gutters."
         />
         <meta name="keywords" content="Terms and Conditions, Seamless Gutter Installation, Gutter Replacement, Gutter Cleaning, Gutter Guards Installation, Custom Gutter Solutions, Downspout Installation, Eastern Tennessee" />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
         <meta property="og:title" content="JonesCo Gutters - Terms And Conditions" />
-        <meta property="og:description" content="Review the terms and conditions for using the services provided by JonesCo Seamless Gutter Systems." />
+        <meta property="og:description" content="Review the terms and conditions for using the services provided by JonesCo Gutters." />
         <meta property="og:url" content="https://jonescogutters.com/termsandconditions" />
         <meta property="og:type" content="website" />
       </Head>

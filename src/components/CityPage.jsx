@@ -26,7 +26,7 @@ const CityPage = ({ city, county, description, keywords }) => {
           </p>
           <h2 className="mb-4 text-xl font-bold text-JonesCo-Blue-950">Why Choose JonesCo?</h2>
           <p className="mb-4 text-base md:text-lg text-JonesCo-Blue-900">
-            Maintaining your home’s gutters is essential to protect it from water damage. {city} experiences unique weather patterns, making it crucial to have reliable and effective gutter systems. JonesCo Seamless Gutter Systems offers top-notch services to ensure your home stays protected year-round. Our team is dedicated to providing high-quality workmanship and outstanding customer service, ensuring your complete satisfaction with every project we undertake.
+            Maintaining your home’s gutters is essential to protect it from water damage. {city} experiences unique weather patterns, making it crucial to have reliable and effective gutter systems. JonesCo Gutters offers top-notch services to ensure your home stays protected year-round. Our team is dedicated to providing high-quality workmanship and outstanding customer service, ensuring your complete satisfaction with every project we undertake.
           </p>
           <p className="mb-4 text-base md:text-lg text-JonesCo-Blue-900">
             We understand the importance of a well-functioning gutter system, which is why we use only the best materials and the latest techniques to deliver superior results. Whether you need a new installation, replacement, cleaning, or custom solution, we have the expertise to handle all your gutter needs in {city}.
@@ -49,7 +49,7 @@ const CityPage = ({ city, county, description, keywords }) => {
           </ul>
           <h3 className="mb-4 text-xl font-bold text-JonesCo-Blue-950">Why Choose Us</h3>
           <p className="mb-4 text-base md:text-lg text-JonesCo-Blue-900">
-            JonesCo Seamless Gutter Systems stands out for our commitment to quality and customer satisfaction. Here’s why homeowners in {city} trust us:
+            JonesCo Gutters stands out for our commitment to quality and customer satisfaction. Here’s why homeowners in {city} trust us:
           </p>
           <ul className="mb-8 list-disc list-inside text-JonesCo-Blue-900" style={{ listStylePosition: 'outside', paddingLeft: '1.5rem' }}>
             <li className="pl-4"><strong>Expert Installation:</strong> Our skilled technicians ensure precise installation for optimal performance and longevity.</li>
@@ -60,7 +60,7 @@ const CityPage = ({ city, county, description, keywords }) => {
           </ul>
           <h3 className="mb-4 text-xl font-bold text-JonesCo-Blue-950">Contact Us Today</h3>
           <p className="mb-4 text-base md:text-lg text-JonesCo-Blue-900">
-            Ready to upgrade your home’s gutter system? Contact JonesCo Seamless Gutter Systems today for a free estimate. Our team in {city} is here to help you protect your home with top-notch gutter solutions. We are committed to providing exceptional service and high-quality products that meet your specific needs.
+            Ready to upgrade your home’s gutter system? Contact JonesCo Gutters today for a free estimate. Our team in {city} is here to help you protect your home with top-notch gutter solutions. We are committed to providing exceptional service and high-quality products that meet your specific needs.
           </p>
           <p className="mb-4 text-base md:text-lg text-JonesCo-Blue-900">
             Don't wait until it's too late. Ensure your home is protected from water damage by investing in a reliable and efficient gutter system. Our experts are ready to assist you with all your gutter needs, from installation to maintenance and repairs. Call us today or fill out our online form to schedule a consultation.

@@ -27,7 +27,7 @@ export default function ColoredGuttersArticle() {
   return (
     <>
       <Head>
-        <title>Benefits of Colored Gutters | JonesCo Seamless Gutter Systems</title>
+        <title>Benefits of Colored Gutters | JonesCo Gutters</title>
         <meta
           name="description"
           content="Discover the numerous benefits of colored gutters. Learn why homeowners love colored gutters for their aesthetic appeal, customization options, and durability."
@@ -36,8 +36,8 @@ export default function ColoredGuttersArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Benefits of Colored Gutters | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Benefits of Colored Gutters | JonesCo Gutters" />
         <meta property="og:description" content="Discover the numerous benefits of colored gutters. Learn why homeowners love colored gutters for their aesthetic appeal, customization options, and durability." />
         <meta property="og:url" content="https://jonescogutters.com/colored-gutters" />
         <meta property="og:type" content="article" />
@@ -94,7 +94,7 @@ export default function ColoredGuttersArticle() {
               In conclusion, colored gutters offer a range of benefits that make them a smart choice for homeowners looking to enhance both the functionality and appearance of their home. From customization options and durability to low maintenance and environmental benefits, colored gutters provide a high-value solution for your gutter needs.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our colored gutter installation services and how we can help you upgrade your home's gutter system. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our colored gutter installation services and how we can help you upgrade your home's gutter system. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

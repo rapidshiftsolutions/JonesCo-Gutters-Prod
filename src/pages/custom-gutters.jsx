@@ -27,7 +27,7 @@ export default function CustomGutterSolutionsArticle() {
   return (
     <>
       <Head>
-        <title>Custom Gutter Solutions Benefits | JonesCo Seamless Gutter Systems</title>
+        <title>Custom Gutter Solutions Benefits | JonesCo Gutters</title>
         <meta
           name="description"
           content="Discover the benefits of custom gutter solutions. Learn why custom gutters are the best choice for your home and how professional installation can enhance your gutter system."
@@ -36,8 +36,8 @@ export default function CustomGutterSolutionsArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Custom Gutter Solutions Benefits | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Custom Gutter Solutions Benefits | JonesCo Gutters" />
         <meta property="og:description" content="Discover the benefits of custom gutter solutions. Learn why custom gutters are the best choice for your home and how professional installation can enhance your gutter system." />
         <meta property="og:url" content="https://jonescogutters.com/custom-gutters" />
         <meta property="og:type" content="article" />
@@ -95,7 +95,7 @@ export default function CustomGutterSolutionsArticle() {
               In conclusion, custom gutter solutions offer a range of benefits that make them the preferred choice for homeowners. From their perfect fit and enhanced aesthetic appeal to their improved functionality and long-lasting durability, custom gutters provide superior performance and protection. If you're considering upgrading your gutter system, custom gutters are an excellent choice.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our professional custom gutter solutions. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our professional custom gutter solutions. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

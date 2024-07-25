@@ -6,8 +6,8 @@ export default function AboutUs() {
   return (
     <>
       <Head>
-        <title>About Us | JonesCo Seamless Gutter Systems</title>
-        <meta name="description" content="Learn about JonesCo Seamless Gutter Systems, our journey, and commitment to quality and customer satisfaction." />
+        <title>About Us | JonesCo Gutters</title>
+        <meta name="description" content="Learn about JonesCo Gutters, our journey, and commitment to quality and customer satisfaction." />
       </Head>
       <div className="py-8 text-white bg-JonesCo-Blue-900 sm:py-16">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">

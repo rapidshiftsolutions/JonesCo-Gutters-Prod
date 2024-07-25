@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="theme-color" content="#0066CC" />
         <meta
           name="description"
-          content="Expert gutter installations and services in Eastern Tennessee. Protect your home with JonesCo Seamless Gutter Systems' top-quality gutter solutions."
+          content="Expert gutter installations and services in Eastern Tennessee. Protect your home with JonesCo Gutters' top-quality gutter solutions."
         />
         <meta name="keywords" content="
           Alcoa seamless gutter installation, 
@@ -159,9 +159,9 @@ export default function Home() {
           homedepot gutters,
           rain gutters repair near me
         " />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
         <meta property="og:title" content="JonesCo Gutters - Services" />
-        <meta property="og:description" content="Expert gutter installations and services in Eastern Tennessee. Protect your home with JonesCo Seamless Gutter Systems' top-quality gutter solutions." />
+        <meta property="og:description" content="Expert gutter installations and services in Eastern Tennessee. Protect your home with JonesCo Gutters' top-quality gutter solutions." />
         <meta property="og:url" content="https://jonescogutters.com/services" />
         <meta property="og:type" content="website" />
       </Head>

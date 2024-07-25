@@ -27,7 +27,7 @@ export default function CopperGuttersArticle() {
   return (
     <>
       <Head>
-        <title>Benefits of Copper Gutters | JonesCo Seamless Gutter Systems</title>
+        <title>Benefits of Copper Gutters | JonesCo Gutters</title>
         <meta
           name="description"
           content="Discover the numerous benefits of copper gutters. Learn why homeowners love copper gutters for their durability, aesthetic appeal, and long-lasting value."
@@ -36,8 +36,8 @@ export default function CopperGuttersArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Benefits of Copper Gutters | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Benefits of Copper Gutters | JonesCo Gutters" />
         <meta property="og:description" content="Discover the numerous benefits of copper gutters. Learn why homeowners love copper gutters for their durability, aesthetic appeal, and long-lasting value." />
         <meta property="og:url" content="https://jonescogutters.com/copper-gutters" />
         <meta property="og:type" content="article" />
@@ -90,7 +90,7 @@ export default function CopperGuttersArticle() {
               In conclusion, copper gutters offer a range of benefits that make them a preferred choice for many homeowners. From their durability and low maintenance to their aesthetic appeal and environmental benefits, copper gutters provide a high-value solution for your home's gutter needs. If you're considering upgrading your gutter system, copper gutters are a smart investment that will enhance both the functionality and appearance of your home.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our copper gutter installation services and how we can help you upgrade your home's gutter system. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our copper gutter installation services and how we can help you upgrade your home's gutter system. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

@@ -27,7 +27,7 @@ export default function DownspoutsArticle() {
   return (
     <>
       <Head>
-        <title>Downspout Installation Benefits | JonesCo Seamless Gutter Systems</title>
+        <title>Downspout Installation Benefits | JonesCo Gutters</title>
         <meta
           name="description"
           content="Discover the benefits of professional downspout installation. Learn why downspouts are essential for your home's gutter system and how they protect your property from water damage."
@@ -36,8 +36,8 @@ export default function DownspoutsArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Downspout Installation Benefits | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Downspout Installation Benefits | JonesCo Gutters" />
         <meta property="og:description" content="Discover the benefits of professional downspout installation. Learn why downspouts are essential for your home's gutter system and how they protect your property from water damage." />
         <meta property="og:url" content="https://jonescogutters.com/downspouts" />
         <meta property="og:type" content="article" />
@@ -94,7 +94,7 @@ export default function DownspoutsArticle() {
               In conclusion, professional downspout installation offers numerous benefits that protect your home and enhance its value. From preventing water damage and protecting your foundation to reducing erosion and improving gutter efficiency, downspouts are an essential component of your home's gutter system. If you're considering upgrading your gutter system, professional downspout installation is a smart choice.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our professional downspout installation services. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our professional downspout installation services. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

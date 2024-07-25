@@ -27,7 +27,7 @@ export default function GutterGuardArticle() {
   return (
     <>
       <Head>
-        <title>Gutter Guard Installation Benefits | JonesCo Seamless Gutter Systems</title>
+        <title>Gutter Guard Installation Benefits | JonesCo Gutters</title>
         <meta
           name="description"
           content="Discover the benefits of gutter guard installation. Learn why homeowners choose gutter guards for their homes and how they provide superior gutter protection."
@@ -36,8 +36,8 @@ export default function GutterGuardArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Gutter Guard Installation Benefits | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Gutter Guard Installation Benefits | JonesCo Gutters" />
         <meta property="og:description" content="Discover the benefits of gutter guard installation. Learn why homeowners choose gutter guards for their homes and how they provide superior gutter protection." />
         <meta property="og:url" content="https://jonescogutters.com/gutter-guards" />
         <meta property="og:type" content="article" />
@@ -98,7 +98,7 @@ export default function GutterGuardArticle() {
               In conclusion, gutter guard installation offers numerous benefits that protect your home and enhance its value. From preventing clogs and reducing maintenance to improving water flow and enhancing curb appeal, gutter guards are a worthwhile investment. If you're considering upgrading your gutter system, gutter guards are an excellent addition for superior protection.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our professional gutter guard installation services. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our professional gutter guard installation services. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

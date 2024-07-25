@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Contact JonesCo Seamless Gutter Systems for top-quality gutter installations and services in Eastern Tennessee. Reach out to us for a free consultation and discover why we are the trusted choice for your gutter needs."
+          content="Contact JonesCo Gutters for top-quality gutter installations and services in Eastern Tennessee. Reach out to us for a free consultation and discover why we are the trusted choice for your gutter needs."
         />
         <meta name="keywords" content="
           contact commercial gutter installation near me,
@@ -117,9 +117,9 @@ export default function Home() {
           contact homedepot gutters,
           contact rain gutters repair near me
         " />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
         <meta property="og:title" content="JonesCo Gutters - Contact Us" />
-        <meta property="og:description" content="Contact JonesCo Seamless Gutter Systems for top-quality gutter installations and services in Eastern Tennessee. Reach out to us for a free consultation and discover why we are the trusted choice for your gutter needs." />
+        <meta property="og:description" content="Contact JonesCo Gutters for top-quality gutter installations and services in Eastern Tennessee. Reach out to us for a free consultation and discover why we are the trusted choice for your gutter needs." />
         <meta property="og:url" content="https://jonescogutters.com/contact" />
         <meta property="og:type" content="website" />
       </Head>

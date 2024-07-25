@@ -9,7 +9,7 @@ const TermsAndConditions = () => {
         <section>
           <h2 className="text-xl font-semibold">1. Introduction</h2>
           <p className="text-gray-600">
-            Welcome to JonesCo Seamless Gutter Systems. By using our website, booking estimates, or scheduling jobs, you agree to abide by the terms and conditions outlined below.
+            Welcome to JonesCo Gutters. By using our website, booking estimates, or scheduling jobs, you agree to abide by the terms and conditions outlined below.
           </p>
         </section>
 
@@ -37,7 +37,7 @@ const TermsAndConditions = () => {
         <section>
           <h2 className="text-xl font-semibold">4. Website Usage</h2>
           <ul className="list-disc pl-5 text-gray-600 space-y-2">
-            <li><strong>Content Ownership:</strong> All content on the JonesCo Seamless Gutter Systems website, including text, images, and logos, is our property and protected by copyright laws.</li>
+            <li><strong>Content Ownership:</strong> All content on the JonesCo Gutters website, including text, images, and logos, is our property and protected by copyright laws.</li>
             <li><strong>Third-Party Links:</strong> Our website may contain links to third-party websites. We are not responsible for their content or privacy practices.</li>
             <li><strong>User Conduct:</strong> You agree not to use our website for any unlawful purpose or to disrupt its normal operations. Unauthorized use of the website may give rise to a claim for damages and/or be a criminal offense.</li>
           </ul>
@@ -48,7 +48,7 @@ const TermsAndConditions = () => {
           <ul className="list-disc pl-5 text-gray-600 space-y-2">
             <li><strong>AI Bot Usage:</strong> Our website uses an AI bot to assist with customer inquiries and provide information about our services.</li>
             <li><strong>Information Accuracy:</strong> While the AI bot strives to provide accurate and helpful information, all recommendations and details provided by the AI bot are for guidance purposes only and do not constitute a binding agreement.</li>
-            <li><strong>Verification with Staff:</strong> Any information or services suggested by the AI bot must be confirmed by an actual employee of JonesCo Seamless Gutter Systems to be considered valid.</li>
+            <li><strong>Verification with Staff:</strong> Any information or services suggested by the AI bot must be confirmed by an actual employee of JonesCo Gutters to be considered valid.</li>
           </ul>
         </section>
 
@@ -57,7 +57,7 @@ const TermsAndConditions = () => {
           <ul className="list-disc pl-5 text-gray-600 space-y-2">
             <li><strong>Service Quality:</strong> We strive to provide the best service possible. However, we cannot guarantee perfection in every aspect of the job. Any issues must be reported within 7 days of service completion.</li>
             <li><strong>Website Accuracy:</strong> We endeavor to keep the information on our website accurate but do not guarantee its completeness or reliability.</li>
-            <li><strong>Indemnification:</strong> You agree to indemnify and hold harmless JonesCo Seamless Gutter Systems from any claims arising from your use of our website or services. This includes any direct, indirect, incidental, or consequential damages.</li>
+            <li><strong>Indemnification:</strong> You agree to indemnify and hold harmless JonesCo Gutters from any claims arising from your use of our website or services. This includes any direct, indirect, incidental, or consequential damages.</li>
           </ul>
         </section>
 
@@ -74,7 +74,7 @@ const TermsAndConditions = () => {
             If you have any questions or concerns regarding these terms and conditions, please contact us at:
           </p>
           <p className="text-gray-600">
-            JonesCo Seamless Gutter Systems <br />
+            JonesCo Gutters <br />
             Parrottsville, TN <br />
             423.900.7901 <br />
             admin@jonescogutters.com

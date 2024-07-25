@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Seamless Gutter Systems is the trusted choice in Eastern Tennessee."
+          content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Gutters is the trusted choice in Eastern Tennessee."
         />
         <meta name="keywords" content="
           commercial gutter installation near me,
@@ -122,9 +122,9 @@ export default function Home() {
           homedepot gutters,
           rain gutters repair near me
         " />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
         <meta property="og:title" content="JonesCo Gutters - Home" />
-        <meta property="og:description" content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Seamless Gutter Systems is the trusted choice in Eastern Tennessee." />
+        <meta property="og:description" content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Gutters is the trusted choice in Eastern Tennessee." />
         <meta property="og:url" content="https://jonescogutters.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://jonescogutters.com/static/images/hero-background.jpg" />
@@ -135,7 +135,7 @@ export default function Home() {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="JonesCo Gutters" />
-        <meta name="description" content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Seamless Gutter Systems is the trusted choice in Eastern Tennessee." />
+        <meta name="description" content="Expert gutter installations and services for lasting home protection. Discover why JonesCo Gutters is the trusted choice in Eastern Tennessee." />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />

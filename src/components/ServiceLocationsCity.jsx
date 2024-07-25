@@ -71,7 +71,7 @@ export default function ServiceAreas() {
             Gutter Solutions for Your Home
           </p>
           <p className="mt-6 text-base leading-7 text-gray-700">
-            At JonesCo Seamless Gutter Systems, we proudly offer our services across multiple counties in Eastern Tennessee. Our comprehensive gutter solutions ensure your home is protected. Explore our service areas below and learn how we can help you.
+            At JonesCo Gutters, we proudly offer our services across multiple counties in Eastern Tennessee. Our comprehensive gutter solutions ensure your home is protected. Explore our service areas below and learn how we can help you.
           </p>
         </div>
 

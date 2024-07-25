@@ -10,7 +10,7 @@ const CountyPage = ({ county, cities, description, keywords }) => {
   return (
     <div>
       <Head>
-        <title>Services in {county} County, TN | JonesCo Seamless Gutter Systems</title>
+        <title>Services in {county} County, TN | JonesCo Gutters</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords.join(', ')} />
       </Head>
@@ -22,7 +22,7 @@ const CountyPage = ({ county, cities, description, keywords }) => {
           </p>
           <h2 className="mb-4 text-xl font-bold text-JonesCo-Green-950">Why Choose JonesCo?</h2>
           <p className="mb-4 text-base md:text-lg text-JonesCo-Green-900">
-            Maintaining your home’s gutters is essential to protect it from water damage. {county} experiences unique weather patterns, making it crucial to have reliable and effective gutter systems. JonesCo Seamless Gutter Systems offers top-notch services to ensure your home stays protected year-round. Our team is dedicated to providing high-quality workmanship and outstanding customer service, ensuring your complete satisfaction with every project we undertake. We understand that your home is one of your most significant investments, and we treat it with the respect it deserves.
+            Maintaining your home’s gutters is essential to protect it from water damage. {county} experiences unique weather patterns, making it crucial to have reliable and effective gutter systems. JonesCo Gutters offers top-notch services to ensure your home stays protected year-round. Our team is dedicated to providing high-quality workmanship and outstanding customer service, ensuring your complete satisfaction with every project we undertake. We understand that your home is one of your most significant investments, and we treat it with the respect it deserves.
           </p>
           <p className="mb-4 text-base md:text-lg text-JonesCo-Green-900">
             Our seamless gutter systems are designed to withstand the harshest weather conditions, providing you with peace of mind and long-lasting protection. We use only the best materials and the latest techniques to ensure that your gutters are durable, efficient, and aesthetically pleasing. Whether you need a new gutter installation, replacement, cleaning, or custom solution, we have the expertise to handle all your gutter needs in {county} County.
@@ -39,7 +39,7 @@ const CountyPage = ({ county, cities, description, keywords }) => {
           </ul>
           <h3 className="mb-4 text-xl font-bold text-JonesCo-Green-950">Our Comprehensive Services</h3>
           <p className="mb-4 text-base md:text-lg text-JonesCo-Green-900">
-            At JonesCo Seamless Gutter Systems, we offer a wide range of services to meet all your gutter needs. Our services include:
+            At JonesCo Gutters, we offer a wide range of services to meet all your gutter needs. Our services include:
           </p>
           <ul className="mb-8 list-disc list-inside text-JonesCo-Green-900" style={{ paddingLeft: '1.5rem' }}>
             <li><Link href="/seamless-gutter-installation" legacyBehavior><a className="text-JonesCo-Green-900 hover:underline">Seamless Gutter Installation</a></Link>: Our seamless gutters are custom-fit to your home, providing a sleek, modern look while minimizing leaks and maintenance.</li>

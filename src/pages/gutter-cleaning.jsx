@@ -27,7 +27,7 @@ export default function GutterCleaningArticle() {
   return (
     <>
       <Head>
-        <title>Gutter Cleaning Benefits | JonesCo Seamless Gutter Systems</title>
+        <title>Gutter Cleaning Benefits | JonesCo Gutters</title>
         <meta
           name="description"
           content="Discover the benefits of professional gutter cleaning. Learn why regular gutter maintenance is essential and how it can lead to new gutter installations for improved home protection."
@@ -36,8 +36,8 @@ export default function GutterCleaningArticle() {
           name="keywords"
           content={keywords.join(", ")}
         />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="Gutter Cleaning Benefits | JonesCo Seamless Gutter Systems" />
+        <meta name="author" content="JonesCo Gutters" />
+        <meta property="og:title" content="Gutter Cleaning Benefits | JonesCo Gutters" />
         <meta property="og:description" content="Discover the benefits of professional gutter cleaning. Learn why regular gutter maintenance is essential and how it can lead to new gutter installations for improved home protection." />
         <meta property="og:url" content="https://jonescogutters.com/gutter-cleaning" />
         <meta property="og:type" content="article" />
@@ -94,7 +94,7 @@ export default function GutterCleaningArticle() {
               In conclusion, professional gutter cleaning offers numerous benefits that protect your home and enhance its value. From preventing water damage and extending gutter lifespan to protecting your foundation and enhancing curb appeal, regular gutter maintenance is essential. Additionally, clean gutters can prepare your home for new gutter installations, ensuring optimal performance and protection.
             </p>
             <p className="mt-6 mb-12 font-bold">
-              Contact JonesCo Seamless Gutter Systems today to learn more about our professional gutter cleaning services and how we can help you prepare for a new gutter installation. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+              Contact JonesCo Gutters today to learn more about our professional gutter cleaning services and how we can help you prepare for a new gutter installation. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
             </p>
           </article>
         </div>

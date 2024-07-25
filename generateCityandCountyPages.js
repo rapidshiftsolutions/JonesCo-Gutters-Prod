@@ -124,7 +124,7 @@ const generateHeadContent = (title, description, url, imageUrl) => `
     <title>${title}</title>
     <meta name="description" content="${description}" />
     <meta name="keywords" content="${generateKeywords("seamless gutters", url)}" />
-    <meta name="author" content="JonesCo Seamless Gutter Systems" />
+    <meta name="author" content="JonesCo Gutters" />
     <meta property="og:title" content="${title}" />
     <meta property="og:description" content="${description}" />
     <meta property="og:url" content="${url}" />
@@ -147,9 +147,9 @@ const generateHeadContent = (title, description, url, imageUrl) => `
 `;
 
 const generateCountyPage = (county, cities, imageUrl) => {
-  const description = `JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in ${county} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${county} County. Whether you need new gutters installed or existing ones repaired, we have the expertise and commitment to provide the best solutions for your needs. Serving all cities in ${county} County, we are dedicated to maintaining the integrity and functionality of your home with our reliable gutter services.`;
+  const description = `JonesCo Gutters provides exceptional seamless gutter services in ${county} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${county} County. Whether you need new gutters installed or existing ones repaired, we have the expertise and commitment to provide the best solutions for your needs. Serving all cities in ${county} County, we are dedicated to maintaining the integrity and functionality of your home with our reliable gutter services.`;
 
-  const title = `Gutter Services in ${county} County, TN | JonesCo Seamless Gutter Systems`;
+  const title = `Gutter Services in ${county} County, TN | JonesCo Gutters`;
   const url = `https://jonescogutters.com/counties/${county.toLowerCase().replace(/ /g, '')}`;
 
   return `
@@ -180,9 +180,9 @@ export default ${county.replace(/ /g, '')};
   `;
 };
 const generateCityPage = (city, county, imageUrl) => {
-  const description = `JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in ${city}. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in ${city}.`;
+  const description = `JonesCo Gutters provides exceptional seamless gutter services in ${city}. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in ${city}.`;
 
-  const title = `Gutter Services in ${city}, ${county} County | JonesCo Seamless Gutter Systems`;
+  const title = `Gutter Services in ${city}, ${county} County | JonesCo Gutters`;
   const url = `https://jonescogutters.com/cities/${city.toLowerCase().replace(/ /g, '')}`;
 
   return `

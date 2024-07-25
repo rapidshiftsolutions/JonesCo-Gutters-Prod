@@ -7,13 +7,13 @@ const CookiePolicy = () => {
   return (
     <>
       <Head>
-        <title>Cookie Policy || JonesCo Seamless Gutter Systems</title>
-        <meta name="description" content="Read the cookie policy of JonesCo Seamless Gutter Systems to understand how we use cookies to enhance your browsing experience." />
+        <title>Cookie Policy || JonesCo Gutters</title>
+        <meta name="description" content="Read the cookie policy of JonesCo Gutters to understand how we use cookies to enhance your browsing experience." />
       </Head>
       <Header />
       <main className="container mx-auto p-6">
         <h1 className="text-3xl font-bold mb-4">Cookie Policy</h1>
-        <p className="mb-4">JonesCo Seamless Gutter Systems ("we", "us", "our") uses cookies on our website to enhance your browsing experience, provide personalized ads, and analyze site traffic. This cookie policy explains what cookies are, how we use them, and your choices regarding their usage.</p>
+        <p className="mb-4">JonesCo Gutters ("we", "us", "our") uses cookies on our website to enhance your browsing experience, provide personalized ads, and analyze site traffic. This cookie policy explains what cookies are, how we use them, and your choices regarding their usage.</p>
         
         <h2 className="text-2xl font-semibold mb-3">What are cookies?</h2>
         <p className="mb-4">Cookies are small text files stored on your device (computer, tablet, or mobile) when you visit a website. They help the website recognize your device and remember your preferences or actions over time.</p>

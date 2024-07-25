@@ -13,12 +13,12 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta
           name="description"
-          content="Review the privacy policy of JonesCo Seamless Gutter Systems to understand how we protect your personal information."
+          content="Review the privacy policy of JonesCo Gutters to understand how we protect your personal information."
         />
-        <meta name="keywords" content="Privacy Policy, Personal Information Protection, Data Security, JonesCo Seamless Gutter Systems" />
-        <meta name="author" content="JonesCo Seamless Gutter Systems" />
+        <meta name="keywords" content="Privacy Policy, Personal Information Protection, Data Security, JonesCo Gutters" />
+        <meta name="author" content="JonesCo Gutters" />
         <meta property="og:title" content="JonesCo Gutters - Privacy Policy" />
-        <meta property="og:description" content="Review the privacy policy of JonesCo Seamless Gutter Systems to understand how we protect your personal information." />
+        <meta property="og:description" content="Review the privacy policy of JonesCo Gutters to understand how we protect your personal information." />
         <meta property="og:url" content="https://jonescogutters.com/privacy" />
         <meta property="og:type" content="website" />
       </Head>
