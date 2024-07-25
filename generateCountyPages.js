@@ -118,7 +118,8 @@ const seoKeywords = [
 ];
 
 const countyTemplate = (county, cities) => {
-  const description = `JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in ${county} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${county} County.`;
+  const description = `JonesCo Seamless Gutter Systems provides exceptional seamless gutter services in ${county} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${county} County. Whether you need new gutters installed or existing ones repaired, we have the expertise and commitment to provide the best solutions for your needs. Serving all cities in ${county} County, we are dedicated to maintaining the integrity and functionality of your home with our reliable gutter services.`;
+
   const keywords = seoKeywords.map(keyword => `${keyword} near ${county} County`).join(', ');
 
   return `
