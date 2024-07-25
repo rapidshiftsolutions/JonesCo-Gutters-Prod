@@ -82,7 +82,6 @@ module.exports = {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
         display: ['Lexend', ...defaultTheme.fontFamily.sans],
-        jc: ['League Gothic', ...defaultTheme.fontFamily.sans]
       },
       maxWidth: {
         '2xl': '40rem',
