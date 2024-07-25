@@ -1,134 +1,100 @@
+import React from 'react';
 import Head from 'next/head';
-import Banner from '@/components/banner';
-import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import Estimate from '@/components/Hero';
-import OurServices from '@/components/copper-gutters';
+import Footer from '@/components/Footer';
+import Hero from '@/components/Hero';
+import Link from 'next/link';
 
-export default function CopperGutters() {
+const keywords = [
+  "benefits of copper gutters",
+  "copper gutters advantages",
+  "why choose copper gutters",
+  "copper gutter installation",
+  "copper gutter maintenance",
+  "homeowners love copper gutters",
+  "copper rain gutters",
+  "durable copper gutters",
+  "aesthetic copper gutters",
+  "long-lasting copper gutters",
+  "copper gutter appeal",
+  "copper gutter value",
+  "copper gutter investment",
+  "copper gutter benefits",
+  "copper gutter systems"
+];
+
+export default function CopperGuttersArticle() {
   return (
     <>
       <Head>
-        <title>JonesCo Gutters - Copper Gutters</title>
-        <meta name="theme-color" content="#0066CC" />
+        <title>Benefits of Copper Gutters | JonesCo Seamless Gutter Systems</title>
         <meta
           name="description"
-          content="High-quality copper gutter installations and services in Eastern Tennessee. Protect your home with JonesCo Seamless Gutter Systems' durable and stylish copper gutter solutions."
+          content="Discover the numerous benefits of copper gutters. Learn why homeowners love copper gutters for their durability, aesthetic appeal, and long-lasting value."
         />
-        <meta name="keywords" content="
-          copper commercial gutter installation near me,
-          copper seamless gutter company near me,
-          copper seamless gutters companies near me,
-          copper gutter repair contractors near me,
-          copper seamless gutter contractors near me,
-          copper seamless gutter installation near me,
-          copper seamless gutter installer near me,
-          copper seamless guttering companies near me,
-          copper seamless gutters contractors near me,
-          copper seamless gutters installation near me,
-          copper seamless gutters installers near me,
-          copper seamless rain gutters near me,
-          copper custom gutters near me,
-          copper gutter companies around me,
-          copper gutter contractor near me,
-          copper gutter contractors near me,
-          copper gutter guards installers near me,
-          copper gutter price calculator,
-          copper gutters and siding contractors near me,
-          copper handyman gutter repair near me,
-          copper rain gutter contractor near me,
-          copper rain gutter contractors near me,
-          copper rain gutters contractors near me,
-          copper roof gutter installers near me,
-          copper seamless gutter companies near me,
-          copper seamless gutter contractor near me,
-          copper seamless gutter installers near me,
-          copper seamless gutters installed near me,
-          copper seamless gutters near me,
-          copper seemless gutters near me,
-          copper siding and gutters near me,
-          copper gutter business near me,
-          copper gutter guards installed near me,
-          copper gutter install near me,
-          copper guttering contractors near me,
-          copper gutters and siding near me,
-          copper gutters contractor near me,
-          copper gutters contractors near me,
-          copper gutters install near me,
-          copper roof and gutter contractors near me,
-          copper seamless gutter near me,
-          copper seamless guttering near me,
-          copper top rated gutter companies near me,
-          copper youtube gutter installation,
-          copper continuous gutters near me,
-          copper gutter instalation near me,
-          copper gutter install companies near me,
-          copper gutter installation companies near me,
-          copper gutter installation company near me,
-          copper gutter installation contractors near me,
-          copper gutter installer near me,
-          copper gutter installers near me,
-          copper gutter replacement companies near me,
-          copper gutter service near me,
-          copper guttering installation near me,
-          copper guttering installers near me,
-          copper gutters installation near me,
-          copper gutters installed near me,
-          copper mini gutter,
-          copper small gutter,
-          copper small gutters,
-          copper where to buy mobile home gutters,
-          copper tools for gutter installation,
-          copper window gutters,
-          copper large rain gutters,
-          copper 2 inch gutter,
-          copper menards downspouts,
-          copper rain gutters at menards,
-          copper downspout extension menards,
-          copper downspout repair near me,
-          copper gares de casa,
-          copper wide rain gutters,
-          copper 16 ft gutter lowe's,
-          copper mini gutters lowe's,
-          copper gutter parts home depot,
-          copper gutter roof,
-          copper mini gutters,
-          copper plastic rain gutters home depot,
-          copper roofing gutter,
-          copper plastic gutters home depot,
-          copper gutter screws home depot,
-          copper add downspout to rain gutter,
-          copper aluminum rain gutters home depot,
-          copper gutter downspouts at lowes,
-          copper aluminum gutters home depot,
-          copper gutter downspout installation,
-          copper rain gutter company near me,
-          copper roof gutter repair near me,
-          copper seamless gutter price calculator,
-          copper affordable gutters near me,
-          copper local gutter company,
-          copper local rain gutter companies,
-          copper water gutter,
-          copper downspouts at lowes,
-          copper gutters installers near me,
-          copper roofing and gutters near me,
-          copper gutter fixing near me,
-          copper home depot gutters and downspouts,
-          copper homedepot gutters,
-          copper rain gutters repair near me
-        " />
+        <meta
+          name="keywords"
+          content={keywords.join(", ")}
+        />
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
-        <meta property="og:title" content="JonesCo Gutters - Copper Gutters" />
-        <meta property="og:description" content="High-quality copper gutter installations and services in Eastern Tennessee. Protect your home with JonesCo Seamless Gutter Systems' durable and stylish copper gutter solutions." />
-        <meta property="og:url" content="https://jonescogutters.com/copper-gutters" />
-        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Benefits of Copper Gutters | JonesCo Seamless Gutter Systems" />
+        <meta property="og:description" content="Discover the numerous benefits of copper gutters. Learn why homeowners love copper gutters for their durability, aesthetic appeal, and long-lasting value." />
+        <meta property="og:url" content="https://jonescogutters.com/articles/benefits-of-copper-gutters" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://jonescogutters.com/Images/copper-gutters.jpg" />
+        <link rel="canonical" href="https://jonescogutters.com/articles/benefits-of-copper-gutters" />
       </Head>
-      
       <Header />
-      <main>
-        <OurServices />
-        <Estimate />
+      <main className="py-8 bg-JonesCo-Blue-50">
+        <div className="container px-4 mx-auto sm:px-6 lg:px-8">
+          <article className="mx-auto max-w-3xl prose lg:prose-xl text-JonesCo-Blue-900">
+            <h1 className="mb-8 text-3xl font-black text-center sm:text-4xl md:text-5xl">
+              Copper Gutters Benefits
+            </h1>
+            <div className="flex items-center mb-8">
+              <img
+                src="/ProfilePics/nathan_j.jpg"  // Update with actual profile picture path
+                alt="Author"
+                className="mr-4 w-12 h-12 rounded-full"
+              />
+              <div className="text-lg">
+                <p className="font-bold">Written by Nathan Jones</p>
+                <p>Co-Owner of JonesCo Seamless Gutter Systems</p>
+              </div>
+            </div>
+            <p className="mb-4">
+              When it comes to gutter systems, copper gutters are a top choice for many homeowners. Not only do they offer numerous functional benefits, but they also provide a unique aesthetic appeal that can enhance the overall look of your home. Here are some of the key benefits of copper gutters and why they are loved by homeowners.
+            </p>
+            <h2 className="mt-8 text-2xl font-bold">Durable and Long-lasting</h2>
+            <p className="mb-4">
+              One of the primary benefits of copper gutters is their exceptional durability. Copper is a strong and resilient material that can withstand harsh weather conditions, including heavy rain, snow, and extreme temperatures. Unlike other materials, copper does not rust or corrode, which means copper gutters can last for decades with minimal maintenance. This longevity makes copper gutters a worthwhile investment for homeowners looking for a long-term solution.
+            </p>
+            <h2 className="mt-8 text-2xl font-bold">Elegant Aesthetic Appeal</h2>
+            <p className="mb-4">
+              Copper gutters are renowned for their aesthetic appeal. The warm, reddish-brown color of copper adds a touch of elegance and sophistication to any home. Over time, copper develops a natural patina that gives it a beautiful, weathered look. This unique characteristic makes copper gutters a popular choice for historic homes and modern properties alike. The visual appeal of copper gutters can significantly enhance your home's curb appeal and increase its market value.
+            </p>
+            <h2 className="mt-8 text-2xl font-bold">Low Maintenance Needs</h2>
+            <p className="mb-4">
+              Another reason homeowners love copper gutters is their low maintenance requirements. Copper's natural properties make it resistant to algae and moss growth, which means you won't have to clean your gutters as frequently as you would with other materials. Additionally, copper is less prone to warping and cracking, reducing the need for repairs. With copper gutters, you can enjoy a beautiful and functional gutter system with minimal upkeep.
+            </p>
+            <h2 className="mt-8 text-2xl font-bold">Eco-Friendly Option</h2>
+            <p className="mb-4">
+              Copper is a natural and recyclable material, making copper gutters an environmentally friendly choice. When your copper gutters eventually reach the end of their lifespan, they can be recycled and repurposed, reducing waste and environmental impact. Choosing copper gutters is a sustainable option that aligns with eco-conscious values.
+            </p>
+            <h2 className="mt-8 text-2xl font-bold">Home Value Increase</h2>
+            <p className="mb-4">
+              Investing in copper gutters can increase the value of your home. Potential buyers often appreciate the durability, aesthetic appeal, and low maintenance benefits of copper gutters, making your property more attractive in the real estate market. The initial investment in copper gutters can pay off by boosting your home's overall value and desirability.
+            </p>
+            <p className="mt-6">
+              In conclusion, copper gutters offer a range of benefits that make them a preferred choice for many homeowners. From their durability and low maintenance to their aesthetic appeal and environmental benefits, copper gutters provide a high-value solution for your home's gutter needs. If you're considering upgrading your gutter system, copper gutters are a smart investment that will enhance both the functionality and appearance of your home.
+            </p>
+            <p className="mt-6 mb-12 font-bold">
+              Contact JonesCo Seamless Gutter Systems today to learn more about our copper gutter installation services and how we can help you upgrade your home's gutter system. Call us at <a href="tel:423-207-3325" className="underline">423-207-3325</a> or visit our <Link href="/contact" legacyBehavior><a className="underline">contact page</a></Link> to schedule your free, no-obligation quote!
+            </p>
+          </article>
+        </div>
       </main>
+      <Hero />
       <Footer />
     </>
   );

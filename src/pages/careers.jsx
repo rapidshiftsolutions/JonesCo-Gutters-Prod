@@ -1,8 +1,20 @@
-import Head from 'next/head'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import About from '@/components/about';
+import React from 'react';
+import Head from 'next/head';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import Hero from '@/components/Hero';
+import Link from 'next/link';
 
+const keywords = [
+  "Careers at JonesCo",
+  "Gutter Installer Jobs",
+  "Gutter Installation Careers",
+  "Seamless Gutter Systems Jobs",
+  "Join JonesCo Gutters",
+  "Gutter Installation Opportunities",
+  "Gutter Installer Positions",
+  "Eastern Tennessee Gutter Jobs"
+];
 
 export default function Careers() {
   return (
@@ -14,7 +26,7 @@ export default function Careers() {
           name="description"
           content="Join the team at JonesCo Seamless Gutter Systems. We are always looking for experienced installers and professionals to help us deliver top-quality gutter services in Eastern Tennessee."
         />
-        <meta name="keywords" content="Careers at JonesCo, Gutter Installer Jobs, Gutter Installation Careers, Seamless Gutter Systems Jobs, Join JonesCo Gutters, Gutter Installation Opportunities, Gutter Installer Positions, Eastern Tennessee Gutter Jobs" />
+        <meta name="keywords" content={keywords.join(", ")} />
         <meta name="author" content="JonesCo Seamless Gutter Systems" />
         <meta property="og:title" content="JonesCo Gutters - Careers" />
         <meta property="og:description" content="Join the team at JonesCo Seamless Gutter Systems. We are always looking for experienced installers and professionals to help us deliver top-quality gutter services in Eastern Tennessee." />
@@ -23,23 +35,23 @@ export default function Careers() {
       </Head>
       
       <Header />
-      <main className="bg-JonesCo-Green-100 py-8">
-        <div className="container mx-auto px-4">
-          <h1 className="text-3xl sm:text-5xl font-black text-center text-JonesCo-Green-900 mb-6">Careers at JonesCo</h1>
-          <p className="text-center text-gray-700 mb-12 max-w-md m-auto">
+      <main className="py-8 bg-JonesCo-Green-100">
+        <div className="container px-4 mx-auto">
+          <h1 className="mb-6 text-3xl font-black text-center sm:text-5xl text-JonesCo-Green-900">Careers at JonesCo</h1>
+          <p className="m-auto mb-12 max-w-md text-center text-gray-700">
             At JonesCo Seamless Gutter Systems, we are always on the lookout for skilled and dedicated professionals to join our team. If you have experience in gutter installation or other relevant fields, we would love to hear from you.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <div className="bg-white shadow-lg rounded-lg p-6 mb-6 md:mb-0">
-              <h2 className="text-2xl font-bold text-JonesCo-Green-900 mb-4">Open Positions</h2>
+          <div className="grid grid-cols-1 gap-6 mb-6 md:grid-cols-2">
+            <div className="p-6 mb-6 bg-white rounded-lg shadow-lg md:mb-0">
+              <h2 className="mb-4 text-2xl font-bold text-JonesCo-Green-900">Open Positions</h2>
               <ul className="list-disc list-inside text-gray-700">
                 <li className="mb-2">Experienced Gutter Installers</li>
                 <li className="mb-2">Gutter Installers</li>
               </ul>
             </div>
-            <div className="bg-white shadow-lg rounded-lg p-6">
-              <h2 className="text-2xl font-bold text-JonesCo-Green-900 mb-4">How to Apply</h2>
-              <p className="text-gray-700 mb-4">
+            <div className="p-6 bg-white rounded-lg shadow-lg">
+              <h2 className="mb-4 text-2xl font-bold text-JonesCo-Green-900">How to Apply</h2>
+              <p className="mb-4 text-gray-700">
                 To apply for any of the positions listed above, please send your resume and a brief cover letter to <a href="mailto:careers@jonescogutters.com" className="text-JonesCo-Green-600">careers@jonescogutters.com</a>. We look forward to hearing from you!
               </p>
               <p className="text-gray-700">
@@ -47,10 +59,25 @@ export default function Careers() {
               </p>
             </div>
           </div>
+          <div className="p-6 mb-6 bg-white rounded-lg shadow-lg">
+            <h2 className="mb-4 text-2xl font-bold text-JonesCo-Green-900">Why Work with Us?</h2>
+            <p className="mb-4 text-gray-700">
+              Working at JonesCo Seamless Gutter Systems means joining a team of dedicated professionals who take pride in delivering top-quality services to our clients. We offer competitive salaries, opportunities for growth, and a supportive work environment. Our commitment to excellence extends to our employees, ensuring that you have the resources and support you need to succeed in your role.
+            </p>
+            <p className="mb-4 text-gray-700">
+              As a part of our team, you will have the opportunity to work on a variety of projects, honing your skills and expanding your expertise in gutter installation and maintenance. We value hard work, dedication, and a passion for delivering exceptional results.
+            </p>
+            <p className="mb-4 text-gray-700">
+              If you are looking for a rewarding career with a company that values your contributions and fosters a positive work environment, consider joining JonesCo Seamless Gutter Systems.
+            </p>
+            <p className="font-bold text-gray-700">
+              Explore our open positions and apply today. We look forward to welcoming you to the JonesCo family.
+            </p>
+          </div>
         </div>
       </main>
-      <About />
+      <Hero />
       <Footer />
     </>
-  )
+  );
 }

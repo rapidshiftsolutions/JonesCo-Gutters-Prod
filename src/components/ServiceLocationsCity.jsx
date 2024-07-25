@@ -61,13 +61,13 @@ export default function ServiceAreas() {
   };
 
   return (
-    <div className="bg-JonesCo-Blue-50 py-16 sm:py-24 text-JonesCo-Blue-900">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="py-16 bg-JonesCo-Blue-50 sm:py-24 text-JonesCo-Blue-900">
+      <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="text-center">
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-tight text-JonesCo-Green-800">
+          <h2 className="text-lg font-semibold leading-tight sm:text-xl md:text-2xl lg:text-3xl text-JonesCo-Green-800">
             Our Service Areas in Eastern TN
           </h2>
-          <p className="mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black tracking-tight">
+          <p className="mt-2 text-2xl font-black tracking-tight sm:text-3xl md:text-4xl lg:text-5xl">
             Gutter Solutions for Your Home
           </p>
           <p className="mt-6 text-base leading-7 text-gray-700">
@@ -75,12 +75,12 @@ export default function ServiceAreas() {
           </p>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-8">
+        <div className="grid grid-cols-1 gap-8 mt-12">
           {counties.map((county, index) => (
-            <div key={county.name} className="border rounded-lg shadow-lg">
+            <div key={county.name} className="rounded-lg border shadow-lg">
               <button
                 onClick={() => toggleCounty(index)}
-                className="flex justify-between items-center w-full p-6 text-left text-lg font-bold bg-JonesCo-Blue-900 text-white hover:bg-JonesCo-Blue-700 transition-colors duration-300"
+                className="flex justify-between items-center p-6 w-full text-lg font-bold text-left text-white transition-colors duration-300 bg-JonesCo-Blue-900 hover:bg-JonesCo-Blue-700"
               >
                 <span>
                   <Link href={county.link} legacyBehavior>
@@ -88,17 +88,17 @@ export default function ServiceAreas() {
                   </Link>
                 </span>
                 {openCounty === index ? (
-                  <ChevronUpIcon className="h-6 w-6" />
+                  <ChevronUpIcon className="w-6 h-6" />
                 ) : (
-                  <ChevronDownIcon className="h-6 w-6" />
+                  <ChevronDownIcon className="w-6 h-6" />
                 )}
               </button>
               {openCounty === index && (
                 <div className="p-6 bg-white text-JonesCo-Blue-900">
-                  <p className="text-base sm:text-lg md:text-xl leading-7">
+                  <p className="text-base leading-7 sm:text-lg md:text-xl">
                     {county.description}
                   </p>
-                  <ul className="list-disc pl-5 mt-4 text-base sm:text-lg md:text-xl">
+                  <ul className="pl-5 mt-4 text-base list-disc sm:text-lg md:text-xl">
                     {county.cities.map((city) => (
                       <li key={city}>
                         <Link href={`/cities/${city.toLowerCase().replace(/ /g, '-')}`} legacyBehavior>
@@ -107,9 +107,9 @@ export default function ServiceAreas() {
                       </li>
                     ))}
                   </ul>
-                  <div className="mt-6 text-base sm:text-lg md:text-xl leading-7 text-gray-700">
+                  <div className="mt-6 text-base leading-7 text-gray-700 sm:text-lg md:text-xl">
                     <p>Our comprehensive services in {county.name.split(',')[0]} include:</p>
-                    <ul className="list-disc pl-5 mt-2">
+                    <ul className="pl-5 mt-2 list-disc">
                       <li><Link href="/gutter-cleaning" legacyBehavior><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Expert Gutter Cleaning Services</a></Link></li>
                       <li><Link href="/gutter-guards" legacyBehavior><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Durable Gutter Guard Installation</a></Link></li>
                       <li><Link href="/gutter-replacement" legacyBehavior><a className="underline text-JonesCo-Blue-900 hover:text-JonesCo-Green-700">Seamless Gutter Replacement</a></Link></li>
