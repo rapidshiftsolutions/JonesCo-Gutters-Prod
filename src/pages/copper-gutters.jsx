@@ -53,13 +53,13 @@ export default function CopperGuttersArticle() {
             </h1>
             <div className="flex items-center mb-8">
               <img
-                src="/ProfilePics/nathan_j.jpg"  // Update with actual profile picture path
+                src="/ProfilePics/john_j.jpg"  // Update with actual profile picture path
                 alt="Author"
                 className="mr-4 w-12 h-12 rounded-full"
               />
               <div className="text-lg">
-                <p className="font-bold">Written by Nathan Jones</p>
-                <p>Co-Owner of JonesCo Seamless Gutter Systems</p>
+                <p className="font-bold">Written by Johnathan Jones</p>
+                <p>Co-Owner of JonesCo Gutters</p>
               </div>
             </div>
             <p className="mb-4">

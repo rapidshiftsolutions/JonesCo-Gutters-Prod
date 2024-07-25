@@ -59,7 +59,7 @@ export default function GalvanizedGuttersArticle() {
               />
               <div className="text-lg">
                 <p className="font-bold">Written by Nathan Jones</p>
-                <p>Co-Owner of JonesCo Seamless Gutter Systems</p>
+                <p>Co-Owner of JonesCo Gutters</p>
               </div>
             </div>
             <p className="mb-4">
