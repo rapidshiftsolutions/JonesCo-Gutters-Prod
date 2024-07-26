@@ -1,10 +1,12 @@
-import { Head, Html, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document';
 
-export default function Document(props) {
+export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="manifest" href="./manifest.json" />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="manifest" href="/manifest.json" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -15,6 +17,7 @@ export default function Document(props) {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@400;500&display=swap"
         />
+        <link rel="icon" href="/icons/favicon.ico" />
         <meta name="description" content="JonesCo Seamless Gutter Systems offers top-notch seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions in Eastern Tennessee. Our experienced team ensures your home is protected from water damage with high-quality materials and expert workmanship." />
         <meta name="theme-color" content="#0066CC" />
         <meta property="og:type" content="website" />
@@ -32,5 +35,5 @@ export default function Document(props) {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
