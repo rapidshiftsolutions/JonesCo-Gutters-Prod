@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="browserconfig" href="/browserconfig.xml" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <GoogleTagManager />
       <GoogleAnalytics />

@@ -171,7 +171,6 @@ const ${county.replace(/ /g, '')} = () => {
         description="${description}"
         keywords={["${generateKeywords("seamless gutters", county + " County").split(', ').join('","')}"]}
       />
-      <Footer />
     </>
   );
 };
@@ -204,7 +203,6 @@ const ${city.replace(/ /g, '')} = () => {
         description="${description}"
         keywords={["${generateKeywords("seamless gutters", city).split(', ').join('","')}"]}
       />
-      <Footer />
     </>
   );
 };

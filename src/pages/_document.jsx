@@ -16,6 +16,7 @@ export default function Document() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@400;500&display=swap"
         />
+        <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/icons/favicon.ico" />
         <meta name="description" content="JonesCo Seamless Gutter Systems offers top-notch seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions in Eastern Tennessee. Our experienced team ensures your home is protected from water damage with high-quality materials and expert workmanship." />
         <meta name="theme-color" content="#0066CC" />
