@@ -4,6 +4,7 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  assetPrefix: '/',
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
