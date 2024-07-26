@@ -1,12 +1,12 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { useRouter } from 'next/router';
-import { LoadScript, Autocomplete } from '@react-google-maps/api';
+import React, { useEffect, useRef, useState, useCallback } from 'react'
+import { useRouter } from 'next/router'
+import { LoadScript, Autocomplete } from '@react-google-maps/api'
 
-const libraries = ['places'];
+const libraries = ['places']
 
 const Hero = () => {
-  const router = useRouter();
-  const autocompleteRef = useRef(null);
+  const router = useRouter()
+  const autocompleteRef = useRef(null)
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -17,63 +17,71 @@ const Hero = () => {
     state: '',
     country: '',
     zip: '',
-  });
-  const [isDesktop, setIsDesktop] = useState(false);
+  })
+  const [isDesktop, setIsDesktop] = useState(false)
 
   useEffect(() => {
-    const handleResize = () => setIsDesktop(window.innerWidth >= 768);
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
+    const handleResize = () => setIsDesktop(window.innerWidth >= 768)
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+    const { name, value } = e.target
+    setFormData({ ...formData, [name]: value })
+  }
 
   const onPlaceChanged = useCallback(() => {
     if (autocompleteRef.current) {
-      const place = autocompleteRef.current.getPlace();
+      const place = autocompleteRef.current.getPlace()
       if (place.address_components) {
-        const addressComponents = place.address_components.reduce((acc, component) => {
-          const types = component.types;
-          if (types.includes('street_number')) acc.street_number = component.long_name;
-          if (types.includes('route')) acc.route = component.long_name;
-          if (types.includes('locality')) acc.city = component.long_name;
-          if (types.includes('administrative_area_level_1')) acc.state = component.short_name;
-          if (types.includes('country')) acc.country = component.long_name;
-          if (types.includes('postal_code')) acc.zip = component.long_name;
-          return acc;
-        }, {});
+        const addressComponents = place.address_components.reduce(
+          (acc, component) => {
+            const types = component.types
+            if (types.includes('street_number'))
+              acc.street_number = component.long_name
+            if (types.includes('route')) acc.route = component.long_name
+            if (types.includes('locality')) acc.city = component.long_name
+            if (types.includes('administrative_area_level_1'))
+              acc.state = component.short_name
+            if (types.includes('country')) acc.country = component.long_name
+            if (types.includes('postal_code')) acc.zip = component.long_name
+            return acc
+          },
+          {}
+        )
 
         setFormData((prevData) => ({
           ...prevData,
           address: place.formatted_address,
-          street: `${addressComponents.street_number || ''} ${addressComponents.route || ''}`.trim(),
+          street: `${addressComponents.street_number || ''} ${
+            addressComponents.route || ''
+          }`.trim(),
           city: addressComponents.city || '',
           state: addressComponents.state || '',
           country: addressComponents.country || '',
           zip: addressComponents.zip || '',
-        }));
+        }))
       }
     }
-  }, []);
+  }, [])
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    const zapierWebhookUrl = 'https://hooks.zapier.com/hooks/catch/19076579/2386szr/';
-    const urlEncodedData = new URLSearchParams(formData).toString();
+    e.preventDefault()
+    const zapierWebhookUrl =
+      'https://hooks.zapier.com/hooks/catch/19076579/2386szr/'
+    const urlEncodedData = new URLSearchParams(formData).toString()
 
     try {
       const response = await fetch(zapierWebhookUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: urlEncodedData,
-      });
+      })
 
       if (response.ok) {
-        console.log('Form submitted successfully');
+        console.log('Form submitted successfully')
         setFormData({
           name: '',
           email: '',
@@ -84,18 +92,18 @@ const Hero = () => {
           state: '',
           country: '',
           zip: '',
-        });
-        router.push('/submitted');
+        })
+        router.push('/submitted')
       } else {
-        console.error('Error submitting form');
+        console.error('Error submitting form')
       }
     } catch (error) {
-      console.error('Error submitting form', error);
+      console.error('Error submitting form', error)
     }
-  };
+  }
 
   return (
-    <div className="py-12 relative h-[80vh] md:h-[90vh] overflow-hidden z-10 flex items-center justify-center">
+    <div className="relative z-10 flex h-[80vh] items-center justify-center overflow-hidden py-12 md:h-[90vh]">
       {isDesktop && (
         <img
           className="object-cover absolute top-0 left-0 w-full h-full"
@@ -105,7 +113,11 @@ const Hero = () => {
       )}
       <div className="absolute top-0 left-0 pb-2 w-full h-full bg-JonesCo-Blue-900 md:opacity-60"></div>
       <div className="relative z-10 mx-4 w-full max-w-7xl sm:mx-auto">
-        <div className={`bg-white shadow-lg rounded-lg p-6 ${isDesktop ? 'grid grid-cols-2 gap-8' : 'mx-auto max-w-md'}`}>
+        <div
+          className={`rounded-lg bg-white p-6 shadow-lg ${
+            isDesktop ? 'grid grid-cols-2 gap-8' : 'mx-auto max-w-md'
+          }`}
+        >
           {isDesktop && (
             <div className="flex flex-col justify-between items-center px-10 h-full rounded-xl bg-JonesCo-Blue-100">
               <div className="flex-grow">
@@ -119,11 +131,22 @@ const Hero = () => {
                   'Meticulous attention to detail',
                   'Solutions tailored to your needs',
                   'Commitment to customer satisfaction',
-                  'Trusted by homeowners across Eastern Tennessee'
+                  'Trusted by homeowners across Eastern Tennessee',
                 ].map((text, index) => (
                   <div key={index} className="flex items-center mb-4">
-                    <svg className="mr-4 w-6 h-6 text-JonesCo-Green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    <svg
+                      className="mr-4 w-6 h-6 text-JonesCo-Green-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
                     </svg>
                     <p className="text-lg text-gray-700">{text}</p>
                   </div>
@@ -150,14 +173,16 @@ const Hero = () => {
                   <button
                     type="button"
                     className="inline-flex justify-center items-center px-4 py-2 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    onClick={() => window.location.href = 'tel:423-207-3325'}
+                    onClick={() => (window.location.href = 'tel:423-207-3325')}
                   >
                     Call Us
                   </button>
                   <button
                     type="button"
                     className="inline-flex justify-center items-center px-4 py-2 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    onClick={() => window.location.href = 'mailto:hey@jonescogutters.com'}
+                    onClick={() =>
+                      (window.location.href = 'mailto:hey@jonescogutters.com')
+                    }
                   >
                     Email Us
                   </button>
@@ -165,15 +190,20 @@ const Hero = () => {
               </div>
             </div>
           )}
-                    <div>
+          <div>
             <h2 className="mb-4 text-2xl font-black tracking-tight text-center text-JonesCo-Blue-950 sm:text-3xl">
               Request a Free Estimate
             </h2>
-            <p className="mb-4 text-center text-gray-700">Complete this form, we'll do the rest!</p>
+            <p className="mb-4 text-center text-gray-700">
+              Complete this form, we'll do the rest!
+            </p>
             <form onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-gray-700"
+                  >
                     Name *
                   </label>
                   <input
@@ -188,7 +218,10 @@ const Hero = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700"
+                  >
                     Email *
                   </label>
                   <input
@@ -203,7 +236,10 @@ const Hero = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+                  <label
+                    htmlFor="phone"
+                    className="block text-sm font-medium text-gray-700"
+                  >
                     Phone *
                   </label>
                   <input
@@ -218,15 +254,24 @@ const Hero = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="address" className="block text-sm font-medium text-gray-700">
+                  <label
+                    htmlFor="address"
+                    className="block text-sm font-medium text-gray-700"
+                  >
                     Address *
                   </label>
                   <LoadScript
                     googleMapsApiKey="AIzaSyAgGO-4UJ1-wS6aua__cpo1uVcefrlPaGg"
                     libraries={libraries}
                     loadingElement={<div>Loading...</div>}
+                    id="script-loader"
+                    async
+                    defer
                   >
-                    <Autocomplete onLoad={(ref) => (autocompleteRef.current = ref)} onPlaceChanged={onPlaceChanged}>
+                    <Autocomplete
+                      onLoad={(ref) => (autocompleteRef.current = ref)}
+                      onPlaceChanged={onPlaceChanged}
+                    >
                       <input
                         type="text"
                         name="address"
@@ -256,14 +301,16 @@ const Hero = () => {
                   <button
                     type="button"
                     className="inline-flex justify-center items-center px-4 py-2 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    onClick={() => window.location.href = 'tel:423-207-3325'}
+                    onClick={() => (window.location.href = 'tel:423-207-3325')}
                   >
                     Call Us
                   </button>
                   <button
                     type="button"
                     className="inline-flex justify-center items-center px-4 py-2 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    onClick={() => window.location.href = 'mailto:hey@jonescogutters.com'}
+                    onClick={() =>
+                      (window.location.href = 'mailto:hey@jonescogutters.com')
+                    }
                   >
                     Email Us
                   </button>
@@ -274,7 +321,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
