@@ -5,7 +5,7 @@ import Hero from '@/components/Hero';
 import OurServices from '@/components/OurServices';
 import ServiceLocations from '@/components/ServiceLocationsCity';
 import WhyJonesCo from '@/components/Value';
-import Reviews from '@/components/reviews';
+import QandA from '@/components/QandA';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import Estimate from '@/components/Hero';
 
@@ -149,9 +149,10 @@ export default function Home() {
         <Hero />
         <WhyJonesCo />
         <OurServices />
+        <QandA />
         <ServiceLocations />
         <Estimate />
-        <GoogleAnalytics />
+       
       </main>
 
       <Footer />
