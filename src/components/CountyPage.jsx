@@ -16,7 +16,7 @@ const CountyPage = ({ county, cities, description, keywords }) => {
       </Head>
       <div className="px-4 py-8 w-full rounded-lg md:px-8 bg-JonesCo-Green-50">
         <div className="mx-auto max-w-7xl">
-          <h1 className="mb-4 text-3xl font-extrabold md:text-4xl text-JonesCo-Green-950">Services in {county} County</h1>
+          <h1 className="mb-4 text-2xl font-extrabold md:text-3xl text-JonesCo-Green-950">JonesCo in {county} County 💪</h1>
           <p className="mb-8 text-base md:text-lg text-JonesCo-Green-900">
             {description}
           </p>

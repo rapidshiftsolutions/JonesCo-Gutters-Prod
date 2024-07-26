@@ -49,7 +49,7 @@ export default function GalvanizedGuttersArticle() {
       <main className="py-8 bg-JonesCo-Blue-50">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <article className="mx-auto max-w-3xl prose lg:prose-xl text-JonesCo-Blue-900">
-            <h1 className="mb-8 text-3xl font-black text-center sm:text-4xl md:text-5xl">
+            <h1 className="mb-8 text-2xl font-black text-center sm:text-4xl md:text-5xl">
               Galvanized Gutters Benefits
             </h1>
             <div className="flex items-center mb-8">
