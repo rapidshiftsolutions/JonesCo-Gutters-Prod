@@ -1,6 +1,6 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require('tailwindcss/defaultTheme');
+const purgecss = require('@fullhuman/postcss-purgecss');
 
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   theme: {
@@ -32,20 +32,20 @@ module.exports = {
         800: '#0066cc',
         900: '#0857a0',
         950: '#0a3561',
-    },
-    'JonesCo-Red': {
-      50: '#ffe6e8',
-      100: '#fcc5cf',
-      200: '#f9a8b5',
-      300: '#f78da7',
-      400: '#f47298',
-      500: '#C21807', // Your existing JonesCo-Red-500
-      600: '#ab150a',
-      700: '#94110d',
-      800: '#7d0c09',
-      900: '#660805',
-      950: '#4e0302',
-    },
+      },
+      'JonesCo-Red': {
+        50: '#ffe6e8',
+        100: '#fcc5cf',
+        200: '#f9a8b5',
+        300: '#f78da7',
+        400: '#f47298',
+        500: '#C21807',
+        600: '#ab150a',
+        700: '#94110d',
+        800: '#7d0c09',
+        900: '#660805',
+        950: '#4e0302',
+      },
       'JonesCo-Green': {
         50: '#f0fdf1',
         100: '#dcfcdf',
@@ -58,7 +58,7 @@ module.exports = {
         800: '#166520',
         900: '#14531d',
         950: '#052e0c',
-    },
+      },
       'JC-tan': {
         50: '#fff9eb',
         100: '#ffecbc',
@@ -88,5 +88,18 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
-}
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('postcss-focus-visible')({
+      replaceWith: '[data-focus-visible-added]',
+    }),
+    require('autoprefixer'),
+    purgecss({
+      content: ['./src/**/*.{html,js,jsx,ts,tsx}', './public/**/*.html'],
+      defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+    }),
+    require('cssnano')({
+      preset: 'default',
+    }),
+  ],
+};
