@@ -147,7 +147,6 @@ export default function Home() {
 
       <main className="-z-50">
         <Hero />
-        <Reviews />
         <WhyJonesCo />
         <OurServices />
         <ServiceLocations />

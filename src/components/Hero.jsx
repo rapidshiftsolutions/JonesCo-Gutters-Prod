@@ -95,7 +95,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative h-[80vh] md:h-[90vh] overflow-hidden z-10 flex items-center justify-center">
+    <div className="py-12 relative h-[80vh] md:h-[90vh] overflow-hidden z-10 flex items-center justify-center">
       {isDesktop && (
         <img
           className="object-cover absolute top-0 left-0 w-full h-full"
