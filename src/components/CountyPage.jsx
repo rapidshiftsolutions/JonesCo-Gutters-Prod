@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Header from '@/components/Header';
+import QandA from '@/components/QandA';
 import Footer from '@/components/Footer';
 import Value from '@/components/Value';
 import Estimate from '@/components/Hero';
@@ -62,6 +62,7 @@ const CountyPage = ({ county, cities, description, keywords }) => {
         </div>
       </div>
       <Value />
+      <QandA />
       <Estimate />
       <Footer />
     </div>

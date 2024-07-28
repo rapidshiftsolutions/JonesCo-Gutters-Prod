@@ -13,7 +13,7 @@ export default function AboutUs() {
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-2xl font-bold leading-tight text-white sm:text-3xl md:text-4xl lg:text-5xl">
-              Meet the Man Behind the Gutters
+              Who's John Jones? 💪
             </h1>
             <p className="mt-4 text-lg leading-8 sm:text-xl lg:text-2xl text-JonesCo-Green-200">
               From Mechanic to Nurse to Gutter Expert
@@ -23,7 +23,7 @@ export default function AboutUs() {
             <div className="sm:grid sm:grid-cols-2 sm:gap-8 sm:items-center">
               <div>
                 <p className="text-base leading-7 text-white sm:text-lg lg:text-xl">
-                  Johnathan Jones, the founder of JonesCo Gutters, isn't your typical businessman. Born and raised in the heart of Kentucky, Johnathan started his career as a mechanic, honing his skills in problem-solving and meticulous craftsmanship. He spent countless hours in the garage, learning the intricacies of machinery and developing a keen eye for detail. This early experience laid the foundation for his future endeavors.
+                  Johnathan Jones, a co-founder of JonesCo Gutters, isn't your typical businessman. Born and raised in the heart of Kentucky, Johnathan started his career as a mechanic, honing his skills in problem-solving and meticulous craftsmanship. He spent countless hours in the garage, learning the intricacies of machinery and developing a keen eye for detail. This early experience laid the foundation for his future endeavors.
                 </p>
                 <p className="mt-6 text-base leading-7 text-white sm:text-lg lg:text-xl">
                   Driven by a desire to help others, Johnathan later transitioned to nursing, where he learned the importance of compassion, empathy, and putting people's needs first. As a nurse, he provided care and support to those in need, always going above and beyond to ensure their well-being. This role taught him invaluable lessons about the importance of patience, dedication, and the impact of a helping hand.
