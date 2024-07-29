@@ -55,9 +55,8 @@ const Hero = () => {
         setFormData((prevData) => ({
           ...prevData,
           address: place.formatted_address,
-          street: `${addressComponents.street_number || ''} ${
-            addressComponents.route || ''
-          }`.trim(),
+          street: `${addressComponents.street_number || ''} ${addressComponents.route || ''
+            }`.trim(),
           city: addressComponents.city || '',
           state: addressComponents.state || '',
           country: addressComponents.country || '',
@@ -66,7 +65,6 @@ const Hero = () => {
       }
     }
   }, [])
-
   const handleSubmit = async (e) => {
     e.preventDefault()
     const zapierWebhookUrl =
@@ -114,9 +112,8 @@ const Hero = () => {
       <div className="absolute top-0 left-0 pb-2 w-full h-full bg-JonesCo-Blue-900 md:opacity-60"></div>
       <div className="relative z-10 mx-4 w-full max-w-7xl sm:mx-auto">
         <div
-          className={`rounded-lg bg-white p-6 shadow-lg ${
-            isDesktop ? 'grid grid-cols-2 gap-8' : 'mx-auto max-w-md'
-          }`}
+          className={`rounded-lg bg-white p-6 shadow-lg ${isDesktop ? 'grid grid-cols-2 gap-8' : 'mx-auto max-w-md'
+            }`}
         >
           {isDesktop && (
             <div className="flex flex-col justify-between items-center px-10 h-full rounded-xl bg-JonesCo-Blue-100">
@@ -151,8 +148,7 @@ const Hero = () => {
                     <p className="text-lg text-gray-700">{text}</p>
                   </div>
                 ))}
-              </div>
-              <div className="flex flex-col mt-6 mb-4 w-full">
+              </div>              <div className="flex flex-col mt-6 mb-4 w-full">
                 <div className="hidden flex-col justify-end w-full md:flex">
                   <div className="flex space-x-4">
                     <a
@@ -234,8 +230,7 @@ const Hero = () => {
                     required
                     className="block mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   />
-                </div>
-                <div>
+                </div>                <div>
                   <label
                     htmlFor="phone"
                     className="block text-sm font-medium text-gray-700"

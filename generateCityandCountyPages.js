@@ -117,13 +117,13 @@ const seoKeywords = [
   "rain gutters repair"
 ];
 
-const generateKeywords = (base, location) => seoKeywords.map(keyword => `${keyword} near ${location}`).join(', ');
+const generateKeywords = (location) => seoKeywords.map(keyword => `${keyword} near ${location}`).join(', ');
 
 const generateHeadContent = (title, description, url, imageUrl) => `
   <Head>
     <title>${title}</title>
     <meta name="description" content="${description}" />
-    <meta name="keywords" content="${generateKeywords("seamless gutters", url)}" />
+    <meta name="keywords" content="${generateKeywords(url)}" />
     <meta name="author" content="JonesCo Gutters" />
     <meta property="og:title" content="${title}" />
     <meta property="og:description" content="${description}" />
@@ -145,69 +145,44 @@ const generateHeadContent = (title, description, url, imageUrl) => `
     <meta name="theme-color" content="#0066CC" />
   </Head>
 `;
+const generatePageContent = (location, isCounty = false, cities = [], imageUrl) => {
+  const description = isCounty
+    ? `JonesCo Gutters provides exceptional seamless gutter services in ${location} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${location} County. Whether you need new gutters installed or existing ones repaired, we have the expertise and commitment to provide the best solutions for your needs. Serving all cities in ${location} County, we are dedicated to maintaining the integrity and functionality of your home with our reliable gutter services.`
+    : `JonesCo Gutters provides exceptional seamless gutter services in ${location}. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in ${location}.`;
 
-const generateCountyPage = (county, cities, imageUrl) => {
-  const description = `JonesCo Gutters provides exceptional seamless gutter services in ${county} County, TN. Our team specializes in gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. We use the highest quality materials and techniques to deliver top-notch service in ${county} County. Whether you need new gutters installed or existing ones repaired, we have the expertise and commitment to provide the best solutions for your needs. Serving all cities in ${county} County, we are dedicated to maintaining the integrity and functionality of your home with our reliable gutter services.`;
+  const title = isCounty
+    ? `Gutter Services in ${location} County, TN | JonesCo Gutters`
+    : `Gutter Services in ${location}, ${location} County | JonesCo Gutters`;
 
-  const title = `Gutter Services in ${county} County, TN | JonesCo Gutters`;
-  const url = `https://jonescogutters.com/counties/${county.toLowerCase().replace(/ /g, '')}`;
+  const url = isCounty
+    ? `https://jonescogutters.com/counties/${location.toLowerCase().replace(/ /g, '')}`
+    : `https://jonescogutters.com/cities/${location.toLowerCase().replace(/ /g, '')}`;
 
   return `
 import React from 'react';
-import CountyPage from '@/components/CountyPage';
+import ${isCounty ? 'CountyPage' : 'CityPage'} from '@/components/${isCounty ? 'CountyPage' : 'CityPage'}';
 import Head from 'next/head';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
-const ${county.replace(/ /g, '')} = () => {
+const ${location.replace(/ /g, '')} = () => {
   return (
     <>
       ${generateHeadContent(title, description, url, imageUrl)}
       <Header />
       <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('${imageUrl}')" }}></div>
-      <CountyPage
-        county="${county}"
-        cities={${JSON.stringify(cities)}}
+      <${isCounty ? 'CountyPage' : 'CityPage'}
+        ${isCounty ? `county="${location}"` : `city="${location}"`}
+        ${isCounty ? `cities={${JSON.stringify(cities)}}` : `county="${location}"`}
         description="${description}"
-        keywords={["${generateKeywords("seamless gutters", county + " County").split(', ').join('","')}"]}
+        keywords={["${generateKeywords(location + (isCounty ? ' County' : '')).split(', ').join('","')}"]}
       />
+      <Footer />
     </>
   );
 };
 
-export default ${county.replace(/ /g, '')};
-  `;
-};
-const generateCityPage = (city, county, imageUrl) => {
-  const description = `JonesCo Gutters provides exceptional seamless gutter services in ${city}. We specialize in seamless gutter installation, gutter repair, gutter cleaning, and custom gutter solutions to ensure your home is protected from water damage. Our experienced team delivers top-quality workmanship and reliable service in ${city}.`;
-
-  const title = `Gutter Services in ${city}, ${county} County | JonesCo Gutters`;
-  const url = `https://jonescogutters.com/cities/${city.toLowerCase().replace(/ /g, '')}`;
-
-  return `
-import React from 'react';
-import CityPage from '@/components/CityPage';
-import Head from 'next/head';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-
-const ${city.replace(/ /g, '')} = () => {
-  return (
-    <>
-      ${generateHeadContent(title, description, url, imageUrl)}
-      <Header />
-      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('${imageUrl}')" }}></div>
-      <CityPage
-        city="${city}"
-        county="${county}"
-        description="${description}"
-        keywords={["${generateKeywords("seamless gutters", city).split(', ').join('","')}"]}
-      />
-    </>
-  );
-};
-
-export default ${city.replace(/ /g, '')};
+export default ${location.replace(/ /g, '')};
   `;
 };
 
@@ -224,17 +199,16 @@ if (!fs.existsSync(pagesDirCities)) {
 if (!fs.existsSync(pagesDirCounties)) {
   fs.mkdirSync(pagesDirCounties, { recursive: true });
 }
-
 // Generate the city and county pages
 Object.entries(data).forEach(([county, cities]) => {
   cities.forEach(city => {
-    const content = generateCityPage(city, county, imageUrl);
+    const content = generatePageContent(city, false, [], imageUrl);
     const filePath = path.join(pagesDirCities, `${city.toLowerCase().replace(/ /g, '')}.jsx`);
     fs.writeFileSync(filePath, content, 'utf8');
     console.log(`Generated page for ${city} in ${county} County`);
   });
 
-  const countyContent = generateCountyPage(county, cities, imageUrl);
+  const countyContent = generatePageContent(county, true, cities, imageUrl);
   const countyFilePath = path.join(pagesDirCounties, `${county.toLowerCase().replace(/ /g, '')}.jsx`);
   fs.writeFileSync(countyFilePath, countyContent, 'utf8');
   console.log(`Generated page for ${county} County`);

@@ -9,6 +9,17 @@ export default function AboutUs() {
         <title>About Us | JonesCo Gutters</title>
         <meta name="description" content="Learn about JonesCo Gutters, our journey, and commitment to quality and customer satisfaction." />
       </Head>
+      
+      <div className="relative w-full h-48">
+        <Image
+          src="https://images.pexels.com/photos/5248733/pexels-photo-5248733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Banner Image"
+          fill
+          style={{ objectFit: 'cover' }}
+          priority
+        />
+      </div>
+      
       <div className="py-8 text-white bg-JonesCo-Blue-900 sm:py-16">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="text-center">
@@ -19,6 +30,7 @@ export default function AboutUs() {
               From Mechanic to Nurse to Gutter Expert
             </p>
           </div>
+          
           <div className="mt-10 sm:mt-12">
             <div className="sm:grid sm:grid-cols-2 sm:gap-8 sm:items-center">
               <div>
@@ -44,15 +56,15 @@ export default function AboutUs() {
                   Thank you for considering JonesCo Gutters. We look forward to the opportunity to serve you and demonstrate our commitment to excellence. Join our family of satisfied customers and experience the difference that quality craftsmanship and dedicated service can make. From our family to yours, we are here to protect your home and enhance its beauty with seamless gutter solutions.
                 </p>
               </div>
-              <div className="flex relative justify-center mt-10 sm:mt-0 sm:ml-10">
+              <div className="relative flex justify-center mt-10 sm:mt-0 sm:ml-10">
                 <Image
                   className="object-cover rounded-lg shadow-lg"
                   src="/Stock/john.webp"
                   alt="Johnathan Jones"
                   width={400}
                   height={500}
+                  sizes="(max-width: 768px) 100vw, 400px"
                   quality={90}
-                  style={{ height: '100%', width: '100%' }}
                 />
               </div>
             </div>

@@ -61,7 +61,7 @@ export default function ServiceAreas() {
   };
 
   return (
-    <div className="py-16 bg-JonesCo-Blue-50 sm:py-24 text-JonesCo-Blue-900">
+    <section className="py-16 bg-JonesCo-Blue-50 sm:py-24 text-JonesCo-Blue-900">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="text-center">
           <h2 className="text-lg font-semibold leading-tight sm:text-xl md:text-2xl lg:text-3xl text-JonesCo-Green-800">
@@ -81,6 +81,8 @@ export default function ServiceAreas() {
               <button
                 onClick={() => toggleCounty(index)}
                 className="flex justify-between items-center p-6 w-full text-lg font-bold text-left text-white transition-colors duration-300 bg-JonesCo-Blue-900 hover:bg-JonesCo-Blue-700"
+                aria-expanded={openCounty === index}
+                aria-controls={`county-${index}`}
               >
                 <span>
                   <Link href={county.link} legacyBehavior>
@@ -94,7 +96,7 @@ export default function ServiceAreas() {
                 )}
               </button>
               {openCounty === index && (
-                <div className="p-6 bg-white text-JonesCo-Blue-900">
+                <div id={`county-${index}`} className="p-6 bg-white text-JonesCo-Blue-900">
                   <p className="text-base leading-7 sm:text-lg md:text-xl">
                     {county.description}
                   </p>
@@ -129,6 +131,6 @@ export default function ServiceAreas() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

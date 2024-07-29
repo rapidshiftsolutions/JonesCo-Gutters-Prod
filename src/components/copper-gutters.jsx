@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const CopperGutters = () => {
   return (
@@ -44,8 +45,24 @@ const CopperGutters = () => {
                   <dt className="text-sm font-medium text-JonesCo-Blue-900">Gallery</dt>
                   <dd className="mt-1 text-sm text-JonesCo-Blue-900 sm:mt-0 sm:col-span-2">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <img src="/images/copper-gutter-1.jpg" alt="Copper gutter example" className="w-full h-full object-cover rounded-lg shadow-md"/>
-                      <img src="/images/copper-gutter-2.jpg" alt="Copper gutter example" className="w-full h-full object-cover rounded-lg shadow-md"/>
+                      <div className="relative w-full h-64">
+                        <Image 
+                          src="/images/copper-gutter-1.jpg" 
+                          alt="Copper gutter example" 
+                          layout="fill" 
+                          objectFit="cover" 
+                          className="rounded-lg shadow-md" 
+                        />
+                      </div>
+                      <div className="relative w-full h-64">
+                        <Image 
+                          src="/images/copper-gutter-2.jpg" 
+                          alt="Copper gutter example" 
+                          layout="fill" 
+                          objectFit="cover" 
+                          className="rounded-lg shadow-md" 
+                        />
+                      </div>
                     </div>
                   </dd>
                 </div>

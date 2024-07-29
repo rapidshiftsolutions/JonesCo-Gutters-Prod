@@ -11,10 +11,11 @@ const CityPage = ({ city, county, description, keywords }) => {
     return <div>Error: Missing city or county information.</div>;
   }
 
+  const pageTitle = `Best Gutter Services in ${city} | JonesCo Gutters`;
+
   return (
     <div>
       <Head>
-        <title>{`Best Gutter Services in ${city} | JonesCo Gutters`}</title>
         <meta name="description" content={`Top-notch seamless gutters, gutter guards, gutter cleaning and more in ${city}.`} />
         <meta name="keywords" content={keywords.join(', ')} />
       </Head>
@@ -74,10 +75,6 @@ const CityPage = ({ city, county, description, keywords }) => {
           </div>
         </div>
       </div>
-      <Value />
-      <QandA />
-      <Estimate />
-      <Footer />
     </div>
   );
 };

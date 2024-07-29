@@ -145,14 +145,13 @@ export default function Home() {
       </Head>
       <Header />
 
-      <main className="-z-50">
+      <main>
         <Hero />
         <WhyJonesCo />
         <OurServices />
         <QandA />
         <ServiceLocations />
         <Estimate />
-       
       </main>
 
       <Footer />

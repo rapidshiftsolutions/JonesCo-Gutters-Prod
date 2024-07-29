@@ -10,7 +10,6 @@ const CountyPage = ({ county, cities, description, keywords }) => {
   return (
     <div>
       <Head>
-        <title>Services in {county} County, TN | JonesCo Gutters</title>
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords.join(', ')} />
       </Head>

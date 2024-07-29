@@ -65,6 +65,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
       </Head>
       <Header />
+
       <main>
         <About />
         <Estimate />

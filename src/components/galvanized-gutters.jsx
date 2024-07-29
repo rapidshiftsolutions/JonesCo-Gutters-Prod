@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const GalvanizedGutters = () => {
   return (
@@ -44,8 +45,8 @@ const GalvanizedGutters = () => {
                   <dt className="text-sm font-medium text-JonesCo-Blue-900">Gallery</dt>
                   <dd className="mt-1 text-sm text-JonesCo-Blue-900 sm:mt-0 sm:col-span-2">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <img src="/images/galvanized-gutter-1.jpg" alt="Galvanized gutter example" className="w-full h-full object-cover rounded-lg shadow-md"/>
-                      <img src="/images/galvanized-gutter-2.jpg" alt="Galvanized gutter example" className="w-full h-full object-cover rounded-lg shadow-md"/>
+                      <Image src="/images/galvanized-gutter-1.jpg" alt="Galvanized gutter example" width={500} height={500} className="w-full h-full object-cover rounded-lg shadow-md"/>
+                      <Image src="/images/galvanized-gutter-2.jpg" alt="Galvanized gutter example" width={500} height={500} className="w-full h-full object-cover rounded-lg shadow-md"/>
                     </div>
                   </dd>
                 </div>

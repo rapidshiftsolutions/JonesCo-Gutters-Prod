@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const keywords = [
@@ -45,7 +46,15 @@ export default function SeamlessGutterInstallationArticle() {
         <link rel="canonical" href="https://jonescogutters.com/seamless-gutter-installation" />
       </Head>
       <Header />
-      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>
+      <div className="relative w-full h-64">
+        <Image
+          src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Seamless Gutter Installation"
+          fill
+          style={{ objectFit: 'cover' }}
+          priority
+        />
+      </div>
       <main className="py-8 bg-JonesCo-Blue-50">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <article className="mx-auto max-w-3xl prose lg:prose-xl text-JonesCo-Blue-900">
@@ -53,9 +62,11 @@ export default function SeamlessGutterInstallationArticle() {
               Seamless Gutter Benefits
             </h1>
             <div className="flex items-center mb-8">
-              <img
+              <Image
                 src="/ProfilePics/john_j.jpg"  // Update with actual profile picture path
                 alt="Author"
+                width={48}
+                height={48}
                 className="mr-4 w-12 h-12 rounded-full"
               />
               <div className="text-lg">

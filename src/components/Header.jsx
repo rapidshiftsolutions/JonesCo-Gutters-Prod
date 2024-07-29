@@ -20,6 +20,8 @@ const solutions = [
   { name: 'Seamless Gutter Installation', description: 'Expert seamless gutter installation', href: '/seamless-gutter-installation' },
   { name: 'Downspouts', description: 'Professional downspout installation and replacement', href: '/downspouts' },
   { name: 'Custom Gutter Solutions', description: 'Tailored gutter solutions for your home', href: '/custom-gutters' },
+  { name: 'Roof Snow Guards', description: 'Prevent snow buildup on your roof', href: '/snow-guards' },
+  { name: 'Rain Chains', description: 'Decorative and functional rain chains', href: '/rain-chains' },
 ];
 
 const styles = [
@@ -44,7 +46,6 @@ const styles = [
     href: '/colored-gutters'
   },
 ];
-
 
 const locations = [
   { name: 'Cocke County', href: '/cocke' },
@@ -133,8 +134,6 @@ export default function NavBar() {
               </Popover.Panel>
             </Transition>
           </Popover>
-
-
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-JonesCo-Blue-900">
               Locations
@@ -180,7 +179,6 @@ export default function NavBar() {
               </Popover.Panel>
             </Transition>
           </Popover>
-
 
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-JonesCo-Blue-900">
@@ -243,9 +241,12 @@ export default function NavBar() {
         </Popover.Group>
         
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/contact" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
+        <a
+                href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/login/new?source=share_login"
+                className="block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
+              >
+                Log in
+              </a>
         </div>
       </nav>
       <Transition show={mobileMenuOpen} as={Fragment}>
@@ -290,9 +291,6 @@ export default function NavBar() {
                   </>
                 )}
               </Disclosure>
-
-
-
               <Disclosure as="div">
                 {({ open }) => (
                   <>
@@ -318,9 +316,6 @@ export default function NavBar() {
                   </>
                 )}
               </Disclosure>
-
-
-
 
               <Disclosure as="div">
                 {({ open }) => (
@@ -348,9 +343,6 @@ export default function NavBar() {
                 )}
               </Disclosure>
 
-
-
-
               <a
                 href="/about"
                 className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
@@ -376,10 +368,6 @@ export default function NavBar() {
                 Contact
               </a>
             </div>
-
-
-
-
             
             <div className="py-6">
               <a

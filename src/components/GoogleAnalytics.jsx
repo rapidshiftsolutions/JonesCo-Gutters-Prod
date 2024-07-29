@@ -16,7 +16,7 @@ const Example = () => {
 
     const timer = setTimeout(() => {
       setShowBanner(true);
-    }, 3000);
+    }, 1000); // Show banner after 1 second
 
     return () => clearTimeout(timer);
   }, []);
@@ -33,21 +33,35 @@ const Example = () => {
   };
 
   const setConsentDefaults = () => {
-    if (window.gtag) {
-      window.gtag('consent', 'default', {
-        'ad_storage': 'denied',
-        'analytics_storage': 'denied',
-      });
-    }
+    window.gtag?.('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied',
+    });
   };
 
   const setConsentGranted = () => {
-    if (window.gtag) {
-      window.gtag('consent', 'update', {
-        'ad_storage': 'granted',
-        'analytics_storage': 'granted',
-      });
-    }
+    window.gtag?.('consent', 'update', {
+      'ad_storage': 'granted',
+      'analytics_storage': 'granted',
+    });
+
+    // Set additional data collection parameters
+    window.gtag?.('config', 'G-7842C2P52F', {
+      'anonymize_ip': true,
+      'send_page_view': true,
+      'allow_ad_personalization_signals': true,
+      'linker': {
+        'domains': ['example.com']
+      },
+      'page_title': document.title,
+      'page_path': window.location.pathname,
+      'page_location': window.location.href,
+      'user_id': 'USER_ID',
+      'user_properties': {
+        'user_type': 'free',
+      },
+      'content_group1': 'example-group'
+    });
   };
 
   return (
@@ -58,50 +72,30 @@ const Example = () => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-7842C2P52F', { 'anonymize_ip': true });
-        `}
-      </Script>
-      <Script id="google-consent" strategy="afterInteractive">
-        {`
-          function setConsentDefaults() {
-            gtag('consent', 'default', {
-              'ad_storage': 'denied',
-              'analytics_storage': 'denied'
-            });
-          }
-
-          function setConsentGranted() {
-            gtag('consent', 'update', {
-              'ad_storage': 'granted',
-              'analytics_storage': 'granted'
-            });
-          }
+          gtag('config', 'G-7842C2P52F', { 'anonymize_ip': true, 'send_page_view': false });
         `}
       </Script>
       {showBanner && !consentGiven && (
-        <div className="pointer-events-none fixed inset-x-0 bottom-0 px-6 pb-6 z-50">
-          <div className="pointer-events-auto ml-auto max-w-xl rounded-xl bg-white p-6 shadow-lg ring-1 ring-JonesCo-Blue-900/10">
-            <p className="text-sm leading-6 text-JonesCo-Blue-900">
-            This website uses cookies to enhance your browsing experience, provide personalized ads, and analyze site traffic. Your consent helps us to provide better services and relevant content. Learn more in our{' '}
-              <a href="/cookie-policy" className="font-semibold text-indigo-600">
+        <div className="fixed inset-x-0 bottom-0 p-4 z-50 md:inset-x-auto md:bottom-4 md:right-4 flex justify-center md:justify-end">
+          <div className="bg-white p-4 rounded-lg shadow-md ring-1 ring-gray-900/10 max-w-xs w-full md:max-w-sm md:w-auto text-center">
+            <p className="text-xs text-gray-700">
+              This site uses cookies. Read our{' '}
+              <a href="/cookie-policy" className="text-JonesCo-Blue underline">
                 cookie policy
-              </a>
-              .
+              </a>.
             </p>
-            <div className="mt-4 flex items-center gap-x-5">
+            <div className="mt-2 flex gap-2 justify-center">
               <button
-                type="button"
-                className="rounded-md bg-JonesCo-Blue-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-JonesCo-Blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-JonesCo-Blue-900"
+                className="bg-JonesCo-Blue-700 text-white px-3 py-1 rounded-md"
                 onClick={() => handleConsent('granted')}
               >
-                Accept all
+                Accept
               </button>
               <button
-                type="button"
-                className="text-sm font-semibold leading-6 text-JonesCo-Blue-900"
+                className="bg-JonesCo-Blue-200 text-JonesCo-Blue-900 px-3 py-1 rounded-md"
                 onClick={() => handleConsent('denied')}
               >
-                Reject all
+                Reject
               </button>
             </div>
           </div>

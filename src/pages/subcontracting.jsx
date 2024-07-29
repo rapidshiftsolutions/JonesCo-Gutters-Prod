@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const keywords = [
   "gutter subcontracting opportunities",
@@ -45,7 +46,15 @@ export default function SubcontractingPage() {
         <link rel="canonical" href="https://jonescogutters.com/subcontracting" />
       </Head>
       <Header />
-      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}></div>
+      <div className="relative w-full h-64">
+        <Image
+          src="https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Subcontracting Opportunities"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
       <main className="py-8 bg-JonesCo-Blue-50">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <article className="mx-auto max-w-3xl prose lg:prose-xl text-JonesCo-Blue-900">
@@ -53,12 +62,14 @@ export default function SubcontractingPage() {
               Subcontracting with JonesCo
             </h1>
             <div className="flex items-center mb-8">
-              <img
+              <Image
                 src="/ProfilePics/john_j.jpg"  // Update with actual profile picture path
                 alt="Author"
-                className="mr-4 w-12 h-12 rounded-full"
+                width={48}
+                height={48}
+                className="rounded-full"
               />
-              <div className="text-lg">
+              <div className="text-lg ml-4">
                 <p className="font-bold">Written by Johnathan Jones</p>
                 <p>Co-Owner of JonesCo Gutters</p>
               </div>
