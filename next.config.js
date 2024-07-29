@@ -14,6 +14,13 @@ const nextConfig = {
       },
     ],
   },
+  webpack: (config, { isServer }) => {
+    // Modify the output.publicPath
+    config.output.publicPath = '/';
+
+    // Important: return the modified config
+    return config;
+  },
 };
 
 module.exports = nextConfig;
