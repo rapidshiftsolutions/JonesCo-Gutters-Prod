@@ -15,10 +15,10 @@ const nextConfig = {
     ],
   },
   webpack: (config, { isServer }) => {
+    // Only modify the publicPath if the build is for production
     if (!isServer) {
-      config.output.publicPath = '/_next/';
+      config.output.publicPath = '_next/';
     }
-
     return config;
   },
 };
