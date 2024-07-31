@@ -1,10 +1,7 @@
 [build]
   command = "npm run build"
   publish = ".next"
-  environment = { NODE_VERSION = "18.17.0" }
-
-[build.environment]
-  NODE_ENV = "production"
+  environment = { NODE_VERSION = "18.17.0", NODE_ENV = "production" }
 
 [[redirects]]
   from = "/*"
