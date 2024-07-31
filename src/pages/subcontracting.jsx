@@ -1,10 +1,13 @@
 import React from 'react';
 import Head from 'next/head';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import Hero from '@/components/Hero';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import Image from 'next/image';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+// Dynamically import the Hero component to improve performance
+const Hero = dynamic(() => import('@/components/Hero'), { ssr: false });
 
 const keywords = [
   "gutter subcontracting opportunities",
@@ -53,6 +56,7 @@ export default function SubcontractingPage() {
           layout="fill"
           objectFit="cover"
           quality={100}
+          sizes="100vw"
         />
       </div>
       <main className="py-8 bg-JonesCo-Blue-50">

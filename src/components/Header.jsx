@@ -159,7 +159,6 @@ export default function NavBar() {
                     >
                       <div className="ml-4">
                         <p className="text-base font-medium text-JonesCo-Blue-900">{item.name}</p>
-                        <p className="mt-1 text-sm text-JonesCo-Blue-900">{item.description}</p>
                       </div>
                     </a>
                   ))}
@@ -241,12 +240,12 @@ export default function NavBar() {
         </Popover.Group>
         
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a
-                href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/login/new?source=share_login"
-                className="block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
-              >
-                Log in
-              </a>
+          <a
+            href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/login/new?source=share_login"
+            className="block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
+          >
+            Log in
+          </a>
         </div>
       </nav>
       <Transition show={mobileMenuOpen} as={Fragment}>
