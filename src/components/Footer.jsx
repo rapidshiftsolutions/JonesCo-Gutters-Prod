@@ -1,4 +1,7 @@
+import { useState } from 'react';
 import Link from 'next/link';
+import { Disclosure } from '@headlessui/react';
+import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid';
 
 const socialMediaLinks = [
   { name: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61558126626290' },
@@ -39,63 +42,103 @@ const stylesLinks = [
   { name: 'Colored Gutters', href: '/colored-gutters' },
 ];
 
+function FooterSection({ title, links }) {
+  return (
+    <Disclosure>
+      {({ open }) => (
+        <>
+          <Disclosure.Button className="flex justify-between w-full py-2 text-left text-sm font-medium text-gray-900">
+            <span>{title}</span>
+            {open ? (
+              <ChevronUpIcon className="w-5 h-5 text-gray-500" />
+            ) : (
+              <ChevronDownIcon className="w-5 h-5 text-gray-500" />
+            )}
+          </Disclosure.Button>
+          <Disclosure.Panel className="pt-4 pb-2">
+            <ul className="space-y-2">
+              {links.map((link) => (
+                <li key={link.name}>
+                  <Link href={link.href} legacyBehavior>
+                    <a className="text-sm text-gray-600 hover:text-gray-900">{link.name}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </Disclosure.Panel>
+        </>
+      )}
+    </Disclosure>
+  );
+}
+
 export default function Footer() {
   return (
     <footer className="bg-JonesCo-Blue-50 py-12">
-      <div className="container mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="space-y-4">
-            <h2 className="text-lg font-bold text-JonesCo-Blue-900">Quick Links</h2>
-            <ul className="space-y-2">
-              {pageLinks.map((page) => (
-                <li key={page.name}>
-                  <Link href={page.href} legacyBehavior>
-                    <a className="text-gray-500 hover:text-gray-700">{page.name}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+      <div className="px-6 mx-auto max-w-7xl lg:px-8">
+        <div className="md:flex md:justify-between">
+          <div className="hidden md:flex space-x-8">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Quick Links</h3>
+              <ul className="mt-4 space-y-2">
+                {pageLinks.map((link) => (
+                  <li key={link.name}>
+                    <Link href={link.href} legacyBehavior>
+                      <a className="text-sm text-gray-600 hover:text-gray-900">{link.name}</a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Services</h3>
+              <ul className="mt-4 space-y-2">
+                {servicesLinks.map((link) => (
+                  <li key={link.name}>
+                    <Link href={link.href} legacyBehavior>
+                      <a className="text-sm text-gray-600 hover:text-gray-900">{link.name}</a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Styles</h3>
+              <ul className="mt-4 space-y-2">
+                {stylesLinks.map((link) => (
+                  <li key={link.name}>
+                    <Link href={link.href} legacyBehavior>
+                      <a className="text-sm text-gray-600 hover:text-gray-900">{link.name}</a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900">Social Media</h3>
+              <ul className="mt-4 space-y-2">
+                {socialMediaLinks.map((link) => (
+                  <li key={link.name}>
+                    <Link href={link.href} legacyBehavior>
+                      <a className="text-sm text-gray-600 hover:text-gray-900">{link.name}</a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <div className="space-y-4">
-            <h2 className="text-lg font-bold text-JonesCo-Blue-900">Services</h2>
-            <ul className="space-y-2">
-              {servicesLinks.map((service) => (
-                <li key={service.name}>
-                  <Link href={service.href} legacyBehavior>
-                    <a className="text-gray-500 hover:text-gray-700">{service.name}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="space-y-4">
-            <h2 className="text-lg font-bold text-JonesCo-Blue-900">Styles</h2>
-            <ul className="space-y-2">
-              {stylesLinks.map((style) => (
-                <li key={style.name}>
-                  <Link href={style.href} legacyBehavior>
-                    <a className="text-gray-500 hover:text-gray-700">{style.name}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="space-y-4">
-            <h2 className="text-lg font-bold text-JonesCo-Blue-900">Social Media</h2>
-            <ul className="space-y-2">
-              {socialMediaLinks.map((social) => (
-                <li key={social.name}>
-                  <Link href={social.href} legacyBehavior>
-                    <a className="text-gray-500 hover:text-gray-700">{social.name}</a>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <div className="md:hidden">
+            <FooterSection title="Quick Links" links={pageLinks} />
+            <FooterSection title="Services" links={servicesLinks} />
+            <FooterSection title="Styles" links={stylesLinks} />
+            <FooterSection title="Social Media" links={socialMediaLinks} />
           </div>
         </div>
-        <div className="mt-8 text-center text-xs text-gray-500">
-          &copy; 2024 JonesCo Seamless Gutter Systems, LLC. All rights reserved.
-          <div className="flex justify-center mt-2 space-x-4 text-xs leading-5 text-gray-500">
+        <div className="mt-8 md:flex md:items-center md:justify-between">
+          <p className="text-xs text-center text-gray-500">
+            &copy; 2024 JonesCo Seamless Gutter Systems, LLC. All rights reserved.
+          </p>
+          <div className="flex justify-center mt-2 space-x-4 text-xs text-gray-500">
             <Link href="/privacy" legacyBehavior>
               <a className="hover:text-gray-600">Privacy Policy</a>
             </Link>
