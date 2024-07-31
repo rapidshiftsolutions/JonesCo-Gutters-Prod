@@ -10,15 +10,8 @@ export default function AboutUs() {
         <meta name="description" content="Learn about JonesCo Gutters, our journey, and commitment to quality and customer satisfaction." />
       </Head>
       
-      <div className="relative w-full h-48">
-        <Image
-          src="https://images.pexels.com/photos/5248733/pexels-photo-5248733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt="Banner Image"
-          fill
-          style={{ objectFit: 'cover' }}
-          priority
-        />
-      </div>
+      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://i.imgur.com/Wiis4b4.jpeg')" }}></div>
+
       
       <div className="py-8 text-white bg-JonesCo-Blue-900 sm:py-16">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">

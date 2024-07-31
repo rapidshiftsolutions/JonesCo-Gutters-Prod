@@ -49,16 +49,8 @@ export default function SubcontractingPage() {
         <link rel="canonical" href="https://jonescogutters.com/subcontracting" />
       </Head>
       <Header />
-      <div className="relative w-full h-64">
-        <Image
-          src="https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt="Subcontracting Opportunities"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-          sizes="100vw"
-        />
-      </div>
+      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://i.imgur.com/Wiis4b4.jpeg')" }}></div>
+
       <main className="py-8 bg-JonesCo-Blue-50">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <article className="mx-auto max-w-3xl prose lg:prose-xl text-JonesCo-Blue-900">

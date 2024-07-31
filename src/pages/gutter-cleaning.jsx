@@ -46,15 +46,8 @@ export default function GutterCleaningArticle() {
         <link rel="canonical" href="https://jonescogutters.com/gutter-cleaning" />
       </Head>
       <Header />
-      <div className="relative w-full h-48">
-        <Image
-          src="https://images.pexels.com/photos/5248733/pexels-photo-5248733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          alt="Gutter Cleaning"
-          fill
-          style={{ objectFit: 'cover' }}
-          priority
-        />
-      </div>
+      <div className="w-full h-64 bg-center bg-cover" style={{ backgroundImage: "url('https://i.imgur.com/Wiis4b4.jpeg')" }}></div>
+
       <main className="py-8 bg-JonesCo-Blue-50">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <article className="mx-auto max-w-3xl prose lg:prose-xl text-JonesCo-Blue-900">
