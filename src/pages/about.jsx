@@ -3,10 +3,10 @@ import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Image from "next/legacy/image";
 
 // Dynamic imports
-const Banner = dynamic(() => import('@/components/Banner'), { ssr: false });
-const About = dynamic(() => import('@/components/About'), { ssr: false });
+const About = dynamic(() => import('@/components/about'), { ssr: false });
 const Estimate = dynamic(() => import('@/components/Hero'), { ssr: false });
 
 const keywords = [

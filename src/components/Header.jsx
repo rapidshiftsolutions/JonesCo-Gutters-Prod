@@ -12,7 +12,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from '@heroicons/react/24/outline';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 
 const solutions = [
@@ -77,7 +77,7 @@ export default function NavBar() {
       <nav className="mx-auto max-w-7xl p-6 lg:px-8 flex items-center justify-between" aria-label="Global">
         <div className="flex items-center">
           <Link href="/" className="flex items-center mr-12">
-            <Image className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Gutters" width={100} height={32} />
+            <Image className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Gutters" width={120} height={32} />
           </Link>
         </div>
         <div className="flex lg:hidden">

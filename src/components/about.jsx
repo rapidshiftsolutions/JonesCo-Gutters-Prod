@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Image from "next/legacy/image";
+import Image from 'next/image';
 
 export default function AboutUs() {
   return (
@@ -63,7 +63,6 @@ export default function AboutUs() {
                   alt="Johnathan Jones"
                   width={400}
                   height={500}
-                  sizes="(max-width: 768px) 100vw, 400px"
                   quality={90}
                 />
               </div>
