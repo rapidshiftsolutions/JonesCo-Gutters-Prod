@@ -1,8 +1,6 @@
 import 'focus-visible';
 import '../styles/tailwind.css';
 
-import '../styles/globals.css';
-
 import GoogleTagManager from '../components/GoogleTagManager';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import Head from 'next/head';
