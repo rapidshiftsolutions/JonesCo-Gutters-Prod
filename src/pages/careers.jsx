@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Hero from '@/components/Hero';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
 const keywords = [
@@ -15,6 +15,9 @@ const keywords = [
   "Gutter Installer Positions",
   "Eastern Tennessee Gutter Jobs"
 ];
+
+// Dynamically import the Hero component
+const Hero = dynamic(() => import('@/components/Hero'), { ssr: false });
 
 export default function Careers() {
   return (
@@ -52,7 +55,7 @@ export default function Careers() {
             <div className="p-6 bg-white rounded-lg shadow-lg">
               <h2 className="mb-4 text-2xl font-bold text-JonesCo-Green-900">How to Apply</h2>
               <p className="mb-4 text-gray-700">
-                To apply for any of the positions listed above, please send your resume and a brief cover letter to <a href="mailto:careers@jonescogutters.com" className="text-JonesCo-Green-600">careers@jonescogutters.com</a>. We look forward to hearing from you!
+                To apply for any of the positions listed above, please send your resume and a brief cover letter to <Link href="mailto:careers@jonescogutters.com"><a className="text-JonesCo-Green-600">careers@jonescogutters.com</a></Link>. We look forward to hearing from you!
               </p>
               <p className="text-gray-700">
                 JonesCo Gutters is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.

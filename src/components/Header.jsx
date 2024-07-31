@@ -12,6 +12,8 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from '@heroicons/react/24/outline';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const solutions = [
   { name: 'Gutter Cleaning', description: 'Professional gutter cleaning services', href: '/gutter-cleaning' },
@@ -74,9 +76,9 @@ export default function NavBar() {
     <header className="bg-white shadow-sm z-50">
       <nav className="mx-auto max-w-7xl p-6 lg:px-8 flex items-center justify-between" aria-label="Global">
         <div className="flex items-center">
-          <a href="/" className="flex items-center mr-12">
-            <img className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Gutters" />
-          </a>
+          <Link href="/" className="flex items-center mr-12">
+            <Image className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Gutters" width={100} height={32} />
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -107,7 +109,7 @@ export default function NavBar() {
               <Popover.Panel className="absolute z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-black ring-opacity-5">
                 <div className="p-4">
                   {solutions.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-JonesCo-Blue-50"
@@ -116,19 +118,19 @@ export default function NavBar() {
                         <p className="text-base font-medium text-JonesCo-Blue-900">{item.name}</p>
                         <p className="mt-1 text-sm text-JonesCo-Blue-900">{item.description}</p>
                       </div>
-                    </a>
+                    </Link>
                   ))}
                 </div>
                 
                 <div className="grid grid-cols-2 divide-x divide-JonesCo-Blue-900/5 bg-JonesCo-Blue-50">
                   {callsToAction.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </Popover.Panel>
@@ -152,27 +154,28 @@ export default function NavBar() {
               <Popover.Panel className="absolute z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-black ring-opacity-5">
                 <div className="p-4">
                   {locations.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-JonesCo-Blue-50"
                     >
                       <div className="ml-4">
                         <p className="text-base font-medium text-JonesCo-Blue-900">{item.name}</p>
+                        <p className="mt-1 text-sm text-JonesCo-Blue-900">{item.description}</p>
                       </div>
-                    </a>
+                    </Link>
                   ))}
                 </div>
                 
                 <div className="grid grid-cols-2 divide-x divide-JonesCo-Blue-900/5 bg-JonesCo-Blue-50">
                   {callsToAction.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </Popover.Panel>
@@ -197,7 +200,7 @@ export default function NavBar() {
               <Popover.Panel className="absolute z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-black ring-opacity-5">
                 <div className="p-4">
                   {styles.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-JonesCo-Blue-50"
@@ -206,46 +209,46 @@ export default function NavBar() {
                         <p className="text-base font-medium text-JonesCo-Blue-900">{item.name}</p>
                         <p className="mt-1 text-sm text-JonesCo-Blue-900">{item.description}</p>
                       </div>
-                    </a>
+                    </Link>
                   ))}
                 </div>
                 
                 <div className="grid grid-cols-2 divide-x divide-JonesCo-Blue-900/5 bg-JonesCo-Blue-50">
                   {callsToAction.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </Popover.Panel>
             </Transition>
           </Popover>
 
-          <a href="/about" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
+          <Link href="/about" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
             About Us
-          </a>
-          <a href="/subcontracting" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
+          </Link>
+          <Link href="/subcontracting" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
             Subcontract
-          </a>
-          <a href="/careers" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
+          </Link>
+          <Link href="/careers" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
             Careers
-          </a>
-          <a href="/contact" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
+          </Link>
+          <Link href="/contact" className="text-sm font-semibold leading-6 text-JonesCo-Blue-900">
             Contact
-          </a>
+          </Link>
         </Popover.Group>
         
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a
+          <Link
             href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/login/new?source=share_login"
             className="block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
           >
             Log in
-          </a>
+          </Link>
         </div>
       </nav>
       <Transition show={mobileMenuOpen} as={Fragment}>
@@ -253,9 +256,9 @@ export default function NavBar() {
           <div className="fixed inset-0 z-10 bg-black bg-opacity-25" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full max-w-sm bg-white p-6 overflow-y-auto">
             <div className="flex items-center justify-between">
-              <a href="/" className="flex items-center">
-                <img className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Gutters" />
-              </a>
+              <Link href="/" className="flex items-center">
+                <Image className="h-8 w-auto" src="/JC/JonesCo.webp" alt="JonesCo Gutters" width={100} height={32} />
+              </Link>
               <button
                 type="button"
                 className="-m-2.5 p-2.5 text-JonesCo-Blue-700"
@@ -342,39 +345,39 @@ export default function NavBar() {
                 )}
               </Disclosure>
 
-              <a
+              <Link
                 href="/about"
                 className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
               >
                 About Us
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/subcontracting"
                 className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
               >
                 Subcontracting
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/careers"
                 className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
               >
                 Careers
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/contact"
                 className="block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
               >
                 Contact
-              </a>
+              </Link>
             </div>
             
             <div className="py-6">
-              <a
+              <Link
                 href="https://clienthub.getjobber.com/client_hubs/1b0129bf-9730-46bf-9d7c-a34501f74690/login/new?source=share_login"
                 className="block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-JonesCo-Blue-900 hover:bg-JonesCo-Blue-100"
               >
                 Log in
-              </a>
+              </Link>
             </div>
           </Dialog.Panel>
         </Dialog>
