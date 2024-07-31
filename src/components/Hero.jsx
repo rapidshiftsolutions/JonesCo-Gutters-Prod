@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const LoadScript = dynamic(() => import('@react-google-maps/api').then(mod => mod.LoadScript), { ssr: false });
 const Autocomplete = dynamic(() => import('@react-google-maps/api').then(mod => mod.Autocomplete), { ssr: false });
