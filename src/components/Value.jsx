@@ -1,5 +1,6 @@
 import React from 'react';
 import { CheckCircleIcon } from '@heroicons/react/24/solid';
+import Link from 'next/link';
 
 const StepsToExpect = () => {
   const steps = [
@@ -53,9 +54,11 @@ const StepsToExpect = () => {
               <CheckCircleIcon className="h-12 w-12 text-JonesCo-Green-500 mb-4" />
               <h3 className="text-xl font-bold text-gray-900 mb-2">{step.title}</h3>
               <p className="text-gray-600 mb-4 text-center">{step.description}</p>
-              <a href={step.link} className="text-JonesCo-Blue-600 hover:text-JonesCo-Blue-800 font-semibold underline">
-                Learn More
-              </a>
+              <Link href={step.link} passHref legacyBehavior>
+                <a className="text-JonesCo-Blue-600 hover:text-JonesCo-Blue-800 font-semibold underline">
+                  Learn More
+                </a>
+              </Link>
             </div>
           ))}
         </div>
