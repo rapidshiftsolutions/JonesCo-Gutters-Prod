@@ -19,7 +19,6 @@ const nextConfig = {
       config.output.publicPath = '/_next/';
     }
 
-    // Important: return the modified config
     return config;
   },
 };
