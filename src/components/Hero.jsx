@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 
 const LoadScript = dynamic(() => import('@react-google-maps/api').then(mod => mod.LoadScript), { ssr: false });
 const Autocomplete = dynamic(() => import('@react-google-maps/api').then(mod => mod.Autocomplete), { ssr: false });
@@ -23,6 +23,7 @@ const Hero = () => {
     zip: '',
   });
   const [isDesktop, setIsDesktop] = useState(false);
+  const [formValid, setFormValid] = useState(false);
 
   useEffect(() => {
     const handleResize = () => setIsDesktop(window.innerWidth >= 768);
@@ -50,7 +51,7 @@ const Hero = () => {
           if (types.includes('postal_code')) acc.zip = component.long_name;
           return acc;
         }, {});
-  
+
         setFormData((prevData) => ({
           ...prevData,
           address: place.formatted_address,
@@ -60,14 +61,21 @@ const Hero = () => {
           country: addressComponents.country || '',
           zip: addressComponents.zip || '',
         }));
+
+        // Enable submit button if all required address fields are populated
+        setFormValid(
+          addressComponents.street_number && addressComponents.route && addressComponents.city &&
+          addressComponents.state && addressComponents.country && addressComponents.zip
+        );
       }
     }
   }, []);
-  
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const zapierWebhookUrl = 'https://hooks.zapier.com/hooks/catch/19076579/2386szr/';
-    const urlEncodedData = new URLSearchParams(formData).toString();
+    const { name, email, phone, street, city, state, country, zip } = formData;
+    const urlEncodedData = new URLSearchParams({ name, email, phone, street, city, state, country, zip }).toString();
 
     try {
       const response = await fetch(zapierWebhookUrl, {
@@ -89,6 +97,7 @@ const Hero = () => {
           country: '',
           zip: '',
         });
+        setFormValid(false);
         router.push('/submitted');
       } else {
         console.error('Error submitting form');
@@ -141,40 +150,6 @@ const Hero = () => {
                     <p className="text-lg text-gray-700">{text}</p>
                   </div>
                 ))}
-              </div>
-              <div className="flex flex-col mt-6 mb-4 w-full">
-                <div className="hidden flex-col justify-end w-full md:flex">
-                  <div className="flex space-x-4">
-                    <a
-                      href="tel:423-207-3325"
-                      className="py-3 w-1/2 text-base font-medium text-center text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    >
-                      423-207-3325
-                    </a>
-                    <a
-                      href="mailto:hey@jonescogutters.com"
-                      className="py-3 w-1/2 text-base font-medium text-center text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    >
-                      hey@jonescogutters.com
-                    </a>
-                  </div>
-                </div>
-                <div className="flex flex-col mt-6 space-y-4 md:hidden">
-                  <button
-                    type="button"
-                    className="inline-flex justify-center items-center px-4 py-2 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    onClick={() => (window.location.href = 'tel:423-207-3325')}
-                  >
-                    Call Us
-                  </button>
-                  <button
-                    type="button"
-                    className="inline-flex justify-center items-center px-4 py-2 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    onClick={() => (window.location.href = 'mailto:hey@jonescogutters.com')}
-                  >
-                    Email Us
-                  </button>
-                </div>
               </div>
             </div>
           )}
@@ -240,9 +215,6 @@ const Hero = () => {
                     googleMapsApiKey="AIzaSyAgGO-4UJ1-wS6aua__cpo1uVcefrlPaGg"
                     libraries={libraries}
                     loadingElement={<div>Loading...</div>}
-                    id="script-loader"
-                    async
-                    defer
                   >
                     <Autocomplete
                       onLoad={(ref) => (autocompleteRef.current = ref)}
@@ -260,37 +232,18 @@ const Hero = () => {
                       />
                     </Autocomplete>
                   </LoadScript>
-                </div>
+                  </div>
               </div>
               <div className="mt-6 text-center">
                 <button
                   type="submit"
-                  className="inline-flex justify-center items-center px-6 py-3 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm bg-JonesCo-Green-600 hover:bg-JonesCo-Blue-700"
+                  disabled={!formValid}
+                  className={`inline-flex justify-center items-center px-6 py-3 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm ${formValid ? 'bg-JonesCo-Green-600 hover:bg-JonesCo-Blue-700' : 'bg-black/50 text-white/50 cursor-not-allowed'}`}
                 >
                   Submit Request
                 </button>
               </div>
             </form>
-            {!isDesktop && (
-              <div className="mt-6 text-center">
-                <div className="flex justify-center space-x-4">
-                  <button
-                    type="button"
-                    className="inline-flex justify-center items-center px-4 py-2 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    onClick={() => (window.location.href = 'tel:423-207-3325')}
-                  >
-                    Call Us
-                  </button>
-                  <button
-                    type="button"
-                    className="inline-flex justify-center items-center px-4 py-2 w-full text-base font-medium text-white rounded-md border border-transparent shadow-sm animate-pulse bg-JonesCo-Blue-600 hover:bg-JonesCo-Blue-700"
-                    onClick={() => (window.location.href = 'mailto:hey@jonescogutters.com')}
-                  >
-                    Email Us
-                  </button>
-                </div>
-              </div>
-            )}
           </div>
         </div>
       </div>
